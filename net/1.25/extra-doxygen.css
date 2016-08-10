@@ -1,0 +1,11 @@
+/* Extra CSS for doxygen 1.8.7 */
+
+#titlearea
+{
+	padding: 10px;
+}
+
+#nav-tree .label {
+  font: 13px 'Lucida Grande',Geneva,Helvetica,Arial,sans-serif;
+}
+

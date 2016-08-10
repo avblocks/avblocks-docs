@@ -1,0 +1,12 @@
+User-agent: *
+Disallow:
+Allow: /*
+
+# Google Image
+User-agent: Googlebot-Image
+Disallow: /*
+Allow:
+
+Sitemap: http://doc.avblocks.com/web_sitemap_9e000b1d.xml
+
+#

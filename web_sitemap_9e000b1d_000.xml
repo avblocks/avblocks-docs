@@ -1,0 +1,3502 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!--
+  <gen:info>
+    <gen:name>Google Sitemap Generator</gen:name>
+    <gen:version>1.0.0.0</gen:version>
+    <gen:date>2016-08-10T01:50:40Z</gen:date>
+  </gen:info>
+-->
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_stream_info-members.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_c.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_generic_1_1_w_m_a_1_1_standard.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_w.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/index.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_library_1_1_config.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_func.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/namespacemembers.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_d.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_h264_profile.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_audio_stream_info.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1license.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_e.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_video_1_1_deinterlacing-members.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_video_stream_info_parameter-members.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_h264_direct_pred_mode.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/classes.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1error_1_1_error_facility.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_video_1_1_overlay.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_f.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_web-members.html</loc>
+  <lastmod>2016-04-16T15:01:54Z</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.1</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/search.php</loc>
+  <lastmod>2016-05-23T16:31:27Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_video_stream_info.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_g.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_generic_1_1_m4_a.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_video_1_1_deinterlacing.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_h.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_fast.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_metadata.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_hw_device-members.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_hw_codec_type.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_i.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_h264_rate_control_method.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/search_config.php</loc>
+  <lastmod>2016-05-23T16:31:27Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_muxer_1_1_m_p4-members.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_hardware.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_j.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1i_pad.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_func_b.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_k.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_scan_type.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1_stream.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_android_phone-members.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_media_pin_list-members.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_library.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_func_c.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classes.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_l.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/_primo_error_8h.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_audio_c_d-members.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_object_collection-members.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_func_d.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_meta_attribute_list.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_m.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/dir_8478ffab88e15dcde60ec9184393dbb1.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_func_e.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_audio_1_1_generic_1_1_m_p3.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_n.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_generic_1_1_w_m_a_1_1_lossless.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_func_f.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_o.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_media_sample.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_object_collection.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_hardware-members.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_p.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_audio_1_1_vorbis-members.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_func_h.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_q.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_video_1_1_deinterlacing.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/using_transcoder_push.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_func_i.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_media_pin.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_r.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_data_stream_info-members.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_s.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m-members.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_mime_type.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_generic_1_1_w_m_a_1_1_professional.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_apple_live_streaming.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_t.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_hw_api.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_float_parameter.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_video_1_1_resize.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_media_socket_list-members.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_func_l.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_hw_config-members.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_b_d_a_v.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_video_1_1_crop-members.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_u.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_fast_1_1_m_p4.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_generic-members.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_media_buffer.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_web.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_func_m.html</loc>
+  <lastmod>2016-05-23T16:29:42Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_v.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_func_n.html</loc>
+  <lastmod>2016-05-23T16:29:42Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_video_1_1_frame_rate_converter.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_hw_device.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_w.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_decoder_1_1_video.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_h264_pic_coding_type.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1license_1_1_license_status_flags.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_audio_stream_info.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_unmanaged_media_buffer-members.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_func_o.html</loc>
+  <lastmod>2016-05-23T16:29:42Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_parameter-members.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_apple_t_v-members.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_x.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_audio_channel_flags.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/annotated.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/dir_9cc5dd33a3fe9cd2e703bb7fce8b9b1d.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_hw_device.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_func_p.html</loc>
+  <lastmod>2016-05-23T16:29:42Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_hw_codec-members.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_y.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/RuntimeRequirements.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_prop.html</loc>
+  <lastmod>2016-05-23T16:31:27Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_mime_type-members.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_video_stream_info-members.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_transcoder_callback-members.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_transcoder-members.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_decoder-members.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_video_1_1_m_p_e_g2-members.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_hw_codec_list-members.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_func_r.html</loc>
+  <lastmod>2016-05-23T16:29:42Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_media_buffer_parameter.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_generic_1_1_m_p3-members.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_decoder_1_1_video_1_1_h264.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_hw_device-members.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_stream_sub_type.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_func_s.html</loc>
+  <lastmod>2016-05-23T16:29:42Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_decoder_1_1_video_1_1_h264_1_1_v_u_i.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/dir_9ce36dcf9b8ddc41a1ea20ee5e016e3c.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_video_1_1_resize.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_error_info-members.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_media_info.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_func_t.html</loc>
+  <lastmod>2016-05-23T16:29:42Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_media_buffer_parameter-members.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p8.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_audio.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_generic_1_1_w_m_a_1_1_professional-members.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_enum.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/dir_6214109af882084b6ef195e1e2f75c5d.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_pin_connection.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_h265_profile.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_parameter.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_func_v.html</loc>
+  <lastmod>2016-05-23T16:29:42Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_fast_1_1_m_p4.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_media_sample.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_picture_type.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset-members.html</loc>
+  <lastmod>2016-04-16T15:01:52Z</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.1</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_func_w.html</loc>
+  <lastmod>2016-05-23T16:29:42Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_alpha_compositing_mode.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1i_phone-members.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1i_pod.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_media_info_error.html</loc>
+  <lastmod>2016-04-16T14:59:39Z</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.1</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_metadata.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_meta_attribute_list-members.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1i_pad.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_h_d_v.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_hardware_encoder.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_media_pin-members.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_b.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_hw_codec.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_audio_c_d.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/search/search.idx</loc>
+  <lastmod>2016-05-23T16:31:27Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_b_d_a_v.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_hw_vendor.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_media_buffer.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_buffer.html</loc>
+  <lastmod>2016-04-16T14:59:42Z</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.1</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_meta_attribute-members.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_w_m_a.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_c.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_media_info-members.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_block.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/dir_c136f3bee768c46c4dd811ca5f724681.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_meta_picture_list.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_video_1_1_pad.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_d.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_h264_me_split_mode.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_decoder_1_1_video_1_1_h264_1_1_v_u_i-members.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_hw_device_list-members.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/md__runtime_requirements_8page.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_video_1_1_crop.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_e.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/namespace_primo_software_1_1_a_v_blocks.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_media_socket.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_f.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_decoder_1_1_video-members.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_v_c_d-members.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_meta_picture_list-members.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_g.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1i_phone.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_audio_1_1_audio_c_d.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_h.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_meta_picture-members.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_i.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_h_d_v.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_j.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_int_parameter.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_stream_info-members.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_transcoder_status_event_args-members.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/md__object_management_8page.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_k.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_media_buffer-members.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_use.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_muxer.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_transcoder.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_l.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_d_v_d-members.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_hw_codec-members.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_vorbis.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_m.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_parameter_list.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_generic_1_1_m_p3.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_m_p_e_g2.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_deinterlacing_method.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_video_1_1_h264.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_n.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_media_socket_list-members.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_library.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/dir_36d87cb7ba843327de866b89dcaf5d0a.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_apple_live_streaming.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_generic-members.html</loc>
+  <lastmod>2016-04-16T15:01:53Z</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.1</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_video_1_1_h265.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_audio_1_1_m_p_e_g1-members.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_parameter_list-members.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_o.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_meta_attribute-members.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/dir_feede40a05a9cb2b37e7066bf1899ec7.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_muxer_1_1_m_p4.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_p.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_v_c_d.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_q.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/pages.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_meta_picture-members.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_string_parameter.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_b.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_video_1_1_overlay.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1_reference-members.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_r.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_encoder.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_c.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_demuxer_error.html</loc>
+  <lastmod>2016-04-16T14:59:39Z</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.1</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_audio_1_1_generic_1_1_w_m_a.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_h265_tier.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_s.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_transcoder_input_change_event_args-members.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_d.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_media_buffer-members.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_data_stream_info.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_t.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_stream_type.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_e.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_audio_1_1_w_m_a-members.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_meta_attribute_list.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_media_socket-members.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_error_info.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_u.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_media_sample-members.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_f.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_h264_deblocking_filter.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_audio_stream_info-members.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_v.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_meta_picture_list.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_g.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_float_parameter-members.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_android_tablet-members.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/search-config.php</loc>
+  <lastmod>2016-05-23T16:29:42Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_w.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_h.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1error.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_muxer.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_v_c_d.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_i.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_fast_1_1_m_p4-members.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1i_pod.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_d_v_d-members.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_meta_picture.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_y.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_color_format.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_j.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_library_1_1_config_1_1_hardware-members.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_stream_error.html</loc>
+  <lastmod>2016-04-16T14:59:42Z</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.1</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_meta_attribute_list-members.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_audio_1_1_d_v_d.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/namespacemembers_enum.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/index.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_video_1_1_overlay-members.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_media_pin-members.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_k.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/md__transcoder_push_8page.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_config.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_block-members.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_generic_1_1_ogg_vorbis-members.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_apple_live_streaming-members.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_l.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_video_1_1_h264-members.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/files.html</loc>
+  <lastmod>2016-05-23T16:29:42Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1error_1_1_error_info.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_h_d_v-members.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_m_p_e_g1.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_pin_connection-members.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_hw_codec_list.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_m.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_video_1_1_frame_rate_converter.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_hw_codec.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/search.php</loc>
+  <lastmod>2016-05-23T16:29:42Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_n.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_media_sample-members.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_func.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_kindle.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_o.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_media_socket_list.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1license_1_1_license_info.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_android_phone.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/dir_a1f8e75a52420ac2cfed4a7caa5f90f2.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param-members.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_p.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_video.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_decoder.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/namespace_primo_software.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/hierarchy.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_media_info.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_q.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1error_1_1_error_info-members.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/ReleaseNotes.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.1</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/dir_1a6b613607f9f20aec463f8070b187b2.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_video.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_transcoder_input_change_event_args.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_r.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_library_1_1_config_1_1_hardware.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_block-members.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_d_v_d.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_pcm_flags.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_decoder.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_s.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_hw_engine.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_decoder_1_1_video.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_t.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_transcoder_continue_event_args.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_audio_1_1_generic_1_1_w_m_a_1_1_professional.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_media_socket-members.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_video_1_1_crop.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_a_v_blocks_error.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_media_socket.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_transcoder_callback.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_u.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_block.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_evnt.html</loc>
+  <lastmod>2016-05-23T16:31:27Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_audio_1_1_generic_1_1_w_m_a_1_1_standard.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_v.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_audio_1_1_w_m_a.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/search-functions.php</loc>
+  <lastmod>2016-05-23T16:29:42Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_b.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_apple_t_v.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_media_sample_flags.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p8-members.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_w.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_type.html</loc>
+  <lastmod>2016-04-16T14:59:46Z</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.1</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_c.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_transcoder_continue_event_args-members.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_library-members.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_d.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_vars_y.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_media_pin_list.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_android_phone.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_e.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_decoder_1_1_video_1_1_h264.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic_1_1_m_p4.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_meta_picture.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/namespaces.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_f.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1_stream-members.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/_primo_a_v_8h.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_video_stream_info_parameter.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_web_1_1_m_p4-members.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_g.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_demuxer_1_1_mpeg-members.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/deprecated.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_media_type.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_h.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_apple_t_v.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_d_v_d.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_h264_entropy_coding_mode.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_i.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_media_info-members.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_media_pin_list-members.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_decoder_1_1_video_1_1_h264_1_1_v_u_i.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_j.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_video.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_muxer_1_1_m_p4.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_k.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_meta.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_kindle-members.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_config-members.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/_primo_stream_8h.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_audio_1_1_generic_1_1_m4_a.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/KnownLimitations.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.1</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_l.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_metadata-members.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_hw_device_list.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_audio_1_1_generic_1_1_w_m_a_1_1_lossless.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_generic_1_1_m_p4-members.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_b.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_transcoder_error.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/search_opensearch.php</loc>
+  <lastmod>2016-05-23T16:31:27Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_stream_info.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_m.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/_release_notes.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_muxer_error.html</loc>
+  <lastmod>2016-04-16T14:59:39Z</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.1</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_c.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_transcoder_status_event_args.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_video_1_1_pad-members.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_n.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_d.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_transcoder.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/search_functions.php</loc>
+  <lastmod>2016-05-23T16:31:27Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_demuxer_1_1_mpeg.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_video_stream_info-members.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_o.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_e.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_b_d_a_v-members.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_p.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_d_v_d.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_stream_info_enum.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_string_parameter-members.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_f.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_generic_1_1_w_m_a_1_1_lossless-members.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_bitrate_mode.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_generic_1_1_ogg_vorbis.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/TranscoderIO.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.1</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_q.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_audio_1_1_generic_1_1_ogg_vorbis.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_unmanaged_media_buffer.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_android_tablet.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_stream_info_enum-members.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_g.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_video_1_1_h265-members.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_r.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_h.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_pin_connection.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_video_1_1_m_p_e_g2.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/dir_1b9ec760ba78613a47cf601658732bcd.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_s.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_audio_1_1_vorbis.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1i_phone.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/md__transcoder_i_o_8page.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_android_tablet.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_media_socket_list.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_i.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_video_1_1_frame_rate_converter-members.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p8.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_web_1_1_m_p4.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_stream_info.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_t.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/search/search.idx</loc>
+  <lastmod>2016-05-23T16:29:42Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_j.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaces.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1_reference.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_u.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_fast.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_generic.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_media_pin_list.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_b.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_audio_1_1_generic.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_k.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_h265_level.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_v.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_hardware.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_c.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_l.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/deprecated.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_demuxer_1_1_mpeg.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_w.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/annotated.html</loc>
+  <lastmod>2016-05-23T16:31:25Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_d.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_type.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_m.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_transcoder-members.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_h264_me_method.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_meta-members.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_e.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_n.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/_primo_reference_8h.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_generic_1_1_w_m_a.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/functions_vars_y.html</loc>
+  <lastmod>2016-05-23T16:31:26Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_media_pin.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/dir_9467f69d5112c3dd7417dc6f75d4ab7f.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1i_pod-members.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_f.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_o.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_p.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_video_stream_info.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_h264.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_h.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_q.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_mime_type.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_transcoder_progress_event_args-members.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_h265.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/dir_1ec662b2d5637a32e5753119ac9f013b.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_i.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_r.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/search-opensearch.php</loc>
+  <lastmod>2016-05-23T16:29:42Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_web_1_1_m_p4.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_s.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_buffer-members.html</loc>
+  <lastmod>2016-04-16T14:59:42Z</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.1</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_web.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_meta_picture_list-members.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_t.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_l.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_interpolation_method.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_u.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_meta.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_preset_1_1_audio.html</loc>
+  <lastmod>2016-05-23T16:29:36Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_video.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_m.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_hardware-members.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_v.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_codec_error.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1i_pad-members.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1codecs_1_1_meta_picture_type.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_meta_attribute.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_audio_1_1_m_p_e_g1.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_n.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_w.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/pages.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_demuxer.html</loc>
+  <lastmod>2016-05-23T16:29:35Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_video_1_1_pad.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_o.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_x.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_transcoder_progress_event_args.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_metadata-members.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_codec_error.html</loc>
+  <lastmod>2016-04-16T14:59:39Z</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.1</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_video_1_1_resize-members.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1codecs_1_1_meta_attribute.html</loc>
+  <lastmod>2016-05-23T16:29:38Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_p.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_eval_y.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_hw_config.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/_known_limitations.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_transcoder_status.html</loc>
+  <lastmod>2016-05-23T16:29:37Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/_primo_license_8h.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/hierarchy.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param_1_1_demuxer.html</loc>
+  <lastmod>2016-05-23T16:31:21Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/_a_v_blocks_8h.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_audio_stream_info-members.html</loc>
+  <lastmod>2016-05-23T16:31:20Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/dir_ca6688b10d5f233ab68b2d3c1abf2501.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_r.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_func.html</loc>
+  <lastmod>2016-05-23T16:29:40Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_generic.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_s.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_generic_1_1_m4_a-members.html</loc>
+  <lastmod>2016-05-23T16:31:22Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_t.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_generic_1_1_m_p4.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1avblocks_1_1_int_parameter-members.html</loc>
+  <lastmod>2016-05-23T16:29:34Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespaceprimo_1_1avblocks_1_1_error_facility.html</loc>
+  <lastmod>2016-04-16T14:59:39Z</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.1</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/classprimo_1_1license_1_1_license_info-members.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/namespacemembers_b.html</loc>
+  <lastmod>2016-05-23T16:29:39Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/cpp/latest/functions_v.html</loc>
+  <lastmod>2016-05-23T16:29:41Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_generic_1_1_w_m_a_1_1_standard-members.html</loc>
+  <lastmod>2016-05-23T16:31:23Z</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_kindle.html</loc>
+  <lastmod>2016-05-23T16:31:24Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.2</priority>
+</url>
+</urlset>

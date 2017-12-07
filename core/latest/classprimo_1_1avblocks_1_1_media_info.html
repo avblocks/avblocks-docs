@@ -45,7 +45,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">AVBlocks for C++
-   &#160;<span id="projectnumber">2.2</span>
+   &#160;<span id="projectnumber">2.3</span>
    </div>
    <div id="projectbrief">Audio and Video Software Development Kit</div>
   </td>
@@ -405,7 +405,9 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Analyzes the input specified by <a class="el" href="classprimo_1_1avblocks_1_1_media_info.html#af57abe9d3399e24e5bc77857411a2eb8" title="Returns a modifiable collection of MediaSocket objects which describe the input data of the MediaInfo...">inputs()</a> and loads the information in the <a class="el" href="classprimo_1_1avblocks_1_1_media_info.html" title="Analyzes a file or a stream and provides information about its type and properties. ">MediaInfo</a> object. </p>
-<dl class="section return"><dt>Returns</dt><dd>TRUE if the input is successfully analyzed, otherwise FALSE.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>TRUE if the input is successfully analyzed. </dd>
+<dd>
+FALSE if the input could not be analyzed. In this case, the <a class="el" href="classprimo_1_1avblocks_1_1_block.html#aa5119c5cefc548fd6ae11fdd2d091a67" title="Returns the error information for the last operation. ">error()</a> method will return detailed error information.</dd></dl>
 <p>If this method succeeds the information about the detected media streams (tracks) and metadata can be obtained from <a class="el" href="classprimo_1_1avblocks_1_1_media_info.html" title="Analyzes a file or a stream and provides information about its type and properties. ">MediaInfo</a>. </p>
 
 <p>Implements <a class="el" href="classprimo_1_1avblocks_1_1_block.html#ae57065177c8e8e5dc48bfbaa9b45d880">Block</a>.</p>

@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['vbr_5fq100_0',['VBR_Q100',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_audio_1_1_generic_1_1_w_m_a_1_1_professional.html#ab836a55bc2d5f7f62b21b16e2a3595a4',1,'primo::avblocks::Preset::Audio::Generic::WMA::Professional']]],
+  ['vbr_5fq4_1',['VBR_Q4',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_audio_1_1_generic_1_1_ogg_vorbis.html#a9f945d385f31f8dcf40e4a76d636d3c6',1,'primo::avblocks::Preset::Audio::Generic::OggVorbis']]],
+  ['vbr_5fq75_2',['VBR_Q75',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_audio_1_1_generic_1_1_w_m_a_1_1_professional.html#a58c25bebd3bda0862564b94b49a9e705',1,'primo::avblocks::Preset::Audio::Generic::WMA::Professional']]],
+  ['vbr_5fq8_3',['VBR_Q8',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_audio_1_1_generic_1_1_ogg_vorbis.html#a3f441296f3983c00e62ac076d1488efb',1,'primo::avblocks::Preset::Audio::Generic::OggVorbis']]],
+  ['vbr_5fq90_4',['VBR_Q90',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_audio_1_1_generic_1_1_w_m_a_1_1_professional.html#af3e716f3aa481d5075f03c67f8093a09',1,'primo::avblocks::Preset::Audio::Generic::WMA::Professional']]],
+  ['vbvbuffersize_5',['VBVBufferSize',['../namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_m_p_e_g2.html#a2f4e7aa56d74a124753d8a62d631b761',1,'primo::avblocks::Param::Encoder::Video::MPEG2']]],
+  ['voice_6',['Voice',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_audio_1_1_generic_1_1_m_p3.html#aba4530842b41ef9cda587149eeff8b1f',1,'primo::avblocks::Preset::Audio::Generic::MP3']]],
+  ['vp8_5f3g_5f240p_5f350k_5fvorbis_5f64k_7',['VP8_3G_240p_350K_Vorbis_64K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html#a9b81cb6de84fe691258e482f242dea69',1,'primo::avblocks::Preset::Video::Generic::WebM']]],
+  ['vp8_5f4g_5f360p_5f700k_5fvorbis_5f64k_8',['VP8_4G_360p_700K_Vorbis_64K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html#aaa6d920e31dbc3a5733c0c75d88d8293',1,'primo::avblocks::Preset::Video::Generic::WebM']]],
+  ['vp8_5fsd_5f480p_5f1200k_5fvorbis_5f128k_9',['VP8_SD_480p_1200K_Vorbis_128K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html#a4d6264108810dca7b6a200f66a962eb3',1,'primo::avblocks::Preset::Video::Generic::WebM']]],
+  ['vp8_5fsd_5f576p_5f1600k_5fvorbis_5f128k_10',['VP8_SD_576p_1600K_Vorbis_128K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html#a9d95055ea6d59a06e9551973a3d93c54',1,'primo::avblocks::Preset::Video::Generic::WebM']]],
+  ['vp8_5fwide_5f3g_5f240p_5f350k_5fvorbis_5f64k_11',['VP8_Wide_3G_240p_350K_Vorbis_64K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html#a70023eb346d33d98a3e19043dc082c06',1,'primo::avblocks::Preset::Video::Generic::WebM']]],
+  ['vp8_5fwide_5f4g_5f360p_5f700k_5fvorbis_5f64k_12',['VP8_Wide_4G_360p_700K_Vorbis_64K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html#a5735ddcc6d8d31ac268f46dc77b8884a',1,'primo::avblocks::Preset::Video::Generic::WebM']]],
+  ['vp8_5fwide_5fhd_5f1080p_5f5000k_5fvorbis_5f192k_13',['VP8_Wide_HD_1080p_5000K_Vorbis_192K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html#ae65ad91eaf48f1e7373c33430653bba6',1,'primo::avblocks::Preset::Video::Generic::WebM']]],
+  ['vp8_5fwide_5fhd_5f720p_5f2500k_5fvorbis_5f192k_14',['VP8_Wide_HD_720p_2500K_Vorbis_192K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html#a24fe0a48e4de9fb007c103c51be59575',1,'primo::avblocks::Preset::Video::Generic::WebM']]],
+  ['vp8_5fwide_5fsd_5f480p_5f1200k_5fvorbis_5f128k_15',['VP8_Wide_SD_480p_1200K_Vorbis_128K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html#ae106359d0f1c58e39fc051a70946c447',1,'primo::avblocks::Preset::Video::Generic::WebM']]],
+  ['vp8_5fwide_5fsd_5f576p_5f1600k_5fvorbis_5f128k_16',['VP8_Wide_SD_576p_1600K_Vorbis_128K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html#a46415d64fdde0320fb7254e39f4d0a6a',1,'primo::avblocks::Preset::Video::Generic::WebM']]]
+];

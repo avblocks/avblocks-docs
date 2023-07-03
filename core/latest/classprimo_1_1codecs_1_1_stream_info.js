@@ -3,7 +3,7 @@ var classprimo_1_1codecs_1_1_stream_info =
     [ "~StreamInfo", "classprimo_1_1codecs_1_1_stream_info.html#a9be0a07ed1727845b5c7b6ccf1622bd5", null ],
     [ "bitrate", "classprimo_1_1codecs_1_1_stream_info.html#a659abaae7257cf714955f20a7ffb6ad9", null ],
     [ "bitrateMode", "classprimo_1_1codecs_1_1_stream_info.html#aeec50f09e42f7ae6631eb9ae3b62e77e", null ],
-    [ "clone", "classprimo_1_1codecs_1_1_stream_info.html#a0c208c52cf9c38a8154adb6ac3b0ae0a", null ],
+    [ "clone", "classprimo_1_1codecs_1_1_stream_info.html#a3e3f478ef7353798a964a0c428a0c933", null ],
     [ "copyTo", "classprimo_1_1codecs_1_1_stream_info.html#a0311f56c2df34719ad083f6cda658280", null ],
     [ "duration", "classprimo_1_1codecs_1_1_stream_info.html#aa4b8ffc829dfa37cb9e989f14f306c4a", null ],
     [ "ID", "classprimo_1_1codecs_1_1_stream_info.html#af60bc90c03a315584281221d0d8291c6", null ],

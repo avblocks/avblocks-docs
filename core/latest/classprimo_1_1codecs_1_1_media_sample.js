@@ -1,8 +1,8 @@
 var classprimo_1_1codecs_1_1_media_sample =
 [
     [ "~MediaSample", "classprimo_1_1codecs_1_1_media_sample.html#a1379f62614a6e6618cb0909da430a3b1", null ],
-    [ "buffer", "classprimo_1_1codecs_1_1_media_sample.html#a1071b12bfcc62e4b2c8789829b24047b", null ],
-    [ "clone", "classprimo_1_1codecs_1_1_media_sample.html#aa1e190d6cfa529cd06574647b7ad6645", null ],
+    [ "buffer", "classprimo_1_1codecs_1_1_media_sample.html#a9141f059a5c69d505fef24939c61c473", null ],
+    [ "clone", "classprimo_1_1codecs_1_1_media_sample.html#a7a3f86b6de4f84ba3b2b3958e50bea1f", null ],
     [ "endTime", "classprimo_1_1codecs_1_1_media_sample.html#a4c0e3c3957927691d4472304e8af7e3f", null ],
     [ "flags", "classprimo_1_1codecs_1_1_media_sample.html#a5d4e36c835e9fdd1babaffdaa763b529", null ],
     [ "pictureType", "classprimo_1_1codecs_1_1_media_sample.html#aa5964d2b3e443f4a35f53d3ac863f51a", null ],

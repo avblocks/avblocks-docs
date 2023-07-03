@@ -1,7 +1,7 @@
 var classprimo_1_1codecs_1_1_video_stream_info =
 [
     [ "~VideoStreamInfo", "classprimo_1_1codecs_1_1_video_stream_info.html#a781d8e9f9061762c60102800d403be89", null ],
-    [ "clone", "classprimo_1_1codecs_1_1_video_stream_info.html#a31694c92f0d3675445d2e7396cce95f0", null ],
+    [ "clone", "classprimo_1_1codecs_1_1_video_stream_info.html#a432ab66b98f5041ee28951a4624ae865", null ],
     [ "colorFormat", "classprimo_1_1codecs_1_1_video_stream_info.html#adadf5885180b2c849ec1efc47636a09a", null ],
     [ "copyTo", "classprimo_1_1codecs_1_1_video_stream_info.html#acc4d3e2440c1c8a92ef8b68ee1bf9655", null ],
     [ "displayRatioHeight", "classprimo_1_1codecs_1_1_video_stream_info.html#a7169f2fc039f76fc7e8da8a87568b869", null ],

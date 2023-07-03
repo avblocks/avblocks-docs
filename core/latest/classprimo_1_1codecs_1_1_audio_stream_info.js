@@ -5,7 +5,7 @@ var classprimo_1_1codecs_1_1_audio_stream_info =
     [ "bytesPerFrame", "classprimo_1_1codecs_1_1_audio_stream_info.html#aba4b86a36c32172a242050654b41223d", null ],
     [ "channelLayout", "classprimo_1_1codecs_1_1_audio_stream_info.html#a89b1df521770b130bef3ea6686dec637", null ],
     [ "channels", "classprimo_1_1codecs_1_1_audio_stream_info.html#a10bd3a6e75c49a6894804155e60144be", null ],
-    [ "clone", "classprimo_1_1codecs_1_1_audio_stream_info.html#a3c78719519153a64c2012baf883bc17a", null ],
+    [ "clone", "classprimo_1_1codecs_1_1_audio_stream_info.html#ad52adf2ff2e2d4d2d184c8609c710e76", null ],
     [ "copyTo", "classprimo_1_1codecs_1_1_audio_stream_info.html#a384c7a405c87bde84b414473f3ea055c", null ],
     [ "pcmFlags", "classprimo_1_1codecs_1_1_audio_stream_info.html#a3cbd6d90aec697f72c602933bcc0ced6", null ],
     [ "sampleRate", "classprimo_1_1codecs_1_1_audio_stream_info.html#af949fd582af597e965f6cc64a3ebf0c9", null ],

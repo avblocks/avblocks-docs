@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['wav_0',['WAV',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_audio_1_1_audio_c_d.html#a1e448e765f5603554176931f0e9c210c',1,'primo::avblocks::Preset::Audio::AudioCD']]],
+  ['wave_1',['WAVE',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a4025728e15f4cee76a85d2cc65ccb565',1,'primo::codecs::StreamType']]],
+  ['webm_2',['WebM',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a159688f2e0bb554ed34ec7d32fddcb55',1,'primo::codecs::StreamType']]],
+  ['webm_5fvp8_5f720p_3',['WebM_VP8_720p',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_android_tablet.html#a06c47d6891552e47ef7a1870ae4d9eed',1,'primo::avblocks::Preset::Video::AndroidTablet']]],
+  ['welcome_4',['Welcome',['../index.html',1,'']]],
+  ['wifi_5fh264_5f1280x960_5f30p_5f4500k_5faac_5f128k_5',['WiFi_H264_1280x960_30p_4500K_AAC_128K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_apple_live_streaming.html#acff8ffb44020ae4be066d1159ef7329e',1,'primo::avblocks::Preset::Video::AppleLiveStreaming']]],
+  ['wifi_5fh264_5f640x480_5f30p_5f1200k_5faac_5f96k_6',['WiFi_H264_640x480_30p_1200K_AAC_96K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_apple_live_streaming.html#ad45802a55fb45262636e5ca3aa09818e',1,'primo::avblocks::Preset::Video::AppleLiveStreaming']]],
+  ['wifi_5fh264_5f640x480_5f30p_5f600k_5faac_5f96k_7',['WiFi_H264_640x480_30p_600K_AAC_96K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_apple_live_streaming.html#a2ea56966a1f0ef83585f3b3cd159c100',1,'primo::avblocks::Preset::Video::AppleLiveStreaming']]],
+  ['wifi_5fh264_5f640x480_5f30p_5f800k_5faac_5f96k_8',['WiFi_H264_640x480_30p_800K_AAC_96K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_apple_live_streaming.html#ac6a407367ece84b82ca7e5937a73f49d',1,'primo::avblocks::Preset::Video::AppleLiveStreaming']]],
+  ['wifi_5fh264_5f960x720_5f30p_5f1200k_5faac_5f96k_9',['WiFi_H264_960x720_30p_1200K_AAC_96K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_apple_live_streaming.html#a029b014131acc8bdee176530af061436',1,'primo::avblocks::Preset::Video::AppleLiveStreaming']]],
+  ['wifi_5fh264_5f960x720_5f30p_5f2500k_5faac_5f128k_10',['WiFi_H264_960x720_30p_2500K_AAC_128K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_apple_live_streaming.html#a835d64de2310e7208d1614176d797bc7',1,'primo::avblocks::Preset::Video::AppleLiveStreaming']]],
+  ['wifi_5fwide_5fh264_5f1280x720_5f30p_5f2500k_5faac_5f128k_11',['WiFi_Wide_H264_1280x720_30p_2500K_AAC_128K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_apple_live_streaming.html#aa0cdb7fa7ced435ac6c1a312e226f101',1,'primo::avblocks::Preset::Video::AppleLiveStreaming']]],
+  ['wifi_5fwide_5fh264_5f1280x720_5f30p_5f4500k_5faac_5f128k_12',['WiFi_Wide_H264_1280x720_30p_4500K_AAC_128K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_apple_live_streaming.html#a1021cedde65dfb9f0d64782a2b46e36f',1,'primo::avblocks::Preset::Video::AppleLiveStreaming']]],
+  ['wifi_5fwide_5fh264_5f1920x1080_5f30p_5f11000k_5faac_5f128k_13',['WiFi_Wide_H264_1920x1080_30p_11000K_AAC_128K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_apple_live_streaming.html#ab800b027261e2e78881549ef15e43963',1,'primo::avblocks::Preset::Video::AppleLiveStreaming']]],
+  ['wifi_5fwide_5fh264_5f640x360_5f30p_5f1200k_5faac_5f96k_14',['WiFi_Wide_H264_640x360_30p_1200K_AAC_96K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_apple_live_streaming.html#af8a30fb3975c2a094f7df11e2ef1fe5c',1,'primo::avblocks::Preset::Video::AppleLiveStreaming']]],
+  ['wifi_5fwide_5fh264_5f640x360_5f30p_5f600k_5faac_5f96k_15',['WiFi_Wide_H264_640x360_30p_600K_AAC_96K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_apple_live_streaming.html#acab1741d647f05186be27148a6ee30cd',1,'primo::avblocks::Preset::Video::AppleLiveStreaming']]],
+  ['wifi_5fwide_5fh264_5f960x540_5f30p_5f1800k_5faac_5f128k_16',['WiFi_Wide_H264_960x540_30p_1800K_AAC_128K',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_apple_live_streaming.html#a4d7fb4df9acd4123500d2d8e60813d88',1,'primo::avblocks::Preset::Video::AppleLiveStreaming']]],
+  ['wma_17',['WMA',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091aa44a95b7f5d792177e849fb7dc30d93c',1,'primo::codecs::StreamType']]],
+  ['wma_5flossless_18',['WMA_Lossless',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a16621e48b005b8881fcab5dea3a30fd3',1,'primo::codecs::StreamType']]],
+  ['wma_5fprofessional_19',['WMA_Professional',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a3d1f3cc1016b8cb15ad11a55c7e54021',1,'primo::codecs::StreamType']]],
+  ['wmv_20',['WMV',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091af154431c95fc5d162600eb9e1493b8cf',1,'primo::codecs::StreamType']]],
+  ['write_21',['write',['../classprimo_1_1_stream.html#a9fa789c39f4c5e96d94bab52cddd5a44',1,'primo::Stream']]]
+];

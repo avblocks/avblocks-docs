@@ -1,8 +1,9 @@
-<script language="PHP">
+<?php
 require "search_functions.php";
 
 $mode = array_key_exists('v', $_GET)?$_GET['v']:"";
 $query = array_key_exists('query', $_GET)?$_GET['query']:"";
+$query = preg_replace("/[^a-zA-Z0-9\-\_\.\x80-\xFF]/i", " ", $query );
 
 $query_results = run_query($query);
 
@@ -124,4 +125,4 @@ function invalid_format($query, array $results)
   print "Search results for '$query':\n\n";
   print_r($results);
 }
-</script>
+?>

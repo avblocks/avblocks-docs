@@ -25,37 +25,7 @@ var namespace_primo_software_1_1_a_v_blocks =
     [ "ObjectCollection", "class_primo_software_1_1_a_v_blocks_1_1_object_collection.html", "class_primo_software_1_1_a_v_blocks_1_1_object_collection" ],
     [ "Param", "class_primo_software_1_1_a_v_blocks_1_1_param.html", "class_primo_software_1_1_a_v_blocks_1_1_param" ],
     [ "PinConnection", "class_primo_software_1_1_a_v_blocks_1_1_pin_connection.html", "class_primo_software_1_1_a_v_blocks_1_1_pin_connection" ],
-    [ "Preset", "class_primo_software_1_1_a_v_blocks_1_1_preset.html", [
-      [ "Audio", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio.html", [
-        [ "AudioCD", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_audio_c_d.html", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_audio_c_d" ],
-        [ "DVD", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_d_v_d.html", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_d_v_d" ],
-        [ "Generic", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_generic.html", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_generic" ]
-      ] ],
-      [ "Video", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video.html", [
-        [ "AndroidPhone", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_android_phone.html", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_android_phone" ],
-        [ "AndroidTablet", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_android_tablet.html", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_android_tablet" ],
-        [ "AppleLiveStreaming", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_apple_live_streaming.html", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_apple_live_streaming" ],
-        [ "AppleTV", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_apple_t_v.html", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_apple_t_v" ],
-        [ "BDAV", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_b_d_a_v.html", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_b_d_a_v" ],
-        [ "DVD", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_d_v_d.html", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_d_v_d" ],
-        [ "Fast", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_fast.html", [
-          [ "MP4", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_fast_1_1_m_p4.html", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_fast_1_1_m_p4" ]
-        ] ],
-        [ "Generic", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_generic.html", [
-          [ "MP4", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_generic_1_1_m_p4.html", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_generic_1_1_m_p4" ],
-          [ "WebM", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m" ]
-        ] ],
-        [ "HDV", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_h_d_v.html", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_h_d_v" ],
-        [ "iPad", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1i_pad.html", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1i_pad" ],
-        [ "iPhone", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1i_phone.html", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1i_phone" ],
-        [ "iPod", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1i_pod.html", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1i_pod" ],
-        [ "Kindle", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_kindle.html", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_kindle" ],
-        [ "VCD", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_v_c_d.html", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_v_c_d" ],
-        [ "Web", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_web.html", [
-          [ "MP4", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_web_1_1_m_p4.html", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_web_1_1_m_p4" ]
-        ] ]
-      ] ]
-    ] ],
+    [ "Preset", "class_primo_software_1_1_a_v_blocks_1_1_preset.html", "class_primo_software_1_1_a_v_blocks_1_1_preset" ],
     [ "StreamInfo", "class_primo_software_1_1_a_v_blocks_1_1_stream_info.html", "class_primo_software_1_1_a_v_blocks_1_1_stream_info" ],
     [ "Transcoder", "class_primo_software_1_1_a_v_blocks_1_1_transcoder.html", "class_primo_software_1_1_a_v_blocks_1_1_transcoder" ],
     [ "TranscoderContinueEventArgs", "class_primo_software_1_1_a_v_blocks_1_1_transcoder_continue_event_args.html", "class_primo_software_1_1_a_v_blocks_1_1_transcoder_continue_event_args" ],
@@ -63,5 +33,397 @@ var namespace_primo_software_1_1_a_v_blocks =
     [ "TranscoderProgressEventArgs", "class_primo_software_1_1_a_v_blocks_1_1_transcoder_progress_event_args.html", "class_primo_software_1_1_a_v_blocks_1_1_transcoder_progress_event_args" ],
     [ "TranscoderStatusEventArgs", "class_primo_software_1_1_a_v_blocks_1_1_transcoder_status_event_args.html", "class_primo_software_1_1_a_v_blocks_1_1_transcoder_status_event_args" ],
     [ "UnmanagedMediaBuffer", "class_primo_software_1_1_a_v_blocks_1_1_unmanaged_media_buffer.html", "class_primo_software_1_1_a_v_blocks_1_1_unmanaged_media_buffer" ],
-    [ "VideoStreamInfo", "class_primo_software_1_1_a_v_blocks_1_1_video_stream_info.html", "class_primo_software_1_1_a_v_blocks_1_1_video_stream_info" ]
+    [ "VideoStreamInfo", "class_primo_software_1_1_a_v_blocks_1_1_video_stream_info.html", "class_primo_software_1_1_a_v_blocks_1_1_video_stream_info" ],
+    [ "AlphaCompositingMode", "namespace_primo_software_1_1_a_v_blocks.html#a7c01b2491860fbb43d39d0034de37c53", [
+      [ "Over", "namespace_primo_software_1_1_a_v_blocks.html#a7c01b2491860fbb43d39d0034de37c53aef087651eb482bae4624478696f4ad4f", null ],
+      [ "In", "namespace_primo_software_1_1_a_v_blocks.html#a7c01b2491860fbb43d39d0034de37c53aefeb369cccbd560588a756610865664c", null ],
+      [ "Out", "namespace_primo_software_1_1_a_v_blocks.html#a7c01b2491860fbb43d39d0034de37c53a7c147cda9e49590f6abe83d118b7353b", null ],
+      [ "Atop", "namespace_primo_software_1_1_a_v_blocks.html#a7c01b2491860fbb43d39d0034de37c53a1d4c0f59039c5147f38c43444a499a6d", null ],
+      [ "Xor", "namespace_primo_software_1_1_a_v_blocks.html#a7c01b2491860fbb43d39d0034de37c53a76feb79109026728a20736a8c6504548", null ],
+      [ "Plus", "namespace_primo_software_1_1_a_v_blocks.html#a7c01b2491860fbb43d39d0034de37c53a32ba78fe43257d3e7f88e3935a8ea0d4", null ]
+    ] ],
+    [ "AudioChannelFlags", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0", [
+      [ "None", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "Left", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a945d5e233cf7d6240f6b783b36a374ff", null ],
+      [ "Right", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a92b09c7c48c520c3c55e497875da437c", null ],
+      [ "Center", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a4f1f6016fc9f3f2353c0cc7c67b292bd", null ],
+      [ "LFE", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a5e2ec1bb1708028f19562901319c4503", null ],
+      [ "BackLeft", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0abff6f014d4c53710a1ad968e9b401ccb", null ],
+      [ "BackRight", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0aa07ea17eb99337c60ed9ad770cf2bb55", null ],
+      [ "LeftCenter", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0ac7304bf037c39d7f1dcc0f8b81398247", null ],
+      [ "RightCenter", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a5595404fe7046ad0f3796b176c4f257e", null ],
+      [ "BackCenter", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a28ce21f1909d32aa33998608a7d22438", null ],
+      [ "SideLeft", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a78c8f1c8df388a8810a325e9ca9752da", null ],
+      [ "SideRight", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a31610f6c0f8a9f598c6279592d9f76e0", null ],
+      [ "TopCenter", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a91b8ede24b7f93a98ae4dcaade15d468", null ],
+      [ "TopFrontLeft", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0afb669612ee1933229f170effa07aa8a9", null ],
+      [ "TopFrontCenter", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0ad22ee83cb7dfe7318ffeca7b632fb819", null ],
+      [ "TopFrontRight", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0ae2c423ab92e9d89f7db6b65894ce20a6", null ],
+      [ "TopBackLeft", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0adb41be9e166e3f77a49becccef7a57f9", null ],
+      [ "TopBackCenter", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a523c261e94e92bcd0ed3276f42388790", null ],
+      [ "TopBackRight", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a8731dd6d25eb4078d246edb9404e1684", null ],
+      [ "LayoutMono", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a8cf09392676c453ef91062580e9a7e99", null ],
+      [ "LayoutStereo", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0ad02e2231edd118fa3039f63cc8ff5211", null ],
+      [ "Layout2p1", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a8e7678bea4bab136f0ce57e08ae86133", null ],
+      [ "LayoutSurround", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a5da4739d0ef39dab8cad8c4bcd62487a", null ],
+      [ "LayoutQuad", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a31607e20b81ba3fefa8109cffbfc5a36", null ],
+      [ "Layout4p1", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a7eac4c3ba9f3405fd59013cced58ece5", null ],
+      [ "Layout5p1", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a393d9032017ec92bc667d08374d5823b", null ],
+      [ "Layout7p1Surround", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a4d0330837c15353f31b565c5667645cc", null ],
+      [ "Layout5p1Surround", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a640d3d583eb05677080ab57848ae1a1a", null ],
+      [ "Layout7p1", "namespace_primo_software_1_1_a_v_blocks.html#a35f2271cfd156774ad2075e8d09876c0a8cc3e87974a695cf2b6609d93e039ee0", null ]
+    ] ],
+    [ "AVBlocksError", "namespace_primo_software_1_1_a_v_blocks.html#acb28d2321ee9fe5bbe4191d84f1a8363", [
+      [ "UnlicensedFeature", "namespace_primo_software_1_1_a_v_blocks.html#acb28d2321ee9fe5bbe4191d84f1a8363aad86506443d510b30ab927d453b4c670", null ],
+      [ "LibraryNotInitialized", "namespace_primo_software_1_1_a_v_blocks.html#acb28d2321ee9fe5bbe4191d84f1a8363a49ce430a5661fa16d0ff0e7e0bf62efe", null ]
+    ] ],
+    [ "BitrateMode", "namespace_primo_software_1_1_a_v_blocks.html#a740ce5142bbe671d335995a3d4bb7e61", [
+      [ "Unknown", "namespace_primo_software_1_1_a_v_blocks.html#a740ce5142bbe671d335995a3d4bb7e61a88183b946cc5f0e8c96b2e66e1c74a7e", null ],
+      [ "CBR", "namespace_primo_software_1_1_a_v_blocks.html#a740ce5142bbe671d335995a3d4bb7e61ae84adc92bf25b858302376e1defc06dc", null ],
+      [ "VBR", "namespace_primo_software_1_1_a_v_blocks.html#a740ce5142bbe671d335995a3d4bb7e61a41b885709fb05791da77d1ea07a2dd78", null ],
+      [ "ABR", "namespace_primo_software_1_1_a_v_blocks.html#a740ce5142bbe671d335995a3d4bb7e61ab8fcc69d250d3ed23c05e0105ea381db", null ]
+    ] ],
+    [ "CodecError", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3", [
+      [ "Init", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3a95b19f7739b0b7ea7d6b07586be54f36", null ],
+      [ "NoConfigData", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3af218b1f77ffe39c7aebdb5591d4e8646", null ],
+      [ "NoOutput", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3a828d496739024f4af00df1e277d96ebd", null ],
+      [ "OutputBufferNotEnough", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3a70058c49c2a0e21c8957e341fe70fc79", null ],
+      [ "Unsupported", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3ab4080bdf74febf04d578ff105cce9d3f", null ],
+      [ "Failed", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3ad7c8c85bf79bbe1b7188497c32c3b0ca", null ],
+      [ "NotInitialized", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3a9646ad3a1c3e708b4fa8b4b4270fbab6", null ],
+      [ "Null", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3abbb93ef26e3c101ff11cdd21cab08a94", null ],
+      [ "EOS", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3ad3428ee9afeb947b67aa37e634148ee5", null ],
+      [ "Alloc", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3aea571dc00aef155a16d4e7e1861e1682", null ],
+      [ "InvalidStream", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3acc63140150e3b524cba78826fb007adf", null ],
+      [ "NotImplemented", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3a997ca4ce119685f40f03a9a8a6c5346e", null ],
+      [ "InvalidParams", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3ad4c4700b7580ce00c94ddf7b363de696", null ],
+      [ "InvalidOperation", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3a1cd5ecce6fe138df5c3f7e8854a1a66d", null ],
+      [ "MissingDependency", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3ae3e35dd109eea7636d7a805a789b6b4f", null ],
+      [ "StreamOpen", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3a7a4c62ea920c18c83286c2ac444e5ec0", null ],
+      [ "StreamRead", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3a10953b8796ab666281dc734e99aa5180", null ],
+      [ "StreamWrite", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3a25eaece7a9addc6421c8204a166ffbcd", null ],
+      [ "StreamSeek", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3a467af49b1567c7d4e41f0cf6d59443f4", null ],
+      [ "BufferFull", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3a1a22c40923d2978b2a258720df650702", null ],
+      [ "MissingHardwareIntelQuickSync", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3a7c5705ed8b1611d1e78d98fcd1699222", null ],
+      [ "MissingHardwareAmdVce", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3a29172b445be90d1a44c96b7fd55bbc13", null ],
+      [ "MissingHardwareNvidiaNVENC", "namespace_primo_software_1_1_a_v_blocks.html#a82530b7aa1cb5984042f894499444ce3a26d0970b4b3dacfe1b7a5b3c1ee20fcf", null ]
+    ] ],
+    [ "ColorFormat", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1", [
+      [ "Unknown", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1a88183b946cc5f0e8c96b2e66e1c74a7e", null ],
+      [ "YV12", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1a99dc3162295b639b401fe354d5059f52", null ],
+      [ "NV12", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1a202f5d8c2c70d31048154d8b8b28e755", null ],
+      [ "YUY2", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1ac4ae1e9efde614ab49c73b35107eefe1", null ],
+      [ "UYVY", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1a87261c567c007f283e17a5fc8c259296", null ],
+      [ "YUV411", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1aafd226e7a138a389f9ebe5cb036af03c", null ],
+      [ "YUV420", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1a7e1d7a172afeb2743e03365a92cfd7e1", null ],
+      [ "YUV422", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1ae2ebd9cc5a78afc028dd47f2443affea", null ],
+      [ "YUV444", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1a11cfa56ee0ddbbc30a2fd189d7475f4c", null ],
+      [ "Y411", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1acbcfb0edfcb3dd8f24768371b6e6261a", null ],
+      [ "Y41P", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1adcfe96d7a6755944a61e9642cd81e89f", null ],
+      [ "BGR32", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1a165b9e5d6cbe9f87fd9400c8f0a9d5d2", null ],
+      [ "BGR24", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1af88319329ed07cc7b5b1e4926f375849", null ],
+      [ "BGR565", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1a7c93b8aa81bd858a70f2e6a55f59b68d", null ],
+      [ "BGR555", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1a496707ae7bc992cb55f9ce3f2d95b759", null ],
+      [ "BGR444", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1adc132a683332747e761ecf9d7dd606c4", null ],
+      [ "GRAY", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1a48bf014c704c9eaae100a98006a37bf7", null ],
+      [ "YUV420A", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1a92b2e6458b22d58f8adb2fb98d2d9b48", null ],
+      [ "YUV422A", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1ac0128e2016beedc7c0c37a2f394438ca", null ],
+      [ "YUV444A", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1a0a51ebd49614075dcf147a9648e781c4", null ],
+      [ "YVU9", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1aa98efe654f35ba60fa012bf3beef3ba2", null ],
+      [ "BGRA32", "namespace_primo_software_1_1_a_v_blocks.html#a0411236da60fe4ed141afd3f04dce8c1a25cd9b2521a8d381572267ebd5c37163", null ]
+    ] ],
+    [ "DeinterlacingMethod", "namespace_primo_software_1_1_a_v_blocks.html#abb9ca7c95ea3156ff880ee662b346201", [
+      [ "NoDeinterlacing", "namespace_primo_software_1_1_a_v_blocks.html#abb9ca7c95ea3156ff880ee662b346201a2e33519de28be2b2a193c32354904814", null ],
+      [ "Duplicate", "namespace_primo_software_1_1_a_v_blocks.html#abb9ca7c95ea3156ff880ee662b346201aed75712b0eb1913c28a3872731ffd48d", null ],
+      [ "Blend", "namespace_primo_software_1_1_a_v_blocks.html#abb9ca7c95ea3156ff880ee662b346201a09ac609fcdb514c9adca34e7f97b4ac4", null ],
+      [ "Median", "namespace_primo_software_1_1_a_v_blocks.html#abb9ca7c95ea3156ff880ee662b346201a66851a3adec6655a7bd563743e4a55a2", null ],
+      [ "EdgeDetect", "namespace_primo_software_1_1_a_v_blocks.html#abb9ca7c95ea3156ff880ee662b346201a0342948e1100f9a5a452dfe7e35221c8", null ],
+      [ "MedianThreshold", "namespace_primo_software_1_1_a_v_blocks.html#abb9ca7c95ea3156ff880ee662b346201a9502a9c51c243f1e30a7f1e5bf9490ad", null ],
+      [ "CAVT", "namespace_primo_software_1_1_a_v_blocks.html#abb9ca7c95ea3156ff880ee662b346201aef6d1b89eccf0b658a83c391331cd4ae", null ]
+    ] ],
+    [ "ErrorFacility", "namespace_primo_software_1_1_a_v_blocks.html#af300514b2f54bd948902a85bf4070d16", [
+      [ "Success", "namespace_primo_software_1_1_a_v_blocks.html#af300514b2f54bd948902a85bf4070d16a505a83f220c02df2f85c3810cd9ceb38", null ],
+      [ "SystemWindows", "namespace_primo_software_1_1_a_v_blocks.html#af300514b2f54bd948902a85bf4070d16ace2d5108fced4d71ac9c01a0c584fee6", null ],
+      [ "SystemMacOSStatus", "namespace_primo_software_1_1_a_v_blocks.html#af300514b2f54bd948902a85bf4070d16a82e5481ba7ad3f8db9d268d6ef3ffa35", null ],
+      [ "SystemMacMach", "namespace_primo_software_1_1_a_v_blocks.html#af300514b2f54bd948902a85bf4070d16a799a881daa4b8ee0ddc96c8734d0ed76", null ],
+      [ "SystemPosix", "namespace_primo_software_1_1_a_v_blocks.html#af300514b2f54bd948902a85bf4070d16ab06581cfa9abb124d08b16fd567e1e5f", null ],
+      [ "AVBlocks", "namespace_primo_software_1_1_a_v_blocks.html#af300514b2f54bd948902a85bf4070d16ad1eceacba649fd68b675924c97abd2de", null ],
+      [ "Transcoder", "namespace_primo_software_1_1_a_v_blocks.html#af300514b2f54bd948902a85bf4070d16a162e3357982546d1428b382eb1bffbc0", null ],
+      [ "Codec", "namespace_primo_software_1_1_a_v_blocks.html#af300514b2f54bd948902a85bf4070d16a8ca99040313597f5ef1c9bd531f973b7", null ]
+    ] ],
+    [ "H264DeblockingFilter", "namespace_primo_software_1_1_a_v_blocks.html#a34adef98e00fc2fdb0b697135b26080f", [
+      [ "All", "namespace_primo_software_1_1_a_v_blocks.html#a34adef98e00fc2fdb0b697135b26080fab1c94ca2fbc3e78fc30069c8d0f01680", null ],
+      [ "Off", "namespace_primo_software_1_1_a_v_blocks.html#a34adef98e00fc2fdb0b697135b26080fad15305d7a4e34e02489c74a5ef542f36", null ],
+      [ "InSlice", "namespace_primo_software_1_1_a_v_blocks.html#a34adef98e00fc2fdb0b697135b26080fac9c7e26c30bac197f1bbaaac79f74a46", null ]
+    ] ],
+    [ "H264DirectPredMode", "namespace_primo_software_1_1_a_v_blocks.html#a8ca07f5c04f73fb63f8bb32f0fb12bc0", [
+      [ "Temporal", "namespace_primo_software_1_1_a_v_blocks.html#a8ca07f5c04f73fb63f8bb32f0fb12bc0a19e45fa0a4406497759dbf0dd423cc83", null ],
+      [ "Spatial", "namespace_primo_software_1_1_a_v_blocks.html#a8ca07f5c04f73fb63f8bb32f0fb12bc0a33d7f1ec5fe18e7ba799474138e71504", null ]
+    ] ],
+    [ "H264EntropyCodingMode", "namespace_primo_software_1_1_a_v_blocks.html#aceccd0621354f96851f4c1c46982b21d", [
+      [ "CAVLC", "namespace_primo_software_1_1_a_v_blocks.html#aceccd0621354f96851f4c1c46982b21dac05eb1209a1ea7a9ebaca9eec07aa607", null ],
+      [ "CABAC", "namespace_primo_software_1_1_a_v_blocks.html#aceccd0621354f96851f4c1c46982b21da3ea07a6602ce6dd880e8547e9854d36b", null ]
+    ] ],
+    [ "H264MeMethod", "namespace_primo_software_1_1_a_v_blocks.html#a3016e9f9615e5bace11f867acd9eb547", [
+      [ "Full", "namespace_primo_software_1_1_a_v_blocks.html#a3016e9f9615e5bace11f867acd9eb547abbd47109890259c0127154db1af26c75", null ],
+      [ "ClassicLog", "namespace_primo_software_1_1_a_v_blocks.html#a3016e9f9615e5bace11f867acd9eb547a8a7fa4f9aff28ae4594efeb7f3a2e700", null ],
+      [ "Log", "namespace_primo_software_1_1_a_v_blocks.html#a3016e9f9615e5bace11f867acd9eb547ace0be71e33226e4c1db2bcea5959f16b", null ],
+      [ "EPZS", "namespace_primo_software_1_1_a_v_blocks.html#a3016e9f9615e5bace11f867acd9eb547a9c80f631d03edeb1bc473b852e46e2ba", null ],
+      [ "FullOrthogonal", "namespace_primo_software_1_1_a_v_blocks.html#a3016e9f9615e5bace11f867acd9eb547ae6b96fdeecfd880d2dd56c15e9b5cca3", null ],
+      [ "LogOrthogonal", "namespace_primo_software_1_1_a_v_blocks.html#a3016e9f9615e5bace11f867acd9eb547aed685eb109c92bf0a989c9b37047405d", null ],
+      [ "UMH", "namespace_primo_software_1_1_a_v_blocks.html#a3016e9f9615e5bace11f867acd9eb547ac330ecfb00b8ab3633f0449c3a61a688", null ]
+    ] ],
+    [ "H264MeSplitMode", "namespace_primo_software_1_1_a_v_blocks.html#a22b876567f203a236eb6c345dd280483", [
+      [ "Only16x16", "namespace_primo_software_1_1_a_v_blocks.html#a22b876567f203a236eb6c345dd280483a5098c71d81623deccec737699c40a045", null ],
+      [ "DownTo8x8", "namespace_primo_software_1_1_a_v_blocks.html#a22b876567f203a236eb6c345dd280483addbc13a3a9f9fc4a307e9e410160bbec", null ],
+      [ "DownTo4x4", "namespace_primo_software_1_1_a_v_blocks.html#a22b876567f203a236eb6c345dd280483a7a41236863938ec5e5c723711ea4069b", null ]
+    ] ],
+    [ "H264PicCodingType", "namespace_primo_software_1_1_a_v_blocks.html#a2fc8388f4d3725b5934de7d6f8ecdcc9", [
+      [ "Frames", "namespace_primo_software_1_1_a_v_blocks.html#a2fc8388f4d3725b5934de7d6f8ecdcc9a2b81bb9b3deebcbfa05edad7a845005a", null ],
+      [ "Fields", "namespace_primo_software_1_1_a_v_blocks.html#a2fc8388f4d3725b5934de7d6f8ecdcc9aa4ca5edd20d0b5d502ebece575681f58", null ]
+    ] ],
+    [ "H264Profile", "namespace_primo_software_1_1_a_v_blocks.html#a11ef0d12ed3260f47ff3d353543c83a3", [
+      [ "None", "namespace_primo_software_1_1_a_v_blocks.html#a11ef0d12ed3260f47ff3d353543c83a3a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "Baseline", "namespace_primo_software_1_1_a_v_blocks.html#a11ef0d12ed3260f47ff3d353543c83a3aa4a32c4764653e50488bff6ce2eb815b", null ],
+      [ "Main", "namespace_primo_software_1_1_a_v_blocks.html#a11ef0d12ed3260f47ff3d353543c83a3aa02c83a7dbd96295beaefb72c2bee2de", null ],
+      [ "High", "namespace_primo_software_1_1_a_v_blocks.html#a11ef0d12ed3260f47ff3d353543c83a3a655d20c1ca69519ca647684edbb2db35", null ],
+      [ "High10", "namespace_primo_software_1_1_a_v_blocks.html#a11ef0d12ed3260f47ff3d353543c83a3a56174a7e6383a0999754ad8d51b14df6", null ],
+      [ "High422", "namespace_primo_software_1_1_a_v_blocks.html#a11ef0d12ed3260f47ff3d353543c83a3aee736aba03efcd3b08273be2ed6e3278", null ],
+      [ "High444", "namespace_primo_software_1_1_a_v_blocks.html#a11ef0d12ed3260f47ff3d353543c83a3a07e5bb701b55bb257bbfa2f9291110ca", null ]
+    ] ],
+    [ "H264RateControlMethod", "namespace_primo_software_1_1_a_v_blocks.html#a5497e56d78719236cbeb49376e16ce8d", [
+      [ "ABR", "namespace_primo_software_1_1_a_v_blocks.html#a5497e56d78719236cbeb49376e16ce8dab8fcc69d250d3ed23c05e0105ea381db", null ],
+      [ "ConstantQuant", "namespace_primo_software_1_1_a_v_blocks.html#a5497e56d78719236cbeb49376e16ce8dae90c14d3f959af6957481d625c4e69b3", null ]
+    ] ],
+    [ "H265Level", "namespace_primo_software_1_1_a_v_blocks.html#a1744f518894a0f89a495b72b8a8dcc64", [
+      [ "None", "namespace_primo_software_1_1_a_v_blocks.html#a1744f518894a0f89a495b72b8a8dcc64a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "L1", "namespace_primo_software_1_1_a_v_blocks.html#a1744f518894a0f89a495b72b8a8dcc64a9ec4c0afd450ceac7adb81c3bcfc9732", null ],
+      [ "L2", "namespace_primo_software_1_1_a_v_blocks.html#a1744f518894a0f89a495b72b8a8dcc64a7e6aa2d53f6ee2b1a34b017fa403cb76", null ],
+      [ "L21", "namespace_primo_software_1_1_a_v_blocks.html#a1744f518894a0f89a495b72b8a8dcc64a343979acd6084f5f3856b55f7d933a2e", null ],
+      [ "L3", "namespace_primo_software_1_1_a_v_blocks.html#a1744f518894a0f89a495b72b8a8dcc64a842ce6eb510f7e7047da883915ec90e0", null ],
+      [ "L31", "namespace_primo_software_1_1_a_v_blocks.html#a1744f518894a0f89a495b72b8a8dcc64ac7ff6173ce74c106f0871cea7f91f152", null ],
+      [ "L4", "namespace_primo_software_1_1_a_v_blocks.html#a1744f518894a0f89a495b72b8a8dcc64a4aa0f8a9fd5a5c0f77d1aabb6c58b0a2", null ],
+      [ "L41", "namespace_primo_software_1_1_a_v_blocks.html#a1744f518894a0f89a495b72b8a8dcc64af0549529af3e0e57f00f30cf1e1fc994", null ],
+      [ "L5", "namespace_primo_software_1_1_a_v_blocks.html#a1744f518894a0f89a495b72b8a8dcc64a25d6c78aa672ad5603fb0b7da416f90a", null ],
+      [ "L51", "namespace_primo_software_1_1_a_v_blocks.html#a1744f518894a0f89a495b72b8a8dcc64a47397d3c4db6f903852e87660cb96e3d", null ],
+      [ "L52", "namespace_primo_software_1_1_a_v_blocks.html#a1744f518894a0f89a495b72b8a8dcc64abb8cf22800f0d97ab7ec98f1213b4b4e", null ],
+      [ "L6", "namespace_primo_software_1_1_a_v_blocks.html#a1744f518894a0f89a495b72b8a8dcc64ac288831847af25b8573c8ed009a85c15", null ],
+      [ "L61", "namespace_primo_software_1_1_a_v_blocks.html#a1744f518894a0f89a495b72b8a8dcc64af527d653acfb8a3e5615d9200d9e5390", null ],
+      [ "L62", "namespace_primo_software_1_1_a_v_blocks.html#a1744f518894a0f89a495b72b8a8dcc64a10dbd7044d9d8061a37d7ef545ac50ff", null ]
+    ] ],
+    [ "H265Profile", "namespace_primo_software_1_1_a_v_blocks.html#ab69a665281eb1d631e040ea811bb6a4c", [
+      [ "None", "namespace_primo_software_1_1_a_v_blocks.html#ab69a665281eb1d631e040ea811bb6a4ca6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "Main", "namespace_primo_software_1_1_a_v_blocks.html#ab69a665281eb1d631e040ea811bb6a4caa02c83a7dbd96295beaefb72c2bee2de", null ],
+      [ "Main10", "namespace_primo_software_1_1_a_v_blocks.html#ab69a665281eb1d631e040ea811bb6a4caa6061fb4ae7e0ada2a3a6560b1d7ba16", null ]
+    ] ],
+    [ "H265Tier", "namespace_primo_software_1_1_a_v_blocks.html#ae7ee09f74ae3a9afe41e6cd6ba7a0939", [
+      [ "Main", "namespace_primo_software_1_1_a_v_blocks.html#ae7ee09f74ae3a9afe41e6cd6ba7a0939aa02c83a7dbd96295beaefb72c2bee2de", null ],
+      [ "High", "namespace_primo_software_1_1_a_v_blocks.html#ae7ee09f74ae3a9afe41e6cd6ba7a0939a655d20c1ca69519ca647684edbb2db35", null ]
+    ] ],
+    [ "HardwareEncoder", "namespace_primo_software_1_1_a_v_blocks.html#ab15c9f417e85049f7fd48e1a865a8afc", [
+      [ "Off", "namespace_primo_software_1_1_a_v_blocks.html#ab15c9f417e85049f7fd48e1a865a8afcad15305d7a4e34e02489c74a5ef542f36", null ],
+      [ "Auto", "namespace_primo_software_1_1_a_v_blocks.html#ab15c9f417e85049f7fd48e1a865a8afca06b9281e396db002010bde1de57262eb", null ],
+      [ "AMD", "namespace_primo_software_1_1_a_v_blocks.html#ab15c9f417e85049f7fd48e1a865a8afca48af4341f745163f945fa838eeabb062", null ],
+      [ "Intel", "namespace_primo_software_1_1_a_v_blocks.html#ab15c9f417e85049f7fd48e1a865a8afcaff97a9fdede09eaf6e1c8ec9f6a61dd5", null ],
+      [ "Nvidia", "namespace_primo_software_1_1_a_v_blocks.html#ab15c9f417e85049f7fd48e1a865a8afca2a21e2561359ebf2fb2d634ee7837a8e", null ]
+    ] ],
+    [ "HwApi", "namespace_primo_software_1_1_a_v_blocks.html#a94cefc3c7924004907093524525425cd", [
+      [ "None", "namespace_primo_software_1_1_a_v_blocks.html#a94cefc3c7924004907093524525425cda6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "IntelMedia", "namespace_primo_software_1_1_a_v_blocks.html#a94cefc3c7924004907093524525425cda9970a325421cd0ad7fcd96aefe20b6d9", null ],
+      [ "Nvenc", "namespace_primo_software_1_1_a_v_blocks.html#a94cefc3c7924004907093524525425cdac6d5d753d0b4831221c975d960460f64", null ],
+      [ "AmdOpenVideo", "namespace_primo_software_1_1_a_v_blocks.html#a94cefc3c7924004907093524525425cda4ed80ef669f315dee77d6c6a97017b60", null ],
+      [ "AmdMedia", "namespace_primo_software_1_1_a_v_blocks.html#a94cefc3c7924004907093524525425cda9adf9311e6d9985d65db45839e4a5df4", null ],
+      [ "MediaFoundation", "namespace_primo_software_1_1_a_v_blocks.html#a94cefc3c7924004907093524525425cda7d28cd705dd5b207e111bce51c75afda", null ]
+    ] ],
+    [ "HwCodecType", "namespace_primo_software_1_1_a_v_blocks.html#a37c8a87a70154cc76267b3fa80a41fdd", [
+      [ "None", "namespace_primo_software_1_1_a_v_blocks.html#a37c8a87a70154cc76267b3fa80a41fdda6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "H264Encoder", "namespace_primo_software_1_1_a_v_blocks.html#a37c8a87a70154cc76267b3fa80a41fdda125ddfb14d8212baedd78362d85fed9d", null ],
+      [ "H265Encoder", "namespace_primo_software_1_1_a_v_blocks.html#a37c8a87a70154cc76267b3fa80a41fdda6f87fc4810bb45564857625393bbf3ba", null ]
+    ] ],
+    [ "HwEngine", "namespace_primo_software_1_1_a_v_blocks.html#a50d6107d24ab539a2d51d608a8ee511e", [
+      [ "None", "namespace_primo_software_1_1_a_v_blocks.html#a50d6107d24ab539a2d51d608a8ee511ea6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "QuickSyncVideo", "namespace_primo_software_1_1_a_v_blocks.html#a50d6107d24ab539a2d51d608a8ee511eada6b792e4f05b84d3d204a4cdd9aac61", null ],
+      [ "Nvenc", "namespace_primo_software_1_1_a_v_blocks.html#a50d6107d24ab539a2d51d608a8ee511eac6d5d753d0b4831221c975d960460f64", null ],
+      [ "VideoCodingEngine", "namespace_primo_software_1_1_a_v_blocks.html#a50d6107d24ab539a2d51d608a8ee511ea37c818bdc758a87c87d75ee59ed854f8", null ]
+    ] ],
+    [ "HwVendor", "namespace_primo_software_1_1_a_v_blocks.html#aa9bfcf642266dca30c36822f30a0cdad", [
+      [ "None", "namespace_primo_software_1_1_a_v_blocks.html#aa9bfcf642266dca30c36822f30a0cdada6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "Intel", "namespace_primo_software_1_1_a_v_blocks.html#aa9bfcf642266dca30c36822f30a0cdadaff97a9fdede09eaf6e1c8ec9f6a61dd5", null ],
+      [ "Nvidia", "namespace_primo_software_1_1_a_v_blocks.html#aa9bfcf642266dca30c36822f30a0cdada2a21e2561359ebf2fb2d634ee7837a8e", null ],
+      [ "Amd", "namespace_primo_software_1_1_a_v_blocks.html#aa9bfcf642266dca30c36822f30a0cdadabfd16f84e6b719aba6717bf2f3eb3580", null ]
+    ] ],
+    [ "InterpolationMethod", "namespace_primo_software_1_1_a_v_blocks.html#aa0081e804011c551ea0f4a596a64b284", [
+      [ "Unknown", "namespace_primo_software_1_1_a_v_blocks.html#aa0081e804011c551ea0f4a596a64b284a88183b946cc5f0e8c96b2e66e1c74a7e", null ],
+      [ "NearestNeighbor", "namespace_primo_software_1_1_a_v_blocks.html#aa0081e804011c551ea0f4a596a64b284aaa020331bb30d2fa2ecf7c3a0777823f", null ],
+      [ "Linear", "namespace_primo_software_1_1_a_v_blocks.html#aa0081e804011c551ea0f4a596a64b284a32a843da6ea40ab3b17a3421ccdf671b", null ],
+      [ "Cubic", "namespace_primo_software_1_1_a_v_blocks.html#aa0081e804011c551ea0f4a596a64b284aec6b5414eb175379ff9efc9b3eef5814", null ],
+      [ "Super", "namespace_primo_software_1_1_a_v_blocks.html#aa0081e804011c551ea0f4a596a64b284a0ce3266d4eb71ad50f7a90aee6d21dcd", null ],
+      [ "Lanczos", "namespace_primo_software_1_1_a_v_blocks.html#aa0081e804011c551ea0f4a596a64b284a32970f54c315ab41c0582e2ed8eb4a7c", null ]
+    ] ],
+    [ "LicenseStatusFlags", "namespace_primo_software_1_1_a_v_blocks.html#aff41c04936d649eb77d5fe40ce8650e5", [
+      [ "Ready", "namespace_primo_software_1_1_a_v_blocks.html#aff41c04936d649eb77d5fe40ce8650e5ae7d31fc0602fb2ede144d18cdffd816b", null ],
+      [ "ValidationInProgress", "namespace_primo_software_1_1_a_v_blocks.html#aff41c04936d649eb77d5fe40ce8650e5abcf2ced8d208ee76a1237fe8f780ab8d", null ],
+      [ "DemoBuild", "namespace_primo_software_1_1_a_v_blocks.html#aff41c04936d649eb77d5fe40ce8650e5aff36c1d3e9d1d435c9ed2bf787425c79", null ]
+    ] ],
+    [ "MediaSampleFlags", "namespace_primo_software_1_1_a_v_blocks.html#a2dd41ef09c84975a57bd7c3699cde61e", [
+      [ "None", "namespace_primo_software_1_1_a_v_blocks.html#a2dd41ef09c84975a57bd7c3699cde61ea6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "KeyFrame", "namespace_primo_software_1_1_a_v_blocks.html#a2dd41ef09c84975a57bd7c3699cde61eaa4432f742cdf9e03545097e8696c83b6", null ],
+      [ "Bos", "namespace_primo_software_1_1_a_v_blocks.html#a2dd41ef09c84975a57bd7c3699cde61eabe233ff11df2249ac43b26739e293d8b", null ],
+      [ "Eos", "namespace_primo_software_1_1_a_v_blocks.html#a2dd41ef09c84975a57bd7c3699cde61ea86d16d93f97145c1c4532ada5501eaeb", null ]
+    ] ],
+    [ "MediaType", "namespace_primo_software_1_1_a_v_blocks.html#a1499e9f8a76cb81b43b7a4b0dbe7e44a", [
+      [ "Unknown", "namespace_primo_software_1_1_a_v_blocks.html#a1499e9f8a76cb81b43b7a4b0dbe7e44aa88183b946cc5f0e8c96b2e66e1c74a7e", null ],
+      [ "Audio", "namespace_primo_software_1_1_a_v_blocks.html#a1499e9f8a76cb81b43b7a4b0dbe7e44aab22f0418e8ac915eb66f829d262d14a2", null ],
+      [ "Video", "namespace_primo_software_1_1_a_v_blocks.html#a1499e9f8a76cb81b43b7a4b0dbe7e44aa34e2d1989a1dbf75cd631596133ee5ee", null ],
+      [ "Text", "namespace_primo_software_1_1_a_v_blocks.html#a1499e9f8a76cb81b43b7a4b0dbe7e44aa9dffbf69ffba8bc38bc4e01abf4b1675", null ],
+      [ "Data", "namespace_primo_software_1_1_a_v_blocks.html#a1499e9f8a76cb81b43b7a4b0dbe7e44aaf6068daa29dbb05a7ead1e3b5a48bbee", null ]
+    ] ],
+    [ "MetaPictureType", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180daf", [
+      [ "Other", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafa6311ae17c1ee52b36e68aaf4ad066387", null ],
+      [ "FileIcon", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafa6f4354513ab53a31907dc54beedd8ece", null ],
+      [ "OtherFileIcon", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafaed15d46c41704f96d04c48b830354e96", null ],
+      [ "FrontCover", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafa3c596677931997699b7726c77b5a225e", null ],
+      [ "BackCover", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafaa1773ff90ad1410b2cf7e25d7923201a", null ],
+      [ "LeafletPage", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafa0e5d34a71b13718fa1c3b89025f7a6da", null ],
+      [ "Media", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafa3b563524fdb17b4a86590470d40bef74", null ],
+      [ "LeadArtist", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafab182985c873176c613499e259d3cefee", null ],
+      [ "Artist", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafa4047c5607db6be8e0081725f0d164309", null ],
+      [ "Conductor", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafa36863bb60e791696c8829546b232c51c", null ],
+      [ "Band", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafa67fd95fc1e88f15b3efb9feef0fc0dc9", null ],
+      [ "Composer", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafabcba235aa0401fd10464df6afbfaab77", null ],
+      [ "TextWriter", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafaf5700161130715e3d0a7df31fa6ea222", null ],
+      [ "RecordingLocation", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafa670a3c4c8d5e4f4075aca65a450e70df", null ],
+      [ "DuringRecording", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafaabf1596e192998f095d99207e82685bc", null ],
+      [ "DuringPerformance", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafa70166ee965a46d54076aa6d230a09242", null ],
+      [ "VideoCapture", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafa247179669d32f4eed3bda97def5b32cf", null ],
+      [ "BrightColoredFish", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafa02c3b45b8e2abdcea1c0a087139d65df", null ],
+      [ "Illustration", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafa33dca68e340b8d6c21472341130cf45a", null ],
+      [ "ArtistLogotype", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafa017c079037da0406ceff947dfc84d1cb", null ],
+      [ "PublisherLogotype", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafae670d72fb533ef9d24432758178d5486", null ]
+    ] ],
+    [ "PcmFlags", "namespace_primo_software_1_1_a_v_blocks.html#a407b51be248df6af907584f525b53713", [
+      [ "None", "namespace_primo_software_1_1_a_v_blocks.html#a407b51be248df6af907584f525b53713a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "Unsigned", "namespace_primo_software_1_1_a_v_blocks.html#a407b51be248df6af907584f525b53713aa1a914735b205424ba6c40b85528d78a", null ],
+      [ "Float", "namespace_primo_software_1_1_a_v_blocks.html#a407b51be248df6af907584f525b53713a22ae0e2b89e5e3d477f988cc36d3272b", null ],
+      [ "BigEndian", "namespace_primo_software_1_1_a_v_blocks.html#a407b51be248df6af907584f525b53713a2ce7a92ae43763828ac4acb4560c2a5b", null ],
+      [ "NonInterleaved", "namespace_primo_software_1_1_a_v_blocks.html#a407b51be248df6af907584f525b53713a8c8449ba55a3d13a5f5670564d289270", null ]
+    ] ],
+    [ "PictureType", "namespace_primo_software_1_1_a_v_blocks.html#a4f37629f775549c508f4c5625ae348b3", [
+      [ "None", "namespace_primo_software_1_1_a_v_blocks.html#a4f37629f775549c508f4c5625ae348b3a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "I", "namespace_primo_software_1_1_a_v_blocks.html#a4f37629f775549c508f4c5625ae348b3add7536794b63bf90eccfd37f9b147d7f", null ],
+      [ "P", "namespace_primo_software_1_1_a_v_blocks.html#a4f37629f775549c508f4c5625ae348b3a44c29edb103a2872f519ad0c9a0fdaaa", null ],
+      [ "B", "namespace_primo_software_1_1_a_v_blocks.html#a4f37629f775549c508f4c5625ae348b3a9d5ed678fe57bcca610140957afab571", null ],
+      [ "D", "namespace_primo_software_1_1_a_v_blocks.html#a4f37629f775549c508f4c5625ae348b3af623e75af30e62bbd73d6df5b50bb7b5", null ]
+    ] ],
+    [ "ScanType", "namespace_primo_software_1_1_a_v_blocks.html#ae5946ed4b15008a587172896601a9027", [
+      [ "Unknown", "namespace_primo_software_1_1_a_v_blocks.html#ae5946ed4b15008a587172896601a9027a88183b946cc5f0e8c96b2e66e1c74a7e", null ],
+      [ "Progressive", "namespace_primo_software_1_1_a_v_blocks.html#ae5946ed4b15008a587172896601a9027a9712e73e86ea0fe944ca2ce3f9f7dd87", null ],
+      [ "TopFieldFirst", "namespace_primo_software_1_1_a_v_blocks.html#ae5946ed4b15008a587172896601a9027ae35b3897b1d3751f6695ccfa577e1852", null ],
+      [ "BottomFieldFirst", "namespace_primo_software_1_1_a_v_blocks.html#ae5946ed4b15008a587172896601a9027a3033cfb3ca2f42a4a6562c8f8d7f9ca3", null ]
+    ] ],
+    [ "StereoMode", "namespace_primo_software_1_1_a_v_blocks.html#a20500aa6c8f5d67536fc6206d9e3ddf6", [
+      [ "None", "namespace_primo_software_1_1_a_v_blocks.html#a20500aa6c8f5d67536fc6206d9e3ddf6a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "LR", "namespace_primo_software_1_1_a_v_blocks.html#a20500aa6c8f5d67536fc6206d9e3ddf6a90a7c45eaffbd575ca6fb361e6d170a4", null ],
+      [ "MidSide", "namespace_primo_software_1_1_a_v_blocks.html#a20500aa6c8f5d67536fc6206d9e3ddf6aee1dcf546d64fa6c4b0d403eaca591e2", null ],
+      [ "Joint", "namespace_primo_software_1_1_a_v_blocks.html#a20500aa6c8f5d67536fc6206d9e3ddf6ab14c4e12de0d9e54e7b57d5d9a39cb99", null ]
+    ] ],
+    [ "StreamSubType", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0a", [
+      [ "Unknown", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa88183b946cc5f0e8c96b2e66e1c74a7e", null ],
+      [ "None", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "AacAdts", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa2fcc1ad19530b15f4c5ca9245f77fc3e", null ],
+      [ "AacAdif", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa9b3e58f4842c670269bd2e8afa7eebd5", null ],
+      [ "AacMp4", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa53595ceabed833f83bb0661ef16f8220", null ],
+      [ "AvcC", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aab3af383eb9fb61dcc453cf4e50b492cd", null ],
+      [ "Avc1", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa0065dd5ab15e4d9256e3cc15dc3c8255", null ],
+      [ "MpegTsBdav", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa7f16c4d7934d90e14fe6242a0a21f8ce", null ],
+      [ "MpegAudioLayer1", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa9a98d09d2c9455e839e70358b984bda3", null ],
+      [ "MpegAudioLayer2", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa4b87f1525c7382ff23486097723de00d", null ],
+      [ "MpegAudioLayer3", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aaf87c6771091ac5d8b048e651fc63941c", null ],
+      [ "G726PackedRFC3551", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa589f0e3662ef264d0a3d947a01815cc0", null ],
+      [ "G726PackedAAL2", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa83e1bb786c5b6ec8e8c4de1869946118", null ],
+      [ "Mpeg1System", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa62e9783fc59222e55180528ea6157117", null ],
+      [ "Mpeg2System", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa7707159993fc5349c7e1926752575f3d", null ],
+      [ "AvcAnnexB", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa99e60ce701958449584368a46046e999", null ],
+      [ "AacRaw", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa7ff9b6b64017ca1146bb7f1e59cde75e", null ]
+    ] ],
+    [ "StreamType", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1d", [
+      [ "Unknown", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da88183b946cc5f0e8c96b2e66e1c74a7e", null ],
+      [ "BEGIN_AUDIO", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1dab4b3b2c370c4c9671b4729a014174d70", null ],
+      [ "LPCM", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1dad4e44911dba62cfb025d1dd56fab93ad", null ],
+      [ "ALawPCM", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacd8e1c06fa6eaa91e116084b6d4d2840", null ],
+      [ "MuLawPCM", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1dafe733090089804085133acf8a2ce04de", null ],
+      [ "VideoDvdPCM", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1daf1bb0b218198c779faa68b07f366f44d", null ],
+      [ "Ac3", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4dc48013372f55065c88afaa67d4849f", null ],
+      [ "Dts", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1daf62058797a72e3e0ce702319e7d41203", null ],
+      [ "MpegAudio", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1dabfc0ffb74137c35a21d352a150e1029c", null ],
+      [ "Vorbis", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da193f52b6a96ab8ea777d9613884cea04", null ],
+      [ "Aac", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da74787479717e3e2fa0e72ec5f96d47ff", null ],
+      [ "AmrNarrowBand", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da28e8821d690429bf0a8044a6ce51b940", null ],
+      [ "AmrWideBand", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1dac7b8a44c730bd3926d7ac89c880ae9d2", null ],
+      [ "G726ADPCM", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1dac155faf850ade2d91168dac31e37f5ad", null ],
+      [ "Wma", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da34c805566abc50396217337ac74fa2f6", null ],
+      [ "Wma_Professional", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1dadfe9e3b0039062bf7b28fe65ebd402e4", null ],
+      [ "Wma_Lossless", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da33e6990fc6259aa8f2918ea7580155eb", null ],
+      [ "END_AUDIO", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da89897e42041db5db665c244838a35668", null ],
+      [ "BEGIN_VIDEO", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da6b5cca48d7865296a481580b3db0bbce", null ],
+      [ "UncompressedVideo", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1dae0d009c89ec42d0334baac7f35a5f479", null ],
+      [ "Mpeg1Video", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1dae21a444312ef165b319fdc85eea42457", null ],
+      [ "Mpeg2Video", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1dad93e313de5e163964486f0585c0b5ebb", null ],
+      [ "Mpeg4Video", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1daeb55005008d1645f4b679752308e4a0d", null ],
+      [ "H261", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1daef2fd40a37f832b97ed5ada5ff62c925", null ],
+      [ "H263", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da0a78d5c9a13a628acf93e07a543888c7", null ],
+      [ "H264", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da8ba63b54352f7053b055235a9ec7ac09", null ],
+      [ "Avc", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da737832a988701899d7faa2cf2cf8a558", null ],
+      [ "Wmv", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da73bc98b944905168c92d9b238b655b56", null ],
+      [ "Mjpeg", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1dada6f35b5ccab547c40e01146a0dcc3e5", null ],
+      [ "Vc1", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1daebd459806d8cdf7f6d0e27a4258b63fb", null ],
+      [ "Avs", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da2b1521d9dcfcb6d69a932bef1e359087", null ],
+      [ "Vp8", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da09ca7286f42cfe7c5e63ee4eb8080323", null ],
+      [ "Theora", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da58abc4af41b72b5857e728f1f064341c", null ],
+      [ "H265", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da5be0961e6e8a5cd49abb33d4c0f0ffc0", null ],
+      [ "Hevc", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da306885d711b2cfcfca85b4d1f2f236d1", null ],
+      [ "END_VIDEO", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1daa83c20002d12c65cce739f543de92fc2", null ],
+      [ "BEGIN_CONTAINER", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da69fb0f7b44a9130f78958b56f50b3b95", null ],
+      [ "Avi", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da75614c3fca429c06226ca2518abb73aa", null ],
+      [ "Mp4", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da7d761542d4b5ea168dc156e85a9a2949", null ],
+      [ "Asf", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da6db04a1c8e2ce2fe8c9442d55b796610", null ],
+      [ "MpegPS", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da1d5d735bf22717f15f85aba2352ebbae", null ],
+      [ "MpegTS", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da16f3d319e8c995bc8af3858748aa2e5c", null ],
+      [ "MpegPES", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da581517d1b5f94ea28682c061f641b0b8", null ],
+      [ "Wave", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1dad911b34823c7674c292556dc56148c27", null ],
+      [ "Flv", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1dac69586e75ef1459948272eea4b4af901", null ],
+      [ "Ogg", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da7a99342f8dcbdacd3ed66edf2add143d", null ],
+      [ "WebM", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da84f150cd3bd226ebb3708b998d164d4c", null ],
+      [ "END_CONTAINER", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1daadccd2a1a325b41bc67c9aa9d937a256", null ],
+      [ "BEGIN_IMAGE", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da8ae512eb37f8bc8d6156a23657f0ef0e", null ],
+      [ "Bmp", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da021d8346462df53d4272607b0f41a8d8", null ],
+      [ "Png", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1daf8fd4f1b5b05c6b1cc6a661141fd4f54", null ],
+      [ "Jpeg", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da5023eac1d7fffa77b37c0e6797c97773", null ],
+      [ "Tiff", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da72ab34b91787bd01f445189e04fef4ce", null ],
+      [ "Gif", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1dab28f315fa877ea6a840b6a4ea5401256", null ],
+      [ "END_IMAGE", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da096325dbde18c62620afbe50438197a0", null ],
+      [ "BEGIN_DATA", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da67dabb1aa4f801621daabe3e55ffab94", null ],
+      [ "Teletext", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1dab9a8b0bcfe5417cc4d531a53fb2a0c6d", null ],
+      [ "MpegPsiPackets", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da1b9f1191348f440c632e23077aa3cffc", null ],
+      [ "MpegTsPackets", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da66105fc27cc48df6e8ac504fb22387ab", null ],
+      [ "END_DATA", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1daa7f2fc65609f7689f755c7b02f90e610", null ]
+    ] ],
+    [ "TranscoderError", "namespace_primo_software_1_1_a_v_blocks.html#a927c62b00e2f0aaa1cb2579075d06640", [
+      [ "NoChain", "namespace_primo_software_1_1_a_v_blocks.html#a927c62b00e2f0aaa1cb2579075d06640a663025182e94d12f97d7fcea67f2fcb5", null ],
+      [ "UndefinedSocketType", "namespace_primo_software_1_1_a_v_blocks.html#a927c62b00e2f0aaa1cb2579075d06640aa8314a90ba70fb3e3176eb4a6092607c", null ],
+      [ "UnsupportedInterlacedConversion", "namespace_primo_software_1_1_a_v_blocks.html#a927c62b00e2f0aaa1cb2579075d06640a4c6667815ae1dee22310c7de37478c6b", null ],
+      [ "NoCodec", "namespace_primo_software_1_1_a_v_blocks.html#a927c62b00e2f0aaa1cb2579075d06640a85e0c6e8ccd25f11d89a1e0361c2442a", null ],
+      [ "UnsupportedVideoConversion", "namespace_primo_software_1_1_a_v_blocks.html#a927c62b00e2f0aaa1cb2579075d06640abcd0369cde3a06836a4b47ba48d751ff", null ],
+      [ "InputFull", "namespace_primo_software_1_1_a_v_blocks.html#a927c62b00e2f0aaa1cb2579075d06640aa8c126254ecbf9feaf58707a4e9215a0", null ],
+      [ "BufferFull", "namespace_primo_software_1_1_a_v_blocks.html#a927c62b00e2f0aaa1cb2579075d06640a1a22c40923d2978b2a258720df650702", null ],
+      [ "InputNeeded", "namespace_primo_software_1_1_a_v_blocks.html#a927c62b00e2f0aaa1cb2579075d06640a2cb8938702aecc83838f27f0d3e801e6", null ]
+    ] ],
+    [ "TranscoderStatus", "namespace_primo_software_1_1_a_v_blocks.html#aa011ff6d737f381ecf2ae8e6099b3d1d", [
+      [ "Completed", "namespace_primo_software_1_1_a_v_blocks.html#aa011ff6d737f381ecf2ae8e6099b3d1da07ca5050e697392c9ed47e6453f1453f", null ]
+    ] ],
+    [ "Use", "namespace_primo_software_1_1_a_v_blocks.html#a2a371770dd4d2c02e361fd20848a6cc3", [
+      [ "Off", "namespace_primo_software_1_1_a_v_blocks.html#a2a371770dd4d2c02e361fd20848a6cc3ad15305d7a4e34e02489c74a5ef542f36", null ],
+      [ "On", "namespace_primo_software_1_1_a_v_blocks.html#a2a371770dd4d2c02e361fd20848a6cc3a521c36a31c2762741cf0f8890cbe05e3", null ],
+      [ "Auto", "namespace_primo_software_1_1_a_v_blocks.html#a2a371770dd4d2c02e361fd20848a6cc3a06b9281e396db002010bde1de57262eb", null ]
+    ] ]
 ];

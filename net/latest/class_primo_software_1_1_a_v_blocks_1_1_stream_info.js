@@ -7,7 +7,6 @@ var class_primo_software_1_1_a_v_blocks_1_1_stream_info =
     [ "Duration", "class_primo_software_1_1_a_v_blocks_1_1_stream_info.html#adffe619e5f72f53f179d8ad7303111cb", null ],
     [ "ID", "class_primo_software_1_1_a_v_blocks_1_1_stream_info.html#af180e926633cde08a05ccbc3af397ee4", null ],
     [ "Immutable", "class_primo_software_1_1_a_v_blocks_1_1_stream_info.html#aa612cb6ff7d93cfb6e22a711694b80f8", null ],
-    [ "Immutable", "class_primo_software_1_1_a_v_blocks_1_1_stream_info.html#a7950b67879dba2d0ff3ca6ff09dd9065", null ],
     [ "MediaType", "class_primo_software_1_1_a_v_blocks_1_1_stream_info.html#a4d619eced8ede6b0d7310aeb2696d921", null ],
     [ "ProgramNumber", "class_primo_software_1_1_a_v_blocks_1_1_stream_info.html#ae04a9053dbbc941cfcde5274e9d67d26", null ],
     [ "StreamSubType", "class_primo_software_1_1_a_v_blocks_1_1_stream_info.html#a5246dc57c08a72bf48914ac4480f7598", null ],

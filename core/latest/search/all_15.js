@@ -16,7 +16,7 @@ var searchData=
   ['videobuffersizeinbytes_13',['videoBufferSizeInBytes',['../classprimo_1_1codecs_1_1_media_sample.html#ab9ed8ff9c8c362efcd0221257281fc29',1,'primo::codecs::MediaSample']]],
   ['videocapture_14',['VideoCapture',['../namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091ad35e7ff2ce06d1139a1df6755f00a31b',1,'primo::codecs::MetaPictureType']]],
   ['videocodingengine_15',['VideoCodingEngine',['../namespaceprimo_1_1codecs_1_1_hw_engine.html#a8150b7776c2a1749101acf22e868d091a9c4c566f32ebaed00324fbfd6deaca81',1,'primo::codecs::HwEngine']]],
-  ['videostreaminfo_16',['VideoStreamInfo',['../classprimo_1_1codecs_1_1_video_stream_info.html',1,'VideoStreamInfo'],['../namespaceprimo_1_1avblocks_1_1_param_type.html#a8150b7776c2a1749101acf22e868d091a4c237ec70160683b057f89633e52ec96',1,'primo::avblocks::ParamType::VideoStreamInfo()']]],
+  ['videostreaminfo_16',['VideoStreamInfo',['../classprimo_1_1codecs_1_1_video_stream_info.html',1,'VideoStreamInfo'],['../namespaceprimo_1_1avblocks_1_1_param_type.html#a8150b7776c2a1749101acf22e868d091a4c237ec70160683b057f89633e52ec96',1,'primo::avblocks::ParamType::VideoStreamInfo']]],
   ['videostreaminfoparameter_17',['VideoStreamInfoParameter',['../classprimo_1_1avblocks_1_1_video_stream_info_parameter.html',1,'primo::avblocks']]],
   ['voice_18',['Voice',['../namespaceprimo_1_1avblocks_1_1_preset_1_1_audio_1_1_generic_1_1_m_p3.html#aba4530842b41ef9cda587149eeff8b1f',1,'primo::avblocks::Preset::Audio::Generic::MP3']]],
   ['vorbis_19',['Vorbis',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a509152e23ae851f624d166cc7d9e9280',1,'primo::codecs::StreamType']]],

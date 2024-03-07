@@ -9,5 +9,5 @@ var searchData=
   ['recordingdates_6',['RecordingDates',['../namespaceprimo_1_1codecs_1_1_meta.html#aa3d405d3344dc53e090efe0989ab97c5',1,'primo::codecs::Meta']]],
   ['reencode_7',['ReEncode',['../namespaceprimo_1_1avblocks_1_1_param.html#a52e93dabac1da346b0b8a463a424ff59',1,'primo::avblocks::Param']]],
   ['remixartist_8',['RemixArtist',['../namespaceprimo_1_1codecs_1_1_meta.html#ad7e3af09def8d64f732a43bccb635555',1,'primo::codecs::Meta']]],
-  ['right_9',['Right',['../namespaceprimo_1_1avblocks_1_1_param_1_1_video_1_1_crop.html#ae2938a50e7fbddb86013cf7ca7e1508f',1,'primo::avblocks::Param::Video::Crop::Right()'],['../namespaceprimo_1_1avblocks_1_1_param_1_1_video_1_1_pad.html#ae2938a50e7fbddb86013cf7ca7e1508f',1,'primo::avblocks::Param::Video::Pad::Right()']]]
+  ['right_9',['Right',['../namespaceprimo_1_1avblocks_1_1_param_1_1_video_1_1_crop.html#ae2938a50e7fbddb86013cf7ca7e1508f',1,'primo::avblocks::Param::Video::Crop::Right'],['../namespaceprimo_1_1avblocks_1_1_param_1_1_video_1_1_pad.html#ae2938a50e7fbddb86013cf7ca7e1508f',1,'primo::avblocks::Param::Video::Pad::Right']]]
 ];

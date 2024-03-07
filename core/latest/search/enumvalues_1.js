@@ -23,5 +23,5 @@ var searchData=
   ['bmp_20',['BMP',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a472992a8061f64e53dced30fb026b3b7',1,'primo::codecs::StreamType']]],
   ['bottomfieldfirst_21',['BottomFieldFirst',['../namespaceprimo_1_1codecs_1_1_scan_type.html#a8150b7776c2a1749101acf22e868d091af9b860dc4b3951e5ff4fb32f072d2fd2',1,'primo::codecs::ScanType']]],
   ['brightcoloredfish_22',['BrightColoredFish',['../namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091a6cb681b2418886164f043e91ffcee129',1,'primo::codecs::MetaPictureType']]],
-  ['bufferfull_23',['BufferFull',['../namespaceprimo_1_1codecs_1_1_codec_error.html#a8150b7776c2a1749101acf22e868d091a36da9e40d8863a0149134f0ab34899de',1,'primo::codecs::CodecError::BufferFull()'],['../namespaceprimo_1_1avblocks_1_1_transcoder_error.html#a8150b7776c2a1749101acf22e868d091a36da9e40d8863a0149134f0ab34899de',1,'primo::avblocks::TranscoderError::BufferFull()']]]
+  ['bufferfull_23',['BufferFull',['../namespaceprimo_1_1codecs_1_1_codec_error.html#a8150b7776c2a1749101acf22e868d091a36da9e40d8863a0149134f0ab34899de',1,'primo::codecs::CodecError::BufferFull'],['../namespaceprimo_1_1avblocks_1_1_transcoder_error.html#a8150b7776c2a1749101acf22e868d091a36da9e40d8863a0149134f0ab34899de',1,'primo::avblocks::TranscoderError::BufferFull']]]
 ];

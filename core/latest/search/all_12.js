@@ -66,7 +66,7 @@ var searchData=
   ['spatial_63',['Spatial',['../namespaceprimo_1_1codecs_1_1_h264_direct_pred_mode.html#a8150b7776c2a1749101acf22e868d091a4c919f1f3a0d4260c110e90280e040df',1,'primo::codecs::H264DirectPredMode']]],
   ['start_64',['start',['../classprimo_1_1codecs_1_1_media_buffer.html#a0893732f48b8199706c1a99fbb0383cd',1,'primo::codecs::MediaBuffer']]],
   ['starttime_65',['startTime',['../classprimo_1_1codecs_1_1_media_sample.html#a5021b8543e0082ba6e88fc8301aed1d3',1,'primo::codecs::MediaSample']]],
-  ['stereomode_66',['StereoMode',['../namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_a_a_c.html#a6f0b5911bb6bfc1baac97f64dc22c749',1,'primo::avblocks::Param::Encoder::Audio::AAC::StereoMode()'],['../namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_m_p_e_g1.html#a6f0b5911bb6bfc1baac97f64dc22c749',1,'primo::avblocks::Param::Encoder::Audio::MPEG1::StereoMode()']]],
+  ['stereomode_66',['StereoMode',['../namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_a_a_c.html#a6f0b5911bb6bfc1baac97f64dc22c749',1,'primo::avblocks::Param::Encoder::Audio::AAC::StereoMode'],['../namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_m_p_e_g1.html#a6f0b5911bb6bfc1baac97f64dc22c749',1,'primo::avblocks::Param::Encoder::Audio::MPEG1::StereoMode']]],
   ['stream_67',['Stream',['../classprimo_1_1_stream.html',1,'primo']]],
   ['stream_68',['stream',['../classprimo_1_1avblocks_1_1_media_socket.html#ab29ae83be0b3e471ce123f6676ff81ec',1,'primo::avblocks::MediaSocket']]],
   ['stream_2eh_69',['stream.h',['../stream_8h.html',1,'']]],

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['facility_0',['facility',['../classprimo_1_1error_1_1_error_info.html#af9cae68514084ddd7e2d0cb0e0888d55',1,'primo::error::ErrorInfo']]],
-  ['failed_1',['Failed',['../namespaceprimo_1_1avblocks_1_1_a_v_blocks_error.html#a8150b7776c2a1749101acf22e868d091a1f506c828f4945d6b5a7bf71445f7d54',1,'primo::avblocks::AVBlocksError::Failed()'],['../namespaceprimo_1_1codecs_1_1_codec_error.html#a8150b7776c2a1749101acf22e868d091a1f506c828f4945d6b5a7bf71445f7d54',1,'primo::codecs::CodecError::Failed()']]],
+  ['failed_1',['Failed',['../namespaceprimo_1_1avblocks_1_1_a_v_blocks_error.html#a8150b7776c2a1749101acf22e868d091a1f506c828f4945d6b5a7bf71445f7d54',1,'primo::avblocks::AVBlocksError::Failed'],['../namespaceprimo_1_1codecs_1_1_codec_error.html#a8150b7776c2a1749101acf22e868d091a1f506c828f4945d6b5a7bf71445f7d54',1,'primo::codecs::CodecError::Failed']]],
   ['faststart_2',['FastStart',['../namespaceprimo_1_1avblocks_1_1_param_1_1_muxer_1_1_m_p4.html#a61ab14529c821f518bc923c10af57987',1,'primo::avblocks::Param::Muxer::MP4']]],
   ['faststarttempfiledirectory_3',['FastStartTempFileDirectory',['../namespaceprimo_1_1avblocks_1_1_param_1_1_muxer_1_1_m_p4.html#ae6c355a877060b867301d1b5b29eff50',1,'primo::avblocks::Param::Muxer::MP4']]],
   ['faststartusetempfile_4',['FastStartUseTempFile',['../namespaceprimo_1_1avblocks_1_1_param_1_1_muxer_1_1_m_p4.html#ad1ea4e520f0ba91f0aee0055e0218462',1,'primo::avblocks::Param::Muxer::MP4']]],
@@ -11,7 +11,7 @@ var searchData=
   ['filetype_8',['FileType',['../namespaceprimo_1_1codecs_1_1_meta.html#a21afb149c02d91482851c53a3e4146b3',1,'primo::codecs::Meta']]],
   ['fixedframerate_9',['FixedFramerate',['../namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_h264.html#a2200155cf820604ab5dd45da5c48ce56',1,'primo::avblocks::Param::Encoder::Video::H264']]],
   ['flags_10',['flags',['../classprimo_1_1codecs_1_1_media_sample.html#a5d4e36c835e9fdd1babaffdaa763b529',1,'primo::codecs::MediaSample']]],
-  ['float_11',['Float',['../namespaceprimo_1_1avblocks_1_1_param_type.html#a8150b7776c2a1749101acf22e868d091ad67b0ee7230dcecb610254e4e5e589cd',1,'primo::avblocks::ParamType::Float()'],['../namespaceprimo_1_1codecs_1_1_pcm_flags.html#a8150b7776c2a1749101acf22e868d091ad67b0ee7230dcecb610254e4e5e589cd',1,'primo::codecs::PcmFlags::Float()']]],
+  ['float_11',['Float',['../namespaceprimo_1_1avblocks_1_1_param_type.html#a8150b7776c2a1749101acf22e868d091ad67b0ee7230dcecb610254e4e5e589cd',1,'primo::avblocks::ParamType::Float'],['../namespaceprimo_1_1codecs_1_1_pcm_flags.html#a8150b7776c2a1749101acf22e868d091ad67b0ee7230dcecb610254e4e5e589cd',1,'primo::codecs::PcmFlags::Float']]],
   ['floatparameter_12',['FloatParameter',['../classprimo_1_1avblocks_1_1_float_parameter.html',1,'primo::avblocks']]],
   ['flush_13',['flush',['../classprimo_1_1avblocks_1_1_transcoder.html#a2ea5df83ae9ccf536044b61624966793',1,'primo::avblocks::Transcoder::flush()'],['../classprimo_1_1avblocks_1_1_block.html#a2ea5df83ae9ccf536044b61624966793',1,'primo::avblocks::Block::flush()']]],
   ['flv_14',['FLV',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a3648fb67ff3ff0f5baefbff1eb09b651',1,'primo::codecs::StreamType']]],

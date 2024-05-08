@@ -1,5 +1,8 @@
 var NAVTREEINDEX8 =
 {
+"namespaceprimo_1_1codecs_1_1_bitrate_mode.html#a8150b7776c2a1749101acf22e868d091":[7,0,0,1,2,0],
+"namespaceprimo_1_1codecs_1_1_bitrate_mode.html#a8150b7776c2a1749101acf22e868d091a4e81c184ac3ad48a389cd4454c4a05bb":[7,0,0,1,2,0,0],
+"namespaceprimo_1_1codecs_1_1_bitrate_mode.html#a8150b7776c2a1749101acf22e868d091a5cd8a75942875437b0216e7e61693596":[7,0,0,1,2,0,2],
 "namespaceprimo_1_1codecs_1_1_bitrate_mode.html#a8150b7776c2a1749101acf22e868d091adb1ecf549b5c6f145b2aff320909c70e":[7,0,0,1,2,0,1],
 "namespaceprimo_1_1codecs_1_1_bitrate_mode.html#a8150b7776c2a1749101acf22e868d091aec0e4cea04deed8f70e9fc92ca46f4aa":[7,0,0,1,2,0,3],
 "namespaceprimo_1_1codecs_1_1_codec_error.html":[7,0,0,1,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX8 =
 "namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091acf5a730c6a2aa72b3276064f943ca2c0":[7,0,0,1,25,0,8],
 "namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091ad35e7ff2ce06d1139a1df6755f00a31b":[7,0,0,1,25,0,16],
 "namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091adaa08f4470a095c6e7a07de4b8c1576f":[7,0,0,1,25,0,12],
-"namespaceprimo_1_1codecs_1_1_mime_type.html":[7,0,0,1,26],
-"namespaceprimo_1_1codecs_1_1_mime_type.html#a38ddb509c1429a0aa36c349102d6db4e":[7,0,0,1,26,2],
-"namespaceprimo_1_1codecs_1_1_mime_type.html#ac9647b60922705b06bac625591905664":[7,0,0,1,26,0],
-"namespaceprimo_1_1codecs_1_1_mime_type.html#accbe0d77c6113fcf2a781b2d99feb2f3":[7,0,0,1,26,1]
+"namespaceprimo_1_1codecs_1_1_mime_type.html":[7,0,0,1,26]
 };

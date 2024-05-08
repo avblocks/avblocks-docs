@@ -1,5 +1,8 @@
 var NAVTREEINDEX7 =
 {
+"namespaceprimo_1_1avblocks_1_1_param_1_1_video.html":[7,0,0,0,3,4],
+"namespaceprimo_1_1avblocks_1_1_param_1_1_video_1_1_crop.html":[7,0,0,0,3,4,0],
+"namespaceprimo_1_1avblocks_1_1_param_1_1_video_1_1_crop.html#a047032796d171434cbd1746fa7279e43":[7,0,0,0,3,4,0,0],
 "namespaceprimo_1_1avblocks_1_1_param_1_1_video_1_1_crop.html#a28f4b82c2d640c223803e320fe5bafc5":[7,0,0,0,3,4,0,3],
 "namespaceprimo_1_1avblocks_1_1_param_1_1_video_1_1_crop.html#a5aac0a6b1c2e2bf29dda37a2674dfb9a":[7,0,0,0,3,4,0,1],
 "namespaceprimo_1_1avblocks_1_1_param_1_1_video_1_1_crop.html#ae2938a50e7fbddb86013cf7ca7e1508f":[7,0,0,0,3,4,0,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX7 =
 "namespaceprimo_1_1codecs_1_1_audio_channel_flags.html#a8150b7776c2a1749101acf22e868d091ad48f7af8c070184f3774c8e85854eb66":[7,0,0,1,1,0,2],
 "namespaceprimo_1_1codecs_1_1_audio_channel_flags.html#a8150b7776c2a1749101acf22e868d091aee98914fb5c28394b960e5e29daa6e5e":[7,0,0,1,1,0,23],
 "namespaceprimo_1_1codecs_1_1_audio_channel_flags.html#a8150b7776c2a1749101acf22e868d091aef9dd058a905f2770232af0384bd1249":[7,0,0,1,1,0,8],
-"namespaceprimo_1_1codecs_1_1_bitrate_mode.html":[7,0,0,1,2],
-"namespaceprimo_1_1codecs_1_1_bitrate_mode.html#a8150b7776c2a1749101acf22e868d091":[7,0,0,1,2,0],
-"namespaceprimo_1_1codecs_1_1_bitrate_mode.html#a8150b7776c2a1749101acf22e868d091a4e81c184ac3ad48a389cd4454c4a05bb":[7,0,0,1,2,0,0],
-"namespaceprimo_1_1codecs_1_1_bitrate_mode.html#a8150b7776c2a1749101acf22e868d091a5cd8a75942875437b0216e7e61693596":[7,0,0,1,2,0,2]
+"namespaceprimo_1_1codecs_1_1_bitrate_mode.html":[7,0,0,1,2]
 };

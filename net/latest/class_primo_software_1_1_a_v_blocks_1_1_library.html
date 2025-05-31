@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">AVBlocks for .NET
-   &#160;<span id="projectnumber">3.0</span>
+   &#160;<span id="projectnumber">3.1</span>
    </div>
    <div id="projectbrief">Audio and Video Software Development Kit</div>
   </td>
@@ -110,6 +110,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ac3478478bcf2534de2dfe06255a8a071"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_primo_software_1_1_a_v_blocks.html#aff41c04936d649eb77d5fe40ce8650e5">LicenseStatusFlags</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_primo_software_1_1_a_v_blocks_1_1_library.html#ac3478478bcf2534de2dfe06255a8a071">SetLicense</a> (string license)</td></tr>
 <tr class="memdesc:ac3478478bcf2534de2dfe06255a8a071"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a license string.  <br /></td></tr>
 <tr class="separator:ac3478478bcf2534de2dfe06255a8a071"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a166b5d83ffb86d9ea6001cdc0014e3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_primo_software_1_1_a_v_blocks_1_1_library.html#a6a166b5d83ffb86d9ea6001cdc0014e3">SetLicenseTls</a> (bool useTls)</td></tr>
+<tr class="memdesc:a6a166b5d83ffb86d9ea6001cdc0014e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets whether the license validation should use TLS (HTTPS) or not.  <br /></td></tr>
+<tr class="separator:a6a166b5d83ffb86d9ea6001cdc0014e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a704350e4ecd8b0deecaeba8ecac93d4f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_primo_software_1_1_a_v_blocks_1_1_library.html#a704350e4ecd8b0deecaeba8ecac93d4f">Shutdown</a> ()</td></tr>
 <tr class="memdesc:a704350e4ecd8b0deecaeba8ecac93d4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes the AVBlocks library and frees the resources that are used (if any).  <br /></td></tr>
 <tr class="separator:a704350e4ecd8b0deecaeba8ecac93d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -249,6 +252,41 @@ Properties</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The status after the license is set. The returned value is a combination of flags from the LicenseStatusFlags enum. </dd></dl>
 <p>A Demo build of the library cannot be licensed and always returns <a class="el" href="">LicenseStatusFlags.DemoBuild</a>. </p>
 <dl class="section see"><dt>See also</dt><dd>Library.LicenseStatus</dd></dl>
+
+</div>
+</div>
+<a id="a6a166b5d83ffb86d9ea6001cdc0014e3" name="a6a166b5d83ffb86d9ea6001cdc0014e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a166b5d83ffb86d9ea6001cdc0014e3">&#9670;&#160;</a></span>SetLicenseTls()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void SetLicenseTls </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>useTls</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets whether the license validation should use TLS (HTTPS) or not. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">useTls</td><td>If <b>true</b> the license validation will use TLS (HTTPS), otherwise it will use HTTP. The default is <b>false</b>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<p>This setting is used when the license validation is performed against a license server. Must be called before Library.SetLicense. </p>
 
 </div>
 </div>

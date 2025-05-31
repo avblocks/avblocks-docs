@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">AVBlocks for .NET
-   &#160;<span id="projectnumber">3.0</span>
+   &#160;<span id="projectnumber">3.1</span>
    </div>
    <div id="projectbrief">Audio and Video Software Development Kit</div>
   </td>
@@ -91,7 +91,7 @@ Windows</h2>
 <h3><a class="anchor" id="autotoc_md394"></a>
 .NET</h3>
 <ul>
-<li>AVBlocks for .NET requires .NET Framework 4.8 or .NET 6.0 LTS (aka .Net Core)</li>
+<li>AVBlocks for .NET requires <a href="https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48">.NET Framework 4.8</a> or <a href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0">.NET 6.0 LTS</a> (aka .Net Core)</li>
 </ul>
 <h3><a class="anchor" id="autotoc_md395"></a>
 wmvcore.dll</h3>
@@ -106,14 +106,24 @@ msdmo.dll</h3>
 <h2><a class="anchor" id="autotoc_md397"></a>
 macOS</h2>
 <ul>
-<li>.NET 6.0 LTS</li>
+<li><a href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0">.NET 6.0 LTS</a></li>
 </ul>
 <h2><a class="anchor" id="autotoc_md398"></a>
 Linux</h2>
+<h3><a class="anchor" id="autotoc_md399"></a>
+Ubuntu</h3>
 <ul>
-<li>.NET 6.0 LTS </li>
+<li><a href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0">.NET 6.0 LTS</a></li>
 </ul>
-</div></div><!-- contents -->
+<p>These libraries are loaded dynamically by AVBlocks to handle the corresponding image format (jpeg/tiff/png):</p>
+<ul>
+<li>libjpeg8 - JPEG Library</li>
+<li>libtiff5 - TIFF Library and Utilities</li>
+<li>libpng16-16 - PNG Reference Library</li>
+</ul>
+<p>To install all packages, run this command in Terminal:</p>
+<div class="fragment"><div class="line">sudo apt-get install libjpeg8 libtiff5 libpng16-16</div>
+</div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.7-->

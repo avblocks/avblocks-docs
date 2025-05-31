@@ -95,6 +95,7 @@ var avb_8h =
     [ "minorVersion", "avb_8h.html#afbf1e536d797ae0378abeaaea26dc11f", null ],
     [ "patchVersion", "avb_8h.html#a1aa71a5b760014dda63565b1033f25dd", null ],
     [ "setLicense", "avb_8h.html#a4d726c64b5e08851e45043752b4ecd9b", null ],
+    [ "setLicenseTls", "avb_8h.html#a8abee2aba579bb61f3e3c0d68c7c5b24", null ],
     [ "shutdown", "avb_8h.html#a7861ee1569802186a619778efc85af13", null ],
     [ "AAC", "avb_8h.html#a4983d579fcc5ecbab3f6efc297d687b2", null ],
     [ "AccessUnitDelimiters", "avb_8h.html#a54343bff676c170f67c2ad19ed0923b6", null ],

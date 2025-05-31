@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">AVBlocks for C++
-   &#160;<span id="projectnumber">3.0</span>
+   &#160;<span id="projectnumber">3.1</span>
    </div>
    <div id="projectbrief">Audio and Video Software Development Kit</div>
   </td>
@@ -201,6 +201,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a4d726c64b5e08851e45043752b4ecd9b"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprimo_1_1avblocks_1_1_library.html#a4d726c64b5e08851e45043752b4ecd9b">setLicense</a> (const char *license)</td></tr>
 <tr class="memdesc:a4d726c64b5e08851e45043752b4ecd9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a license string.  <br /></td></tr>
 <tr class="separator:a4d726c64b5e08851e45043752b4ecd9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8abee2aba579bb61f3e3c0d68c7c5b24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprimo_1_1avblocks_1_1_library.html#a8abee2aba579bb61f3e3c0d68c7c5b24">setLicenseTls</a> (bool_t useTls)</td></tr>
+<tr class="memdesc:a8abee2aba579bb61f3e3c0d68c7c5b24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets whether TLS (Transport Layer Security) should be used for license validation.  <br /></td></tr>
+<tr class="separator:a8abee2aba579bb61f3e3c0d68c7c5b24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7861ee1569802186a619778efc85af13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprimo_1_1avblocks_1_1_library.html#a7861ee1569802186a619778efc85af13">shutdown</a> ()</td></tr>
 <tr class="memdesc:a7861ee1569802186a619778efc85af13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes the AVBlocks library and frees the resources that are used (if any).  <br /></td></tr>
 <tr class="separator:a7861ee1569802186a619778efc85af13"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -956,6 +959,34 @@ Release the media socket if it will not be used outside of the <a class="el" hre
 <dl class="section return"><dt>Returns</dt><dd>The status after the license is set. The returned value is a combination of flags from the <a class="el" href="namespaceprimo_1_1license_1_1_license_status_flags.html#a8150b7776c2a1749101acf22e868d091">LicenseStatusFlags</a> enum.</dd></dl>
 <dl class="section remark"><dt>Remarks</dt><dd>A Demo build of the library cannot be licensed and always returns <a class="el" href="namespaceprimo_1_1license_1_1_license_status_flags.html#a8150b7776c2a1749101acf22e868d091a4fe0d949cd07f2234e424bfaa3238796">LicenseStatusFlags::DemoBuild</a>.</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="namespaceprimo_1_1license_1_1_license_status_flags.html#a8150b7776c2a1749101acf22e868d091" title="LicenseStatusFlags::Enum.">primo::license::LicenseStatusFlags::Enum</a> </dd></dl>
+
+</div>
+</div>
+<a id="a8abee2aba579bb61f3e3c0d68c7c5b24" name="a8abee2aba579bb61f3e3c0d68c7c5b24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8abee2aba579bb61f3e3c0d68c7c5b24">&#9670;&#160;</a></span>setLicenseTls()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setLicenseTls </td>
+          <td>(</td>
+          <td class="paramtype">bool_t&#160;</td>
+          <td class="paramname"><em>useTls</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets whether TLS (Transport Layer Security) should be used for license validation. </p>
+<p>By default TLS is disabled (not used).</p>
+<dl class="section remark"><dt>Remarks</dt><dd>This method must be called before <a class="el" href="namespaceprimo_1_1avblocks_1_1_library.html#a4d726c64b5e08851e45043752b4ecd9b">Library::setLicense</a> to have an effect.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">useTls</td><td>If TRUE the library will use TLS to validate the license. If FALSE the library will not use TLS to validate the license. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

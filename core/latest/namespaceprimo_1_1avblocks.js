@@ -54,6 +54,7 @@ var namespaceprimo_1_1avblocks =
       [ "minorVersion", "namespaceprimo_1_1avblocks_1_1_library.html#afbf1e536d797ae0378abeaaea26dc11f", null ],
       [ "patchVersion", "namespaceprimo_1_1avblocks_1_1_library.html#a1aa71a5b760014dda63565b1033f25dd", null ],
       [ "setLicense", "namespaceprimo_1_1avblocks_1_1_library.html#a4d726c64b5e08851e45043752b4ecd9b", null ],
+      [ "setLicenseTls", "namespaceprimo_1_1avblocks_1_1_library.html#a8abee2aba579bb61f3e3c0d68c7c5b24", null ],
       [ "shutdown", "namespaceprimo_1_1avblocks_1_1_library.html#a7861ee1569802186a619778efc85af13", null ]
     ] ],
     [ "Param", "namespaceprimo_1_1avblocks_1_1_param.html", "namespaceprimo_1_1avblocks_1_1_param" ],

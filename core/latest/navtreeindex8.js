@@ -1,5 +1,10 @@
 var NAVTREEINDEX8 =
 {
+"namespaceprimo_1_1codecs_1_1_audio_channel_flags.html#a8150b7776c2a1749101acf22e868d091acca9247979e4cf65b0d459a637f55050":[7,0,0,1,1,0,18],
+"namespaceprimo_1_1codecs_1_1_audio_channel_flags.html#a8150b7776c2a1749101acf22e868d091ad48f7af8c070184f3774c8e85854eb66":[7,0,0,1,1,0,2],
+"namespaceprimo_1_1codecs_1_1_audio_channel_flags.html#a8150b7776c2a1749101acf22e868d091aee98914fb5c28394b960e5e29daa6e5e":[7,0,0,1,1,0,23],
+"namespaceprimo_1_1codecs_1_1_audio_channel_flags.html#a8150b7776c2a1749101acf22e868d091aef9dd058a905f2770232af0384bd1249":[7,0,0,1,1,0,8],
+"namespaceprimo_1_1codecs_1_1_bitrate_mode.html":[7,0,0,1,2],
 "namespaceprimo_1_1codecs_1_1_bitrate_mode.html#a8150b7776c2a1749101acf22e868d091":[7,0,0,1,2,0],
 "namespaceprimo_1_1codecs_1_1_bitrate_mode.html#a8150b7776c2a1749101acf22e868d091a4e81c184ac3ad48a389cd4454c4a05bb":[7,0,0,1,2,0,0],
 "namespaceprimo_1_1codecs_1_1_bitrate_mode.html#a8150b7776c2a1749101acf22e868d091a5cd8a75942875437b0216e7e61693596":[7,0,0,1,2,0,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX8 =
 "namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091a9ce6950849cc4b683240e447887264fa":[7,0,0,1,25,0,9],
 "namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091ab41fe07a134a62397420ef854d35c7b1":[7,0,0,1,25,0,0],
 "namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091ac68c3ae79843f2654b11e9c918f8971c":[7,0,0,1,25,0,1],
-"namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091ac900cf6a0ddc5bf0bcbbbbdd7b44afb1":[7,0,0,1,25,0,11],
-"namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091accb87481e671d8cd77c18e22ca932574":[7,0,0,1,25,0,18],
-"namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091acf5a730c6a2aa72b3276064f943ca2c0":[7,0,0,1,25,0,8],
-"namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091ad35e7ff2ce06d1139a1df6755f00a31b":[7,0,0,1,25,0,16],
-"namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091adaa08f4470a095c6e7a07de4b8c1576f":[7,0,0,1,25,0,12],
-"namespaceprimo_1_1codecs_1_1_mime_type.html":[7,0,0,1,26]
+"namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091ac900cf6a0ddc5bf0bcbbbbdd7b44afb1":[7,0,0,1,25,0,11]
 };

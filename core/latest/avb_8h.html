@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">AVBlocks for C++
-   &#160;<span id="projectnumber">3.0</span>
+   &#160;<span id="projectnumber">3.1</span>
    </div>
    <div id="projectbrief">Audio and Video Software Development Kit</div>
   </td>
@@ -387,10 +387,10 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>AVBLOCKS_MAJOR_VERSION</b>&#160;&#160;&#160;3</td></tr>
 <tr class="separator:a49d2a881eeeedb38e533f3a9e345500e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5852884a534ed0b847c3920b45e5710"><td class="memItemLeft" align="right" valign="top"><a id="ab5852884a534ed0b847c3920b45e5710" name="ab5852884a534ed0b847c3920b45e5710"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVBLOCKS_MINOR_VERSION</b>&#160;&#160;&#160;0</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVBLOCKS_MINOR_VERSION</b>&#160;&#160;&#160;1</td></tr>
 <tr class="separator:ab5852884a534ed0b847c3920b45e5710"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bdff1992d5f9c82234d031a21c0cfd8"><td class="memItemLeft" align="right" valign="top"><a id="a7bdff1992d5f9c82234d031a21c0cfd8" name="a7bdff1992d5f9c82234d031a21c0cfd8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVBLOCKS_PATCH_VERSION</b>&#160;&#160;&#160;1</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVBLOCKS_PATCH_VERSION</b>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a7bdff1992d5f9c82234d031a21c0cfd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a447bda3e6ad555c3a64e5f253e14cb68"><td class="memItemLeft" align="right" valign="top"><a id="a447bda3e6ad555c3a64e5f253e14cb68" name="a447bda3e6ad555c3a64e5f253e14cb68"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>AVBLOCKS_UNUSED_INT_RANGE</b>&#160;&#160;&#160;0x7FFF0000</td></tr>
@@ -588,6 +588,9 @@ AVBLOCKS_API bool_t AVBLOCKS_CALL&#160;</td><td class="memItemRight" valign="bot
 <tr class="memitem:aade32b6350e23050805c62542b261cd5"><td class="memItemLeft" align="right" valign="top"><a id="aade32b6350e23050805c62542b261cd5" name="aade32b6350e23050805c62542b261cd5"></a>
 AVBLOCKS_API int32_t AVBLOCKS_CALL&#160;</td><td class="memItemRight" valign="bottom"><b>avb_set_license</b> (const char *license)</td></tr>
 <tr class="separator:aade32b6350e23050805c62542b261cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58f54f28a0d7b799c833b722d523eee2"><td class="memItemLeft" align="right" valign="top"><a id="a58f54f28a0d7b799c833b722d523eee2" name="a58f54f28a0d7b799c833b722d523eee2"></a>
+AVBLOCKS_API void AVBLOCKS_CALL&#160;</td><td class="memItemRight" valign="bottom"><b>avb_set_license_tls</b> (bool_t useTls)</td></tr>
+<tr class="separator:a58f54f28a0d7b799c833b722d523eee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae864528651806a14848460eb2d74ec64"><td class="memItemLeft" align="right" valign="top"><a id="ae864528651806a14848460eb2d74ec64" name="ae864528651806a14848460eb2d74ec64"></a>
 AVBLOCKS_API void AVBLOCKS_CALL&#160;</td><td class="memItemRight" valign="bottom"><b>avb_shutdown</b> ()</td></tr>
 <tr class="separator:ae864528651806a14848460eb2d74ec64"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -681,6 +684,9 @@ AVBLOCKS_API void AVBLOCKS_CALL&#160;</td><td class="memItemRight" valign="botto
 <tr class="memitem:a4d726c64b5e08851e45043752b4ecd9b"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprimo_1_1avblocks_1_1_library.html#a4d726c64b5e08851e45043752b4ecd9b">setLicense</a> (const char *license)</td></tr>
 <tr class="memdesc:a4d726c64b5e08851e45043752b4ecd9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a license string.  <br /></td></tr>
 <tr class="separator:a4d726c64b5e08851e45043752b4ecd9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8abee2aba579bb61f3e3c0d68c7c5b24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprimo_1_1avblocks_1_1_library.html#a8abee2aba579bb61f3e3c0d68c7c5b24">setLicenseTls</a> (bool_t useTls)</td></tr>
+<tr class="memdesc:a8abee2aba579bb61f3e3c0d68c7c5b24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets whether TLS (Transport Layer Security) should be used for license validation.  <br /></td></tr>
+<tr class="separator:a8abee2aba579bb61f3e3c0d68c7c5b24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7861ee1569802186a619778efc85af13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprimo_1_1avblocks_1_1_library.html#a7861ee1569802186a619778efc85af13">shutdown</a> ()</td></tr>
 <tr class="memdesc:a7861ee1569802186a619778efc85af13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes the AVBlocks library and frees the resources that are used (if any).  <br /></td></tr>
 <tr class="separator:a7861ee1569802186a619778efc85af13"><td class="memSeparator" colspan="2">&#160;</td></tr>

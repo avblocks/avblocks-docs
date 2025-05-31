@@ -1,5 +1,10 @@
 var NAVTREEINDEX7 =
 {
+"namespaceprimo_1_1avblocks_1_1_param_1_1_muxer.html":[7,0,0,0,3,3],
+"namespaceprimo_1_1avblocks_1_1_param_1_1_muxer_1_1_m_p4.html":[7,0,0,0,3,3,0],
+"namespaceprimo_1_1avblocks_1_1_param_1_1_muxer_1_1_m_p4.html#a61ab14529c821f518bc923c10af57987":[7,0,0,0,3,3,0,0],
+"namespaceprimo_1_1avblocks_1_1_param_1_1_muxer_1_1_m_p4.html#ad1ea4e520f0ba91f0aee0055e0218462":[7,0,0,0,3,3,0,2],
+"namespaceprimo_1_1avblocks_1_1_param_1_1_muxer_1_1_m_p4.html#ae6c355a877060b867301d1b5b29eff50":[7,0,0,0,3,3,0,1],
 "namespaceprimo_1_1avblocks_1_1_param_1_1_video.html":[7,0,0,0,3,4],
 "namespaceprimo_1_1avblocks_1_1_param_1_1_video_1_1_crop.html":[7,0,0,0,3,4,0],
 "namespaceprimo_1_1avblocks_1_1_param_1_1_video_1_1_crop.html#a047032796d171434cbd1746fa7279e43":[7,0,0,0,3,4,0,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX7 =
 "namespaceprimo_1_1codecs_1_1_audio_channel_flags.html#a8150b7776c2a1749101acf22e868d091aba1475700561738870d221c5f45ea01a":[7,0,0,1,1,0,19],
 "namespaceprimo_1_1codecs_1_1_audio_channel_flags.html#a8150b7776c2a1749101acf22e868d091ac062c0dbaa1be5a24ed6ed02a5b6cb9c":[7,0,0,1,1,0,9],
 "namespaceprimo_1_1codecs_1_1_audio_channel_flags.html#a8150b7776c2a1749101acf22e868d091ac2d1be684f98d655038defc83677dfc9":[7,0,0,1,1,0,16],
-"namespaceprimo_1_1codecs_1_1_audio_channel_flags.html#a8150b7776c2a1749101acf22e868d091ac9d3e887722f2bc482bcca9d41c512af":[7,0,0,1,1,0,0],
-"namespaceprimo_1_1codecs_1_1_audio_channel_flags.html#a8150b7776c2a1749101acf22e868d091acca9247979e4cf65b0d459a637f55050":[7,0,0,1,1,0,18],
-"namespaceprimo_1_1codecs_1_1_audio_channel_flags.html#a8150b7776c2a1749101acf22e868d091ad48f7af8c070184f3774c8e85854eb66":[7,0,0,1,1,0,2],
-"namespaceprimo_1_1codecs_1_1_audio_channel_flags.html#a8150b7776c2a1749101acf22e868d091aee98914fb5c28394b960e5e29daa6e5e":[7,0,0,1,1,0,23],
-"namespaceprimo_1_1codecs_1_1_audio_channel_flags.html#a8150b7776c2a1749101acf22e868d091aef9dd058a905f2770232af0384bd1249":[7,0,0,1,1,0,8],
-"namespaceprimo_1_1codecs_1_1_bitrate_mode.html":[7,0,0,1,2]
+"namespaceprimo_1_1codecs_1_1_audio_channel_flags.html#a8150b7776c2a1749101acf22e868d091ac9d3e887722f2bc482bcca9d41c512af":[7,0,0,1,1,0,0]
 };

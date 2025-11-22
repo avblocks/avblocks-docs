@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">AVBlocks for .NET
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
    <div id="projectbrief">Audio and Video Software Development Kit</div>
   </td>
@@ -434,6 +434,22 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:af300514b2f54bd948902a85bf4070d16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes the AVBlocks facilities that could generate errors.  <a href="namespace_primo_software_1_1_a_v_blocks.html#af300514b2f54bd948902a85bf4070d16">More...</a><br /></td></tr>
 <tr class="separator:af300514b2f54bd948902a85bf4070d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad495a9f61af7fff07d7e97979d1ab854"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_primo_software_1_1_a_v_blocks.html#ad495a9f61af7fff07d7e97979d1ab854">FrameType</a> { <br />
+&#160;&#160;<a class="el" href="namespace_primo_software_1_1_a_v_blocks.html#ad495a9f61af7fff07d7e97979d1ab854a6adf97f83acf6453d4a6a4b1070f3754">None</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="namespace_primo_software_1_1_a_v_blocks.html#ad495a9f61af7fff07d7e97979d1ab854aba37bb0d9c32be9ff921680bfad61c08">G711BadFrame</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="namespace_primo_software_1_1_a_v_blocks.html#ad495a9f61af7fff07d7e97979d1ab854ab577277ea8d5b3abaf52e8c9907d3cc5">G711UntransmittedFrame</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="namespace_primo_software_1_1_a_v_blocks.html#ad495a9f61af7fff07d7e97979d1ab854a3969b381eb14264a8737a4ec8e5362f1">G711SIDFrame</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="namespace_primo_software_1_1_a_v_blocks.html#ad495a9f61af7fff07d7e97979d1ab854a7f24d59081f579a0bb68205d0598ba26">G711VoiceFrame</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="namespace_primo_software_1_1_a_v_blocks.html#ad495a9f61af7fff07d7e97979d1ab854a8931f2852d639855526ca58d6ffb53b9">G726VoiceFrame</a> = 105
+<br />
+ }</td></tr>
+<tr class="memdesc:ad495a9f61af7fff07d7e97979d1ab854"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines frame types for audio codecs, particularly for G.711 encoding.  <a href="namespace_primo_software_1_1_a_v_blocks.html#ad495a9f61af7fff07d7e97979d1ab854">More...</a><br /></td></tr>
+<tr class="separator:ad495a9f61af7fff07d7e97979d1ab854"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34adef98e00fc2fdb0b697135b26080f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_primo_software_1_1_a_v_blocks.html#a34adef98e00fc2fdb0b697135b26080f">H264DeblockingFilter</a> { <br />
 &#160;&#160;<a class="el" href="namespace_primo_software_1_1_a_v_blocks.html#a34adef98e00fc2fdb0b697135b26080fab1c94ca2fbc3e78fc30069c8d0f01680">All</a> = 0
 , <br />
@@ -1448,6 +1464,44 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="af300514b2f54bd948902a85bf4070d16a8ca99040313597f5ef1c9bd531f973b7" name="af300514b2f54bd948902a85bf4070d16a8ca99040313597f5ef1c9bd531f973b7"></a>Codec&#160;</td><td class="fielddoc"><p>= 9 </p>
 <p>Codec error. The error code is a value from the CodecError enum. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="ad495a9f61af7fff07d7e97979d1ab854" name="ad495a9f61af7fff07d7e97979d1ab854"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad495a9f61af7fff07d7e97979d1ab854">&#9670;&#160;</a></span>FrameType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_primo_software_1_1_a_v_blocks.html#ad495a9f61af7fff07d7e97979d1ab854">FrameType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Defines frame types for audio codecs, particularly for G.711 encoding. </p>
+<p>These types indicate the nature of the encoded frame, such as voice activity, silence, or errors, and are used to optimize transmission and decoding. Values are based on ITU-T G.711 standards and related codecs like G.729 Annex B for VAD. </p>
+<p>Added in version 3.2</p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad495a9f61af7fff07d7e97979d1ab854a6adf97f83acf6453d4a6a4b1070f3754" name="ad495a9f61af7fff07d7e97979d1ab854a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"><p>= 0 </p>
+<p>Unknown frame type or frame type is not specified. Used when the frame type cannot be determined or is undefined. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad495a9f61af7fff07d7e97979d1ab854aba37bb0d9c32be9ff921680bfad61c08" name="ad495a9f61af7fff07d7e97979d1ab854aba37bb0d9c32be9ff921680bfad61c08"></a>G711BadFrame&#160;</td><td class="fielddoc"><p>= 1 </p>
+<p>G.711 bad frame: Indicates a corrupted or invalid frame that cannot be decoded. This may occur due to transmission errors or data loss. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad495a9f61af7fff07d7e97979d1ab854ab577277ea8d5b3abaf52e8c9907d3cc5" name="ad495a9f61af7fff07d7e97979d1ab854ab577277ea8d5b3abaf52e8c9907d3cc5"></a>G711UntransmittedFrame&#160;</td><td class="fielddoc"><p>= 2 </p>
+<p>G.711 untransmitted frame: Represents a frame that was not transmitted, often due to silence or inactivity in VAD-enabled modes. Equivalent to no data sent, saving bandwidth. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad495a9f61af7fff07d7e97979d1ab854a3969b381eb14264a8737a4ec8e5362f1" name="ad495a9f61af7fff07d7e97979d1ab854a3969b381eb14264a8737a4ec8e5362f1"></a>G711SIDFrame&#160;</td><td class="fielddoc"><p>= 3 </p>
+<p>G.711 SID (Silence Insertion Descriptor) frame: A compact frame describing silence. Contains parameters (e.g., from G.729 Annex B VAD) to reconstruct background noise, used when voice activity is low to reduce bitrate. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad495a9f61af7fff07d7e97979d1ab854a7f24d59081f579a0bb68205d0598ba26" name="ad495a9f61af7fff07d7e97979d1ab854a7f24d59081f579a0bb68205d0598ba26"></a>G711VoiceFrame&#160;</td><td class="fielddoc"><p>= 5 </p>
+<p>G.711 voice frame: A full voice/active frame encoded in G.711 A-law or μ-law. Contains compressed PCM data for speech or active audio segments. Frame size is 80 bytes (10ms at sampling rate 8kHz, 8 bits per sample). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad495a9f61af7fff07d7e97979d1ab854a8931f2852d639855526ca58d6ffb53b9" name="ad495a9f61af7fff07d7e97979d1ab854a8931f2852d639855526ca58d6ffb53b9"></a>G726VoiceFrame&#160;</td><td class="fielddoc"><p>= 105 </p>
+<p>G.726 voice frame: A full voice/active frame encoded in G.726 Adaptive Differential Pulse Code Modulation (ADPCM). This is the only supported frame type for G.726 codec. Frame size varies based on the bitrate: 20, 30, 40 or 50 bytes for 16, 24, 32 or 40 kbps respectively (10ms at sampling rate 8kHz, 2, 3, 4, 5 bits per sample). Voice Activity Detection (VAD) and Packet Loss Concealment (PLC) are not supported for G.726. </p>
 </td></tr>
 </table>
 

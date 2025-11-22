@@ -151,6 +151,14 @@ var namespace_primo_software_1_1_a_v_blocks =
       [ "Transcoder", "namespace_primo_software_1_1_a_v_blocks.html#af300514b2f54bd948902a85bf4070d16a162e3357982546d1428b382eb1bffbc0", null ],
       [ "Codec", "namespace_primo_software_1_1_a_v_blocks.html#af300514b2f54bd948902a85bf4070d16a8ca99040313597f5ef1c9bd531f973b7", null ]
     ] ],
+    [ "FrameType", "namespace_primo_software_1_1_a_v_blocks.html#ad495a9f61af7fff07d7e97979d1ab854", [
+      [ "None", "namespace_primo_software_1_1_a_v_blocks.html#ad495a9f61af7fff07d7e97979d1ab854a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "G711BadFrame", "namespace_primo_software_1_1_a_v_blocks.html#ad495a9f61af7fff07d7e97979d1ab854aba37bb0d9c32be9ff921680bfad61c08", null ],
+      [ "G711UntransmittedFrame", "namespace_primo_software_1_1_a_v_blocks.html#ad495a9f61af7fff07d7e97979d1ab854ab577277ea8d5b3abaf52e8c9907d3cc5", null ],
+      [ "G711SIDFrame", "namespace_primo_software_1_1_a_v_blocks.html#ad495a9f61af7fff07d7e97979d1ab854a3969b381eb14264a8737a4ec8e5362f1", null ],
+      [ "G711VoiceFrame", "namespace_primo_software_1_1_a_v_blocks.html#ad495a9f61af7fff07d7e97979d1ab854a7f24d59081f579a0bb68205d0598ba26", null ],
+      [ "G726VoiceFrame", "namespace_primo_software_1_1_a_v_blocks.html#ad495a9f61af7fff07d7e97979d1ab854a8931f2852d639855526ca58d6ffb53b9", null ]
+    ] ],
     [ "H264DeblockingFilter", "namespace_primo_software_1_1_a_v_blocks.html#a34adef98e00fc2fdb0b697135b26080f", [
       [ "All", "namespace_primo_software_1_1_a_v_blocks.html#a34adef98e00fc2fdb0b697135b26080fab1c94ca2fbc3e78fc30069c8d0f01680", null ],
       [ "Off", "namespace_primo_software_1_1_a_v_blocks.html#a34adef98e00fc2fdb0b697135b26080fad15305d7a4e34e02489c74a5ef542f36", null ],

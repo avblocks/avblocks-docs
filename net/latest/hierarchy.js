@@ -28,6 +28,7 @@ var hierarchy =
     ] ],
     [ "Preset.Video.Fast", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_fast.html", null ],
     [ "Param.Video.FrameRateConverter", "class_primo_software_1_1_a_v_blocks_1_1_param_1_1_video_1_1_frame_rate_converter.html", null ],
+    [ "Param.Encoder.Audio.G711", "class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_audio_1_1_g711.html", null ],
     [ "Preset.Audio.Generic", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_generic.html", null ],
     [ "Preset.Video.Generic", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_generic.html", null ],
     [ "Param.Decoder.Video.H264", "class_primo_software_1_1_a_v_blocks_1_1_param_1_1_decoder_1_1_video_1_1_h264.html", null ],

@@ -7,6 +7,7 @@ var class_primo_software_1_1_a_v_blocks_1_1_media_buffer =
     [ "Clone", "class_primo_software_1_1_a_v_blocks_1_1_media_buffer.html#a1967db30a1192e0e731d8bb89484a095", null ],
     [ "Detach", "class_primo_software_1_1_a_v_blocks_1_1_media_buffer.html#a07f84fb187ef2ee35dc0c31853326983", null ],
     [ "SetData", "class_primo_software_1_1_a_v_blocks_1_1_media_buffer.html#a69e027b75a77261e41fedf1b7d645a8c", null ],
+    [ "Data", "class_primo_software_1_1_a_v_blocks_1_1_media_buffer.html#a65161c50766c06119224a43d27c90586", null ],
     [ "DataOffset", "class_primo_software_1_1_a_v_blocks_1_1_media_buffer.html#a70744401831589da7113ccbf034b6d01", null ],
     [ "DataSize", "class_primo_software_1_1_a_v_blocks_1_1_media_buffer.html#a43315be8ea2d253498a0b1d4e8374a8f", null ],
     [ "External", "class_primo_software_1_1_a_v_blocks_1_1_media_buffer.html#ad6c89bf47bb7c766afb6a783cc6ca44f", null ],

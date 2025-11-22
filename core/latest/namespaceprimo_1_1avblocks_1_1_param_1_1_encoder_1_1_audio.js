@@ -3,6 +3,9 @@ var namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio =
     [ "AAC", "namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_a_a_c.html", [
       [ "StereoMode", "namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_a_a_c.html#a6f0b5911bb6bfc1baac97f64dc22c749", null ]
     ] ],
+    [ "G711", "namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_g711.html", [
+      [ "EnableVAD", "namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_g711.html#a7fa3110a61b05afa12b706f70e1ecd22", null ]
+    ] ],
     [ "MPEG1", "namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_m_p_e_g1.html", [
       [ "ForceV1", "namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_m_p_e_g1.html#ac5a8bc7629ed718a7f71efccfcebb0de", null ],
       [ "StereoMode", "namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_m_p_e_g1.html#a6f0b5911bb6bfc1baac97f64dc22c749", null ]

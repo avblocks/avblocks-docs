@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">AVBlocks for C++
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
    <div id="projectbrief">Audio and Video Software Development Kit</div>
   </td>
@@ -170,6 +170,9 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceprimo_1_1codecs_1_1_deinterlacing_method"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprimo_1_1codecs_1_1_deinterlacing_method.html">primo::codecs::DeinterlacingMethod</a></td></tr>
 <tr class="memdesc:namespaceprimo_1_1codecs_1_1_deinterlacing_method"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines video deinterlacing methods. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceprimo_1_1codecs_1_1_frame_type"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprimo_1_1codecs_1_1_frame_type.html">primo::codecs::FrameType</a></td></tr>
+<tr class="memdesc:namespaceprimo_1_1codecs_1_1_frame_type"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines frame types for audio codecs, particularly for G.711 encoding. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceprimo_1_1codecs_1_1_h264_deblocking_filter"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprimo_1_1codecs_1_1_h264_deblocking_filter.html">primo::codecs::H264DeblockingFilter</a></td></tr>
 <tr class="memdesc:namespaceprimo_1_1codecs_1_1_h264_deblocking_filter"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines H.264/AVC deblocking filter mode. <br /></td></tr>
@@ -546,6 +549,8 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a159688f2e0bb554ed34ec7d32fddcb55">WebM</a> = 0x300A
 , <br />
+&#160;&#160;<a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a0eeed6408d10b1417dbe091a3a6303b9">IVF</a> = 0x300B
+, <br />
 &#160;&#160;<a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a3fa88703b01f403757f04bcc02ae6d5a">END_CONTAINER</a> = 0x3FFF
 , <br />
 &#160;&#160;<a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a9fe46ab530940545f800e1ee69798010">BEGIN_IMAGE</a> = 0x4000
@@ -598,9 +603,13 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091a77a364481ef363dc04e76e86f3e62726">MPEG_Audio_Layer3</a> = 8
 , <br />
-&#160;&#160;<a class="el" href="namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091adc130fbd5957d539eaf6213f8495af48">G726_PACKED_RFC3551</a> = 9
+&#160;&#160;<a class="el" href="namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091ae1da7d2bf8f7567ba371ec84c70a6fad">G726_RFC3551</a> = 9
 , <br />
-&#160;&#160;<a class="el" href="namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091a8780d986bb60f39385f0c21cfdba00d7">G726_PACKED_AAL2</a> = 10
+&#160;&#160;<a class="el" href="namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091adc130fbd5957d539eaf6213f8495af48">G726_PACKED_RFC3551</a> = G726_RFC3551
+, <br />
+&#160;&#160;<a class="el" href="namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091ae567cdf40fc028e5f498d0198577fc37">G726_AAL2</a> = 10
+, <br />
+&#160;&#160;<a class="el" href="namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091a8780d986bb60f39385f0c21cfdba00d7">G726_PACKED_AAL2</a> = G726_AAL2
 , <br />
 &#160;&#160;<a class="el" href="namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091a5fad3fd2c49aaafda0dc7f61e0dbbd43">MPEG1_System</a> = 11
 , <br />
@@ -770,6 +779,22 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="memdesc:a8150b7776c2a1749101acf22e868d091"><td class="mdescLeft">&#160;</td><td class="mdescRight">PictureType::Enum.  <a href="namespaceprimo_1_1codecs_1_1_picture_type.html#a8150b7776c2a1749101acf22e868d091">More...</a><br /></td></tr>
+<tr class="separator:a8150b7776c2a1749101acf22e868d091"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8150b7776c2a1749101acf22e868d091"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091">Enum</a> { <br />
+&#160;&#160;<a class="el" href="namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091ac9d3e887722f2bc482bcca9d41c512af">None</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091a764aae33be36f20baad8346eab8bfc0b">G711BadFrame</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091a80d744a81e95e76973314815a783fe8f">G711UntransmittedFrame</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091aa8f56b08c4e7d288b4ae2d8ebc50a647">G711SIDFrame</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091ad1dfa995558de56baa78cc27be8b3129">G711VoiceFrame</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091a51f39df6d3fd9dea7d59c7079f3451cf">G726VoiceFrame</a> = 105
+<br />
+ }</td></tr>
+<tr class="memdesc:a8150b7776c2a1749101acf22e868d091"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of frame types used in audio encoding/decoding.  <a href="namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091">More...</a><br /></td></tr>
 <tr class="separator:a8150b7776c2a1749101acf22e868d091"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8150b7776c2a1749101acf22e868d091"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprimo_1_1codecs_1_1_h265_profile.html#a8150b7776c2a1749101acf22e868d091">Enum</a> { <br />
 &#160;&#160;<a class="el" href="namespaceprimo_1_1codecs_1_1_h265_profile.html#a8150b7776c2a1749101acf22e868d091ac9d3e887722f2bc482bcca9d41c512af">None</a> = 0

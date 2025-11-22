@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">AVBlocks for C++
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
    <div id="projectbrief">Audio and Video Software Development Kit</div>
   </td>
@@ -620,7 +620,7 @@ Protected Member Functions</h2></td></tr>
 </dl>
 <p>Each time output data is generated a new MediaBuffer instance is created and attached to <em>outputData</em>. The new MediaBuffer instance belongs to the caller and must be released when it is not needed anymore.</p>
 <dl class="section return"><dt>Returns</dt><dd>TRUE The transcoder has successfully generated output, otherwise FALSE.</dd></dl>
-<dl class="section remark"><dt>Remarks</dt><dd>In order to use the pull mode the output sockets must not have an associated file or user stream. If the transcoder operates in the hybrid push/pull mode it will return <a class="el" href="namespaceprimo_1_1avblocks_1_1_transcoder_error.html#a8150b7776c2a1749101acf22e868d091a15d544c2b335d70970011b3b3af30b81">TranscoderError::InputNeeded</a> when there's no available output. In this case <a class="el" href="classprimo_1_1avblocks_1_1_transcoder.html#abb8fa7942b3e84e0275c793dfbe2c3a0" title="Pushes input data to the Transcoder.">Transcoder::push()</a> must be called to supply input data to the transcoder.</dd></dl>
+<dl class="section remark"><dt>Remarks</dt><dd>In order to use the pull mode the output sockets must not have an associated file or user stream. If the transcoder operates in the hybrid push/pull mode it will return <a class="el" href="namespaceprimo_1_1avblocks_1_1_transcoder_error.html#a8150b7776c2a1749101acf22e868d091a15d544c2b335d70970011b3b3af30b81">TranscoderError::InputNeeded</a> when needs more input data. In this case <a class="el" href="classprimo_1_1avblocks_1_1_transcoder.html#abb8fa7942b3e84e0275c793dfbe2c3a0" title="Pushes input data to the Transcoder.">Transcoder::push()</a> must be called to supply input data to the transcoder.</dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>This method is not thread-safe (as all other functions in AVBlocks). It cannot be called simultaneously from multiple threads. You must implement your own synchronization if the method will be called from multiple threads. <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadLeft">Supported <a class="el" href="classprimo_1_1_stream.html" title="The Stream interface can be used to implement a data source or sink.">Stream</a> Types    </th></tr>

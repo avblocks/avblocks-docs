@@ -12,5 +12,6 @@ var searchData=
   ['intelmedia_9',['IntelMedia',['../namespaceprimo_1_1codecs_1_1_hw_api.html#a8150b7776c2a1749101acf22e868d091a8bf63ca5f4b0714d1bba3eae89aab4b2',1,'primo::codecs::HwApi']]],
   ['invalidoperation_10',['InvalidOperation',['../namespaceprimo_1_1codecs_1_1_codec_error.html#a8150b7776c2a1749101acf22e868d091a8fafe02ab19b29a26c023c80f5879b16',1,'primo::codecs::CodecError::InvalidOperation'],['../namespaceprimo_1_1avblocks_1_1_a_v_blocks_error.html#a8150b7776c2a1749101acf22e868d091a8fafe02ab19b29a26c023c80f5879b16',1,'primo::avblocks::AVBlocksError::InvalidOperation']]],
   ['invalidparams_11',['InvalidParams',['../namespaceprimo_1_1codecs_1_1_codec_error.html#a8150b7776c2a1749101acf22e868d091a56320239d69b13cdb00c7f6c9a2aa5e2',1,'primo::codecs::CodecError::InvalidParams'],['../namespaceprimo_1_1avblocks_1_1_a_v_blocks_error.html#a8150b7776c2a1749101acf22e868d091a56320239d69b13cdb00c7f6c9a2aa5e2',1,'primo::avblocks::AVBlocksError::InvalidParams']]],
-  ['invalidstream_12',['InvalidStream',['../namespaceprimo_1_1codecs_1_1_codec_error.html#a8150b7776c2a1749101acf22e868d091a7f95d62bc4a74a099706bb6a8b9fb35a',1,'primo::codecs::CodecError']]]
+  ['invalidstream_12',['InvalidStream',['../namespaceprimo_1_1codecs_1_1_codec_error.html#a8150b7776c2a1749101acf22e868d091a7f95d62bc4a74a099706bb6a8b9fb35a',1,'primo::codecs::CodecError']]],
+  ['ivf_13',['IVF',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a0eeed6408d10b1417dbe091a3a6303b9',1,'primo::codecs::StreamType']]]
 ];

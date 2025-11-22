@@ -116,6 +116,16 @@ var namespaceprimo_1_1codecs =
         [ "CAVT", "namespaceprimo_1_1codecs_1_1_deinterlacing_method.html#a8150b7776c2a1749101acf22e868d091ac788be9de41afbe64c23bedefd55e414", null ]
       ] ]
     ] ],
+    [ "FrameType", "namespaceprimo_1_1codecs_1_1_frame_type.html", [
+      [ "Enum", "namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091", [
+        [ "None", "namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091ac9d3e887722f2bc482bcca9d41c512af", null ],
+        [ "G711BadFrame", "namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091a764aae33be36f20baad8346eab8bfc0b", null ],
+        [ "G711UntransmittedFrame", "namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091a80d744a81e95e76973314815a783fe8f", null ],
+        [ "G711SIDFrame", "namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091aa8f56b08c4e7d288b4ae2d8ebc50a647", null ],
+        [ "G711VoiceFrame", "namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091ad1dfa995558de56baa78cc27be8b3129", null ],
+        [ "G726VoiceFrame", "namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091a51f39df6d3fd9dea7d59c7079f3451cf", null ]
+      ] ]
+    ] ],
     [ "H264DeblockingFilter", "namespaceprimo_1_1codecs_1_1_h264_deblocking_filter.html", [
       [ "Enum", "namespaceprimo_1_1codecs_1_1_h264_deblocking_filter.html#a8150b7776c2a1749101acf22e868d091", [
         [ "All", "namespaceprimo_1_1codecs_1_1_h264_deblocking_filter.html#a8150b7776c2a1749101acf22e868d091a54991d225c58ce0af43461d4e9a82312", null ],
@@ -393,7 +403,9 @@ var namespaceprimo_1_1codecs =
         [ "MPEG_Audio_Layer1", "namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091aac900a0fef54aedbc98daa15dae60936", null ],
         [ "MPEG_Audio_Layer2", "namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091a0a196d218fdada277f1759793381293c", null ],
         [ "MPEG_Audio_Layer3", "namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091a77a364481ef363dc04e76e86f3e62726", null ],
+        [ "G726_RFC3551", "namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091ae1da7d2bf8f7567ba371ec84c70a6fad", null ],
         [ "G726_PACKED_RFC3551", "namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091adc130fbd5957d539eaf6213f8495af48", null ],
+        [ "G726_AAL2", "namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091ae567cdf40fc028e5f498d0198577fc37", null ],
         [ "G726_PACKED_AAL2", "namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091a8780d986bb60f39385f0c21cfdba00d7", null ],
         [ "MPEG1_System", "namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091a5fad3fd2c49aaafda0dc7f61e0dbbd43", null ],
         [ "MPEG2_System", "namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091a029b2ec03284a4d14868b9ad8fd269ff", null ],
@@ -450,6 +462,7 @@ var namespaceprimo_1_1codecs =
         [ "FLV", "namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a3648fb67ff3ff0f5baefbff1eb09b651", null ],
         [ "OGG", "namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a2486a5aca62889f39aedd40aa18af38a", null ],
         [ "WebM", "namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a159688f2e0bb554ed34ec7d32fddcb55", null ],
+        [ "IVF", "namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a0eeed6408d10b1417dbe091a3a6303b9", null ],
         [ "END_CONTAINER", "namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a3fa88703b01f403757f04bcc02ae6d5a", null ],
         [ "BEGIN_IMAGE", "namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a9fe46ab530940545f800e1ee69798010", null ],
         [ "BMP", "namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a472992a8061f64e53dced30fb026b3b7", null ],

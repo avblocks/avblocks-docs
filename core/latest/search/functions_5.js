@@ -7,8 +7,9 @@ var searchData=
   ['framebottomup_4',['frameBottomUp',['../classprimo_1_1codecs_1_1_video_stream_info.html#a232662184dbb8f163cef884cd4445f84',1,'primo::codecs::VideoStreamInfo']]],
   ['frameheight_5',['frameHeight',['../classprimo_1_1codecs_1_1_video_stream_info.html#aef3af544d83334b804aee68ae1a01ae4',1,'primo::codecs::VideoStreamInfo']]],
   ['framerate_6',['frameRate',['../classprimo_1_1codecs_1_1_video_stream_info.html#ace67cf2dd9cf8e50e616c9242c84f8e5',1,'primo::codecs::VideoStreamInfo']]],
-  ['framewidth_7',['frameWidth',['../classprimo_1_1codecs_1_1_video_stream_info.html#aa236d93ea8dfcd381de5da091fa40e30',1,'primo::codecs::VideoStreamInfo']]],
-  ['free_8',['free',['../classprimo_1_1codecs_1_1_media_buffer.html#a1781eecaabd2bc97d074437d01b2c683',1,'primo::codecs::MediaBuffer']]],
-  ['freelinearspace_9',['freeLinearSpace',['../classprimo_1_1codecs_1_1_media_buffer.html#a5d9660d0f74ced5c504bfdf1b671def5',1,'primo::codecs::MediaBuffer']]],
-  ['freespace_10',['freeSpace',['../classprimo_1_1codecs_1_1_media_buffer.html#aaae7dbd939a4fc26f3bc402f659ab943',1,'primo::codecs::MediaBuffer']]]
+  ['frametype_7',['frameType',['../classprimo_1_1codecs_1_1_media_sample.html#aea442205943f4441cc9c4b370bf684e7',1,'primo::codecs::MediaSample']]],
+  ['framewidth_8',['frameWidth',['../classprimo_1_1codecs_1_1_video_stream_info.html#aa236d93ea8dfcd381de5da091fa40e30',1,'primo::codecs::VideoStreamInfo']]],
+  ['free_9',['free',['../classprimo_1_1codecs_1_1_media_buffer.html#a1781eecaabd2bc97d074437d01b2c683',1,'primo::codecs::MediaBuffer']]],
+  ['freelinearspace_10',['freeLinearSpace',['../classprimo_1_1codecs_1_1_media_buffer.html#a5d9660d0f74ced5c504bfdf1b671def5',1,'primo::codecs::MediaBuffer']]],
+  ['freespace_11',['freeSpace',['../classprimo_1_1codecs_1_1_media_buffer.html#aaae7dbd939a4fc26f3bc402f659ab943',1,'primo::codecs::MediaBuffer']]]
 ];

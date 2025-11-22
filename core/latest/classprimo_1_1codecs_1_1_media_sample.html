@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">AVBlocks for C++
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
    <div id="projectbrief">Audio and Video Software Development Kit</div>
   </td>
@@ -136,8 +136,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5d4e36c835e9fdd1babaffdaa763b529"><td class="memItemLeft" align="right" valign="top">virtual int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprimo_1_1codecs_1_1_media_sample.html#a5d4e36c835e9fdd1babaffdaa763b529">flags</a> () const =0</td></tr>
 <tr class="memdesc:a5d4e36c835e9fdd1babaffdaa763b529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the media sample flags.  <br /></td></tr>
 <tr class="separator:a5d4e36c835e9fdd1babaffdaa763b529"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea442205943f4441cc9c4b370bf684e7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091">FrameType::Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprimo_1_1codecs_1_1_media_sample.html#aea442205943f4441cc9c4b370bf684e7">frameType</a> () const =0</td></tr>
+<tr class="memdesc:aea442205943f4441cc9c4b370bf684e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the frame type of demuxed, decoded, or encoded frame.  <br /></td></tr>
+<tr class="separator:aea442205943f4441cc9c4b370bf684e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5964d2b3e443f4a35f53d3ac863f51a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceprimo_1_1codecs_1_1_picture_type.html#a8150b7776c2a1749101acf22e868d091">PictureType::Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprimo_1_1codecs_1_1_media_sample.html#aa5964d2b3e443f4a35f53d3ac863f51a">pictureType</a> () const =0</td></tr>
-<tr class="memdesc:aa5964d2b3e443f4a35f53d3ac863f51a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the picture type (I/P/B/etc.) of a demuxed, decoded or encoded frame.  <br /></td></tr>
+<tr class="memdesc:aa5964d2b3e443f4a35f53d3ac863f51a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the picture type (I/P/B/etc.) of demuxed, decoded, or encoded frame.  <br /></td></tr>
 <tr class="separator:aa5964d2b3e443f4a35f53d3ac863f51a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20dcbdfbd0ec77afc802522bb7e379c1"><td class="memItemLeft" align="right" valign="top"><a id="a20dcbdfbd0ec77afc802522bb7e379c1" name="a20dcbdfbd0ec77afc802522bb7e379c1"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> ()=0</td></tr>
@@ -152,6 +155,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> ()=
 <tr class="memitem:aec1992fa14a23af0c73f49808496d2f2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprimo_1_1codecs_1_1_media_sample.html#aec1992fa14a23af0c73f49808496d2f2">setFlags</a> (int32_t <a class="el" href="classprimo_1_1codecs_1_1_media_sample.html#a5d4e36c835e9fdd1babaffdaa763b529">flags</a>)=0</td></tr>
 <tr class="memdesc:aec1992fa14a23af0c73f49808496d2f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the media sample flags.  <br /></td></tr>
 <tr class="separator:aec1992fa14a23af0c73f49808496d2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8558397fe46c206f7857f5bade2dfa39"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprimo_1_1codecs_1_1_media_sample.html#a8558397fe46c206f7857f5bade2dfa39">setFrameType</a> (<a class="el" href="namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091">FrameType::Enum</a> <a class="el" href="classprimo_1_1codecs_1_1_media_sample.html#aea442205943f4441cc9c4b370bf684e7">frameType</a>)=0</td></tr>
+<tr class="memdesc:a8558397fe46c206f7857f5bade2dfa39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Frame Type object.  <br /></td></tr>
+<tr class="separator:a8558397fe46c206f7857f5bade2dfa39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3496066e8f6e2b293505be7912a7a175"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprimo_1_1codecs_1_1_media_sample.html#a3496066e8f6e2b293505be7912a7a175">setPictureType</a> (<a class="el" href="namespaceprimo_1_1codecs_1_1_picture_type.html#a8150b7776c2a1749101acf22e868d091">PictureType::Enum</a> <a class="el" href="classprimo_1_1codecs_1_1_media_sample.html#aa5964d2b3e443f4a35f53d3ac863f51a">pictureType</a>)=0</td></tr>
 <tr class="memdesc:a3496066e8f6e2b293505be7912a7a175"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the required picture type (I/P/B/etc.).  <br /></td></tr>
 <tr class="separator:a3496066e8f6e2b293505be7912a7a175"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -337,6 +343,36 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aea442205943f4441cc9c4b370bf684e7" name="aea442205943f4441cc9c4b370bf684e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea442205943f4441cc9c4b370bf684e7">&#9670;&#160;</a></span>frameType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091">FrameType::Enum</a> frameType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the frame type of demuxed, decoded, or encoded frame. </p>
+<dl class="section return"><dt>Returns</dt><dd>A constant from the <a class="el" href="namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091" title="Enumeration of frame types used in audio encoding/decoding.">FrameType::Enum</a>.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Currently this is used only by G.711 a-law and u-law codecs.</dd></dl>
+<dl class="section version"><dt>Version</dt><dd>3.2 </dd></dl>
+
+</div>
+</div>
 <a id="aa5964d2b3e443f4a35f53d3ac863f51a" name="aa5964d2b3e443f4a35f53d3ac863f51a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa5964d2b3e443f4a35f53d3ac863f51a">&#9670;&#160;</a></span>pictureType()</h2>
 
@@ -360,7 +396,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the picture type (I/P/B/etc.) of a demuxed, decoded or encoded frame. </p>
+<p>Returns the picture type (I/P/B/etc.) of demuxed, decoded, or encoded frame. </p>
 <dl class="section return"><dt>Returns</dt><dd>A constant from the <a class="el" href="namespaceprimo_1_1codecs_1_1_picture_type.html#a8150b7776c2a1749101acf22e868d091" title="PictureType::Enum.">PictureType::Enum</a>.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Currently this is returned only by the MPEG-2 encoder. </dd></dl>
 
@@ -470,6 +506,42 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8558397fe46c206f7857f5bade2dfa39" name="a8558397fe46c206f7857f5bade2dfa39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8558397fe46c206f7857f5bade2dfa39">&#9670;&#160;</a></span>setFrameType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void setFrameType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091">FrameType::Enum</a>&#160;</td>
+          <td class="paramname"><em>frameType</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the Frame Type object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">frameType</td><td>[in] A constant from the <a class="el" href="namespaceprimo_1_1codecs_1_1_frame_type.html#a8150b7776c2a1749101acf22e868d091" title="Enumeration of frame types used in audio encoding/decoding.">FrameType::Enum</a>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Currently this is used only by G.711 a-law and u-law codecs.</dd></dl>
+<dl class="section version"><dt>Version</dt><dd>3.2 </dd></dl>
+
+</div>
+</div>
 <a id="a3496066e8f6e2b293505be7912a7a175" name="a3496066e8f6e2b293505be7912a7a175"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3496066e8f6e2b293505be7912a7a175">&#9670;&#160;</a></span>setPictureType()</h2>
 
@@ -501,7 +573,7 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>Currently this is ignored by encoders. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Currently this is ignored by all encoders. </dd></dl>
 
 </div>
 </div>

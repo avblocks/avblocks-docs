@@ -200,6 +200,9 @@
     <loc>https://doc.avblocks.com/core/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_a_a_c.html</loc>
   </url>
   <url>
+    <loc>https://doc.avblocks.com/core/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_g711.html</loc>
+  </url>
+  <url>
     <loc>https://doc.avblocks.com/core/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_m_p_e_g1.html</loc>
   </url>
   <url>
@@ -477,6 +480,9 @@
   </url>
   <url>
     <loc>https://doc.avblocks.com/core/latest/namespaceprimo_1_1codecs_1_1_deinterlacing_method.html</loc>
+  </url>
+  <url>
+    <loc>https://doc.avblocks.com/core/latest/namespaceprimo_1_1codecs_1_1_frame_type.html</loc>
   </url>
   <url>
     <loc>https://doc.avblocks.com/core/latest/namespaceprimo_1_1codecs_1_1_h264_deblocking_filter.html</loc>

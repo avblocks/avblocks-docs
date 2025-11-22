@@ -129,6 +129,7 @@ var avb_8h =
     [ "DeblockingFilterAlpha", "avb_8h.html#a8ebadbfd33b43d22cd7f3d1afa51a8e7", null ],
     [ "DeblockingFilterBeta", "avb_8h.html#ab4f591f848f213013d759d5a4d677a70", null ],
     [ "DirectPredMode", "avb_8h.html#a16295804fc6114f4311baa2bda4f3aee", null ],
+    [ "EnableVAD", "avb_8h.html#a7fa3110a61b05afa12b706f70e1ecd22", null ],
     [ "EntropyCodingMode", "avb_8h.html#a768e58889ef0009082196b51a7eba3dc", null ],
     [ "FastStart", "avb_8h.html#a61ab14529c821f518bc923c10af57987", null ],
     [ "FastStartTempFileDirectory", "avb_8h.html#ae6c355a877060b867301d1b5b29eff50", null ],

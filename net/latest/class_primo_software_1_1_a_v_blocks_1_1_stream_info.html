@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">AVBlocks for .NET
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3</span>
    </div>
    <div id="projectbrief">Audio and Video Software Development Kit</div>
   </td>
@@ -122,6 +122,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>Bitrate</b><code> [get
 <a class="el" href="namespace_primo_software_1_1_a_v_blocks.html#a740ce5142bbe671d335995a3d4bb7e61">BitrateMode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>BitrateMode</b><code> [get, set]</code></td></tr>
 <tr class="memdesc:a490bca052487deb32343e66148b24cb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The stream bitrate mode. <br /></td></tr>
 <tr class="separator:a490bca052487deb32343e66148b24cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00d63afadc0c36b5b9fee84e735414db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_primo_software_1_1_a_v_blocks_1_1_media_buffer.html">MediaBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_primo_software_1_1_a_v_blocks_1_1_stream_info.html#a00d63afadc0c36b5b9fee84e735414db">ConfigData</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a00d63afadc0c36b5b9fee84e735414db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decoder specific configuration data.  <br /></td></tr>
+<tr class="separator:a00d63afadc0c36b5b9fee84e735414db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adffe619e5f72f53f179d8ad7303111cb"><td class="memItemLeft" align="right" valign="top"><a id="adffe619e5f72f53f179d8ad7303111cb" name="adffe619e5f72f53f179d8ad7303111cb"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>Duration</b><code> [get, set]</code></td></tr>
 <tr class="memdesc:adffe619e5f72f53f179d8ad7303111cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The stream duration in seconds. <br /></td></tr>
@@ -181,6 +184,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>ID</b><code> [get, set
 <p>When the object is cloned the full underlying object is copied.<br  />
  For example if a <b>StreamInfo</b> object is actually an instance of AudioStreamInfo and is cloned, the new object is also an instance of AudioStreamInfo. </p>
 
+<p class="reference">References <a class="el" href="class_primo_software_1_1_a_v_blocks_1_1_media_buffer.html#a1967db30a1192e0e731d8bb89484a095">MediaBuffer.Clone()</a>.</p>
+
 <p class="reference">Referenced by <a class="el" href="class_primo_software_1_1_a_v_blocks_1_1_media_pin.html#a1967db30a1192e0e731d8bb89484a095">MediaPin.Clone()</a>, and <a class="el" href="class_primo_software_1_1_a_v_blocks_1_1_media_socket.html#a2c69f4eeee26a2a62bb21339ff8d8ab8">MediaSocket.FromMediaInfo()</a>.</p>
 
 </div>
@@ -218,6 +223,33 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>ID</b><code> [get, set
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a id="a00d63afadc0c36b5b9fee84e735414db" name="a00d63afadc0c36b5b9fee84e735414db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00d63afadc0c36b5b9fee84e735414db">&#9670;&#160;</a></span>ConfigData</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_primo_software_1_1_a_v_blocks_1_1_media_buffer.html">MediaBuffer</a> ConfigData</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Decoder specific configuration data. </p>
+<p>This data is typically obtained from a demuxer and is required for decoding certain stream types. </p>
+<p>Added in version 3.3</p>
+<dl class="section see"><dt>See also</dt><dd>MediaBuffer</dd></dl>
+
+</div>
+</div>
 <a id="aa612cb6ff7d93cfb6e22a711694b80f8" name="aa612cb6ff7d93cfb6e22a711694b80f8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa612cb6ff7d93cfb6e22a711694b80f8">&#9670;&#160;</a></span>Immutable</h2>
 

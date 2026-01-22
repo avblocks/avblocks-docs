@@ -93,6 +93,7 @@ var hierarchy =
       [ "MetaPictureList", "class_primo_software_1_1_a_v_blocks_1_1_meta_picture_list.html", null ]
     ] ],
     [ "Preset.Audio.Generic.OggVorbis", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_generic_1_1_ogg_vorbis.html", null ],
+    [ "Param.Encoder.Audio.Opus", "class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_audio_1_1_opus.html", null ],
     [ "Param.Video.Overlay", "class_primo_software_1_1_a_v_blocks_1_1_param_1_1_video_1_1_overlay.html", null ],
     [ "Param.Video.Pad", "class_primo_software_1_1_a_v_blocks_1_1_param_1_1_video_1_1_pad.html", null ],
     [ "Param", "class_primo_software_1_1_a_v_blocks_1_1_param.html", null ],
@@ -108,6 +109,7 @@ var hierarchy =
     [ "Preset.Video", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video.html", null ],
     [ "Param.Encoder.Audio.Vorbis", "class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_audio_1_1_vorbis.html", null ],
     [ "Param.Encoder.Video.VP8", "class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p8.html", null ],
+    [ "Param.Encoder.Video.VP9", "class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p9.html", null ],
     [ "Param.Decoder.Video.H264.VUI", "class_primo_software_1_1_a_v_blocks_1_1_param_1_1_decoder_1_1_video_1_1_h264_1_1_v_u_i.html", null ],
     [ "Preset.Video.Web", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_web.html", null ],
     [ "Preset.Video.Generic.WebM", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html", null ],

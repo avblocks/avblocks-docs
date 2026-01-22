@@ -309,6 +309,13 @@ var namespace_primo_software_1_1_a_v_blocks =
       [ "ArtistLogotype", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafa017c079037da0406ceff947dfc84d1cb", null ],
       [ "PublisherLogotype", "namespace_primo_software_1_1_a_v_blocks.html#a23b50fbf601114a5519567a73e180dafae670d72fb533ef9d24432758178d5486", null ]
     ] ],
+    [ "OpusApplication", "namespace_primo_software_1_1_a_v_blocks.html#a3f46601b868c0100ff96a1c24b94ce7e", [
+      [ "Voip", "namespace_primo_software_1_1_a_v_blocks.html#a3f46601b868c0100ff96a1c24b94ce7ea424c21dff2405cdf33d73554932babcf", null ],
+      [ "Audio", "namespace_primo_software_1_1_a_v_blocks.html#a3f46601b868c0100ff96a1c24b94ce7eab22f0418e8ac915eb66f829d262d14a2", null ],
+      [ "RestrictedLowDelay", "namespace_primo_software_1_1_a_v_blocks.html#a3f46601b868c0100ff96a1c24b94ce7ea727e3c5a194fd41cc2c7c53abf23a2b5", null ],
+      [ "RestrictedSilk", "namespace_primo_software_1_1_a_v_blocks.html#a3f46601b868c0100ff96a1c24b94ce7eacd5726cc4f67d357e87738dcbe45f7b9", null ],
+      [ "RestrictedCelt", "namespace_primo_software_1_1_a_v_blocks.html#a3f46601b868c0100ff96a1c24b94ce7ea4186d05c42163df3c3c8d348798f6177", null ]
+    ] ],
     [ "PcmFlags", "namespace_primo_software_1_1_a_v_blocks.html#a407b51be248df6af907584f525b53713", [
       [ "None", "namespace_primo_software_1_1_a_v_blocks.html#a407b51be248df6af907584f525b53713a6adf97f83acf6453d4a6a4b1070f3754", null ],
       [ "Unsigned", "namespace_primo_software_1_1_a_v_blocks.html#a407b51be248df6af907584f525b53713aa1a914735b205424ba6c40b85528d78a", null ],
@@ -372,6 +379,7 @@ var namespace_primo_software_1_1_a_v_blocks =
       [ "Wma", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da34c805566abc50396217337ac74fa2f6", null ],
       [ "Wma_Professional", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1dadfe9e3b0039062bf7b28fe65ebd402e4", null ],
       [ "Wma_Lossless", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da33e6990fc6259aa8f2918ea7580155eb", null ],
+      [ "Opus", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1daf132f54e911e7ae32712890f4e448030", null ],
       [ "END_AUDIO", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da89897e42041db5db665c244838a35668", null ],
       [ "BEGIN_VIDEO", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da6b5cca48d7865296a481580b3db0bbce", null ],
       [ "UncompressedVideo", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1dae0d009c89ec42d0334baac7f35a5f479", null ],
@@ -390,6 +398,9 @@ var namespace_primo_software_1_1_a_v_blocks =
       [ "Theora", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da58abc4af41b72b5857e728f1f064341c", null ],
       [ "H265", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da5be0961e6e8a5cd49abb33d4c0f0ffc0", null ],
       [ "Hevc", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da306885d711b2cfcfca85b4d1f2f236d1", null ],
+      [ "Vp9", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da24416879f7a57413d51aec88f214ef21", null ],
+      [ "Av1", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da3421a5cb7c910b6d540844c8637a89de", null ],
+      [ "Av2", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1dad7ed75c7483e7623af7394f5001c8531", null ],
       [ "END_VIDEO", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1daa83c20002d12c65cce739f543de92fc2", null ],
       [ "BEGIN_CONTAINER", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da69fb0f7b44a9130f78958b56f50b3b95", null ],
       [ "Avi", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da75614c3fca429c06226ca2518abb73aa", null ],
@@ -402,6 +413,7 @@ var namespace_primo_software_1_1_a_v_blocks =
       [ "Flv", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1dac69586e75ef1459948272eea4b4af901", null ],
       [ "Ogg", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da7a99342f8dcbdacd3ed66edf2add143d", null ],
       [ "WebM", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da84f150cd3bd226ebb3708b998d164d4c", null ],
+      [ "Ivf", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da3457f5f0431cf1bc3b9fdd28d57f60e5", null ],
       [ "END_CONTAINER", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1daadccd2a1a325b41bc67c9aa9d937a256", null ],
       [ "BEGIN_IMAGE", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da8ae512eb37f8bc8d6156a23657f0ef0e", null ],
       [ "Bmp", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da021d8346462df53d4272607b0f41a8d8", null ],

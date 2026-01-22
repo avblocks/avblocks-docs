@@ -4,6 +4,7 @@ var class_primo_software_1_1_a_v_blocks_1_1_stream_info =
     [ "Reset", "class_primo_software_1_1_a_v_blocks_1_1_stream_info.html#a4c4ba0ffe635d14b93794268bd8e5995", null ],
     [ "Bitrate", "class_primo_software_1_1_a_v_blocks_1_1_stream_info.html#ab47e7b55464969279166e83f49b0ac17", null ],
     [ "BitrateMode", "class_primo_software_1_1_a_v_blocks_1_1_stream_info.html#a490bca052487deb32343e66148b24cb6", null ],
+    [ "ConfigData", "class_primo_software_1_1_a_v_blocks_1_1_stream_info.html#a00d63afadc0c36b5b9fee84e735414db", null ],
     [ "Duration", "class_primo_software_1_1_a_v_blocks_1_1_stream_info.html#adffe619e5f72f53f179d8ad7303111cb", null ],
     [ "ID", "class_primo_software_1_1_a_v_blocks_1_1_stream_info.html#af180e926633cde08a05ccbc3af397ee4", null ],
     [ "Immutable", "class_primo_software_1_1_a_v_blocks_1_1_stream_info.html#aa612cb6ff7d93cfb6e22a711694b80f8", null ],

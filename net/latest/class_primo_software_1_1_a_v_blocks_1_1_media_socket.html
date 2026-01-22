@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">AVBlocks for .NET
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3</span>
    </div>
    <div id="projectbrief">Audio and Video Software Development Kit</div>
   </td>
@@ -495,6 +495,23 @@ Add the newly created socket to the outputs of the Transcoder (<code>Transcoder.
 
 <p>Specifies explicitly the format of the associated MediaSocket.File or MediaSocket.Stream. </p>
 <p>The default value of this property is <a class="el" href="namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1d">StreamType.Unknown</a>. </p>
+<p>The Transcoder uses this format and the associated file or stream according to following rules: </p><table class="doxtable">
+<caption>Using File, Stream and Type in MediaSocket</caption>
+<tr>
+<td>File </td><td>Stream </td><td>Type </td><td>How MediaSocket is treated by Transcoder  </td></tr>
+<tr>
+<td>Y  </td><td>N  </td><td>N  </td><td>OK - the socket defines a file whose type is implicitly determined by the file extension.  </td></tr>
+<tr>
+<td>Y  </td><td>N  </td><td>Y  </td><td>OK - the socket defines a file whose type is explicitly specified by the stream type.  </td></tr>
+<tr>
+<td>Y,N  </td><td>Y  </td><td>Y  </td><td>OK - the socket defines a user stream whose type is explicitly specified.  </td></tr>
+<tr>
+<td>Y,N  </td><td>Y  </td><td>N  </td><td>Error - the socket defines a user stream but its type is unknown.  </td></tr>
+<tr>
+<td>N  </td><td>N  </td><td>Y  </td><td>OK - the socket does not have a physical storage. it only describes the input/output data. This is the required definition for input sockets when the push() method is used and also the required definition for output sockets when the pull() method is used.   </td></tr>
+<tr>
+<td>N  </td><td>N  </td><td>N  </td><td>Error - undefined socket.   </td></tr>
+</table>
 
 </div>
 </div>

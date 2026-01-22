@@ -19,12 +19,14 @@ var searchData=
   ['artist_16',['Artist',['../namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091acf5a730c6a2aa72b3276064f943ca2c0',1,'primo::codecs::MetaPictureType']]],
   ['asf_17',['ASF',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091ac8faf63a18512acf08841103c800e361',1,'primo::codecs::StreamType']]],
   ['atop_18',['Atop',['../namespaceprimo_1_1codecs_1_1_alpha_compositing_mode.html#a8150b7776c2a1749101acf22e868d091a01fb43aeb2b01c4d46109ba82b0df909',1,'primo::codecs::AlphaCompositingMode']]],
-  ['audio_19',['Audio',['../namespaceprimo_1_1codecs_1_1_media_type.html#a8150b7776c2a1749101acf22e868d091ad3c111fe8a0e835609a6187d6e9d2e57',1,'primo::codecs::MediaType']]],
+  ['audio_19',['Audio',['../namespaceprimo_1_1codecs_1_1_opus_application.html#a8150b7776c2a1749101acf22e868d091ad3c111fe8a0e835609a6187d6e9d2e57',1,'primo::codecs::OpusApplication::Audio'],['../namespaceprimo_1_1codecs_1_1_media_type.html#a8150b7776c2a1749101acf22e868d091ad3c111fe8a0e835609a6187d6e9d2e57',1,'primo::codecs::MediaType::Audio']]],
   ['auto_20',['Auto',['../namespaceprimo_1_1avblocks_1_1_pin_connection.html#a8150b7776c2a1749101acf22e868d091ab81b7469043e9c54603ca3aebbe38e90',1,'primo::avblocks::PinConnection::Auto'],['../namespaceprimo_1_1avblocks_1_1_use.html#a8150b7776c2a1749101acf22e868d091ab81b7469043e9c54603ca3aebbe38e90',1,'primo::avblocks::Use::Auto'],['../namespaceprimo_1_1avblocks_1_1_hardware_encoder.html#a8150b7776c2a1749101acf22e868d091ab81b7469043e9c54603ca3aebbe38e90',1,'primo::avblocks::HardwareEncoder::Auto']]],
-  ['avc_21',['AVC',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a645a32edb1c7c8dbf247610c10296dcb',1,'primo::codecs::StreamType']]],
-  ['avc1_22',['AVC1',['../namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091a59cdc54524683c2a59f3d8f2ed8cd4f9',1,'primo::codecs::StreamSubType']]],
-  ['avc_5fannex_5fb_23',['AVC_Annex_B',['../namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091a5c3f40081103d738be7e8237021c171f',1,'primo::codecs::StreamSubType']]],
-  ['avcc_24',['AVCC',['../namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091aead1f65bef727ff7542b8139baceae9c',1,'primo::codecs::StreamSubType']]],
-  ['avi_25',['AVI',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a2db6506cbb3a11215ddceb3db9c4502b',1,'primo::codecs::StreamType']]],
-  ['avs_26',['AVS',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a883c42b54dbf1c887c21af9abc320eea',1,'primo::codecs::StreamType']]]
+  ['av1_21',['AV1',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a722ce566059cdb61190a9ee62b6767e5',1,'primo::codecs::StreamType']]],
+  ['av2_22',['AV2',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091aedba21b60ff532d8242342cf9e0576f8',1,'primo::codecs::StreamType']]],
+  ['avc_23',['AVC',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a645a32edb1c7c8dbf247610c10296dcb',1,'primo::codecs::StreamType']]],
+  ['avc1_24',['AVC1',['../namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091a59cdc54524683c2a59f3d8f2ed8cd4f9',1,'primo::codecs::StreamSubType']]],
+  ['avc_5fannex_5fb_25',['AVC_Annex_B',['../namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091a5c3f40081103d738be7e8237021c171f',1,'primo::codecs::StreamSubType']]],
+  ['avcc_26',['AVCC',['../namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091aead1f65bef727ff7542b8139baceae9c',1,'primo::codecs::StreamSubType']]],
+  ['avi_27',['AVI',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a2db6506cbb3a11215ddceb3db9c4502b',1,'primo::codecs::StreamType']]],
+  ['avs_28',['AVS',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a883c42b54dbf1c887c21af9abc320eea',1,'primo::codecs::StreamType']]]
 ];

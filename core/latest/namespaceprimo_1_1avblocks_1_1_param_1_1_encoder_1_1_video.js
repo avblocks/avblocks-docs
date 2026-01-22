@@ -42,5 +42,9 @@ var namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video =
     [ "VP8", "namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p8.html", [
       [ "KeyFrameMaxDistance", "namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p8.html#a70b8921a178c9084dfb850421272f9a5", null ],
       [ "KeyFrameMinDistance", "namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p8.html#acd3e32fc7b4734af69001d6ac3e6cd84", null ]
+    ] ],
+    [ "VP9", "namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p9.html", [
+      [ "KeyFrameMaxDistance", "namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p9.html#a70b8921a178c9084dfb850421272f9a5", null ],
+      [ "KeyFrameMinDistance", "namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p9.html#acd3e32fc7b4734af69001d6ac3e6cd84", null ]
     ] ]
 ];

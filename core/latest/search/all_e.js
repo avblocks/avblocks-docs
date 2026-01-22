@@ -10,13 +10,14 @@ var searchData=
   ['onprogress_7',['onProgress',['../classprimo_1_1avblocks_1_1_transcoder_callback.html#a508965ff57a5570d2cc2f14b1f956285',1,'primo::avblocks::TranscoderCallback']]],
   ['onstatus_8',['onStatus',['../classprimo_1_1avblocks_1_1_transcoder_callback.html#abd131a4cacc470ab9ec369af5465477b',1,'primo::avblocks::TranscoderCallback']]],
   ['open_9',['open',['../classprimo_1_1_stream.html#ae57065177c8e8e5dc48bfbaa9b45d880',1,'primo::Stream::open()'],['../classprimo_1_1avblocks_1_1_block.html#ae57065177c8e8e5dc48bfbaa9b45d880',1,'primo::avblocks::Block::open()'],['../classprimo_1_1avblocks_1_1_media_info.html#ae57065177c8e8e5dc48bfbaa9b45d880',1,'primo::avblocks::MediaInfo::open()'],['../classprimo_1_1avblocks_1_1_transcoder.html#ae57065177c8e8e5dc48bfbaa9b45d880',1,'primo::avblocks::Transcoder::open()']]],
-  ['origalbum_10',['OrigAlbum',['../namespaceprimo_1_1codecs_1_1_meta.html#aa1f1f977b9a5a286778c963ac435700e',1,'primo::codecs::Meta']]],
-  ['origartist_11',['OrigArtist',['../namespaceprimo_1_1codecs_1_1_meta.html#a822f39dd754ad41127080cfddbda4d1d',1,'primo::codecs::Meta']]],
-  ['origfilename_12',['OrigFileName',['../namespaceprimo_1_1codecs_1_1_meta.html#ae7c18e89eca1cee00caf18291b4e2606',1,'primo::codecs::Meta']]],
-  ['origlyricist_13',['OrigLyricist',['../namespaceprimo_1_1codecs_1_1_meta.html#a427e99170b032e1a689b8e8759789391',1,'primo::codecs::Meta']]],
-  ['otherfileicon_14',['OtherFileIcon',['../namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091a060ba2641741c72a4a351134655f7fd6',1,'primo::codecs::MetaPictureType']]],
-  ['out_15',['Out',['../namespaceprimo_1_1codecs_1_1_alpha_compositing_mode.html#a8150b7776c2a1749101acf22e868d091abba45258e8122cd853f27f4c8b5d3871',1,'primo::codecs::AlphaCompositingMode']]],
-  ['outputbuffernotenough_16',['OutputBufferNotEnough',['../namespaceprimo_1_1codecs_1_1_codec_error.html#a8150b7776c2a1749101acf22e868d091ad4da5a66f2f8af8688aa0b9bd2d3e26d',1,'primo::codecs::CodecError']]],
-  ['outputs_17',['outputs',['../classprimo_1_1avblocks_1_1_block.html#a7323c10a9d41f1d249b00d0fe770025a',1,'primo::avblocks::Block::outputs()'],['../classprimo_1_1avblocks_1_1_media_info.html#a7323c10a9d41f1d249b00d0fe770025a',1,'primo::avblocks::MediaInfo::outputs()'],['../classprimo_1_1avblocks_1_1_transcoder.html#a7323c10a9d41f1d249b00d0fe770025a',1,'primo::avblocks::Transcoder::outputs()']]],
-  ['over_18',['Over',['../namespaceprimo_1_1codecs_1_1_alpha_compositing_mode.html#a8150b7776c2a1749101acf22e868d091a29301f6b5ef1e1e75bde522aa9dfaf55',1,'primo::codecs::AlphaCompositingMode']]]
+  ['opus_10',['Opus',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a6520e804b7837aacdb501a2c132b9350',1,'primo::codecs::StreamType']]],
+  ['origalbum_11',['OrigAlbum',['../namespaceprimo_1_1codecs_1_1_meta.html#aa1f1f977b9a5a286778c963ac435700e',1,'primo::codecs::Meta']]],
+  ['origartist_12',['OrigArtist',['../namespaceprimo_1_1codecs_1_1_meta.html#a822f39dd754ad41127080cfddbda4d1d',1,'primo::codecs::Meta']]],
+  ['origfilename_13',['OrigFileName',['../namespaceprimo_1_1codecs_1_1_meta.html#ae7c18e89eca1cee00caf18291b4e2606',1,'primo::codecs::Meta']]],
+  ['origlyricist_14',['OrigLyricist',['../namespaceprimo_1_1codecs_1_1_meta.html#a427e99170b032e1a689b8e8759789391',1,'primo::codecs::Meta']]],
+  ['otherfileicon_15',['OtherFileIcon',['../namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091a060ba2641741c72a4a351134655f7fd6',1,'primo::codecs::MetaPictureType']]],
+  ['out_16',['Out',['../namespaceprimo_1_1codecs_1_1_alpha_compositing_mode.html#a8150b7776c2a1749101acf22e868d091abba45258e8122cd853f27f4c8b5d3871',1,'primo::codecs::AlphaCompositingMode']]],
+  ['outputbuffernotenough_17',['OutputBufferNotEnough',['../namespaceprimo_1_1codecs_1_1_codec_error.html#a8150b7776c2a1749101acf22e868d091ad4da5a66f2f8af8688aa0b9bd2d3e26d',1,'primo::codecs::CodecError']]],
+  ['outputs_18',['outputs',['../classprimo_1_1avblocks_1_1_block.html#a7323c10a9d41f1d249b00d0fe770025a',1,'primo::avblocks::Block::outputs()'],['../classprimo_1_1avblocks_1_1_media_info.html#a7323c10a9d41f1d249b00d0fe770025a',1,'primo::avblocks::MediaInfo::outputs()'],['../classprimo_1_1avblocks_1_1_transcoder.html#a7323c10a9d41f1d249b00d0fe770025a',1,'primo::avblocks::Transcoder::outputs()']]],
+  ['over_19',['Over',['../namespaceprimo_1_1codecs_1_1_alpha_compositing_mode.html#a8150b7776c2a1749101acf22e868d091a29301f6b5ef1e1e75bde522aa9dfaf55',1,'primo::codecs::AlphaCompositingMode']]]
 ];

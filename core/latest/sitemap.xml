@@ -206,6 +206,9 @@
     <loc>https://doc.avblocks.com/core/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_m_p_e_g1.html</loc>
   </url>
   <url>
+    <loc>https://doc.avblocks.com/core/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_opus.html</loc>
+  </url>
+  <url>
     <loc>https://doc.avblocks.com/core/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_vorbis.html</loc>
   </url>
   <url>
@@ -225,6 +228,9 @@
   </url>
   <url>
     <loc>https://doc.avblocks.com/core/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p8.html</loc>
+  </url>
+  <url>
+    <loc>https://doc.avblocks.com/core/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p9.html</loc>
   </url>
   <url>
     <loc>https://doc.avblocks.com/core/latest/namespaceprimo_1_1avblocks_1_1_param_1_1_muxer.html</loc>
@@ -546,6 +552,9 @@
   </url>
   <url>
     <loc>https://doc.avblocks.com/core/latest/namespaceprimo_1_1codecs_1_1_mime_type.html</loc>
+  </url>
+  <url>
+    <loc>https://doc.avblocks.com/core/latest/namespaceprimo_1_1codecs_1_1_opus_application.html</loc>
   </url>
   <url>
     <loc>https://doc.avblocks.com/core/latest/namespaceprimo_1_1codecs_1_1_pcm_flags.html</loc>

@@ -10,6 +10,10 @@ var namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio =
       [ "ForceV1", "namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_m_p_e_g1.html#ac5a8bc7629ed718a7f71efccfcebb0de", null ],
       [ "StereoMode", "namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_m_p_e_g1.html#a6f0b5911bb6bfc1baac97f64dc22c749", null ]
     ] ],
+    [ "Opus", "namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_opus.html", [
+      [ "Application", "namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_opus.html#a626b31b4149dc897594460c8ab67a177", null ],
+      [ "Complexity", "namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_opus.html#ae46162097f56b7146e1a06aad746f4bf", null ]
+    ] ],
     [ "Vorbis", "namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_vorbis.html", [
       [ "Quality", "namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_vorbis.html#ab5d545318c4720059f7ab3421f83b08f", null ]
     ] ],

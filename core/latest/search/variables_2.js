@@ -11,10 +11,11 @@ var searchData=
   ['codec_8',['Codec',['../namespaceprimo_1_1error_1_1_error_facility.html#afa6dcb29c205c3535b5876519a99810e',1,'primo::error::ErrorFacility']]],
   ['color_9',['Color',['../namespaceprimo_1_1avblocks_1_1_param_1_1_video_1_1_pad.html#a2ea036fde52acc55715ec11c07f1d8f4',1,'primo::avblocks::Param::Video::Pad']]],
   ['comment_10',['Comment',['../namespaceprimo_1_1codecs_1_1_meta.html#a52a5583a96ca94fdf1ab2d211140ea51',1,'primo::codecs::Meta']]],
-  ['composer_11',['Composer',['../namespaceprimo_1_1codecs_1_1_meta.html#a80e9101d76f17d38931a16bacb65bb95',1,'primo::codecs::Meta']]],
-  ['concealdefects_12',['ConcealDefects',['../namespaceprimo_1_1avblocks_1_1_param_1_1_decoder_1_1_video.html#a10c4d86e9335b1e293dc3b29bb688fa4',1,'primo::avblocks::Param::Decoder::Video']]],
-  ['conductor_13',['Conductor',['../namespaceprimo_1_1codecs_1_1_meta.html#a83a1ab93641647e9c0afd79625a0fd43',1,'primo::codecs::Meta']]],
-  ['config_14',['Config',['../namespaceprimo_1_1avblocks_1_1_param_1_1_decoder.html#a8e3fafa7d1ef2a4478ee6f1c019d36b8',1,'primo::avblocks::Param::Decoder']]],
-  ['contentgroup_15',['ContentGroup',['../namespaceprimo_1_1codecs_1_1_meta.html#a97f8bd8f969ffe601b9d7af46b454ca1',1,'primo::codecs::Meta']]],
-  ['copyright_16',['Copyright',['../namespaceprimo_1_1codecs_1_1_meta.html#a0a61cfd9e29382d602a53a5b8285a353',1,'primo::codecs::Meta']]]
+  ['complexity_11',['Complexity',['../namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_audio_1_1_opus.html#ae46162097f56b7146e1a06aad746f4bf',1,'primo::avblocks::Param::Encoder::Audio::Opus']]],
+  ['composer_12',['Composer',['../namespaceprimo_1_1codecs_1_1_meta.html#a80e9101d76f17d38931a16bacb65bb95',1,'primo::codecs::Meta']]],
+  ['concealdefects_13',['ConcealDefects',['../namespaceprimo_1_1avblocks_1_1_param_1_1_decoder_1_1_video.html#a10c4d86e9335b1e293dc3b29bb688fa4',1,'primo::avblocks::Param::Decoder::Video']]],
+  ['conductor_14',['Conductor',['../namespaceprimo_1_1codecs_1_1_meta.html#a83a1ab93641647e9c0afd79625a0fd43',1,'primo::codecs::Meta']]],
+  ['config_15',['Config',['../namespaceprimo_1_1avblocks_1_1_param_1_1_decoder.html#a8e3fafa7d1ef2a4478ee6f1c019d36b8',1,'primo::avblocks::Param::Decoder']]],
+  ['contentgroup_16',['ContentGroup',['../namespaceprimo_1_1codecs_1_1_meta.html#a97f8bd8f969ffe601b9d7af46b454ca1',1,'primo::codecs::Meta']]],
+  ['copyright_17',['Copyright',['../namespaceprimo_1_1codecs_1_1_meta.html#a0a61cfd9e29382d602a53a5b8285a353',1,'primo::codecs::Meta']]]
 ];

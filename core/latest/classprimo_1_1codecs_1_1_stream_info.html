@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">AVBlocks for C++
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3</span>
    </div>
    <div id="projectbrief">Audio and Video Software Development Kit</div>
   </td>
@@ -135,6 +135,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3e3f478ef7353798a964a0c428a0c933"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classprimo_1_1codecs_1_1_stream_info.html">StreamInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprimo_1_1codecs_1_1_stream_info.html#a3e3f478ef7353798a964a0c428a0c933">clone</a> () const =0</td></tr>
 <tr class="memdesc:a3e3f478ef7353798a964a0c428a0c933"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a copy of this object.  <br /></td></tr>
 <tr class="separator:a3e3f478ef7353798a964a0c428a0c933"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65adb779531e8f13188f8bb486ba723e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classprimo_1_1codecs_1_1_media_buffer.html">MediaBuffer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprimo_1_1codecs_1_1_stream_info.html#a65adb779531e8f13188f8bb486ba723e">configData</a> () const =0</td></tr>
+<tr class="memdesc:a65adb779531e8f13188f8bb486ba723e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns decoder specific configuration data.  <br /></td></tr>
+<tr class="separator:a65adb779531e8f13188f8bb486ba723e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0311f56c2df34719ad083f6cda658280"><td class="memItemLeft" align="right" valign="top">virtual bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprimo_1_1codecs_1_1_stream_info.html#a0311f56c2df34719ad083f6cda658280">copyTo</a> (<a class="el" href="classprimo_1_1codecs_1_1_stream_info.html">StreamInfo</a> *destination) const =0</td></tr>
 <tr class="memdesc:a0311f56c2df34719ad083f6cda658280"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the state of the current object to a destination object of the same type.  <br /></td></tr>
 <tr class="separator:a0311f56c2df34719ad083f6cda658280"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,6 +165,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac2adf50cc31cc1f263a7d4f92e3a88e9"><td class="memItemLeft" align="right" valign="top">virtual bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprimo_1_1codecs_1_1_stream_info.html#ac2adf50cc31cc1f263a7d4f92e3a88e9">setBitrateMode</a> (int32_t <a class="el" href="classprimo_1_1codecs_1_1_stream_info.html#aeec50f09e42f7ae6631eb9ae3b62e77e">bitrateMode</a>)=0</td></tr>
 <tr class="memdesc:ac2adf50cc31cc1f263a7d4f92e3a88e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the stream bitrate mode.  <br /></td></tr>
 <tr class="separator:ac2adf50cc31cc1f263a7d4f92e3a88e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26e0779c2b9c28e74a5e8df7e4c2ab46"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprimo_1_1codecs_1_1_stream_info.html#a26e0779c2b9c28e74a5e8df7e4c2ab46">setConfigData</a> (<a class="el" href="classprimo_1_1codecs_1_1_media_buffer.html">MediaBuffer</a> *<a class="el" href="classprimo_1_1codecs_1_1_stream_info.html#a65adb779531e8f13188f8bb486ba723e">configData</a>)=0</td></tr>
+<tr class="memdesc:a26e0779c2b9c28e74a5e8df7e4c2ab46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets decoder specific configuration data.  <br /></td></tr>
+<tr class="separator:a26e0779c2b9c28e74a5e8df7e4c2ab46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16a7398a8f2763028d60be52df224180"><td class="memItemLeft" align="right" valign="top">virtual bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprimo_1_1codecs_1_1_stream_info.html#a16a7398a8f2763028d60be52df224180">setDuration</a> (double <a class="el" href="classprimo_1_1codecs_1_1_stream_info.html#aa4b8ffc829dfa37cb9e989f14f306c4a">duration</a>)=0</td></tr>
 <tr class="memdesc:a16a7398a8f2763028d60be52df224180"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the stream duration in seconds.  <br /></td></tr>
 <tr class="separator:a16a7398a8f2763028d60be52df224180"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -325,6 +331,36 @@ Protected Member Functions</h2></td></tr>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="md__object_management_8page.html#object_management">Object Management</a> </dd></dl>
 
 <p>Implemented in <a class="el" href="classprimo_1_1codecs_1_1_audio_stream_info.html#ad52adf2ff2e2d4d2d184c8609c710e76">AudioStreamInfo</a>, and <a class="el" href="classprimo_1_1codecs_1_1_video_stream_info.html#a432ab66b98f5041ee28951a4624ae865">VideoStreamInfo</a>.</p>
+
+</div>
+</div>
+<a id="a65adb779531e8f13188f8bb486ba723e" name="a65adb779531e8f13188f8bb486ba723e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65adb779531e8f13188f8bb486ba723e">&#9670;&#160;</a></span>configData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classprimo_1_1codecs_1_1_media_buffer.html">MediaBuffer</a> * configData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns decoder specific configuration data. </p>
+<p>This data is typically obtained from a demuxer and is required for decoding certain stream types.</p>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to a <a class="el" href="classprimo_1_1codecs_1_1_media_buffer.html" title="A buffer for media data.">MediaBuffer</a> object containing the configuration data, or NULL if not set. </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>3.3 </dd></dl>
 
 </div>
 </div>
@@ -612,6 +648,41 @@ FALSE The object is immutable and cannot be reset. </dd></dl>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>TRUE if the bitrate mode is successfully set, otherwise FALSE. </dd></dl>
+
+</div>
+</div>
+<a id="a26e0779c2b9c28e74a5e8df7e4c2ab46" name="a26e0779c2b9c28e74a5e8df7e4c2ab46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26e0779c2b9c28e74a5e8df7e4c2ab46">&#9670;&#160;</a></span>setConfigData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void setConfigData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classprimo_1_1codecs_1_1_media_buffer.html">MediaBuffer</a> *&#160;</td>
+          <td class="paramname"><em>configData</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets decoder specific configuration data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">configData</td><td>A pointer to a <a class="el" href="classprimo_1_1codecs_1_1_media_buffer.html" title="A buffer for media data.">MediaBuffer</a> object containing the configuration data. Can be NULL. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section version"><dt>Version</dt><dd>3.3 </dd></dl>
 
 </div>
 </div>

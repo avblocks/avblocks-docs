@@ -8,6 +8,8 @@ var searchData=
   ['videocapture_5',['VideoCapture',['../namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091ad35e7ff2ce06d1139a1df6755f00a31b',1,'primo::codecs::MetaPictureType']]],
   ['videocodingengine_6',['VideoCodingEngine',['../namespaceprimo_1_1codecs_1_1_hw_engine.html#a8150b7776c2a1749101acf22e868d091a9c4c566f32ebaed00324fbfd6deaca81',1,'primo::codecs::HwEngine']]],
   ['videostreaminfo_7',['VideoStreamInfo',['../namespaceprimo_1_1avblocks_1_1_param_type.html#a8150b7776c2a1749101acf22e868d091a4c237ec70160683b057f89633e52ec96',1,'primo::avblocks::ParamType']]],
-  ['vorbis_8',['Vorbis',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a509152e23ae851f624d166cc7d9e9280',1,'primo::codecs::StreamType']]],
-  ['vp8_9',['VP8',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a0106a9367e11782913caf61c970cc233',1,'primo::codecs::StreamType']]]
+  ['voip_8',['Voip',['../namespaceprimo_1_1codecs_1_1_opus_application.html#a8150b7776c2a1749101acf22e868d091ac38634965c12f3fa5c61a100c51b90f9',1,'primo::codecs::OpusApplication']]],
+  ['vorbis_9',['Vorbis',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a509152e23ae851f624d166cc7d9e9280',1,'primo::codecs::StreamType']]],
+  ['vp8_10',['VP8',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a0106a9367e11782913caf61c970cc233',1,'primo::codecs::StreamType']]],
+  ['vp9_11',['VP9',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091adda330fe1780aaf9c66d3a48c37b594d',1,'primo::codecs::StreamType']]]
 ];

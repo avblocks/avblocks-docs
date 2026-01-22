@@ -12,6 +12,7 @@ var namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic =
     ] ],
     [ "WebM", "namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html", [
       [ "Base_VP8_Vorbis", "namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html#a923ea7c9f4a93381ba1839fb65d43808", null ],
+      [ "Base_VP9_Vorbis", "namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html#ae3807eea9200c8492d4499f21df3e288", null ],
       [ "VP8_3G_240p_350K_Vorbis_64K", "namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html#a9b81cb6de84fe691258e482f242dea69", null ],
       [ "VP8_4G_360p_700K_Vorbis_64K", "namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html#aaa6d920e31dbc3a5733c0c75d88d8293", null ],
       [ "VP8_SD_480p_1200K_Vorbis_128K", "namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html#a4d6264108810dca7b6a200f66a962eb3", null ],

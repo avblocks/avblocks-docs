@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">AVBlocks for C++
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3</span>
    </div>
    <div id="projectbrief">Audio and Video Software Development Kit</div>
   </td>
@@ -117,6 +117,12 @@ Variables</h2></td></tr>
  Container: WebM<br  />
   <br /></td></tr>
 <tr class="separator:a923ea7c9f4a93381ba1839fb65d43808"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3807eea9200c8492d4499f21df3e288"><td class="memItemLeft" align="right" valign="top">static const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html#ae3807eea9200c8492d4499f21df3e288">Base_VP9_Vorbis</a> [] = &quot;webm.vp9.vorbis&quot;</td></tr>
+<tr class="memdesc:ae3807eea9200c8492d4499f21df3e288"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_video.html" title="Describes output video presets structured by codec and device type.">Video</a>: VP9<br  />
+ <a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_audio.html" title="Describes output audio presets structured by codec and device type.">Audio</a>: Vorbis<br  />
+ Container: WebM<br  />
+  <br /></td></tr>
+<tr class="separator:ae3807eea9200c8492d4499f21df3e288"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b81cb6de84fe691258e482f242dea69"><td class="memItemLeft" align="right" valign="top">static const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_video_1_1_generic_1_1_web_m.html#a9b81cb6de84fe691258e482f242dea69">VP8_3G_240p_350K_Vorbis_64K</a> [] = &quot;webm.vp8.3g.240p.350k.vorbis.64k&quot;</td></tr>
 <tr class="memdesc:a9b81cb6de84fe691258e482f242dea69"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_video.html" title="Describes output video presets structured by codec and device type.">Video</a>: VP8, 24 fps, 320x240, bitrate 350 kbps, VBR, keyframe distance 120 <br  />
  <a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_audio.html" title="Describes output audio presets structured by codec and device type.">Audio</a>: Vorbis, 44100 Hz, 64 kbit, 2 channels, VBR <br  />
@@ -229,6 +235,65 @@ Socket</h3>
 
 </div>
 </div>
+<a id="ae3807eea9200c8492d4499f21df3e288" name="ae3807eea9200c8492d4499f21df3e288"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3807eea9200c8492d4499f21df3e288">&#9670;&#160;</a></span>Base_VP9_Vorbis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char Base_VP9_Vorbis[] = &quot;webm.vp9.vorbis&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_video.html" title="Describes output video presets structured by codec and device type.">Video</a>: VP9<br  />
+ <a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_audio.html" title="Describes output audio presets structured by codec and device type.">Audio</a>: Vorbis<br  />
+ Container: WebM<br  />
+ </p>
+<p>Besides the video codec, audio codec and the container, this encoding preset does not enforce any specific audio and video properties. Width, height, frame rate, audio sampling rate, and other properties will be taken from the input.</p>
+<dl class="section version"><dt>Version</dt><dd>3.3 </dd></dl>
+<h3><a class="anchor" id="autotoc_md95"></a>
+Socket</h3>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Property   </th><th class="markdownTableHeadCenter">Value    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html">StreamType</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a159688f2e0bb554ed34ec7d32fddcb55">WebM</a>   </td></tr>
+</table>
+<h3><a class="anchor" id="autotoc_md96"></a>
+%Video Pin</h3>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Property   </th><th class="markdownTableHeadCenter">Value    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classprimo_1_1codecs_1_1_stream_info.html#ae51b2866c5d2994f2e36e687a7d1b417">StreamType (StreamInfo)</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091adda330fe1780aaf9c66d3a48c37b594d">VP9</a>   </td></tr>
+</table>
+<h3><a class="anchor" id="autotoc_md97"></a>
+%Audio Pin</h3>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Property   </th><th class="markdownTableHeadCenter">Value    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classprimo_1_1codecs_1_1_stream_info.html#ae51b2866c5d2994f2e36e687a7d1b417">StreamType (StreamInfo)</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a509152e23ae851f624d166cc7d9e9280">Vorbis</a>    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classprimo_1_1codecs_1_1_audio_stream_info.html#adafad2b29f595e540486c8fe8411a09c">ChannelLayout (AudioStreamInfo)</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_audio_channel_flags.html#a8150b7776c2a1749101acf22e868d091aa314d40583e6f5982791c9869058c202">LayoutStereo</a>    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classprimo_1_1codecs_1_1_audio_stream_info.html#aea4002de000d02ad34907ebd95ac6ea6">Channels (AudioStreamInfo)</a>   </td><td class="markdownTableBodyCenter">2    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classprimo_1_1codecs_1_1_audio_stream_info.html#a999a335e6bc1913d4b4d73cd4ccb04f9">SampleRate (AudioStreamInfo)</a>   </td><td class="markdownTableBodyCenter">48000 Hz   </td></tr>
+</table>
+
+</div>
+</div>
 <a id="a9b81cb6de84fe691258e482f242dea69" name="a9b81cb6de84fe691258e482f242dea69"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9b81cb6de84fe691258e482f242dea69">&#9670;&#160;</a></span>VP8_3G_240p_350K_Vorbis_64K</h2>
 
@@ -252,7 +317,7 @@ Socket</h3>
 <p><a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_video.html" title="Describes output video presets structured by codec and device type.">Video</a>: VP8, 24 fps, 320x240, bitrate 350 kbps, VBR, keyframe distance 120 <br  />
  <a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_audio.html" title="Describes output audio presets structured by codec and device type.">Audio</a>: Vorbis, 44100 Hz, 64 kbit, 2 channels, VBR <br  />
  Container: WebM. </p>
-<h3><a class="anchor" id="autotoc_md95"></a>
+<h3><a class="anchor" id="autotoc_md98"></a>
 Socket</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -260,7 +325,7 @@ Socket</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html">StreamType</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a159688f2e0bb554ed34ec7d32fddcb55">WebM</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md96"></a>
+<h3><a class="anchor" id="autotoc_md99"></a>
 %Video Pin</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -278,7 +343,7 @@ Socket</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a class="el" href="classprimo_1_1codecs_1_1_video_stream_info.html#aec1c8e2378b8552e13048c8423ab76d6">ScanType (VideoStreamInfo)</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_scan_type.html#a8150b7776c2a1749101acf22e868d091a3c2e4528b813777829003aee77b0abb6">Progressive</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md97"></a>
+<h3><a class="anchor" id="autotoc_md100"></a>
 %Video Pin %Parameters</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -288,7 +353,7 @@ Socket</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p8.html#acd3e32fc7b4734af69001d6ac3e6cd84">KeyFrameMinDistance</a>   </td><td class="markdownTableBodyCenter">120   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md98"></a>
+<h3><a class="anchor" id="autotoc_md101"></a>
 %Audio Pin</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -332,7 +397,7 @@ Socket</h3>
 <p><a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_video.html" title="Describes output video presets structured by codec and device type.">Video</a>: VP8, 30 fps, 480x360, bitrate 700 kbps, VBR, keyframe distance 150 <br  />
  <a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_audio.html" title="Describes output audio presets structured by codec and device type.">Audio</a>: Vorbis, 44100 Hz, 64 kbit, 2 channels, VBR <br  />
  Container: WebM. </p>
-<h3><a class="anchor" id="autotoc_md103"></a>
+<h3><a class="anchor" id="autotoc_md106"></a>
 Socket</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -340,7 +405,7 @@ Socket</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html">StreamType</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a159688f2e0bb554ed34ec7d32fddcb55">WebM</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md104"></a>
+<h3><a class="anchor" id="autotoc_md107"></a>
 %Video Pin</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -358,7 +423,7 @@ Socket</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a class="el" href="classprimo_1_1codecs_1_1_video_stream_info.html#aec1c8e2378b8552e13048c8423ab76d6">ScanType (VideoStreamInfo)</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_scan_type.html#a8150b7776c2a1749101acf22e868d091a3c2e4528b813777829003aee77b0abb6">Progressive</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md105"></a>
+<h3><a class="anchor" id="autotoc_md108"></a>
 %Video Pin %Parameters</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -368,7 +433,7 @@ Socket</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p8.html#acd3e32fc7b4734af69001d6ac3e6cd84">KeyFrameMinDistance</a>   </td><td class="markdownTableBodyCenter">150   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md106"></a>
+<h3><a class="anchor" id="autotoc_md109"></a>
 %Audio Pin</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -412,7 +477,7 @@ Socket</h3>
 <p><a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_video.html" title="Describes output video presets structured by codec and device type.">Video</a>: VP8, 30 fps, 640x480, bitrate 1200 kbps, VBR, keyframe distance 300 <br  />
  <a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_audio.html" title="Describes output audio presets structured by codec and device type.">Audio</a>: Vorbis, 44100 Hz, 128 kbit, 2 channels, VBR <br  />
  Container: WebM. </p>
-<h3><a class="anchor" id="autotoc_md111"></a>
+<h3><a class="anchor" id="autotoc_md114"></a>
 Socket</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -420,7 +485,7 @@ Socket</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html">StreamType</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a159688f2e0bb554ed34ec7d32fddcb55">WebM</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md112"></a>
+<h3><a class="anchor" id="autotoc_md115"></a>
 %Video Pin</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -438,7 +503,7 @@ Socket</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a class="el" href="classprimo_1_1codecs_1_1_video_stream_info.html#aec1c8e2378b8552e13048c8423ab76d6">ScanType (VideoStreamInfo)</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_scan_type.html#a8150b7776c2a1749101acf22e868d091a3c2e4528b813777829003aee77b0abb6">Progressive</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md113"></a>
+<h3><a class="anchor" id="autotoc_md116"></a>
 %Video Pin %Parameters</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -448,7 +513,7 @@ Socket</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p8.html#acd3e32fc7b4734af69001d6ac3e6cd84">KeyFrameMinDistance</a>   </td><td class="markdownTableBodyCenter">300   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md114"></a>
+<h3><a class="anchor" id="autotoc_md117"></a>
 %Audio Pin</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -492,7 +557,7 @@ Socket</h3>
 <p><a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_video.html" title="Describes output video presets structured by codec and device type.">Video</a>: VP8, 25 fps, 720x576, bitrate 1600 kbps, VBR, keyframe distance 250 <br  />
  <a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_audio.html" title="Describes output audio presets structured by codec and device type.">Audio</a>: Vorbis, 44100 Hz, 128 kbit, 2 channels, VBR <br  />
  Container: WebM. </p>
-<h3><a class="anchor" id="autotoc_md119"></a>
+<h3><a class="anchor" id="autotoc_md122"></a>
 Socket</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -500,7 +565,7 @@ Socket</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html">StreamType</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a159688f2e0bb554ed34ec7d32fddcb55">WebM</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md120"></a>
+<h3><a class="anchor" id="autotoc_md123"></a>
 %Video Pin</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -518,7 +583,7 @@ Socket</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a class="el" href="classprimo_1_1codecs_1_1_video_stream_info.html#aec1c8e2378b8552e13048c8423ab76d6">ScanType (VideoStreamInfo)</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_scan_type.html#a8150b7776c2a1749101acf22e868d091a3c2e4528b813777829003aee77b0abb6">Progressive</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md121"></a>
+<h3><a class="anchor" id="autotoc_md124"></a>
 %Video Pin %Parameters</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -528,7 +593,7 @@ Socket</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p8.html#acd3e32fc7b4734af69001d6ac3e6cd84">KeyFrameMinDistance</a>   </td><td class="markdownTableBodyCenter">250   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md122"></a>
+<h3><a class="anchor" id="autotoc_md125"></a>
 %Audio Pin</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -572,7 +637,7 @@ Socket</h3>
 <p><a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_video.html" title="Describes output video presets structured by codec and device type.">Video</a>: VP8, 24 fps, 426x240, bitrate 350 kbps, VBR, keyframe distance 120 <br  />
  <a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_audio.html" title="Describes output audio presets structured by codec and device type.">Audio</a>: Vorbis, 44100 Hz, 64 kbit, 2 channels, VBR <br  />
  Container: WebM. </p>
-<h3><a class="anchor" id="autotoc_md99"></a>
+<h3><a class="anchor" id="autotoc_md102"></a>
 Socket</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -580,7 +645,7 @@ Socket</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html">StreamType</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a159688f2e0bb554ed34ec7d32fddcb55">WebM</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md100"></a>
+<h3><a class="anchor" id="autotoc_md103"></a>
 %Video Pin</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -598,7 +663,7 @@ Socket</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a class="el" href="classprimo_1_1codecs_1_1_video_stream_info.html#aec1c8e2378b8552e13048c8423ab76d6">ScanType (VideoStreamInfo)</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_scan_type.html#a8150b7776c2a1749101acf22e868d091a3c2e4528b813777829003aee77b0abb6">Progressive</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md101"></a>
+<h3><a class="anchor" id="autotoc_md104"></a>
 %Video Pin %Parameters</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -608,7 +673,7 @@ Socket</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p8.html#acd3e32fc7b4734af69001d6ac3e6cd84">KeyFrameMinDistance</a>   </td><td class="markdownTableBodyCenter">120   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md102"></a>
+<h3><a class="anchor" id="autotoc_md105"></a>
 %Audio Pin</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -652,7 +717,7 @@ Socket</h3>
 <p><a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_video.html" title="Describes output video presets structured by codec and device type.">Video</a>: VP8, 30 fps, 640x360, bitrate 700 kbps, VBR, keyframe distance 150 <br  />
  <a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_audio.html" title="Describes output audio presets structured by codec and device type.">Audio</a>: Vorbis, 44100 Hz, 64 kbit, 2 channels, VBR <br  />
  Container: WebM. </p>
-<h3><a class="anchor" id="autotoc_md107"></a>
+<h3><a class="anchor" id="autotoc_md110"></a>
 Socket</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -660,7 +725,7 @@ Socket</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html">StreamType</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a159688f2e0bb554ed34ec7d32fddcb55">WebM</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md108"></a>
+<h3><a class="anchor" id="autotoc_md111"></a>
 %Video Pin</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -678,7 +743,7 @@ Socket</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a class="el" href="classprimo_1_1codecs_1_1_video_stream_info.html#aec1c8e2378b8552e13048c8423ab76d6">ScanType (VideoStreamInfo)</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_scan_type.html#a8150b7776c2a1749101acf22e868d091a3c2e4528b813777829003aee77b0abb6">Progressive</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md109"></a>
+<h3><a class="anchor" id="autotoc_md112"></a>
 %Video Pin %Parameters</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -688,7 +753,7 @@ Socket</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p8.html#acd3e32fc7b4734af69001d6ac3e6cd84">KeyFrameMinDistance</a>   </td><td class="markdownTableBodyCenter">150   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md110"></a>
+<h3><a class="anchor" id="autotoc_md113"></a>
 %Audio Pin</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -732,7 +797,7 @@ Socket</h3>
 <p><a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_video.html" title="Describes output video presets structured by codec and device type.">Video</a>: VP8, 30 fps, 1920x1080, bitrate 5000 kbps, VBR, keyframe distance 300 <br  />
  <a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_audio.html" title="Describes output audio presets structured by codec and device type.">Audio</a>: Vorbis, 48000 Hz, 192 kbit, 2 channels, VBR <br  />
  Container: WebM. </p>
-<h3><a class="anchor" id="autotoc_md131"></a>
+<h3><a class="anchor" id="autotoc_md134"></a>
 Socket</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -740,7 +805,7 @@ Socket</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html">StreamType</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a159688f2e0bb554ed34ec7d32fddcb55">WebM</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md132"></a>
+<h3><a class="anchor" id="autotoc_md135"></a>
 %Video Pin</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -758,7 +823,7 @@ Socket</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a class="el" href="classprimo_1_1codecs_1_1_video_stream_info.html#aec1c8e2378b8552e13048c8423ab76d6">ScanType (VideoStreamInfo)</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_scan_type.html#a8150b7776c2a1749101acf22e868d091a3c2e4528b813777829003aee77b0abb6">Progressive</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md133"></a>
+<h3><a class="anchor" id="autotoc_md136"></a>
 %Video Pin %Parameters</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -768,7 +833,7 @@ Socket</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p8.html#acd3e32fc7b4734af69001d6ac3e6cd84">KeyFrameMinDistance</a>   </td><td class="markdownTableBodyCenter">300   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md134"></a>
+<h3><a class="anchor" id="autotoc_md137"></a>
 %Audio Pin</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -812,7 +877,7 @@ Socket</h3>
 <p><a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_video.html" title="Describes output video presets structured by codec and device type.">Video</a>: VP8, 30 fps, 1280x720, bitrate 2500 kbps, VBR, keyframe distance 300 <br  />
  <a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_audio.html" title="Describes output audio presets structured by codec and device type.">Audio</a>: Vorbis, 48000 Hz, 192 kbit, 2 channels, VBR <br  />
  Container: WebM. </p>
-<h3><a class="anchor" id="autotoc_md127"></a>
+<h3><a class="anchor" id="autotoc_md130"></a>
 Socket</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -820,7 +885,7 @@ Socket</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html">StreamType</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a159688f2e0bb554ed34ec7d32fddcb55">WebM</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md128"></a>
+<h3><a class="anchor" id="autotoc_md131"></a>
 %Video Pin</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -838,7 +903,7 @@ Socket</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a class="el" href="classprimo_1_1codecs_1_1_video_stream_info.html#aec1c8e2378b8552e13048c8423ab76d6">ScanType (VideoStreamInfo)</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_scan_type.html#a8150b7776c2a1749101acf22e868d091a3c2e4528b813777829003aee77b0abb6">Progressive</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md129"></a>
+<h3><a class="anchor" id="autotoc_md132"></a>
 %Video Pin %Parameters</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -848,7 +913,7 @@ Socket</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p8.html#acd3e32fc7b4734af69001d6ac3e6cd84">KeyFrameMinDistance</a>   </td><td class="markdownTableBodyCenter">300   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md130"></a>
+<h3><a class="anchor" id="autotoc_md133"></a>
 %Audio Pin</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -892,7 +957,7 @@ Socket</h3>
 <p><a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_video.html" title="Describes output video presets structured by codec and device type.">Video</a>: VP8, 30 fps, 854x480, bitrate 1200 kbps, VBR, keyframe distance 300 <br  />
  <a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_audio.html" title="Describes output audio presets structured by codec and device type.">Audio</a>: Vorbis, 44100 Hz, 128 kbit, 2 channels, VBR <br  />
  Container: WebM. </p>
-<h3><a class="anchor" id="autotoc_md115"></a>
+<h3><a class="anchor" id="autotoc_md118"></a>
 Socket</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -900,7 +965,7 @@ Socket</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html">StreamType</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a159688f2e0bb554ed34ec7d32fddcb55">WebM</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md116"></a>
+<h3><a class="anchor" id="autotoc_md119"></a>
 %Video Pin</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -918,7 +983,7 @@ Socket</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a class="el" href="classprimo_1_1codecs_1_1_video_stream_info.html#aec1c8e2378b8552e13048c8423ab76d6">ScanType (VideoStreamInfo)</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_scan_type.html#a8150b7776c2a1749101acf22e868d091a3c2e4528b813777829003aee77b0abb6">Progressive</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md117"></a>
+<h3><a class="anchor" id="autotoc_md120"></a>
 %Video Pin %Parameters</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -928,7 +993,7 @@ Socket</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p8.html#acd3e32fc7b4734af69001d6ac3e6cd84">KeyFrameMinDistance</a>   </td><td class="markdownTableBodyCenter">300   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md118"></a>
+<h3><a class="anchor" id="autotoc_md121"></a>
 %Audio Pin</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -972,7 +1037,7 @@ Socket</h3>
 <p><a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_video.html" title="Describes output video presets structured by codec and device type.">Video</a>: VP8, 25 fps, 1024x576, bitrate 1600 kbps, VBR, keyframe distance 250 <br  />
  <a class="el" href="namespaceprimo_1_1avblocks_1_1_preset_1_1_audio.html" title="Describes output audio presets structured by codec and device type.">Audio</a>: Vorbis, 44100 Hz, 128 kbit, 2 channels, VBR <br  />
  Container: WebM. </p>
-<h3><a class="anchor" id="autotoc_md123"></a>
+<h3><a class="anchor" id="autotoc_md126"></a>
 Socket</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -980,7 +1045,7 @@ Socket</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html">StreamType</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a159688f2e0bb554ed34ec7d32fddcb55">WebM</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md124"></a>
+<h3><a class="anchor" id="autotoc_md127"></a>
 %Video Pin</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -998,7 +1063,7 @@ Socket</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a class="el" href="classprimo_1_1codecs_1_1_video_stream_info.html#aec1c8e2378b8552e13048c8423ab76d6">ScanType (VideoStreamInfo)</a>   </td><td class="markdownTableBodyCenter"><a class="el" href="namespaceprimo_1_1codecs_1_1_scan_type.html#a8150b7776c2a1749101acf22e868d091a3c2e4528b813777829003aee77b0abb6">Progressive</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md125"></a>
+<h3><a class="anchor" id="autotoc_md128"></a>
 %Video Pin %Parameters</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -1008,7 +1073,7 @@ Socket</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a class="el" href="namespaceprimo_1_1avblocks_1_1_param_1_1_encoder_1_1_video_1_1_v_p8.html#acd3e32fc7b4734af69001d6ac3e6cd84">KeyFrameMinDistance</a>   </td><td class="markdownTableBodyCenter">250   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md126"></a>
+<h3><a class="anchor" id="autotoc_md129"></a>
 %Audio Pin</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">

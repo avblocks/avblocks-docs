@@ -1,0 +1,11 @@
+# Presets
+
+Predefined output format presets for common use cases.
+
+## Preset
+
+```{eval-rst}
+.. autoclass:: avblocks.Preset
+   :members:
+   :undoc-members:
+```

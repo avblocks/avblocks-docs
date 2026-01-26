@@ -1,0 +1,43 @@
+# License and Error Codes
+
+Enumerations for license status and error handling.
+
+## LicenseStatusFlags
+
+```{eval-rst}
+.. autoclass:: avblocks.LicenseStatusFlags
+   :members:
+   :undoc-members:
+```
+
+## ErrorFacility
+
+```{eval-rst}
+.. autoclass:: avblocks.ErrorFacility
+   :members:
+   :undoc-members:
+```
+
+## AVBlocksError
+
+```{eval-rst}
+.. autoclass:: avblocks.AVBlocksError
+   :members:
+   :undoc-members:
+```
+
+## TranscoderError
+
+```{eval-rst}
+.. autoclass:: avblocks.TranscoderError
+   :members:
+   :undoc-members:
+```
+
+## CodecError
+
+```{eval-rst}
+.. autoclass:: avblocks.CodecError
+   :members:
+   :undoc-members:
+```

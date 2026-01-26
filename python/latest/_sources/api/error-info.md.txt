@@ -1,0 +1,13 @@
+# Error Handling
+
+This section documents error handling in AVBlocks.
+
+## ErrorInfo
+
+The `ErrorInfo` class describes an AVBlocks error.
+
+```{eval-rst}
+.. autoclass:: avblocks.ErrorInfo
+   :members:
+   :undoc-members:
+```

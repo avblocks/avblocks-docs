@@ -1,0 +1,11 @@
+# MediaSample
+
+The `MediaSample` class represents one or more samples of media data.
+
+## Class
+
+```{eval-rst}
+.. autoclass:: avblocks.MediaSample
+   :members:
+   :undoc-members:
+```

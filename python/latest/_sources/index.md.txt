@@ -1,0 +1,15 @@
+# AVBlocks Python API
+
+Welcome to the AVBlocks Python API documentation.
+
+```{toctree}
+:maxdepth: 2
+
+api/core-classes
+api/media-classes
+api/stream-info-classes
+api/metadata
+api/error-info
+api/collections
+api/enums
+```

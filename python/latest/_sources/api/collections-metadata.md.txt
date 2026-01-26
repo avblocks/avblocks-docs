@@ -1,0 +1,19 @@
+# Metadata Collections
+
+## MetaAttributeList
+
+```{eval-rst}
+.. autoclass:: avblocks.meta_attribute_list.MetaAttributeList
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```
+
+## MetaPictureList
+
+```{eval-rst}
+.. autoclass:: avblocks.meta_picture_list.MetaPictureList
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```

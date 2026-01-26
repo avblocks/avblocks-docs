@@ -1,0 +1,27 @@
+# Stream Types
+
+Enumerations for stream and media types.
+
+## StreamType
+
+```{eval-rst}
+.. autoclass:: avblocks.StreamType
+   :members:
+   :undoc-members:
+```
+
+## StreamSubType
+
+```{eval-rst}
+.. autoclass:: avblocks.StreamSubType
+   :members:
+   :undoc-members:
+```
+
+## MediaType
+
+```{eval-rst}
+.. autoclass:: avblocks.MediaType
+   :members:
+   :undoc-members:
+```

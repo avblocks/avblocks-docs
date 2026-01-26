@@ -1,0 +1,16 @@
+# Enumerations
+
+This section documents all enumerations (constants) used in AVBlocks.
+
+```{toctree}
+:maxdepth: 2
+
+enums-errors
+enums-stream-types
+enums-video
+enums-audio
+enums-encoding
+enums-metadata
+enums-presets
+enums-params
+```

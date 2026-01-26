@@ -1,0 +1,11 @@
+# Audio Settings
+
+Enumerations for audio format settings.
+
+## StereoMode
+
+```{eval-rst}
+.. autoclass:: avblocks.StereoMode
+   :members:
+   :undoc-members:
+```

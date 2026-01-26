@@ -1,0 +1,15 @@
+# MediaSocket
+
+The `MediaSocket` class represents an input or output point of the Transcoder.
+
+A `MediaSocket` object describes either a container (WAV, AVI, MP4, etc.) with one or more streams
+or simply an elementary stream (MP3, M2V, etc.).
+
+## Class
+
+```{eval-rst}
+.. autoclass:: avblocks.MediaSocket
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```

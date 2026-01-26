@@ -1,0 +1,8 @@
+# Parameter Collection
+
+```{eval-rst}
+.. autoclass:: avblocks.parameter_list.ParameterList
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```

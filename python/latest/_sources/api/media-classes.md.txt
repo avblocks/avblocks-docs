@@ -1,0 +1,12 @@
+# Media Classes
+
+Media classes represent the data structures used for input and output in AVBlocks transcoding operations.
+
+```{toctree}
+:maxdepth: 1
+
+media-socket
+media-pin
+media-buffer
+media-sample
+```

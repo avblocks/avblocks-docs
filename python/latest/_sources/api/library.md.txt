@@ -1,0 +1,11 @@
+# Library
+
+The `Library` class initializes AVBlocks and manages license information.
+
+## Class
+
+```{eval-rst}
+.. autoclass:: avblocks.Library
+   :members:
+   :undoc-members:
+```

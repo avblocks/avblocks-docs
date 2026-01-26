@@ -1,0 +1,14 @@
+# AudioStreamInfo
+
+The `AudioStreamInfo` class describes an elementary audio stream.
+
+The media type is always `MediaType.Audio` and cannot be changed.
+
+## Class
+
+```{eval-rst}
+.. autoclass:: avblocks.AudioStreamInfo
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```

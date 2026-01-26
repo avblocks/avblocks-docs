@@ -1,0 +1,12 @@
+# MediaInfo
+
+The `MediaInfo` class analyzes a file or stream and provides information about its type and properties.
+
+## Class
+
+```{eval-rst}
+.. autoclass:: avblocks.MediaInfo
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```

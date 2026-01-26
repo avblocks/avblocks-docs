@@ -1,0 +1,46 @@
+# Transcoder
+
+The `Transcoder` class provides functionality for audio and video encoding, decoding, and transforming.
+
+## Classes
+
+### Transcoder
+
+```{eval-rst}
+.. autoclass:: avblocks.Transcoder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```
+
+### TranscoderProgressEventArgs
+
+```{eval-rst}
+.. autoclass:: avblocks.TranscoderProgressEventArgs
+   :members:
+   :undoc-members:
+```
+
+### TranscoderStatusEventArgs
+
+```{eval-rst}
+.. autoclass:: avblocks.TranscoderStatusEventArgs
+   :members:
+   :undoc-members:
+```
+
+### TranscoderContinueEventArgs
+
+```{eval-rst}
+.. autoclass:: avblocks.TranscoderContinueEventArgs
+   :members:
+   :undoc-members:
+```
+
+### TranscoderInputChangeEventArgs
+
+```{eval-rst}
+.. autoclass:: avblocks.TranscoderInputChangeEventArgs
+   :members:
+   :undoc-members:
+```

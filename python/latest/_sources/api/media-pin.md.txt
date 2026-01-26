@@ -1,0 +1,16 @@
+# MediaPin
+
+The `MediaPin` class represents an elementary media stream.
+
+`MediaPin` objects can exist for audio, video, or any other type of stream.
+However, AVBlocks can process only audio and video streams.
+`MediaPin` objects are used as inputs and outputs of the Transcoder.
+
+## Class
+
+```{eval-rst}
+.. autoclass:: avblocks.MediaPin
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```

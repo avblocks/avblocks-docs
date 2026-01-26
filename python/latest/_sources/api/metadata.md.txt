@@ -1,0 +1,30 @@
+# Metadata
+
+This page documents the metadata classes used for audio/video file metadata (tags, cover art, etc.).
+
+## Metadata
+
+```{eval-rst}
+.. autoclass:: avblocks.metadata.Metadata
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```
+
+## MetaAttribute
+
+```{eval-rst}
+.. autoclass:: avblocks.meta_attribute.MetaAttribute
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```
+
+## MetaPicture
+
+```{eval-rst}
+.. autoclass:: avblocks.meta_picture.MetaPicture
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```

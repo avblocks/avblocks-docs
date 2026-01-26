@@ -1,0 +1,19 @@
+# Video Settings
+
+Enumerations for video format and display settings.
+
+## ColorFormat
+
+```{eval-rst}
+.. autoclass:: avblocks.ColorFormat
+   :members:
+   :undoc-members:
+```
+
+## ScanType
+
+```{eval-rst}
+.. autoclass:: avblocks.ScanType
+   :members:
+   :undoc-members:
+```

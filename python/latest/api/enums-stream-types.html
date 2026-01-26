@@ -1,0 +1,1048 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Video Settings" href="enums-video.html" /><link rel="prev" title="License and Error Codes" href="enums-errors.html" />
+
+    <link rel="shortcut icon" href="../_static/favicon.ico"/><!-- Generated with Sphinx 7.4.7 and Furo 2024.08.06 -->
+        <title>Stream Types - AVBlocks Python API</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=302659d7" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">AVBlocks Python API</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo" src="../_static/logo_blue_128.svg" alt="Logo"/>
+  </div>
+  
+  <span class="sidebar-brand-text">AVBlocks Python API</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul class="current">
+<li class="toctree-l1 has-children"><a class="reference internal" href="core-classes.html">Core Classes</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Core Classes</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="transcoder.html">Transcoder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="media-info.html">MediaInfo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="library.html">Library</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="media-classes.html">Media Classes</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Media Classes</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="media-socket.html">MediaSocket</a></li>
+<li class="toctree-l2"><a class="reference internal" href="media-pin.html">MediaPin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="media-buffer.html">MediaBuffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="media-sample.html">MediaSample</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="stream-info-classes.html">Stream Information</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Stream Information</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="stream-info.html">StreamInfo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="video-stream-info.html">VideoStreamInfo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="audio-stream-info.html">AudioStreamInfo</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="metadata.html">Metadata</a></li>
+<li class="toctree-l1"><a class="reference internal" href="error-info.html">Error Handling</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="collections.html">Collections</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Collections</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="collections-base.html">Base Collection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="collections-media.html">Media Collections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="collections-parameter.html">Parameter Collection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="collections-metadata.html">Metadata Collections</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="enums.html">Enumerations</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Enumerations</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="enums-errors.html">License and Error Codes</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Stream Types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="enums-video.html">Video Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="enums-audio.html">Audio Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="enums-encoding.html">Encoding Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="enums-metadata.html">Metadata Constants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="enums-presets.html">Presets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="enums-params.html">Parameters</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="stream-types">
+<h1>Stream Types<a class="headerlink" href="#stream-types" title="Link to this heading">¶</a></h1>
+<p>Enumerations for stream and media types.</p>
+<section id="streamtype">
+<h2>StreamType<a class="headerlink" href="#streamtype" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.StreamType">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">StreamType</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names=&lt;not</span> <span class="pre">given&gt;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">*values</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start=1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary=None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#avblocks.StreamType" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>Defines major audio and video stream types, and file formats (a.k.a. containers).</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.AAC">
+<span class="sig-name descname"><span class="pre">AAC</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4105</span></em><a class="headerlink" href="#avblocks.StreamType.AAC" title="Link to this definition">¶</a></dt>
+<dd><p>Advanced Audio Coding.
+Initially it was defined in Part 7 of the MPEG-2 standard (known formally as ISO/IEC 13818-7) which is now obsolete.
+Currently it is defined in Part 3 of the MPEG-4 standard (known formally as ISO/IEC 14496-3).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.AC3">
+<span class="sig-name descname"><span class="pre">AC3</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4101</span></em><a class="headerlink" href="#avblocks.StreamType.AC3" title="Link to this definition">¶</a></dt>
+<dd><p>Dolby Digital Audio (a.k.a. AC-3). AC-3 is defined in ATSC A/52-A and A/52-B.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.ALAW_PCM">
+<span class="sig-name descname"><span class="pre">ALAW_PCM</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4098</span></em><a class="headerlink" href="#avblocks.StreamType.ALAW_PCM" title="Link to this definition">¶</a></dt>
+<dd><p>A-law PCM.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.AMRNB">
+<span class="sig-name descname"><span class="pre">AMRNB</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4106</span></em><a class="headerlink" href="#avblocks.StreamType.AMRNB" title="Link to this definition">¶</a></dt>
+<dd><p>Adaptive Multi-Rate audio (Narrow Band).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.AMRWB">
+<span class="sig-name descname"><span class="pre">AMRWB</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4107</span></em><a class="headerlink" href="#avblocks.StreamType.AMRWB" title="Link to this definition">¶</a></dt>
+<dd><p>Adaptive Multi-Rate audio (Wide Band).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.ASF">
+<span class="sig-name descname"><span class="pre">ASF</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">12291</span></em><a class="headerlink" href="#avblocks.StreamType.ASF" title="Link to this definition">¶</a></dt>
+<dd><p>Advanced Systems Format (formerly Advanced Streaming Format, Active Streaming Format) (ASF).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.AVC">
+<span class="sig-name descname"><span class="pre">AVC</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8199</span></em><a class="headerlink" href="#avblocks.StreamType.AVC" title="Link to this definition">¶</a></dt>
+<dd><p>Alias. Same as H264.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.AVI">
+<span class="sig-name descname"><span class="pre">AVI</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">12289</span></em><a class="headerlink" href="#avblocks.StreamType.AVI" title="Link to this definition">¶</a></dt>
+<dd><p>Audio Video Interleave (AVI) multimedia container format.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.AVS">
+<span class="sig-name descname"><span class="pre">AVS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8203</span></em><a class="headerlink" href="#avblocks.StreamType.AVS" title="Link to this definition">¶</a></dt>
+<dd><p>Advanced Video Standard (Chinese national standard)</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.BEGIN_AUDIO">
+<span class="sig-name descname"><span class="pre">BEGIN_AUDIO</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4096</span></em><a class="headerlink" href="#avblocks.StreamType.BEGIN_AUDIO" title="Link to this definition">¶</a></dt>
+<dd><p>This constant marks the start of audio elementary streams. It is not a valid stream type on its own.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.BEGIN_CONTAINER">
+<span class="sig-name descname"><span class="pre">BEGIN_CONTAINER</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">12288</span></em><a class="headerlink" href="#avblocks.StreamType.BEGIN_CONTAINER" title="Link to this definition">¶</a></dt>
+<dd><p>This constant marks the start of file formats (a.k.a. containers). It is not a valid stream type on its own.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.BEGIN_DATA">
+<span class="sig-name descname"><span class="pre">BEGIN_DATA</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">20480</span></em><a class="headerlink" href="#avblocks.StreamType.BEGIN_DATA" title="Link to this definition">¶</a></dt>
+<dd><p>This constant marks the start of various data types. It is not a valid stream type on its own.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.BEGIN_IMAGE">
+<span class="sig-name descname"><span class="pre">BEGIN_IMAGE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">16384</span></em><a class="headerlink" href="#avblocks.StreamType.BEGIN_IMAGE" title="Link to this definition">¶</a></dt>
+<dd><p>This constant marks the start of image types. It is not a valid stream type on its own.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.BEGIN_VIDEO">
+<span class="sig-name descname"><span class="pre">BEGIN_VIDEO</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8192</span></em><a class="headerlink" href="#avblocks.StreamType.BEGIN_VIDEO" title="Link to this definition">¶</a></dt>
+<dd><p>This constant marks the start of video elementary streams. It is not a valid stream type on its own.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.BMP">
+<span class="sig-name descname"><span class="pre">BMP</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">16385</span></em><a class="headerlink" href="#avblocks.StreamType.BMP" title="Link to this definition">¶</a></dt>
+<dd><p>BMP image.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.DTS">
+<span class="sig-name descname"><span class="pre">DTS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4102</span></em><a class="headerlink" href="#avblocks.StreamType.DTS" title="Link to this definition">¶</a></dt>
+<dd><p>DTS (Digital Theater Systems) Coherent Acoustics codec, transportable through S/PDIF and used on DVDs, CD-DAs, LDs, and in wave files.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.END_AUDIO">
+<span class="sig-name descname"><span class="pre">END_AUDIO</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8191</span></em><a class="headerlink" href="#avblocks.StreamType.END_AUDIO" title="Link to this definition">¶</a></dt>
+<dd><p>This constant marks the end of audio elementary streams. It is not a valid stream type on its own.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.END_CONTAINER">
+<span class="sig-name descname"><span class="pre">END_CONTAINER</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">16383</span></em><a class="headerlink" href="#avblocks.StreamType.END_CONTAINER" title="Link to this definition">¶</a></dt>
+<dd><p>This constant marks the end of audio/video containers. It is not a valid stream type on its own.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.END_DATA">
+<span class="sig-name descname"><span class="pre">END_DATA</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">24575</span></em><a class="headerlink" href="#avblocks.StreamType.END_DATA" title="Link to this definition">¶</a></dt>
+<dd><p>This constant marks the end of various data types. It is not a valid stream type on its own.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.END_IMAGE">
+<span class="sig-name descname"><span class="pre">END_IMAGE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">20479</span></em><a class="headerlink" href="#avblocks.StreamType.END_IMAGE" title="Link to this definition">¶</a></dt>
+<dd><p>This constant marks the end of image types. It is not a valid stream type on its own.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.END_VIDEO">
+<span class="sig-name descname"><span class="pre">END_VIDEO</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">12287</span></em><a class="headerlink" href="#avblocks.StreamType.END_VIDEO" title="Link to this definition">¶</a></dt>
+<dd><p>This constant marks the end of the elementary video streams. It is not a valid stream type on its own.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.FLV">
+<span class="sig-name descname"><span class="pre">FLV</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">12296</span></em><a class="headerlink" href="#avblocks.StreamType.FLV" title="Link to this definition">¶</a></dt>
+<dd><p>Adobe Flash Video container format (FLV).
+This should not be confused with F4V which is a newer Flash Video container format based on ISO/IEC 14496-12 (MPEG-4 Part 12).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.G726_ADPCM">
+<span class="sig-name descname"><span class="pre">G726_ADPCM</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4108</span></em><a class="headerlink" href="#avblocks.StreamType.G726_ADPCM" title="Link to this definition">¶</a></dt>
+<dd><p>G.726 ITU-T ADPCM.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.GIF">
+<span class="sig-name descname"><span class="pre">GIF</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">16389</span></em><a class="headerlink" href="#avblocks.StreamType.GIF" title="Link to this definition">¶</a></dt>
+<dd><p>GIF image.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.H261">
+<span class="sig-name descname"><span class="pre">H261</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8197</span></em><a class="headerlink" href="#avblocks.StreamType.H261" title="Link to this definition">¶</a></dt>
+<dd><p>H.261 Video is defined in the ITU-T H.261 standard.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.H263">
+<span class="sig-name descname"><span class="pre">H263</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8198</span></em><a class="headerlink" href="#avblocks.StreamType.H263" title="Link to this definition">¶</a></dt>
+<dd><p>H.263 Video is defined in the ITU-T H.263 standard.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.H264">
+<span class="sig-name descname"><span class="pre">H264</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8199</span></em><a class="headerlink" href="#avblocks.StreamType.H264" title="Link to this definition">¶</a></dt>
+<dd><p>H.264 Video (also known as MPEG-4 AVC / Advanced Video Codec).
+Defined in Part 10 of the MPEG-4 standard (known formally as ISO/IEC 14496-10 and as ITU-T H.264).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.H265">
+<span class="sig-name descname"><span class="pre">H265</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8206</span></em><a class="headerlink" href="#avblocks.StreamType.H265" title="Link to this definition">¶</a></dt>
+<dd><p>H.265 Video (also known as MPEG-H HEVC / High Efficiency Video Codec)
+Defined in Part 2 of the MPEG-H standard (known formally as ISO/IEC 23008-2 and as ITU-T H.265).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.HEVC">
+<span class="sig-name descname"><span class="pre">HEVC</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8206</span></em><a class="headerlink" href="#avblocks.StreamType.HEVC" title="Link to this definition">¶</a></dt>
+<dd><p>Alias. Same as H265.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.IVF">
+<span class="sig-name descname"><span class="pre">IVF</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">12299</span></em><a class="headerlink" href="#avblocks.StreamType.IVF" title="Link to this definition">¶</a></dt>
+<dd><p>IVF (Interactive Video Format) is a simple file format that transports raw VP8, VP9, and AV1 video only.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.JPEG">
+<span class="sig-name descname"><span class="pre">JPEG</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">16387</span></em><a class="headerlink" href="#avblocks.StreamType.JPEG" title="Link to this definition">¶</a></dt>
+<dd><p>JPEG image.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.LPCM">
+<span class="sig-name descname"><span class="pre">LPCM</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4097</span></em><a class="headerlink" href="#avblocks.StreamType.LPCM" title="Link to this definition">¶</a></dt>
+<dd><p>Audio encoded using pulse code modulation (PCM) with linear quantization.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.MJPEG">
+<span class="sig-name descname"><span class="pre">MJPEG</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8201</span></em><a class="headerlink" href="#avblocks.StreamType.MJPEG" title="Link to this definition">¶</a></dt>
+<dd><p>Motion JPEG (M-JPEG).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.MP4">
+<span class="sig-name descname"><span class="pre">MP4</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">12290</span></em><a class="headerlink" href="#avblocks.StreamType.MP4" title="Link to this definition">¶</a></dt>
+<dd><p>2003).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>MPEG-4 multimedia container format specified in Part 14 of the MPEG-4 standard (formally ISO/IEC 14496-14</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.MPEG1_Video">
+<span class="sig-name descname"><span class="pre">MPEG1_Video</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8194</span></em><a class="headerlink" href="#avblocks.StreamType.MPEG1_Video" title="Link to this definition">¶</a></dt>
+<dd><p>MPEG-1 Video is defined in Part 2 of the MPEG-1 standard (known formally as ISO/IEC-11172-2).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.MPEG2_Video">
+<span class="sig-name descname"><span class="pre">MPEG2_Video</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8195</span></em><a class="headerlink" href="#avblocks.StreamType.MPEG2_Video" title="Link to this definition">¶</a></dt>
+<dd><p>MPEG-2 Video is defined in Part 2 of the MPEG-2 standard (known formally as ISO/IEC 13818-2 and as ITU-T H.262).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.MPEG4_Video">
+<span class="sig-name descname"><span class="pre">MPEG4_Video</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8196</span></em><a class="headerlink" href="#avblocks.StreamType.MPEG4_Video" title="Link to this definition">¶</a></dt>
+<dd><p>MPEG-4 Video is defined in Part 2 of the MPEG-4 standard (known formally as ISO/IEC 14496-2).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.MPEG_Audio">
+<span class="sig-name descname"><span class="pre">MPEG_Audio</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4103</span></em><a class="headerlink" href="#avblocks.StreamType.MPEG_Audio" title="Link to this definition">¶</a></dt>
+<dd><p>MPEG-1 or MPEG-2 Audio, Layer I, II and III.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.MPEG_PES">
+<span class="sig-name descname"><span class="pre">MPEG_PES</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">12294</span></em><a class="headerlink" href="#avblocks.StreamType.MPEG_PES" title="Link to this definition">¶</a></dt>
+<dd><p>MPEG Packetized Elementary Stream (PES).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.MPEG_PS">
+<span class="sig-name descname"><span class="pre">MPEG_PS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">12292</span></em><a class="headerlink" href="#avblocks.StreamType.MPEG_PS" title="Link to this definition">¶</a></dt>
+<dd><p>MPEG Program Stream.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.MPEG_PSI_PACKETS">
+<span class="sig-name descname"><span class="pre">MPEG_PSI_PACKETS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">20482</span></em><a class="headerlink" href="#avblocks.StreamType.MPEG_PSI_PACKETS" title="Link to this definition">¶</a></dt>
+<dd><p>MPEG Transport Stream Program Specific Information</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.MPEG_TS">
+<span class="sig-name descname"><span class="pre">MPEG_TS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">12293</span></em><a class="headerlink" href="#avblocks.StreamType.MPEG_TS" title="Link to this definition">¶</a></dt>
+<dd><p>MPEG Transport Stream.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.MPEG_TS_PACKETS">
+<span class="sig-name descname"><span class="pre">MPEG_TS_PACKETS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">20483</span></em><a class="headerlink" href="#avblocks.StreamType.MPEG_TS_PACKETS" title="Link to this definition">¶</a></dt>
+<dd><p>MPEG Transport Stream packets.
+This is not a complete transport stream but rather a subset of the complete transport stream.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.MULAW_PCM">
+<span class="sig-name descname"><span class="pre">MULAW_PCM</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4099</span></em><a class="headerlink" href="#avblocks.StreamType.MULAW_PCM" title="Link to this definition">¶</a></dt>
+<dd><p>Mu-law PCM.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.OGG">
+<span class="sig-name descname"><span class="pre">OGG</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">12297</span></em><a class="headerlink" href="#avblocks.StreamType.OGG" title="Link to this definition">¶</a></dt>
+<dd><p>Open standard container format developed by the Xiph.Org Foundation.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.PNG">
+<span class="sig-name descname"><span class="pre">PNG</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">16386</span></em><a class="headerlink" href="#avblocks.StreamType.PNG" title="Link to this definition">¶</a></dt>
+<dd><p>PNG image.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.TIFF">
+<span class="sig-name descname"><span class="pre">TIFF</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">16388</span></em><a class="headerlink" href="#avblocks.StreamType.TIFF" title="Link to this definition">¶</a></dt>
+<dd><p>TIFF image.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.Teletext">
+<span class="sig-name descname"><span class="pre">Teletext</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">20481</span></em><a class="headerlink" href="#avblocks.StreamType.Teletext" title="Link to this definition">¶</a></dt>
+<dd><p>Teletext data.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.Theora">
+<span class="sig-name descname"><span class="pre">Theora</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8205</span></em><a class="headerlink" href="#avblocks.StreamType.Theora" title="Link to this definition">¶</a></dt>
+<dd><p>Theora Video Codec. This is an open standard video codec developed by the Xiph.Org Foundation.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.UncompressedVideo">
+<span class="sig-name descname"><span class="pre">UncompressedVideo</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8193</span></em><a class="headerlink" href="#avblocks.StreamType.UncompressedVideo" title="Link to this definition">¶</a></dt>
+<dd><p>Uncompressed video stream.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.Unknown">
+<span class="sig-name descname"><span class="pre">Unknown</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#avblocks.StreamType.Unknown" title="Link to this definition">¶</a></dt>
+<dd><p>The stream type is not defined or is unknown.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.VC1">
+<span class="sig-name descname"><span class="pre">VC1</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8202</span></em><a class="headerlink" href="#avblocks.StreamType.VC1" title="Link to this definition">¶</a></dt>
+<dd><p>VC-1 Video is defined in the SMPTE 421M-2006 standard.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.VIDEO_DVD_PCM">
+<span class="sig-name descname"><span class="pre">VIDEO_DVD_PCM</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4100</span></em><a class="headerlink" href="#avblocks.StreamType.VIDEO_DVD_PCM" title="Link to this definition">¶</a></dt>
+<dd><p>LPCM with specific sample packing for Video-DVD.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.VP8">
+<span class="sig-name descname"><span class="pre">VP8</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8204</span></em><a class="headerlink" href="#avblocks.StreamType.VP8" title="Link to this definition">¶</a></dt>
+<dd><p>VP8 is an open video codec released by Google, originally created by On2 Technologies. VP8 is part of the WebM format.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.Vorbis">
+<span class="sig-name descname"><span class="pre">Vorbis</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4104</span></em><a class="headerlink" href="#avblocks.StreamType.Vorbis" title="Link to this definition">¶</a></dt>
+<dd><p>Vorbis Audio Codec. This is an open standard audio codec developed by the Xiph.Org Foundation.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.WAVE">
+<span class="sig-name descname"><span class="pre">WAVE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">12295</span></em><a class="headerlink" href="#avblocks.StreamType.WAVE" title="Link to this definition">¶</a></dt>
+<dd><p>Waveform Audio file format (WAV, WAVE).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.WMA">
+<span class="sig-name descname"><span class="pre">WMA</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4109</span></em><a class="headerlink" href="#avblocks.StreamType.WMA" title="Link to this definition">¶</a></dt>
+<dd><p>Microsoft Windows Media Audio.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.WMA_Lossless">
+<span class="sig-name descname"><span class="pre">WMA_Lossless</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4111</span></em><a class="headerlink" href="#avblocks.StreamType.WMA_Lossless" title="Link to this definition">¶</a></dt>
+<dd><p>Microsoft Windows Media Audio Lossless.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.WMA_Professional">
+<span class="sig-name descname"><span class="pre">WMA_Professional</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4110</span></em><a class="headerlink" href="#avblocks.StreamType.WMA_Professional" title="Link to this definition">¶</a></dt>
+<dd><p>Microsoft Windows Media Audio Professional.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.WMV">
+<span class="sig-name descname"><span class="pre">WMV</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8200</span></em><a class="headerlink" href="#avblocks.StreamType.WMV" title="Link to this definition">¶</a></dt>
+<dd><p>Microsoft Windows Media Video.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamType.WebM">
+<span class="sig-name descname"><span class="pre">WebM</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">12298</span></em><a class="headerlink" href="#avblocks.StreamType.WebM" title="Link to this definition">¶</a></dt>
+<dd><p>Open standard container format released by Google and based on a profile of Matroska.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="streamsubtype">
+<h2>StreamSubType<a class="headerlink" href="#streamsubtype" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.StreamSubType">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">StreamSubType</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names=&lt;not</span> <span class="pre">given&gt;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">*values</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start=1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary=None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#avblocks.StreamSubType" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>Defines audio and video stream subtypes.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamSubType.AAC_ADIF">
+<span class="sig-name descname"><span class="pre">AAC_ADIF</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#avblocks.StreamSubType.AAC_ADIF" title="Link to this definition">¶</a></dt>
+<dd><p>AAC data with a single header. Worst compliance.
+Defined in Part 7 of the MPEG-2 standard (known formally as ISO/IEC 13818-7).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Audio Data Interchange Format</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamSubType.AAC_ADTS">
+<span class="sig-name descname"><span class="pre">AAC_ADTS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#avblocks.StreamSubType.AAC_ADTS" title="Link to this definition">¶</a></dt>
+<dd><p>AAC data in frames, similar to mp3. Somewhat compliant.
+Defined in Part 7 of the MPEG-2 standard (known formally as ISO/IEC 13818-7).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Audio Data Transport Stream</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamSubType.AAC_MP4">
+<span class="sig-name descname"><span class="pre">AAC_MP4</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#avblocks.StreamSubType.AAC_MP4" title="Link to this definition">¶</a></dt>
+<dd><p>AAC data packed in MPEG-4 container (MP4). Best compliance.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamSubType.AAC_RAW">
+<span class="sig-name descname"><span class="pre">AAC_RAW</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">14</span></em><a class="headerlink" href="#avblocks.StreamSubType.AAC_RAW" title="Link to this definition">¶</a></dt>
+<dd><p>AAC data is stored without headers.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Raw AAC data format</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamSubType.AVC1">
+<span class="sig-name descname"><span class="pre">AVC1</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#avblocks.StreamSubType.AVC1" title="Link to this definition">¶</a></dt>
+<dd><p>Alias. Same as AVCC.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamSubType.AVCC">
+<span class="sig-name descname"><span class="pre">AVCC</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#avblocks.StreamSubType.AVCC" title="Link to this definition">¶</a></dt>
+<dd><p>H.264/AVC bitstream without start codes.
+This is how the bitstream is stored in a MPEG-4 container (MP4).
+Instead of start codes, each NALU is prefixed by a length field, which gives the length of the NALU in bytes.
+The size of the length field can vary, but is typically 1, 2, or 4 bytes.
+Defined in ISO 14496-15.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamSubType.AVC_Annex_B">
+<span class="sig-name descname"><span class="pre">AVC_Annex_B</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">13</span></em><a class="headerlink" href="#avblocks.StreamSubType.AVC_Annex_B" title="Link to this definition">¶</a></dt>
+<dd><p>H.264 bitstream with start codes (Annex B of ITU-T Rec. H.264).
+H.264 bitstreams are transmitted in this format over the air, or contained in MPEG-2 program or transport streams.
+The H.264 bitstream is formatted as described in Annex B of ITU-T Rec. H.264. According to this specification,
+the bitstream consists of a sequence of NALUs (Network Abstraction Layer Units).
+Each NALU is prefixed with a start code equal to 0x000001 or 0x00000001.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamSubType.G726_AAL2">
+<span class="sig-name descname"><span class="pre">G726_AAL2</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">10</span></em><a class="headerlink" href="#avblocks.StreamSubType.G726_AAL2" title="Link to this definition">¶</a></dt>
+<dd><p>G.726 stream packed according to ITU-T I.366.2 (AAL type 2).
+This type of packetization is used in Wave files.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamSubType.G726_PACKED_AAL2">
+<span class="sig-name descname"><span class="pre">G726_PACKED_AAL2</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">10</span></em><a class="headerlink" href="#avblocks.StreamSubType.G726_PACKED_AAL2" title="Link to this definition">¶</a></dt>
+<dd><p>Alias. Same as G726_AAL2.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamSubType.G726_PACKED_RFC3551">
+<span class="sig-name descname"><span class="pre">G726_PACKED_RFC3551</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">9</span></em><a class="headerlink" href="#avblocks.StreamSubType.G726_PACKED_RFC3551" title="Link to this definition">¶</a></dt>
+<dd><p>Alias. Same as G726_RFC3551.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamSubType.G726_RFC3551">
+<span class="sig-name descname"><span class="pre">G726_RFC3551</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">9</span></em><a class="headerlink" href="#avblocks.StreamSubType.G726_RFC3551" title="Link to this definition">¶</a></dt>
+<dd><p>G.726 stream packed according to RFC 3551.
+This type of packetization is used in RTP.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamSubType.MPEG1_System">
+<span class="sig-name descname"><span class="pre">MPEG1_System</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">11</span></em><a class="headerlink" href="#avblocks.StreamSubType.MPEG1_System" title="Link to this definition">¶</a></dt>
+<dd><p>MPEG-1 Program Stream as specified in MPEG-1 Part 1 (ISO/IEC 11172-1).
+This stream subtype can be used only with the MPEG_PS stream type.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamSubType.MPEG2_System">
+<span class="sig-name descname"><span class="pre">MPEG2_System</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">12</span></em><a class="headerlink" href="#avblocks.StreamSubType.MPEG2_System" title="Link to this definition">¶</a></dt>
+<dd><p>MPEG-2 Program Stream as specified in MPEG-2 Part 1 (ISO/IEC 13818-1).
+This stream subtype can be used only with the MPEG_PS stream type.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamSubType.MPEG_Audio_Layer1">
+<span class="sig-name descname"><span class="pre">MPEG_Audio_Layer1</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">6</span></em><a class="headerlink" href="#avblocks.StreamSubType.MPEG_Audio_Layer1" title="Link to this definition">¶</a></dt>
+<dd><p>MPEG-1 Audio Layer I is commonly abbreviated to MP1. MPEG-1 Layer I is defined in ISO/IEC 11172-3.
+MPEG-2 Layer I is defined in the MPEG-2 Part 3 standard (known formally as ISO/IEC 13818-3).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamSubType.MPEG_Audio_Layer2">
+<span class="sig-name descname"><span class="pre">MPEG_Audio_Layer2</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">7</span></em><a class="headerlink" href="#avblocks.StreamSubType.MPEG_Audio_Layer2" title="Link to this definition">¶</a></dt>
+<dd><p>MPEG-1 Audio Layer II is commonly abbreviated to MP2. MP2 is a dominant standard for audio broadcasting. MPEG-1 Layer II is defined in ISO/IEC 11172-3.
+MPEG-2 Layer II is defined in the MPEG-2 Part 3 standard (known formally as ISO/IEC 13818-3).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamSubType.MPEG_Audio_Layer3">
+<span class="sig-name descname"><span class="pre">MPEG_Audio_Layer3</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8</span></em><a class="headerlink" href="#avblocks.StreamSubType.MPEG_Audio_Layer3" title="Link to this definition">¶</a></dt>
+<dd><p>MPEG-1 Audio Layer III is commonly abbreviated to MP3. MPEG-1 Layer III is defined in ISO/IEC 11172-3.
+MPEG-2 Layer III is defined in the MPEG-2 Part 3 standard (known formally as ISO/IEC 13818-3).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamSubType.MPEG_TS_BDAV">
+<span class="sig-name descname"><span class="pre">MPEG_TS_BDAV</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">5</span></em><a class="headerlink" href="#avblocks.StreamSubType.MPEG_TS_BDAV" title="Link to this definition">¶</a></dt>
+<dd><p>MPEG2 transport stream with valid packet time stamps.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamSubType.None_">
+<span class="sig-name descname"><span class="pre">None_</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">65535</span></em><a class="headerlink" href="#avblocks.StreamSubType.None_" title="Link to this definition">¶</a></dt>
+<dd><p>No stream sub type is defined.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.StreamSubType.Unknown">
+<span class="sig-name descname"><span class="pre">Unknown</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#avblocks.StreamSubType.Unknown" title="Link to this definition">¶</a></dt>
+<dd><p>The stream subtype is not defined or is unknown.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="mediatype">
+<h2>MediaType<a class="headerlink" href="#mediatype" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.MediaType">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">MediaType</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names=&lt;not</span> <span class="pre">given&gt;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">*values</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start=1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary=None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#avblocks.MediaType" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>Defines media types.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MediaType.Audio">
+<span class="sig-name descname"><span class="pre">Audio</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#avblocks.MediaType.Audio" title="Link to this definition">¶</a></dt>
+<dd><p>Audio data.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MediaType.Data">
+<span class="sig-name descname"><span class="pre">Data</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#avblocks.MediaType.Data" title="Link to this definition">¶</a></dt>
+<dd><p>Generic data.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MediaType.Text">
+<span class="sig-name descname"><span class="pre">Text</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#avblocks.MediaType.Text" title="Link to this definition">¶</a></dt>
+<dd><p>Text data.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MediaType.Unknown">
+<span class="sig-name descname"><span class="pre">Unknown</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#avblocks.MediaType.Unknown" title="Link to this definition">¶</a></dt>
+<dd><p>The media type is unknown or not specified.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MediaType.Video">
+<span class="sig-name descname"><span class="pre">Video</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#avblocks.MediaType.Video" title="Link to this definition">¶</a></dt>
+<dd><p>Video data.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+<div class="related-pages">
+  <a class="next-page" href="enums-video.html">
+      <div class="page-info">
+        <div class="context">
+          <span>Next</span>
+        </div>
+        <div class="title">Video Settings</div>
+      </div>
+      <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+    </a>
+  <a class="prev-page" href="enums-errors.html">
+      <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+      <div class="page-info">
+        <div class="context">
+          <span>Previous</span>
+        </div>
+        
+        <div class="title">License and Error Codes</div>
+        
+      </div>
+    </a>
+</div>
+<div class="bottom-of-page">
+  <div class="left-details">
+    <div class="copyright">
+        Copyright &#169; 2003 - 2026, Primo Software Corp.
+    </div>
+  </div>
+  <div class="right-details">
+    <div class="icons">
+      <a class="muted-link " href="https://github.com/avblocks/avblocks-py" aria-label="GitHub">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                </svg>
+            </a>
+      
+    </div>
+  </div>
+</div>
+
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Stream Types</a><ul>
+<li><a class="reference internal" href="#streamtype">StreamType</a><ul>
+<li><a class="reference internal" href="#avblocks.StreamType"><code class="docutils literal notranslate"><span class="pre">StreamType</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.StreamType.AAC"><code class="docutils literal notranslate"><span class="pre">StreamType.AAC</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.AC3"><code class="docutils literal notranslate"><span class="pre">StreamType.AC3</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.ALAW_PCM"><code class="docutils literal notranslate"><span class="pre">StreamType.ALAW_PCM</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.AMRNB"><code class="docutils literal notranslate"><span class="pre">StreamType.AMRNB</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.AMRWB"><code class="docutils literal notranslate"><span class="pre">StreamType.AMRWB</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.ASF"><code class="docutils literal notranslate"><span class="pre">StreamType.ASF</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.AVC"><code class="docutils literal notranslate"><span class="pre">StreamType.AVC</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.AVI"><code class="docutils literal notranslate"><span class="pre">StreamType.AVI</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.AVS"><code class="docutils literal notranslate"><span class="pre">StreamType.AVS</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.BEGIN_AUDIO"><code class="docutils literal notranslate"><span class="pre">StreamType.BEGIN_AUDIO</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.BEGIN_CONTAINER"><code class="docutils literal notranslate"><span class="pre">StreamType.BEGIN_CONTAINER</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.BEGIN_DATA"><code class="docutils literal notranslate"><span class="pre">StreamType.BEGIN_DATA</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.BEGIN_IMAGE"><code class="docutils literal notranslate"><span class="pre">StreamType.BEGIN_IMAGE</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.BEGIN_VIDEO"><code class="docutils literal notranslate"><span class="pre">StreamType.BEGIN_VIDEO</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.BMP"><code class="docutils literal notranslate"><span class="pre">StreamType.BMP</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.DTS"><code class="docutils literal notranslate"><span class="pre">StreamType.DTS</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.END_AUDIO"><code class="docutils literal notranslate"><span class="pre">StreamType.END_AUDIO</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.END_CONTAINER"><code class="docutils literal notranslate"><span class="pre">StreamType.END_CONTAINER</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.END_DATA"><code class="docutils literal notranslate"><span class="pre">StreamType.END_DATA</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.END_IMAGE"><code class="docutils literal notranslate"><span class="pre">StreamType.END_IMAGE</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.END_VIDEO"><code class="docutils literal notranslate"><span class="pre">StreamType.END_VIDEO</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.FLV"><code class="docutils literal notranslate"><span class="pre">StreamType.FLV</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.G726_ADPCM"><code class="docutils literal notranslate"><span class="pre">StreamType.G726_ADPCM</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.GIF"><code class="docutils literal notranslate"><span class="pre">StreamType.GIF</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.H261"><code class="docutils literal notranslate"><span class="pre">StreamType.H261</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.H263"><code class="docutils literal notranslate"><span class="pre">StreamType.H263</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.H264"><code class="docutils literal notranslate"><span class="pre">StreamType.H264</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.H265"><code class="docutils literal notranslate"><span class="pre">StreamType.H265</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.HEVC"><code class="docutils literal notranslate"><span class="pre">StreamType.HEVC</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.IVF"><code class="docutils literal notranslate"><span class="pre">StreamType.IVF</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.JPEG"><code class="docutils literal notranslate"><span class="pre">StreamType.JPEG</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.LPCM"><code class="docutils literal notranslate"><span class="pre">StreamType.LPCM</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.MJPEG"><code class="docutils literal notranslate"><span class="pre">StreamType.MJPEG</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.MP4"><code class="docutils literal notranslate"><span class="pre">StreamType.MP4</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.MPEG1_Video"><code class="docutils literal notranslate"><span class="pre">StreamType.MPEG1_Video</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.MPEG2_Video"><code class="docutils literal notranslate"><span class="pre">StreamType.MPEG2_Video</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.MPEG4_Video"><code class="docutils literal notranslate"><span class="pre">StreamType.MPEG4_Video</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.MPEG_Audio"><code class="docutils literal notranslate"><span class="pre">StreamType.MPEG_Audio</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.MPEG_PES"><code class="docutils literal notranslate"><span class="pre">StreamType.MPEG_PES</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.MPEG_PS"><code class="docutils literal notranslate"><span class="pre">StreamType.MPEG_PS</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.MPEG_PSI_PACKETS"><code class="docutils literal notranslate"><span class="pre">StreamType.MPEG_PSI_PACKETS</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.MPEG_TS"><code class="docutils literal notranslate"><span class="pre">StreamType.MPEG_TS</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.MPEG_TS_PACKETS"><code class="docutils literal notranslate"><span class="pre">StreamType.MPEG_TS_PACKETS</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.MULAW_PCM"><code class="docutils literal notranslate"><span class="pre">StreamType.MULAW_PCM</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.OGG"><code class="docutils literal notranslate"><span class="pre">StreamType.OGG</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.PNG"><code class="docutils literal notranslate"><span class="pre">StreamType.PNG</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.TIFF"><code class="docutils literal notranslate"><span class="pre">StreamType.TIFF</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.Teletext"><code class="docutils literal notranslate"><span class="pre">StreamType.Teletext</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.Theora"><code class="docutils literal notranslate"><span class="pre">StreamType.Theora</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.UncompressedVideo"><code class="docutils literal notranslate"><span class="pre">StreamType.UncompressedVideo</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.Unknown"><code class="docutils literal notranslate"><span class="pre">StreamType.Unknown</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.VC1"><code class="docutils literal notranslate"><span class="pre">StreamType.VC1</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.VIDEO_DVD_PCM"><code class="docutils literal notranslate"><span class="pre">StreamType.VIDEO_DVD_PCM</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.VP8"><code class="docutils literal notranslate"><span class="pre">StreamType.VP8</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.Vorbis"><code class="docutils literal notranslate"><span class="pre">StreamType.Vorbis</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.WAVE"><code class="docutils literal notranslate"><span class="pre">StreamType.WAVE</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.WMA"><code class="docutils literal notranslate"><span class="pre">StreamType.WMA</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.WMA_Lossless"><code class="docutils literal notranslate"><span class="pre">StreamType.WMA_Lossless</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.WMA_Professional"><code class="docutils literal notranslate"><span class="pre">StreamType.WMA_Professional</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.WMV"><code class="docutils literal notranslate"><span class="pre">StreamType.WMV</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamType.WebM"><code class="docutils literal notranslate"><span class="pre">StreamType.WebM</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#streamsubtype">StreamSubType</a><ul>
+<li><a class="reference internal" href="#avblocks.StreamSubType"><code class="docutils literal notranslate"><span class="pre">StreamSubType</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.StreamSubType.AAC_ADIF"><code class="docutils literal notranslate"><span class="pre">StreamSubType.AAC_ADIF</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamSubType.AAC_ADTS"><code class="docutils literal notranslate"><span class="pre">StreamSubType.AAC_ADTS</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamSubType.AAC_MP4"><code class="docutils literal notranslate"><span class="pre">StreamSubType.AAC_MP4</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamSubType.AAC_RAW"><code class="docutils literal notranslate"><span class="pre">StreamSubType.AAC_RAW</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamSubType.AVC1"><code class="docutils literal notranslate"><span class="pre">StreamSubType.AVC1</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamSubType.AVCC"><code class="docutils literal notranslate"><span class="pre">StreamSubType.AVCC</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamSubType.AVC_Annex_B"><code class="docutils literal notranslate"><span class="pre">StreamSubType.AVC_Annex_B</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamSubType.G726_AAL2"><code class="docutils literal notranslate"><span class="pre">StreamSubType.G726_AAL2</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamSubType.G726_PACKED_AAL2"><code class="docutils literal notranslate"><span class="pre">StreamSubType.G726_PACKED_AAL2</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamSubType.G726_PACKED_RFC3551"><code class="docutils literal notranslate"><span class="pre">StreamSubType.G726_PACKED_RFC3551</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamSubType.G726_RFC3551"><code class="docutils literal notranslate"><span class="pre">StreamSubType.G726_RFC3551</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamSubType.MPEG1_System"><code class="docutils literal notranslate"><span class="pre">StreamSubType.MPEG1_System</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamSubType.MPEG2_System"><code class="docutils literal notranslate"><span class="pre">StreamSubType.MPEG2_System</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamSubType.MPEG_Audio_Layer1"><code class="docutils literal notranslate"><span class="pre">StreamSubType.MPEG_Audio_Layer1</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamSubType.MPEG_Audio_Layer2"><code class="docutils literal notranslate"><span class="pre">StreamSubType.MPEG_Audio_Layer2</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamSubType.MPEG_Audio_Layer3"><code class="docutils literal notranslate"><span class="pre">StreamSubType.MPEG_Audio_Layer3</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamSubType.MPEG_TS_BDAV"><code class="docutils literal notranslate"><span class="pre">StreamSubType.MPEG_TS_BDAV</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamSubType.None_"><code class="docutils literal notranslate"><span class="pre">StreamSubType.None_</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.StreamSubType.Unknown"><code class="docutils literal notranslate"><span class="pre">StreamSubType.Unknown</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#mediatype">MediaType</a><ul>
+<li><a class="reference internal" href="#avblocks.MediaType"><code class="docutils literal notranslate"><span class="pre">MediaType</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.MediaType.Audio"><code class="docutils literal notranslate"><span class="pre">MediaType.Audio</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MediaType.Data"><code class="docutils literal notranslate"><span class="pre">MediaType.Data</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MediaType.Text"><code class="docutils literal notranslate"><span class="pre">MediaType.Text</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MediaType.Unknown"><code class="docutils literal notranslate"><span class="pre">MediaType.Unknown</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MediaType.Video"><code class="docutils literal notranslate"><span class="pre">MediaType.Video</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=2709fde1"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=5fa4622c"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    </body>
+</html>

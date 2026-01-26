@@ -1,0 +1,15 @@
+# MediaBuffer
+
+The `MediaBuffer` class provides a buffer for media data.
+
+`MediaBuffer` has a capacity (size of the buffer) and a data size (size of valid data in the buffer).
+The buffer is a continuous block of memory, and valid data is also a continuous block that can
+start at any offset in the buffer.
+
+## Class
+
+```{eval-rst}
+.. autoclass:: avblocks.MediaBuffer
+   :members:
+   :undoc-members:
+```

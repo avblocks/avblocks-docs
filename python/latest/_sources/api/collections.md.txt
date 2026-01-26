@@ -1,0 +1,12 @@
+# Collections
+
+This section documents the collection classes used throughout AVBlocks.
+
+```{toctree}
+:maxdepth: 1
+
+collections-base
+collections-media
+collections-parameter
+collections-metadata
+```

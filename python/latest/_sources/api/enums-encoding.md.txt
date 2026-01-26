@@ -1,0 +1,27 @@
+# Encoding Settings
+
+Enumerations for encoding and transcoder settings.
+
+## BitrateMode
+
+```{eval-rst}
+.. autoclass:: avblocks.BitrateMode
+   :members:
+   :undoc-members:
+```
+
+## TranscoderStatus
+
+```{eval-rst}
+.. autoclass:: avblocks.TranscoderStatus
+   :members:
+   :undoc-members:
+```
+
+## Use
+
+```{eval-rst}
+.. autoclass:: avblocks.Use
+   :members:
+   :undoc-members:
+```

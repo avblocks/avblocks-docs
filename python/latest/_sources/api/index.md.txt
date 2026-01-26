@@ -1,0 +1,15 @@
+# API Reference
+
+This section provides detailed API documentation for all classes and enumerations in the AVBlocks Python SDK.
+
+```{toctree}
+:maxdepth: 2
+
+core-classes
+media-classes
+stream-info-classes
+metadata
+collections
+error-info
+enums
+```

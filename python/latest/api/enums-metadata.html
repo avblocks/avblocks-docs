@@ -1,0 +1,869 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Presets" href="enums-presets.html" /><link rel="prev" title="Encoding Settings" href="enums-encoding.html" />
+
+    <link rel="shortcut icon" href="../_static/favicon.ico"/><!-- Generated with Sphinx 7.4.7 and Furo 2024.08.06 -->
+        <title>Metadata Constants - AVBlocks Python API</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=302659d7" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">AVBlocks Python API</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo" src="../_static/logo_blue_128.svg" alt="Logo"/>
+  </div>
+  
+  <span class="sidebar-brand-text">AVBlocks Python API</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul class="current">
+<li class="toctree-l1 has-children"><a class="reference internal" href="core-classes.html">Core Classes</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Core Classes</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="transcoder.html">Transcoder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="media-info.html">MediaInfo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="library.html">Library</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="media-classes.html">Media Classes</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Media Classes</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="media-socket.html">MediaSocket</a></li>
+<li class="toctree-l2"><a class="reference internal" href="media-pin.html">MediaPin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="media-buffer.html">MediaBuffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="media-sample.html">MediaSample</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="stream-info-classes.html">Stream Information</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Stream Information</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="stream-info.html">StreamInfo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="video-stream-info.html">VideoStreamInfo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="audio-stream-info.html">AudioStreamInfo</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="metadata.html">Metadata</a></li>
+<li class="toctree-l1"><a class="reference internal" href="error-info.html">Error Handling</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="collections.html">Collections</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Collections</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="collections-base.html">Base Collection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="collections-media.html">Media Collections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="collections-parameter.html">Parameter Collection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="collections-metadata.html">Metadata Collections</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="enums.html">Enumerations</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Enumerations</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="enums-errors.html">License and Error Codes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="enums-stream-types.html">Stream Types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="enums-video.html">Video Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="enums-audio.html">Audio Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="enums-encoding.html">Encoding Settings</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Metadata Constants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="enums-presets.html">Presets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="enums-params.html">Parameters</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="metadata-constants">
+<h1>Metadata Constants<a class="headerlink" href="#metadata-constants" title="Link to this heading">¶</a></h1>
+<p>Enumerations for metadata attributes and picture types.</p>
+<section id="meta">
+<h2>Meta<a class="headerlink" href="#meta" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.Meta">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">Meta</span></span><a class="headerlink" href="#avblocks.Meta" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Metadata attribute names (tags)</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.Album">
+<span class="sig-name descname"><span class="pre">Album</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Album'</span></em><a class="headerlink" href="#avblocks.Meta.Album" title="Link to this definition">¶</a></dt>
+<dd><p>Album</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.AlbumArtist">
+<span class="sig-name descname"><span class="pre">AlbumArtist</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'AlbumArtist'</span></em><a class="headerlink" href="#avblocks.Meta.AlbumArtist" title="Link to this definition">¶</a></dt>
+<dd><p>Album artist</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.BeatsPerMinute">
+<span class="sig-name descname"><span class="pre">BeatsPerMinute</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'BeatsPerMinute'</span></em><a class="headerlink" href="#avblocks.Meta.BeatsPerMinute" title="Link to this definition">¶</a></dt>
+<dd><p>Beats per minute</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.Comment">
+<span class="sig-name descname"><span class="pre">Comment</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Comment'</span></em><a class="headerlink" href="#avblocks.Meta.Comment" title="Link to this definition">¶</a></dt>
+<dd><p>Comment</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.Composer">
+<span class="sig-name descname"><span class="pre">Composer</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Composer'</span></em><a class="headerlink" href="#avblocks.Meta.Composer" title="Link to this definition">¶</a></dt>
+<dd><p>Composer</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.Conductor">
+<span class="sig-name descname"><span class="pre">Conductor</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Conductor'</span></em><a class="headerlink" href="#avblocks.Meta.Conductor" title="Link to this definition">¶</a></dt>
+<dd><p>Conductor</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.ContentGroup">
+<span class="sig-name descname"><span class="pre">ContentGroup</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ContentGroup'</span></em><a class="headerlink" href="#avblocks.Meta.ContentGroup" title="Link to this definition">¶</a></dt>
+<dd><p>Content group</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.Copyright">
+<span class="sig-name descname"><span class="pre">Copyright</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Copyright'</span></em><a class="headerlink" href="#avblocks.Meta.Copyright" title="Link to this definition">¶</a></dt>
+<dd><p>Copyright</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.Date">
+<span class="sig-name descname"><span class="pre">Date</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">YYYY-MM-DD</span></span></em><span class="sig-paren">)</span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Date'</span></em><a class="headerlink" href="#avblocks.Meta.Date" title="Link to this definition">¶</a></dt>
+<dd><p>Date (YYYY-MM-DD)</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.DiscNum">
+<span class="sig-name descname"><span class="pre">DiscNum</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'DiscNum'</span></em><a class="headerlink" href="#avblocks.Meta.DiscNum" title="Link to this definition">¶</a></dt>
+<dd><p>Disc number is 1-based</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.EncodedBy">
+<span class="sig-name descname"><span class="pre">EncodedBy</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'EncodedBy'</span></em><a class="headerlink" href="#avblocks.Meta.EncodedBy" title="Link to this definition">¶</a></dt>
+<dd><p>Encoding software</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.EncoderSettings">
+<span class="sig-name descname"><span class="pre">EncoderSettings</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'EncoderSettings'</span></em><a class="headerlink" href="#avblocks.Meta.EncoderSettings" title="Link to this definition">¶</a></dt>
+<dd><p>Encoding software settings</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.FileType">
+<span class="sig-name descname"><span class="pre">FileType</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'FileType'</span></em><a class="headerlink" href="#avblocks.Meta.FileType" title="Link to this definition">¶</a></dt>
+<dd><p>File type</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.Genre">
+<span class="sig-name descname"><span class="pre">Genre</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Genre'</span></em><a class="headerlink" href="#avblocks.Meta.Genre" title="Link to this definition">¶</a></dt>
+<dd><p>Genre</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.InternetRadioStation">
+<span class="sig-name descname"><span class="pre">InternetRadioStation</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'InternetRadioStation'</span></em><a class="headerlink" href="#avblocks.Meta.InternetRadioStation" title="Link to this definition">¶</a></dt>
+<dd><p>Internet radio station name</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.InvolvedPeople">
+<span class="sig-name descname"><span class="pre">InvolvedPeople</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'InvolvedPeople'</span></em><a class="headerlink" href="#avblocks.Meta.InvolvedPeople" title="Link to this definition">¶</a></dt>
+<dd><p>Involved people</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.Language">
+<span class="sig-name descname"><span class="pre">Language</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Language'</span></em><a class="headerlink" href="#avblocks.Meta.Language" title="Link to this definition">¶</a></dt>
+<dd><p>Language</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.LeadArtist">
+<span class="sig-name descname"><span class="pre">LeadArtist</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'LeadArtist'</span></em><a class="headerlink" href="#avblocks.Meta.LeadArtist" title="Link to this definition">¶</a></dt>
+<dd><p>Lead artist</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.Lyricist">
+<span class="sig-name descname"><span class="pre">Lyricist</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Lyricist'</span></em><a class="headerlink" href="#avblocks.Meta.Lyricist" title="Link to this definition">¶</a></dt>
+<dd><p>Lyricist / text writer</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.MediaType">
+<span class="sig-name descname"><span class="pre">MediaType</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'MediaType'</span></em><a class="headerlink" href="#avblocks.Meta.MediaType" title="Link to this definition">¶</a></dt>
+<dd><p>Media type</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.OrigAlbum">
+<span class="sig-name descname"><span class="pre">OrigAlbum</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'OrigAlbum'</span></em><a class="headerlink" href="#avblocks.Meta.OrigAlbum" title="Link to this definition">¶</a></dt>
+<dd><p>Original album</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.OrigArtist">
+<span class="sig-name descname"><span class="pre">OrigArtist</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'OrigArtist'</span></em><a class="headerlink" href="#avblocks.Meta.OrigArtist" title="Link to this definition">¶</a></dt>
+<dd><p>Original artist</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.OrigFileName">
+<span class="sig-name descname"><span class="pre">OrigFileName</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'OrigFileName'</span></em><a class="headerlink" href="#avblocks.Meta.OrigFileName" title="Link to this definition">¶</a></dt>
+<dd><p>Original file name</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.OrigLyricist">
+<span class="sig-name descname"><span class="pre">OrigLyricist</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'OrigLyricist'</span></em><a class="headerlink" href="#avblocks.Meta.OrigLyricist" title="Link to this definition">¶</a></dt>
+<dd><p>Original lyricist / text writer</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.PlayCounter">
+<span class="sig-name descname"><span class="pre">PlayCounter</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'PlayCounter'</span></em><a class="headerlink" href="#avblocks.Meta.PlayCounter" title="Link to this definition">¶</a></dt>
+<dd><p>Play counter</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.Popularimeter">
+<span class="sig-name descname"><span class="pre">Popularimeter</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Popularimeter'</span></em><a class="headerlink" href="#avblocks.Meta.Popularimeter" title="Link to this definition">¶</a></dt>
+<dd><p>Popularity meter / rating</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.Private">
+<span class="sig-name descname"><span class="pre">Private</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Private'</span></em><a class="headerlink" href="#avblocks.Meta.Private" title="Link to this definition">¶</a></dt>
+<dd><p>Private comment</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.Publisher">
+<span class="sig-name descname"><span class="pre">Publisher</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Publisher'</span></em><a class="headerlink" href="#avblocks.Meta.Publisher" title="Link to this definition">¶</a></dt>
+<dd><p>Publisher</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.RecordingDates">
+<span class="sig-name descname"><span class="pre">RecordingDates</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'RecordingDates'</span></em><a class="headerlink" href="#avblocks.Meta.RecordingDates" title="Link to this definition">¶</a></dt>
+<dd><p>Recording dates</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.RemixArtist">
+<span class="sig-name descname"><span class="pre">RemixArtist</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'RemixArtist'</span></em><a class="headerlink" href="#avblocks.Meta.RemixArtist" title="Link to this definition">¶</a></dt>
+<dd><p>Remix / cover artist</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.Subtitle">
+<span class="sig-name descname"><span class="pre">Subtitle</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Subtitle'</span></em><a class="headerlink" href="#avblocks.Meta.Subtitle" title="Link to this definition">¶</a></dt>
+<dd><p>Subtitle</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.Time">
+<span class="sig-name descname"><span class="pre">Time</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Time'</span></em><a class="headerlink" href="#avblocks.Meta.Time" title="Link to this definition">¶</a></dt>
+<dd><p>Time</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.Title">
+<span class="sig-name descname"><span class="pre">Title</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Title'</span></em><a class="headerlink" href="#avblocks.Meta.Title" title="Link to this definition">¶</a></dt>
+<dd><p>Title</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.TrackNum">
+<span class="sig-name descname"><span class="pre">TrackNum</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'TrackNum'</span></em><a class="headerlink" href="#avblocks.Meta.TrackNum" title="Link to this definition">¶</a></dt>
+<dd><p>Track number is 1-based</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.UnsyncedLyrics">
+<span class="sig-name descname"><span class="pre">UnsyncedLyrics</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'UnsyncedLyrics'</span></em><a class="headerlink" href="#avblocks.Meta.UnsyncedLyrics" title="Link to this definition">¶</a></dt>
+<dd><p>Unsynced lyrics</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.UrlArtist">
+<span class="sig-name descname"><span class="pre">UrlArtist</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'UrlArtist'</span></em><a class="headerlink" href="#avblocks.Meta.UrlArtist" title="Link to this definition">¶</a></dt>
+<dd><p>URL pointing at the artist’s official web page.
+There may be more than one attributes with this name if the audio contains more than one performer</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.UrlAudioFile">
+<span class="sig-name descname"><span class="pre">UrlAudioFile</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'UrlAudioFile'</span></em><a class="headerlink" href="#avblocks.Meta.UrlAudioFile" title="Link to this definition">¶</a></dt>
+<dd><p>URL pointing at a file specific web page</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.UrlAudioSource">
+<span class="sig-name descname"><span class="pre">UrlAudioSource</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'UrlAudioSource'</span></em><a class="headerlink" href="#avblocks.Meta.UrlAudioSource" title="Link to this definition">¶</a></dt>
+<dd><p>URL pointing at the official web page for the source of the audio file, e.g. a movie</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.UrlCommercialInfo">
+<span class="sig-name descname"><span class="pre">UrlCommercialInfo</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'UrlCommercialInfo'</span></em><a class="headerlink" href="#avblocks.Meta.UrlCommercialInfo" title="Link to this definition">¶</a></dt>
+<dd><p>URL pointing at a web page with information such as where the album can be bought</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.UrlCopyright">
+<span class="sig-name descname"><span class="pre">UrlCopyright</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'UrlCopyright'</span></em><a class="headerlink" href="#avblocks.Meta.UrlCopyright" title="Link to this definition">¶</a></dt>
+<dd><p>URL pointing at a web page where the terms of use and ownership of the file is described</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.UrlPayment">
+<span class="sig-name descname"><span class="pre">UrlPayment</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'UrlPayment'</span></em><a class="headerlink" href="#avblocks.Meta.UrlPayment" title="Link to this definition">¶</a></dt>
+<dd><p>URL pointing at a web page that will handle the process of paying for this file</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.UrlPublisher">
+<span class="sig-name descname"><span class="pre">UrlPublisher</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'UrlPublisher'</span></em><a class="headerlink" href="#avblocks.Meta.UrlPublisher" title="Link to this definition">¶</a></dt>
+<dd><p>URL pointing at the official web page for the publisher</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.UrlRadioPage">
+<span class="sig-name descname"><span class="pre">UrlRadioPage</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'UrlRadioPage'</span></em><a class="headerlink" href="#avblocks.Meta.UrlRadioPage" title="Link to this definition">¶</a></dt>
+<dd><p>URL pointing at the homepage of the Internet radio station</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.UrlUser">
+<span class="sig-name descname"><span class="pre">UrlUser</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'UrlUser'</span></em><a class="headerlink" href="#avblocks.Meta.UrlUser" title="Link to this definition">¶</a></dt>
+<dd><p>User URL</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.UserText">
+<span class="sig-name descname"><span class="pre">UserText</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'UserText'</span></em><a class="headerlink" href="#avblocks.Meta.UserText" title="Link to this definition">¶</a></dt>
+<dd><p>User text</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.Meta.Year">
+<span class="sig-name descname"><span class="pre">Year</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Year'</span></em><a class="headerlink" href="#avblocks.Meta.Year" title="Link to this definition">¶</a></dt>
+<dd><p>Year only (YYYY)</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="metapicturetype">
+<h2>MetaPictureType<a class="headerlink" href="#metapicturetype" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">MetaPictureType</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names=&lt;not</span> <span class="pre">given&gt;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">*values</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start=1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary=None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#avblocks.MetaPictureType" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>Picture type defined as in ID3.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.Artist">
+<span class="sig-name descname"><span class="pre">Artist</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8</span></em><a class="headerlink" href="#avblocks.MetaPictureType.Artist" title="Link to this definition">¶</a></dt>
+<dd><p>Artist / Performer</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.ArtistLogotype">
+<span class="sig-name descname"><span class="pre">ArtistLogotype</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">19</span></em><a class="headerlink" href="#avblocks.MetaPictureType.ArtistLogotype" title="Link to this definition">¶</a></dt>
+<dd><p>Band / Artist logotype</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.BackCover">
+<span class="sig-name descname"><span class="pre">BackCover</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#avblocks.MetaPictureType.BackCover" title="Link to this definition">¶</a></dt>
+<dd><p>Album/Disc back cover</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.Band">
+<span class="sig-name descname"><span class="pre">Band</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">10</span></em><a class="headerlink" href="#avblocks.MetaPictureType.Band" title="Link to this definition">¶</a></dt>
+<dd><p>Band / Orchestra</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.BrightColoredFish">
+<span class="sig-name descname"><span class="pre">BrightColoredFish</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">17</span></em><a class="headerlink" href="#avblocks.MetaPictureType.BrightColoredFish" title="Link to this definition">¶</a></dt>
+<dd><p>0</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>A brightly coloured fish</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.Composer">
+<span class="sig-name descname"><span class="pre">Composer</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">11</span></em><a class="headerlink" href="#avblocks.MetaPictureType.Composer" title="Link to this definition">¶</a></dt>
+<dd><p>Composer / Music writer</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.Conductor">
+<span class="sig-name descname"><span class="pre">Conductor</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">9</span></em><a class="headerlink" href="#avblocks.MetaPictureType.Conductor" title="Link to this definition">¶</a></dt>
+<dd><p>Conductor</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.DuringPerformance">
+<span class="sig-name descname"><span class="pre">DuringPerformance</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">15</span></em><a class="headerlink" href="#avblocks.MetaPictureType.DuringPerformance" title="Link to this definition">¶</a></dt>
+<dd><p>The picture is made during performance</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.DuringRecording">
+<span class="sig-name descname"><span class="pre">DuringRecording</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">14</span></em><a class="headerlink" href="#avblocks.MetaPictureType.DuringRecording" title="Link to this definition">¶</a></dt>
+<dd><p>The picture is made during recording</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.FileIcon">
+<span class="sig-name descname"><span class="pre">FileIcon</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#avblocks.MetaPictureType.FileIcon" title="Link to this definition">¶</a></dt>
+<dd><p>32x32 pixels ‘file icon’ (PNG only); only one in a ID3 tag</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.FrontCover">
+<span class="sig-name descname"><span class="pre">FrontCover</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#avblocks.MetaPictureType.FrontCover" title="Link to this definition">¶</a></dt>
+<dd><p>Album/Disc front cover</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.Illustration">
+<span class="sig-name descname"><span class="pre">Illustration</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">18</span></em><a class="headerlink" href="#avblocks.MetaPictureType.Illustration" title="Link to this definition">¶</a></dt>
+<dd><p>Illustration</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.LeadArtist">
+<span class="sig-name descname"><span class="pre">LeadArtist</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">7</span></em><a class="headerlink" href="#avblocks.MetaPictureType.LeadArtist" title="Link to this definition">¶</a></dt>
+<dd><p>Lead artist / Lead performer / Soloist</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.LeafletPage">
+<span class="sig-name descname"><span class="pre">LeafletPage</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">5</span></em><a class="headerlink" href="#avblocks.MetaPictureType.LeafletPage" title="Link to this definition">¶</a></dt>
+<dd><p>Album/Disc leaflet page</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.Media">
+<span class="sig-name descname"><span class="pre">Media</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">6</span></em><a class="headerlink" href="#avblocks.MetaPictureType.Media" title="Link to this definition">¶</a></dt>
+<dd><p>Printed on the media (e.g. label side of a CD)</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.Other">
+<span class="sig-name descname"><span class="pre">Other</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#avblocks.MetaPictureType.Other" title="Link to this definition">¶</a></dt>
+<dd><p>Unknown or unspecified picture type</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.OtherFileIcon">
+<span class="sig-name descname"><span class="pre">OtherFileIcon</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#avblocks.MetaPictureType.OtherFileIcon" title="Link to this definition">¶</a></dt>
+<dd><p>Only one in a ID3 tag</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.PublisherLogotype">
+<span class="sig-name descname"><span class="pre">PublisherLogotype</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">20</span></em><a class="headerlink" href="#avblocks.MetaPictureType.PublisherLogotype" title="Link to this definition">¶</a></dt>
+<dd><p>Publisher / Studio logotype</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.RecordingLocation">
+<span class="sig-name descname"><span class="pre">RecordingLocation</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">13</span></em><a class="headerlink" href="#avblocks.MetaPictureType.RecordingLocation" title="Link to this definition">¶</a></dt>
+<dd><p>Location where the music is recorded</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.TextWriter">
+<span class="sig-name descname"><span class="pre">TextWriter</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">12</span></em><a class="headerlink" href="#avblocks.MetaPictureType.TextWriter" title="Link to this definition">¶</a></dt>
+<dd><p>Lyricist / Text writer</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.MetaPictureType.VideoCapture">
+<span class="sig-name descname"><span class="pre">VideoCapture</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">16</span></em><a class="headerlink" href="#avblocks.MetaPictureType.VideoCapture" title="Link to this definition">¶</a></dt>
+<dd><p>Movie/video screen capture</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+<div class="related-pages">
+  <a class="next-page" href="enums-presets.html">
+      <div class="page-info">
+        <div class="context">
+          <span>Next</span>
+        </div>
+        <div class="title">Presets</div>
+      </div>
+      <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+    </a>
+  <a class="prev-page" href="enums-encoding.html">
+      <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+      <div class="page-info">
+        <div class="context">
+          <span>Previous</span>
+        </div>
+        
+        <div class="title">Encoding Settings</div>
+        
+      </div>
+    </a>
+</div>
+<div class="bottom-of-page">
+  <div class="left-details">
+    <div class="copyright">
+        Copyright &#169; 2003 - 2026, Primo Software Corp.
+    </div>
+  </div>
+  <div class="right-details">
+    <div class="icons">
+      <a class="muted-link " href="https://github.com/avblocks/avblocks-py" aria-label="GitHub">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                </svg>
+            </a>
+      
+    </div>
+  </div>
+</div>
+
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Metadata Constants</a><ul>
+<li><a class="reference internal" href="#meta">Meta</a><ul>
+<li><a class="reference internal" href="#avblocks.Meta"><code class="docutils literal notranslate"><span class="pre">Meta</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.Meta.Album"><code class="docutils literal notranslate"><span class="pre">Meta.Album</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.AlbumArtist"><code class="docutils literal notranslate"><span class="pre">Meta.AlbumArtist</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.BeatsPerMinute"><code class="docutils literal notranslate"><span class="pre">Meta.BeatsPerMinute</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.Comment"><code class="docutils literal notranslate"><span class="pre">Meta.Comment</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.Composer"><code class="docutils literal notranslate"><span class="pre">Meta.Composer</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.Conductor"><code class="docutils literal notranslate"><span class="pre">Meta.Conductor</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.ContentGroup"><code class="docutils literal notranslate"><span class="pre">Meta.ContentGroup</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.Copyright"><code class="docutils literal notranslate"><span class="pre">Meta.Copyright</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.Date"><code class="docutils literal notranslate"><span class="pre">Meta.Date</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.DiscNum"><code class="docutils literal notranslate"><span class="pre">Meta.DiscNum</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.EncodedBy"><code class="docutils literal notranslate"><span class="pre">Meta.EncodedBy</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.EncoderSettings"><code class="docutils literal notranslate"><span class="pre">Meta.EncoderSettings</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.FileType"><code class="docutils literal notranslate"><span class="pre">Meta.FileType</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.Genre"><code class="docutils literal notranslate"><span class="pre">Meta.Genre</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.InternetRadioStation"><code class="docutils literal notranslate"><span class="pre">Meta.InternetRadioStation</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.InvolvedPeople"><code class="docutils literal notranslate"><span class="pre">Meta.InvolvedPeople</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.Language"><code class="docutils literal notranslate"><span class="pre">Meta.Language</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.LeadArtist"><code class="docutils literal notranslate"><span class="pre">Meta.LeadArtist</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.Lyricist"><code class="docutils literal notranslate"><span class="pre">Meta.Lyricist</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.MediaType"><code class="docutils literal notranslate"><span class="pre">Meta.MediaType</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.OrigAlbum"><code class="docutils literal notranslate"><span class="pre">Meta.OrigAlbum</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.OrigArtist"><code class="docutils literal notranslate"><span class="pre">Meta.OrigArtist</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.OrigFileName"><code class="docutils literal notranslate"><span class="pre">Meta.OrigFileName</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.OrigLyricist"><code class="docutils literal notranslate"><span class="pre">Meta.OrigLyricist</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.PlayCounter"><code class="docutils literal notranslate"><span class="pre">Meta.PlayCounter</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.Popularimeter"><code class="docutils literal notranslate"><span class="pre">Meta.Popularimeter</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.Private"><code class="docutils literal notranslate"><span class="pre">Meta.Private</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.Publisher"><code class="docutils literal notranslate"><span class="pre">Meta.Publisher</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.RecordingDates"><code class="docutils literal notranslate"><span class="pre">Meta.RecordingDates</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.RemixArtist"><code class="docutils literal notranslate"><span class="pre">Meta.RemixArtist</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.Subtitle"><code class="docutils literal notranslate"><span class="pre">Meta.Subtitle</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.Time"><code class="docutils literal notranslate"><span class="pre">Meta.Time</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.Title"><code class="docutils literal notranslate"><span class="pre">Meta.Title</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.TrackNum"><code class="docutils literal notranslate"><span class="pre">Meta.TrackNum</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.UnsyncedLyrics"><code class="docutils literal notranslate"><span class="pre">Meta.UnsyncedLyrics</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.UrlArtist"><code class="docutils literal notranslate"><span class="pre">Meta.UrlArtist</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.UrlAudioFile"><code class="docutils literal notranslate"><span class="pre">Meta.UrlAudioFile</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.UrlAudioSource"><code class="docutils literal notranslate"><span class="pre">Meta.UrlAudioSource</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.UrlCommercialInfo"><code class="docutils literal notranslate"><span class="pre">Meta.UrlCommercialInfo</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.UrlCopyright"><code class="docutils literal notranslate"><span class="pre">Meta.UrlCopyright</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.UrlPayment"><code class="docutils literal notranslate"><span class="pre">Meta.UrlPayment</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.UrlPublisher"><code class="docutils literal notranslate"><span class="pre">Meta.UrlPublisher</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.UrlRadioPage"><code class="docutils literal notranslate"><span class="pre">Meta.UrlRadioPage</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.UrlUser"><code class="docutils literal notranslate"><span class="pre">Meta.UrlUser</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.UserText"><code class="docutils literal notranslate"><span class="pre">Meta.UserText</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.Meta.Year"><code class="docutils literal notranslate"><span class="pre">Meta.Year</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#metapicturetype">MetaPictureType</a><ul>
+<li><a class="reference internal" href="#avblocks.MetaPictureType"><code class="docutils literal notranslate"><span class="pre">MetaPictureType</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.Artist"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.Artist</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.ArtistLogotype"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.ArtistLogotype</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.BackCover"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.BackCover</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.Band"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.Band</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.BrightColoredFish"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.BrightColoredFish</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.Composer"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.Composer</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.Conductor"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.Conductor</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.DuringPerformance"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.DuringPerformance</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.DuringRecording"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.DuringRecording</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.FileIcon"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.FileIcon</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.FrontCover"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.FrontCover</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.Illustration"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.Illustration</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.LeadArtist"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.LeadArtist</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.LeafletPage"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.LeafletPage</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.Media"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.Media</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.Other"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.Other</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.OtherFileIcon"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.OtherFileIcon</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.PublisherLogotype"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.PublisherLogotype</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.RecordingLocation"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.RecordingLocation</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.TextWriter"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.TextWriter</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.MetaPictureType.VideoCapture"><code class="docutils literal notranslate"><span class="pre">MetaPictureType.VideoCapture</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=2709fde1"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=5fa4622c"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    </body>
+</html>

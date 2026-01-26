@@ -1,0 +1,2019 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="./">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="#" /><link rel="search" title="Search" href="search.html" />
+
+    <link rel="shortcut icon" href="_static/favicon.ico"/><!-- Generated with Sphinx 7.4.7 and Furo 2024.08.06 --><title>Index - AVBlocks Python API</title>
+<link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=354aac6f" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=302659d7" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">AVBlocks Python API</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo" src="_static/logo_blue_128.svg" alt="Logo"/>
+  </div>
+  
+  <span class="sidebar-brand-text">AVBlocks Python API</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="api/core-classes.html">Core Classes</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Core Classes</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/transcoder.html">Transcoder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/media-info.html">MediaInfo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/library.html">Library</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="api/media-classes.html">Media Classes</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Media Classes</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/media-socket.html">MediaSocket</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/media-pin.html">MediaPin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/media-buffer.html">MediaBuffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/media-sample.html">MediaSample</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="api/stream-info-classes.html">Stream Information</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Stream Information</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/stream-info.html">StreamInfo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/video-stream-info.html">VideoStreamInfo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/audio-stream-info.html">AudioStreamInfo</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/metadata.html">Metadata</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api/error-info.html">Error Handling</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="api/collections.html">Collections</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Collections</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/collections-base.html">Base Collection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/collections-media.html">Media Collections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/collections-parameter.html">Parameter Collection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/collections-metadata.html">Metadata Collections</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="api/enums.html">Enumerations</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Enumerations</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/enums-errors.html">License and Error Codes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/enums-stream-types.html">Stream Types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/enums-video.html">Video Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/enums-audio.html">Audio Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/enums-encoding.html">Encoding Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/enums-metadata.html">Metadata Constants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/enums-presets.html">Presets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/enums-params.html">Parameters</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          
+<section class="genindex-section">
+  <h1 id="index">Index</h1>
+  <div class="genindex-jumpbox"><a href="#A"><strong>A</strong></a> | <a href="#B"><strong>B</strong></a> | <a href="#C"><strong>C</strong></a> | <a href="#D"><strong>D</strong></a> | <a href="#E"><strong>E</strong></a> | <a href="#F"><strong>F</strong></a> | <a href="#G"><strong>G</strong></a> | <a href="#H"><strong>H</strong></a> | <a href="#I"><strong>I</strong></a> | <a href="#J"><strong>J</strong></a> | <a href="#K"><strong>K</strong></a> | <a href="#L"><strong>L</strong></a> | <a href="#M"><strong>M</strong></a> | <a href="#N"><strong>N</strong></a> | <a href="#O"><strong>O</strong></a> | <a href="#P"><strong>P</strong></a> | <a href="#Q"><strong>Q</strong></a> | <a href="#R"><strong>R</strong></a> | <a href="#S"><strong>S</strong></a> | <a href="#T"><strong>T</strong></a> | <a href="#U"><strong>U</strong></a> | <a href="#V"><strong>V</strong></a> | <a href="#W"><strong>W</strong></a> | <a href="#Y"><strong>Y</strong></a></div>
+</section>
+<section id="A" class="genindex-section">
+  <h2>A</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.AAC">AAC (avblocks.Preset.Audio.Generic attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-stream-types.html#avblocks.StreamType.AAC">(avblocks.StreamType attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.AAC_ADIF">AAC_ADIF (avblocks.StreamSubType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.AAC_ADTS">AAC_ADTS (avblocks.StreamSubType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.AAC_MP4">AAC_MP4 (avblocks.StreamSubType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.AAC_RAW">AAC_RAW (avblocks.StreamSubType attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.BitrateMode.ABR">ABR (avblocks.BitrateMode attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.AC3">AC3 (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.AccessUnitDelimiters">AccessUnitDelimiters (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/collections-base.html#avblocks.object_collection.ObjectCollection.add">add() (avblocks.object_collection.ObjectCollection method)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.ALAW_PCM">ALAW_PCM (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.Album">Album (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.AlbumArtist">AlbumArtist (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.Alloc">Alloc (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/transcoder.html#avblocks.Transcoder.allow_demo_mode">allow_demo_mode (avblocks.Transcoder property)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.MP3.AMRadio">AMRadio (avblocks.Preset.Audio.Generic.MP3 attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.AMRNB">AMRNB (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.AMRWB">AMRWB (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/collections-base.html#avblocks.object_collection.ObjectCollection.append">append() (avblocks.object_collection.ObjectCollection method)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleTV.AppleTV2G_MP4_H264_720p">AppleTV2G_MP4_H264_720p (avblocks.Preset.Video.AppleTV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleTV.AppleTV3G_MP4_H264_1080p">AppleTV3G_MP4_H264_1080p (avblocks.Preset.Video.AppleTV attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.Artist">Artist (avblocks.MetaPictureType attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.ArtistLogotype">ArtistLogotype (avblocks.MetaPictureType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.ASF">ASF (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/media-buffer.html#avblocks.MediaBuffer.attach">attach() (avblocks.MediaBuffer method)</a>
+</li>
+        <li><a href="api/metadata.html#avblocks.metadata.Metadata.attributes">attributes (avblocks.metadata.Metadata property)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.MediaType.Audio">Audio (avblocks.MediaType attribute)</a>
+</li>
+        <li><a href="api/audio-stream-info.html#avblocks.AudioStreamInfo">AudioStreamInfo (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.Use.Auto">Auto (avblocks.Use attribute)</a>
+</li>
+        <li><a href="api/transcoder.html#avblocks.Transcoder.auto_connect">auto_connect (avblocks.Transcoder property)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.ErrorFacility.AVBlocks">AVBlocks (avblocks.ErrorFacility attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.AVBlocksError">AVBlocksError (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.AVC">AVC (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.AVC1">AVC1 (avblocks.StreamSubType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.AVC_Annex_B">AVC_Annex_B (avblocks.StreamSubType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.AVCC">AVCC (avblocks.StreamSubType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.AVI">AVI (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.AVS">AVS (avblocks.StreamType attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="B" class="genindex-section">
+  <h2>B</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.BackCover">BackCover (avblocks.MetaPictureType attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.Overlay.BackgroundAlpha">BackgroundAlpha (avblocks.Param.Video.Overlay attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.Band">Band (avblocks.MetaPictureType attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.MP4.Base_H264_AAC">Base_H264_AAC (avblocks.Preset.Video.Generic.MP4 attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.WebM.Base_VP8_Vorbis">Base_VP8_Vorbis (avblocks.Preset.Video.Generic.WebM attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.BeatsPerMinute">BeatsPerMinute (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.BEGIN_AUDIO">BEGIN_AUDIO (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.BEGIN_CONTAINER">BEGIN_CONTAINER (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.BEGIN_DATA">BEGIN_DATA (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.BEGIN_IMAGE">BEGIN_IMAGE (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.BEGIN_VIDEO">BEGIN_VIDEO (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.BGR24">BGR24 (avblocks.ColorFormat attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.BGR32">BGR32 (avblocks.ColorFormat attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.BGR444">BGR444 (avblocks.ColorFormat attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.BGR555">BGR555 (avblocks.ColorFormat attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.BGR565">BGR565 (avblocks.ColorFormat attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.BGRA32">BGRA32 (avblocks.ColorFormat attribute)</a>
+</li>
+        <li><a href="api/stream-info.html#avblocks.StreamInfo.bitrate">bitrate (avblocks.StreamInfo property)</a>
+</li>
+        <li><a href="api/stream-info.html#avblocks.StreamInfo.bitrate_mode">bitrate_mode (avblocks.StreamInfo property)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.BitrateMode">BitrateMode (class in avblocks)</a>
+</li>
+        <li><a href="api/audio-stream-info.html#avblocks.AudioStreamInfo.bits_per_sample">bits_per_sample (avblocks.AudioStreamInfo property)</a>
+</li>
+        <li><a href="api/error-info.html#avblocks.ErrorInfo.block">block (avblocks.ErrorInfo property)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.BMP">BMP (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.Crop.Bottom">Bottom (avblocks.Param.Video.Crop attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-params.html#avblocks.Param.Video.Pad.Bottom">(avblocks.Param.Video.Pad attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-video.html#avblocks.ScanType.BottomFieldFirst">BottomFieldFirst (avblocks.ScanType attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.BrightColoredFish">BrightColoredFish (avblocks.MetaPictureType attribute)</a>
+</li>
+        <li><a href="api/media-sample.html#avblocks.MediaSample.buffer">buffer (avblocks.MediaSample property)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.BufferFull">BufferFull (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/metadata.html#avblocks.meta_picture.MetaPicture.bytes">bytes (avblocks.meta_picture.MetaPicture property)</a>
+</li>
+        <li><a href="api/audio-stream-info.html#avblocks.AudioStreamInfo.bytes_per_frame">bytes_per_frame (avblocks.AudioStreamInfo property)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="C" class="genindex-section">
+  <h2>C</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/media-buffer.html#avblocks.MediaBuffer.capacity">capacity (avblocks.MediaBuffer property)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.BitrateMode.CBR">CBR (avblocks.BitrateMode attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.M4A.CBR_128kbps">CBR_128kbps (avblocks.Preset.Audio.Generic.M4A attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.MP3.CBR_128kbps">(avblocks.Preset.Audio.Generic.MP3 attribute)</a>
+</li>
+          <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.WMA.Standard.CBR_128kbps">(avblocks.Preset.Audio.Generic.WMA.Standard attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.WMA.Standard.CBR_160kbps">CBR_160kbps (avblocks.Preset.Audio.Generic.WMA.Standard attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.M4A.CBR_256kbps">CBR_256kbps (avblocks.Preset.Audio.Generic.M4A attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.MP3.CBR_256kbps">(avblocks.Preset.Audio.Generic.MP3 attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.WMA.Standard.CBR_64kbps">CBR_64kbps (avblocks.Preset.Audio.Generic.WMA.Standard attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.WMA.Standard.CBR_96kbps">CBR_96kbps (avblocks.Preset.Audio.Generic.WMA.Standard attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.MP3.CD">CD (avblocks.Preset.Audio.Generic.MP3 attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.WMA.Lossless.CD">(avblocks.Preset.Audio.Generic.WMA.Lossless attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleLiveStreaming.Cellular_H264_400x300_30p_400K_AAC_40K">Cellular_H264_400x300_30p_400K_AAC_40K (avblocks.Preset.Video.AppleLiveStreaming attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleLiveStreaming.Cellular_Wide_H264_400x224_30p_400K_AAC_40K">Cellular_Wide_H264_400x224_30p_400K_AAC_40K (avblocks.Preset.Video.AppleLiveStreaming attribute)</a>
+</li>
+        <li><a href="api/audio-stream-info.html#avblocks.AudioStreamInfo.channel_layout">channel_layout (avblocks.AudioStreamInfo property)</a>
+</li>
+        <li><a href="api/audio-stream-info.html#avblocks.AudioStreamInfo.channels">channels (avblocks.AudioStreamInfo property)</a>
+</li>
+        <li><a href="api/collections-base.html#avblocks.object_collection.ObjectCollection.clear">clear() (avblocks.object_collection.ObjectCollection method)</a>
+
+        <ul>
+          <li><a href="api/collections-parameter.html#avblocks.parameter_list.ParameterList.clear">(avblocks.parameter_list.ParameterList method)</a>
+</li>
+        </ul></li>
+        <li><a href="api/audio-stream-info.html#avblocks.AudioStreamInfo.clone">clone() (avblocks.AudioStreamInfo method)</a>
+
+        <ul>
+          <li><a href="api/error-info.html#avblocks.ErrorInfo.clone">(avblocks.ErrorInfo method)</a>
+</li>
+          <li><a href="api/media-buffer.html#avblocks.MediaBuffer.clone">(avblocks.MediaBuffer method)</a>
+</li>
+          <li><a href="api/media-pin.html#avblocks.MediaPin.clone">(avblocks.MediaPin method)</a>
+</li>
+          <li><a href="api/media-sample.html#avblocks.MediaSample.clone">(avblocks.MediaSample method)</a>
+</li>
+          <li><a href="api/media-socket.html#avblocks.MediaSocket.clone">(avblocks.MediaSocket method)</a>
+</li>
+          <li><a href="api/metadata.html#avblocks.meta_attribute.MetaAttribute.clone">(avblocks.meta_attribute.MetaAttribute method)</a>
+</li>
+          <li><a href="api/metadata.html#avblocks.meta_picture.MetaPicture.clone">(avblocks.meta_picture.MetaPicture method)</a>
+</li>
+          <li><a href="api/metadata.html#avblocks.metadata.Metadata.clone">(avblocks.metadata.Metadata method)</a>
+</li>
+          <li><a href="api/stream-info.html#avblocks.StreamInfo.clone">(avblocks.StreamInfo method)</a>
+</li>
+          <li><a href="api/video-stream-info.html#avblocks.VideoStreamInfo.clone">(avblocks.VideoStreamInfo method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/media-info.html#avblocks.MediaInfo.close">close() (avblocks.MediaInfo method)</a>
+
+        <ul>
+          <li><a href="api/transcoder.html#avblocks.Transcoder.close">(avblocks.Transcoder method)</a>
+</li>
+        </ul></li>
+        <li><a href="api/error-info.html#avblocks.ErrorInfo.code">code (avblocks.ErrorInfo property)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.ErrorFacility.Codec">Codec (avblocks.ErrorFacility attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError">CodecError (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.Pad.Color">Color (avblocks.Param.Video.Pad attribute)</a>
+</li>
+        <li><a href="api/video-stream-info.html#avblocks.VideoStreamInfo.color_format">color_format (avblocks.VideoStreamInfo property)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat">ColorFormat (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.Comment">Comment (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.TranscoderStatus.Completed">Completed (avblocks.TranscoderStatus attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.Composer">Composer (avblocks.Meta attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.Composer">(avblocks.MetaPictureType attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-params.html#avblocks.Param.Decoder.Video.ConcealDefects">ConcealDefects (avblocks.Param.Decoder.Video attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.Conductor">Conductor (avblocks.Meta attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.Conductor">(avblocks.MetaPictureType attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-params.html#avblocks.Param.Decoder.Config">Config (avblocks.Param.Decoder attribute)</a>
+</li>
+        <li><a href="api/stream-info.html#avblocks.StreamInfo.config_data">config_data (avblocks.StreamInfo property)</a>
+</li>
+        <li><a href="api/media-pin.html#avblocks.MediaPin.connection">connection (avblocks.MediaPin property)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.ContentGroup">ContentGroup (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/collections-parameter.html#avblocks.parameter_list.ParameterList.copy">copy() (avblocks.parameter_list.ParameterList method)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.Copyright">Copyright (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/stream-info.html#avblocks.StreamInfo.create">create() (avblocks.StreamInfo static method)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="D" class="genindex-section">
+  <h2>D</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/media-buffer.html#avblocks.MediaBuffer.data">data (avblocks.MediaBuffer property)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.MediaType.Data">Data (avblocks.MediaType attribute)</a>
+</li>
+        <li><a href="api/media-buffer.html#avblocks.MediaBuffer.data_offset">data_offset (avblocks.MediaBuffer property)</a>
+</li>
+        <li><a href="api/media-buffer.html#avblocks.MediaBuffer.data_size">data_size (avblocks.MediaBuffer property)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.Date">Date (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.DeblockingFilter">DeblockingFilter (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.DeblockingFilterAlpha">DeblockingFilterAlpha (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.DeblockingFilterBeta">DeblockingFilterBeta (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.LicenseStatusFlags.DemoBuild">DemoBuild (avblocks.LicenseStatusFlags attribute)</a>
+</li>
+        <li><a href="api/metadata.html#avblocks.meta_picture.MetaPicture.description">description (avblocks.meta_picture.MetaPicture property)</a>
+</li>
+        <li><a href="api/library.html#avblocks.Library.description">description() (avblocks.Library static method)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/media-buffer.html#avblocks.MediaBuffer.detach">detach() (avblocks.MediaBuffer method)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.DirectPredMode">DirectPredMode (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.DiscNum">DiscNum (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/video-stream-info.html#avblocks.VideoStreamInfo.display_ratio_height">display_ratio_height (avblocks.VideoStreamInfo property)</a>
+</li>
+        <li><a href="api/video-stream-info.html#avblocks.VideoStreamInfo.display_ratio_width">display_ratio_width (avblocks.VideoStreamInfo property)</a>
+</li>
+        <li><a href="api/media-info.html#avblocks.MediaInfo.dispose">dispose() (avblocks.MediaInfo method)</a>
+
+        <ul>
+          <li><a href="api/transcoder.html#avblocks.Transcoder.dispose">(avblocks.Transcoder method)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.DTS">DTS (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/stream-info.html#avblocks.StreamInfo.duration">duration (avblocks.StreamInfo property)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.DuringPerformance">DuringPerformance (avblocks.MetaPictureType attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.DuringRecording">DuringRecording (avblocks.MetaPictureType attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="E" class="genindex-section">
+  <h2>E</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Audio.G711.EnableVAD">EnableVAD (avblocks.Param.Encoder.Audio.G711 attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.EncodedBy">EncodedBy (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.EncoderSettings">EncoderSettings (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.END_AUDIO">END_AUDIO (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.END_CONTAINER">END_CONTAINER (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.END_DATA">END_DATA (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.END_IMAGE">END_IMAGE (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/media-info.html#avblocks.MediaInfo.end_of_stream">end_of_stream() (avblocks.MediaInfo method)</a>
+
+        <ul>
+          <li><a href="api/transcoder.html#avblocks.Transcoder.end_of_stream">(avblocks.Transcoder method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/media-sample.html#avblocks.MediaSample.end_time">end_time (avblocks.MediaSample property)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.END_VIDEO">END_VIDEO (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.EntropyCodingMode">EntropyCodingMode (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.EOS">EOS (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/media-info.html#avblocks.MediaInfo.error">error (avblocks.MediaInfo property)</a>
+
+        <ul>
+          <li><a href="api/transcoder.html#avblocks.Transcoder.error">(avblocks.Transcoder property)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-errors.html#avblocks.ErrorFacility">ErrorFacility (class in avblocks)</a>
+</li>
+        <li><a href="api/error-info.html#avblocks.ErrorInfo">ErrorInfo (class in avblocks)</a>
+</li>
+        <li><a href="api/collections-base.html#avblocks.object_collection.ObjectCollection.extend">extend() (avblocks.object_collection.ObjectCollection method)</a>
+</li>
+        <li><a href="api/media-buffer.html#avblocks.MediaBuffer.external">external (avblocks.MediaBuffer property)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="F" class="genindex-section">
+  <h2>F</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/error-info.html#avblocks.ErrorInfo.facility">facility (avblocks.ErrorInfo property)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.Failed">Failed (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Muxer.MP4.FastStart">FastStart (avblocks.Param.Muxer.MP4 attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Muxer.MP4.FastStartTempFileDirectory">FastStartTempFileDirectory (avblocks.Param.Muxer.MP4 attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Muxer.MP4.FastStartUseTempFile">FastStartUseTempFile (avblocks.Param.Muxer.MP4 attribute)</a>
+</li>
+        <li><a href="api/media-socket.html#avblocks.MediaSocket.file">file (avblocks.MediaSocket property)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.FileIcon">FileIcon (avblocks.MetaPictureType attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.FileType">FileType (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.FixedFramerate">FixedFramerate (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/media-sample.html#avblocks.MediaSample.flags">flags (avblocks.MediaSample property)</a>
+</li>
+        <li><a href="api/media-info.html#avblocks.MediaInfo.flush">flush() (avblocks.MediaInfo method)</a>
+
+        <ul>
+          <li><a href="api/transcoder.html#avblocks.Transcoder.flush">(avblocks.Transcoder method)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.FLV">FLV (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.MP3.FMRadio">FMRadio (avblocks.Preset.Audio.Generic.MP3 attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Audio.MPEG1.ForceV1">ForceV1 (avblocks.Param.Encoder.Audio.MPEG1 attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.Overlay.ForegroundAlpha">ForegroundAlpha (avblocks.Param.Video.Overlay attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.Overlay.ForegroundBuffer">ForegroundBuffer (avblocks.Param.Video.Overlay attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.Overlay.ForegroundBufferFormat">ForegroundBufferFormat (avblocks.Param.Video.Overlay attribute)</a>
+</li>
+        <li><a href="api/video-stream-info.html#avblocks.VideoStreamInfo.frame_bottom_up">frame_bottom_up (avblocks.VideoStreamInfo property)</a>
+</li>
+        <li><a href="api/video-stream-info.html#avblocks.VideoStreamInfo.frame_height">frame_height (avblocks.VideoStreamInfo property)</a>
+</li>
+        <li><a href="api/video-stream-info.html#avblocks.VideoStreamInfo.frame_rate">frame_rate (avblocks.VideoStreamInfo property)</a>
+</li>
+        <li><a href="api/media-sample.html#avblocks.MediaSample.frame_type">frame_type (avblocks.MediaSample property)</a>
+</li>
+        <li><a href="api/video-stream-info.html#avblocks.VideoStreamInfo.frame_width">frame_width (avblocks.VideoStreamInfo property)</a>
+</li>
+        <li><a href="api/media-socket.html#avblocks.MediaSocket.from_media_info">from_media_info() (avblocks.MediaSocket static method)</a>
+</li>
+        <li><a href="api/collections-media.html#avblocks.media_pin_list.MediaPinList.from_native">from_native() (avblocks.media_pin_list.MediaPinList static method)</a>
+
+        <ul>
+          <li><a href="api/collections-media.html#avblocks.media_socket_list.MediaSocketList.from_native">(avblocks.media_socket_list.MediaSocketList static method)</a>
+</li>
+          <li><a href="api/collections-metadata.html#avblocks.meta_attribute_list.MetaAttributeList.from_native">(avblocks.meta_attribute_list.MetaAttributeList static method)</a>
+</li>
+          <li><a href="api/collections-metadata.html#avblocks.meta_picture_list.MetaPictureList.from_native">(avblocks.meta_picture_list.MetaPictureList static method)</a>
+</li>
+          <li><a href="api/stream-info.html#avblocks.StreamInfo.from_native">(avblocks.StreamInfo static method)</a>
+</li>
+        </ul></li>
+        <li><a href="api/media-socket.html#avblocks.MediaSocket.from_preset">from_preset() (avblocks.MediaSocket static method)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.FrontCover">FrontCover (avblocks.MetaPictureType attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="G" class="genindex-section">
+  <h2>G</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.G726_AAL2">G726_AAL2 (avblocks.StreamSubType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.G726_ADPCM">G726_ADPCM (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.G726_PACKED_AAL2">G726_PACKED_AAL2 (avblocks.StreamSubType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.G726_PACKED_RFC3551">G726_PACKED_RFC3551 (avblocks.StreamSubType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.G726_RFC3551">G726_RFC3551 (avblocks.StreamSubType attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.Genre">Genre (avblocks.Meta attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/collections-parameter.html#avblocks.parameter_list.ParameterList.get">get() (avblocks.parameter_list.ParameterList method)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.GIF">GIF (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.M4A.GoodQuality">GoodQuality (avblocks.Preset.Audio.Generic.M4A attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H265.GOPLength">GOPLength (avblocks.Param.Encoder.Video.H265 attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.MPEG2.GOPSize">GOPSize (avblocks.Param.Encoder.Video.MPEG2 attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.GRAY">GRAY (avblocks.ColorFormat attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="H" class="genindex-section">
+  <h2>H</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.H261">H261 (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.H263">H263 (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.H264">H264 (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.MP4.H264_1080p">H264_1080p (avblocks.Preset.Video.Generic.MP4 attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.BDAV.H264_1280x720_2398p_PCM">H264_1280x720_2398p_PCM (avblocks.Preset.Video.BDAV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.BDAV.H264_1280x720_24p_PCM">H264_1280x720_24p_PCM (avblocks.Preset.Video.BDAV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.BDAV.H264_1280x720_50p_PCM">H264_1280x720_50p_PCM (avblocks.Preset.Video.BDAV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.BDAV.H264_1280x720_5994p_PCM">H264_1280x720_5994p_PCM (avblocks.Preset.Video.BDAV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.BDAV.H264_1440x1080_2398p_PCM">H264_1440x1080_2398p_PCM (avblocks.Preset.Video.BDAV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.BDAV.H264_1440x1080_24p_PCM">H264_1440x1080_24p_PCM (avblocks.Preset.Video.BDAV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.BDAV.H264_1440x1080_50i_PCM">H264_1440x1080_50i_PCM (avblocks.Preset.Video.BDAV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.BDAV.H264_1440x1080_5994i_PCM">H264_1440x1080_5994i_PCM (avblocks.Preset.Video.BDAV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.BDAV.H264_1920x1080_2398p_PCM">H264_1920x1080_2398p_PCM (avblocks.Preset.Video.BDAV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.BDAV.H264_1920x1080_24p_PCM">H264_1920x1080_24p_PCM (avblocks.Preset.Video.BDAV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.BDAV.H264_1920x1080_50i_PCM">H264_1920x1080_50i_PCM (avblocks.Preset.Video.BDAV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.BDAV.H264_1920x1080_5994i_PCM">H264_1920x1080_5994i_PCM (avblocks.Preset.Video.BDAV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.MP4.H264_240p">H264_240p (avblocks.Preset.Video.Generic.MP4 attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-presets.html#avblocks.Preset.Video.iPod.H264_240p">(avblocks.Preset.Video.iPod attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AndroidPhone.H264_360p">H264_360p (avblocks.Preset.Video.AndroidPhone attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.MP4.H264_360p">(avblocks.Preset.Video.Generic.MP4 attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleLiveStreaming.H264_480p">H264_480p (avblocks.Preset.Video.AppleLiveStreaming attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleTV.H264_480p">(avblocks.Preset.Video.AppleTV attribute)</a>
+</li>
+          <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.MP4.H264_480p">(avblocks.Preset.Video.Generic.MP4 attribute)</a>
+</li>
+          <li><a href="api/enums-presets.html#avblocks.Preset.Video.iPhone.H264_480p">(avblocks.Preset.Video.iPhone attribute)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.iPad.H264_576p">H264_576p (avblocks.Preset.Video.iPad attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AndroidPhone.H264_720p">H264_720p (avblocks.Preset.Video.AndroidPhone attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-presets.html#avblocks.Preset.Video.AndroidTablet.H264_720p">(avblocks.Preset.Video.AndroidTablet attribute)</a>
+</li>
+          <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleLiveStreaming.H264_720p">(avblocks.Preset.Video.AppleLiveStreaming attribute)</a>
+</li>
+          <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleTV.H264_720p">(avblocks.Preset.Video.AppleTV attribute)</a>
+</li>
+          <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.MP4.H264_720p">(avblocks.Preset.Video.Generic.MP4 attribute)</a>
+</li>
+          <li><a href="api/enums-presets.html#avblocks.Preset.Video.iPad.H264_720p">(avblocks.Preset.Video.iPad attribute)</a>
+</li>
+          <li><a href="api/enums-presets.html#avblocks.Preset.Video.Web.MP4.H264_720p">(avblocks.Preset.Video.Web.MP4 attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Fast.MP4.H264_AAC">H264_AAC (avblocks.Preset.Video.Fast.MP4 attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.MP4.H264_Wide_360p">H264_Wide_360p (avblocks.Preset.Video.Generic.MP4 attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.MP4.H264_Wide_480p">H264_Wide_480p (avblocks.Preset.Video.Generic.MP4 attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.H265">H265 (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.HardwareEncoder">HardwareEncoder (avblocks.Param attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.HardwareEncoderApi">HardwareEncoderApi (avblocks.Param attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.HardwareEncoderDevice">HardwareEncoderDevice (avblocks.Param attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.HEVC">HEVC (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.MP3.HiFi">HiFi (avblocks.Preset.Audio.Generic.MP3 attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.M4A.HighQuality">HighQuality (avblocks.Preset.Audio.Generic.M4A attribute)</a>
+</li>
+        <li><a href="api/error-info.html#avblocks.ErrorInfo.hint">hint (avblocks.ErrorInfo property)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="I" class="genindex-section">
+  <h2>I</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/stream-info.html#avblocks.StreamInfo.id">id (avblocks.StreamInfo property)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.Illustration">Illustration (avblocks.MetaPictureType attribute)</a>
+</li>
+        <li><a href="api/media-pin.html#avblocks.MediaPin.immutable">immutable (avblocks.MediaPin property)</a>
+
+        <ul>
+          <li><a href="api/media-socket.html#avblocks.MediaSocket.immutable">(avblocks.MediaSocket property)</a>
+</li>
+          <li><a href="api/metadata.html#avblocks.meta_attribute.MetaAttribute.immutable">(avblocks.meta_attribute.MetaAttribute property)</a>
+</li>
+          <li><a href="api/metadata.html#avblocks.meta_picture.MetaPicture.immutable">(avblocks.meta_picture.MetaPicture property)</a>
+</li>
+          <li><a href="api/metadata.html#avblocks.metadata.Metadata.immutable">(avblocks.metadata.Metadata property)</a>
+</li>
+          <li><a href="api/collections-base.html#avblocks.object_collection.ObjectCollection.immutable">(avblocks.object_collection.ObjectCollection property)</a>
+</li>
+          <li><a href="api/collections-parameter.html#avblocks.parameter_list.ParameterList.immutable">(avblocks.parameter_list.ParameterList property)</a>
+</li>
+          <li><a href="api/stream-info.html#avblocks.StreamInfo.immutable">(avblocks.StreamInfo property)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.Init">Init (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/library.html#avblocks.Library.initialize">initialize() (avblocks.Library static method)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.TranscoderError.InputFull">InputFull (avblocks.TranscoderError attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.TranscoderError.InputNeeded">InputNeeded (avblocks.TranscoderError attribute)</a>
+</li>
+        <li><a href="api/media-info.html#avblocks.MediaInfo.inputs">inputs (avblocks.MediaInfo property)</a>
+
+        <ul>
+          <li><a href="api/transcoder.html#avblocks.Transcoder.inputs">(avblocks.Transcoder property)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/collections-base.html#avblocks.object_collection.ObjectCollection.insert">insert() (avblocks.object_collection.ObjectCollection method)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.InternetRadioStation">InternetRadioStation (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.Resize.InterpolationMethod">InterpolationMethod (avblocks.Param.Video.Resize attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.InvalidOperation">InvalidOperation (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.InvalidParams">InvalidParams (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.InvalidStream">InvalidStream (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.InvolvedPeople">InvolvedPeople (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.MPEG2.IPDistance">IPDistance (avblocks.Param.Encoder.Video.MPEG2 attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.iPhone.iPhone3GS_MP4_H264_480">iPhone3GS_MP4_H264_480 (avblocks.Preset.Video.iPhone attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.iPhone.iPhone4_MP4_H264_720p">iPhone4_MP4_H264_720p (avblocks.Preset.Video.iPhone attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.iPhone.iPhone4S_MP4_H264_1080p">iPhone4S_MP4_H264_1080p (avblocks.Preset.Video.iPhone attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.iPod.iPodTouch_MP4_H264_480p">iPodTouch_MP4_H264_480p (avblocks.Preset.Video.iPod attribute)</a>
+</li>
+        <li><a href="api/library.html#avblocks.Library.is_licensed">is_licensed() (avblocks.Library static method)</a>
+</li>
+        <li><a href="api/media-info.html#avblocks.MediaInfo.is_ready">is_ready (avblocks.MediaInfo property)</a>
+</li>
+        <li><a href="api/collections-metadata.html#avblocks.meta_attribute_list.MetaAttributeList.item_by_name">item_by_name() (avblocks.meta_attribute_list.MetaAttributeList method)</a>
+</li>
+        <li><a href="api/collections-parameter.html#avblocks.parameter_list.ParameterList.items">items() (avblocks.parameter_list.ParameterList method)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.IVF">IVF (avblocks.StreamType attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="J" class="genindex-section">
+  <h2>J</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-audio.html#avblocks.StereoMode.Joint">Joint (avblocks.StereoMode attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.JPEG">JPEG (avblocks.StreamType attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="K" class="genindex-section">
+  <h2>K</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.KeyFrameIDRInterval">KeyFrameIDRInterval (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.KeyFrameInterval">KeyFrameInterval (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.VP8.KeyFrameMaxDistance">KeyFrameMaxDistance (avblocks.Param.Encoder.Video.VP8 attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.VP8.KeyFrameMinDistance">KeyFrameMinDistance (avblocks.Param.Encoder.Video.VP8 attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/collections-parameter.html#avblocks.parameter_list.ParameterList.keys">keys() (avblocks.parameter_list.ParameterList method)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Kindle.KindleFire_MP4_H264_576p">KindleFire_MP4_H264_576p (avblocks.Preset.Video.Kindle attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Kindle.KindleFireHD_8_9_MP4_H264_1080p">KindleFireHD_8_9_MP4_H264_1080p (avblocks.Preset.Video.Kindle attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Kindle.KindleFireHD_MP4_H264_720p">KindleFireHD_MP4_H264_720p (avblocks.Preset.Video.Kindle attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="L" class="genindex-section">
+  <h2>L</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.Language">Language (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.LeadArtist">LeadArtist (avblocks.Meta attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.LeadArtist">(avblocks.MetaPictureType attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.LeafletPage">LeafletPage (avblocks.MetaPictureType attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.Crop.Left">Left (avblocks.Param.Video.Crop attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-params.html#avblocks.Param.Video.Pad.Left">(avblocks.Param.Video.Pad attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.Level">Level (avblocks.Param.Encoder.Video.H264 attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H265.Level">(avblocks.Param.Encoder.Video.H265 attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/library.html#avblocks.Library">Library (class in avblocks)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-errors.html#avblocks.AVBlocksError.LibraryNotInitialized">LibraryNotInitialized (avblocks.AVBlocksError attribute)</a>
+</li>
+        <li><a href="api/library.html#avblocks.Library.license_status">license_status() (avblocks.Library static method)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.LicenseStatusFlags">LicenseStatusFlags (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.Overlay.LocationX">LocationX (avblocks.Param.Video.Overlay attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.Overlay.LocationY">LocationY (avblocks.Param.Video.Overlay attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.M4A.LowQuality">LowQuality (avblocks.Preset.Audio.Generic.M4A attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.LPCM">LPCM (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-audio.html#avblocks.StereoMode.LR">LR (avblocks.StereoMode attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.Lyricist">Lyricist (avblocks.Meta attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="M" class="genindex-section">
+  <h2>M</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/library.html#avblocks.Library.major_version">major_version() (avblocks.Library static method)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Decoder.Video.H264.VUI.MaxDecFrameBuffering">MaxDecFrameBuffering (avblocks.Param.Decoder.Video.H264.VUI attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.Media">Media (avblocks.MetaPictureType attribute)</a>
+</li>
+        <li><a href="api/stream-info.html#avblocks.StreamInfo.media_type">media_type (avblocks.StreamInfo property)</a>
+</li>
+        <li><a href="api/media-buffer.html#avblocks.MediaBuffer">MediaBuffer (class in avblocks)</a>
+</li>
+        <li><a href="api/media-info.html#avblocks.MediaInfo">MediaInfo (class in avblocks)</a>
+</li>
+        <li><a href="api/media-pin.html#avblocks.MediaPin">MediaPin (class in avblocks)</a>
+</li>
+        <li><a href="api/collections-media.html#avblocks.media_pin_list.MediaPinList">MediaPinList (class in avblocks.media_pin_list)</a>
+</li>
+        <li><a href="api/media-sample.html#avblocks.MediaSample">MediaSample (class in avblocks)</a>
+</li>
+        <li><a href="api/media-socket.html#avblocks.MediaSocket">MediaSocket (class in avblocks)</a>
+</li>
+        <li><a href="api/collections-media.html#avblocks.media_socket_list.MediaSocketList">MediaSocketList (class in avblocks.media_socket_list)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.MediaType">MediaType (avblocks.Meta attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-stream-types.html#avblocks.MediaType">(class in avblocks)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.MEMethod">MEMethod (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.MERangeSearchX">MERangeSearchX (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.MERangeSearchY">MERangeSearchY (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.MESplitMode">MESplitMode (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/error-info.html#avblocks.ErrorInfo.message">message (avblocks.ErrorInfo property)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta">Meta (class in avblocks)</a>
+</li>
+        <li><a href="api/metadata.html#avblocks.meta_attribute.MetaAttribute">MetaAttribute (class in avblocks.meta_attribute)</a>
+</li>
+        <li><a href="api/collections-metadata.html#avblocks.meta_attribute_list.MetaAttributeList">MetaAttributeList (class in avblocks.meta_attribute_list)</a>
+</li>
+        <li><a href="api/media-socket.html#avblocks.MediaSocket.metadata">metadata (avblocks.MediaSocket property)</a>
+</li>
+        <li><a href="api/metadata.html#avblocks.metadata.Metadata">Metadata (class in avblocks.metadata)</a>
+</li>
+        <li><a href="api/metadata.html#avblocks.meta_picture.MetaPicture">MetaPicture (class in avblocks.meta_picture)</a>
+</li>
+        <li><a href="api/collections-metadata.html#avblocks.meta_picture_list.MetaPictureList">MetaPictureList (class in avblocks.meta_picture_list)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.MetaPictureType">MetaPictureType (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.Deinterlacing.Method">Method (avblocks.Param.Video.Deinterlacing attribute)</a>
+</li>
+        <li><a href="api/enums-audio.html#avblocks.StereoMode.MidSide">MidSide (avblocks.StereoMode attribute)</a>
+</li>
+        <li><a href="api/metadata.html#avblocks.meta_picture.MetaPicture.mime_type">mime_type (avblocks.meta_picture.MetaPicture property)</a>
+</li>
+        <li><a href="api/library.html#avblocks.Library.minor_version">minor_version() (avblocks.Library static method)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.MissingDependency">MissingDependency (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.MissingHardwareAmdVce">MissingHardwareAmdVce (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.MissingHardwareIntelQuickSync">MissingHardwareIntelQuickSync (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.MissingHardwareNvidiaNVENC">MissingHardwareNvidiaNVENC (avblocks.CodecError attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.MJPEG">MJPEG (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.Overlay.Mode">Mode (avblocks.Param.Video.Overlay attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.DVD.MP2">MP2 (avblocks.Preset.Audio.DVD attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.MP4">MP4 (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.MPEG1_System">MPEG1_System (avblocks.StreamSubType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.MPEG1_Video">MPEG1_Video (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.MPEG2_System">MPEG2_System (avblocks.StreamSubType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.MPEG2_Video">MPEG2_Video (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.iPod.MPEG4_240p">MPEG4_240p (avblocks.Preset.Video.iPod attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleTV.MPEG4_480p">MPEG4_480p (avblocks.Preset.Video.AppleTV attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-presets.html#avblocks.Preset.Video.iPad.MPEG4_480p">(avblocks.Preset.Video.iPad attribute)</a>
+</li>
+          <li><a href="api/enums-presets.html#avblocks.Preset.Video.iPhone.MPEG4_480p">(avblocks.Preset.Video.iPhone attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.MPEG4_Video">MPEG4_Video (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.HDV.MPEG_1080i_25p">MPEG_1080i_25p (avblocks.Preset.Video.HDV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.HDV.MPEG_1080i_30p">MPEG_1080i_30p (avblocks.Preset.Video.HDV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.HDV.MPEG_1080p_24p">MPEG_1080p_24p (avblocks.Preset.Video.HDV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.HDV.MPEG_1080p_25p">MPEG_1080p_25p (avblocks.Preset.Video.HDV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.HDV.MPEG_1080p_30p">MPEG_1080p_30p (avblocks.Preset.Video.HDV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.HDV.MPEG_720p_24p">MPEG_720p_24p (avblocks.Preset.Video.HDV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.HDV.MPEG_720p_25p">MPEG_720p_25p (avblocks.Preset.Video.HDV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.HDV.MPEG_720p_30p">MPEG_720p_30p (avblocks.Preset.Video.HDV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.HDV.MPEG_720p_50p">MPEG_720p_50p (avblocks.Preset.Video.HDV attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.HDV.MPEG_720p_60p">MPEG_720p_60p (avblocks.Preset.Video.HDV attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.MPEG_Audio">MPEG_Audio (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.MPEG_Audio_Layer1">MPEG_Audio_Layer1 (avblocks.StreamSubType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.MPEG_Audio_Layer2">MPEG_Audio_Layer2 (avblocks.StreamSubType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.MPEG_Audio_Layer3">MPEG_Audio_Layer3 (avblocks.StreamSubType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.MPEG_PES">MPEG_PES (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.MPEG_PS">MPEG_PS (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.MPEG_PSI_PACKETS">MPEG_PSI_PACKETS (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.MPEG_TS">MPEG_TS (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.MPEG_TS_BDAV">MPEG_TS_BDAV (avblocks.StreamSubType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.MPEG_TS_PACKETS">MPEG_TS_PACKETS (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.MULAW_PCM">MULAW_PCM (avblocks.StreamType attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="N" class="genindex-section">
+  <h2>N</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/metadata.html#avblocks.meta_attribute.MetaAttribute.name">name (avblocks.meta_attribute.MetaAttribute property)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.TranscoderError.NoChain">NoChain (avblocks.TranscoderError attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.TranscoderError.NoCodec">NoCodec (avblocks.TranscoderError attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.NoConfigData">NoConfigData (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/enums-audio.html#avblocks.StereoMode.None_">None_ (avblocks.StereoMode attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.None_">(avblocks.StreamSubType attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.NoOutput">NoOutput (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.NotImplemented">NotImplemented (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.NotInitialized">NotInitialized (avblocks.CodecError attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.VCD.NTSC">NTSC (avblocks.Preset.Video.VCD attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.DVD.NTSC_16x9_MP2">NTSC_16x9_MP2 (avblocks.Preset.Video.DVD attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.DVD.NTSC_16x9_PCM">NTSC_16x9_PCM (avblocks.Preset.Video.DVD attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.DVD.NTSC_4x3_MP2">NTSC_4x3_MP2 (avblocks.Preset.Video.DVD attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.DVD.NTSC_4x3_PCM">NTSC_4x3_PCM (avblocks.Preset.Video.DVD attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.Null">Null (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.NumBFrames">NumBFrames (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.NumRefFrames">NumRefFrames (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.NumSlices">NumSlices (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.NV12">NV12 (avblocks.ColorFormat attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="O" class="genindex-section">
+  <h2>O</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/collections-base.html#avblocks.object_collection.ObjectCollection">ObjectCollection (class in avblocks.object_collection)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.Use.Off">Off (avblocks.Use attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.OGG">OGG (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.Use.On">On (avblocks.Use attribute)</a>
+</li>
+        <li><a href="api/media-info.html#avblocks.MediaInfo.open">open() (avblocks.MediaInfo method)</a>
+
+        <ul>
+          <li><a href="api/transcoder.html#avblocks.Transcoder.open">(avblocks.Transcoder method)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.OrigAlbum">OrigAlbum (avblocks.Meta attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.OrigArtist">OrigArtist (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.OrigFileName">OrigFileName (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.OrigLyricist">OrigLyricist (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.Other">Other (avblocks.MetaPictureType attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.OtherFileIcon">OtherFileIcon (avblocks.MetaPictureType attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.OutputBufferNotEnough">OutputBufferNotEnough (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/media-info.html#avblocks.MediaInfo.outputs">outputs (avblocks.MediaInfo property)</a>
+
+        <ul>
+          <li><a href="api/transcoder.html#avblocks.Transcoder.outputs">(avblocks.Transcoder property)</a>
+</li>
+        </ul></li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="P" class="genindex-section">
+  <h2>P</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-params.html#avblocks.Param.Demuxer.Mpeg.PacketId">PacketId (avblocks.Param.Demuxer.Mpeg attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.VCD.PAL">PAL (avblocks.Preset.Video.VCD attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.DVD.PAL_16x9_MP2">PAL_16x9_MP2 (avblocks.Preset.Video.DVD attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.DVD.PAL_4x3_MP2">PAL_4x3_MP2 (avblocks.Preset.Video.DVD attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param">Param (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Decoder">Param.Decoder (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Decoder.Video">Param.Decoder.Video (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Decoder.Video.H264">Param.Decoder.Video.H264 (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Decoder.Video.H264.VUI">Param.Decoder.Video.H264.VUI (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Demuxer">Param.Demuxer (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Demuxer.Mpeg">Param.Demuxer.Mpeg (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder">Param.Encoder (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Audio">Param.Encoder.Audio (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Audio.AAC">Param.Encoder.Audio.AAC (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Audio.G711">Param.Encoder.Audio.G711 (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Audio.MPEG1">Param.Encoder.Audio.MPEG1 (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Audio.Vorbis">Param.Encoder.Audio.Vorbis (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Audio.WMA">Param.Encoder.Audio.WMA (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video">Param.Encoder.Video (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264">Param.Encoder.Video.H264 (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H265">Param.Encoder.Video.H265 (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.MPEG2">Param.Encoder.Video.MPEG2 (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.VP8">Param.Encoder.Video.VP8 (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Muxer">Param.Muxer (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Muxer.MP4">Param.Muxer.MP4 (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video">Param.Video (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.Crop">Param.Video.Crop (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.Deinterlacing">Param.Video.Deinterlacing (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.FrameRateConverter">Param.Video.FrameRateConverter (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.Overlay">Param.Video.Overlay (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.Pad">Param.Video.Pad (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.Resize">Param.Video.Resize (class in avblocks)</a>
+</li>
+        <li><a href="api/collections-parameter.html#avblocks.parameter_list.ParameterList">ParameterList (class in avblocks.parameter_list)</a>
+</li>
+        <li><a href="api/media-pin.html#avblocks.MediaPin.params">params (avblocks.MediaPin property)</a>
+
+        <ul>
+          <li><a href="api/media-socket.html#avblocks.MediaSocket.params">(avblocks.MediaSocket property)</a>
+</li>
+        </ul></li>
+        <li><a href="api/library.html#avblocks.Library.patch_version">patch_version() (avblocks.Library static method)</a>
+</li>
+        <li><a href="api/audio-stream-info.html#avblocks.AudioStreamInfo.pcm_flags">pcm_flags (avblocks.AudioStreamInfo property)</a>
+</li>
+        <li><a href="api/media-sample.html#avblocks.MediaSample.picture_type">picture_type (avblocks.MediaSample property)</a>
+
+        <ul>
+          <li><a href="api/metadata.html#avblocks.meta_picture.MetaPicture.picture_type">(avblocks.meta_picture.MetaPicture property)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.PictureCodingType">PictureCodingType (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/metadata.html#avblocks.metadata.Metadata.pictures">pictures (avblocks.metadata.Metadata property)</a>
+</li>
+        <li><a href="api/media-socket.html#avblocks.MediaSocket.pins">pins (avblocks.MediaSocket property)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.PlayCounter">PlayCounter (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.PNG">PNG (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/collections-base.html#avblocks.object_collection.ObjectCollection.pop">pop() (avblocks.object_collection.ObjectCollection method)</a>
+
+        <ul>
+          <li><a href="api/collections-parameter.html#avblocks.parameter_list.ParameterList.pop">(avblocks.parameter_list.ParameterList method)</a>
+</li>
+        </ul></li>
+        <li><a href="api/collections-parameter.html#avblocks.parameter_list.ParameterList.popitem">popitem() (avblocks.parameter_list.ParameterList method)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.Popularimeter">Popularimeter (avblocks.Meta attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-presets.html#avblocks.Preset">Preset (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio">Preset.Audio (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.AudioCD">Preset.Audio.AudioCD (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.DVD">Preset.Audio.DVD (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic">Preset.Audio.Generic (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.M4A">Preset.Audio.Generic.M4A (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.MP3">Preset.Audio.Generic.MP3 (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.OggVorbis">Preset.Audio.Generic.OggVorbis (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.WMA">Preset.Audio.Generic.WMA (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.WMA.Lossless">Preset.Audio.Generic.WMA.Lossless (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.WMA.Professional">Preset.Audio.Generic.WMA.Professional (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.WMA.Standard">Preset.Audio.Generic.WMA.Standard (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video">Preset.Video (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AndroidPhone">Preset.Video.AndroidPhone (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AndroidTablet">Preset.Video.AndroidTablet (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleLiveStreaming">Preset.Video.AppleLiveStreaming (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleTV">Preset.Video.AppleTV (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.BDAV">Preset.Video.BDAV (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.DVD">Preset.Video.DVD (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Fast">Preset.Video.Fast (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Fast.MP4">Preset.Video.Fast.MP4 (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic">Preset.Video.Generic (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.MP4">Preset.Video.Generic.MP4 (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.WebM">Preset.Video.Generic.WebM (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.HDV">Preset.Video.HDV (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.iPad">Preset.Video.iPad (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.iPhone">Preset.Video.iPhone (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.iPod">Preset.Video.iPod (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Kindle">Preset.Video.Kindle (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.VCD">Preset.Video.VCD (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Web">Preset.Video.Web (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Web.MP4">Preset.Video.Web.MP4 (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.Private">Private (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.Profile">Profile (avblocks.Param.Encoder.Video.H264 attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H265.Profile">(avblocks.Param.Encoder.Video.H265 attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/stream-info.html#avblocks.StreamInfo.program_number">program_number (avblocks.StreamInfo property)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Demuxer.Mpeg.ProgramNumber">ProgramNumber (avblocks.Param.Demuxer.Mpeg attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ScanType.Progressive">Progressive (avblocks.ScanType attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.Publisher">Publisher (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.PublisherLogotype">PublisherLogotype (avblocks.MetaPictureType attribute)</a>
+</li>
+        <li><a href="api/media-info.html#avblocks.MediaInfo.pull">pull() (avblocks.MediaInfo method)</a>
+
+        <ul>
+          <li><a href="api/transcoder.html#avblocks.Transcoder.pull">(avblocks.Transcoder method)</a>
+</li>
+        </ul></li>
+        <li><a href="api/media-info.html#avblocks.MediaInfo.pull_unmanaged">pull_unmanaged() (avblocks.MediaInfo method)</a>
+
+        <ul>
+          <li><a href="api/transcoder.html#avblocks.Transcoder.pull_unmanaged">(avblocks.Transcoder method)</a>
+</li>
+        </ul></li>
+        <li><a href="api/media-info.html#avblocks.MediaInfo.push">push() (avblocks.MediaInfo method)</a>
+
+        <ul>
+          <li><a href="api/transcoder.html#avblocks.Transcoder.push">(avblocks.Transcoder method)</a>
+</li>
+        </ul></li>
+        <li><a href="api/media-info.html#avblocks.MediaInfo.push_unmanaged">push_unmanaged() (avblocks.MediaInfo method)</a>
+
+        <ul>
+          <li><a href="api/transcoder.html#avblocks.Transcoder.push_unmanaged">(avblocks.Transcoder method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="Q" class="genindex-section">
+  <h2>Q</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Audio.Vorbis.Quality">Quality (avblocks.Param.Encoder.Audio.Vorbis attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-params.html#avblocks.Param.Encoder.Audio.WMA.Quality">(avblocks.Param.Encoder.Audio.WMA attribute)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.QualitySpeed">QualitySpeed (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="R" class="genindex-section">
+  <h2>R</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.MP3.Radio">Radio (avblocks.Preset.Audio.Generic.MP3 attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.RateControlMethod">RateControlMethod (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.RateControlQuantB">RateControlQuantB (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.RateControlQuantI">RateControlQuantI (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.RateControlQuantP">RateControlQuantP (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.LicenseStatusFlags.Ready">Ready (avblocks.LicenseStatusFlags attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.FrameRateConverter.RealTime">RealTime (avblocks.Param.Video.FrameRateConverter attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.RecordingDates">RecordingDates (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.RecordingLocation">RecordingLocation (avblocks.MetaPictureType attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-params.html#avblocks.Param.ReEncode">ReEncode (avblocks.Param attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.RemixArtist">RemixArtist (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/collections-base.html#avblocks.object_collection.ObjectCollection.remove">remove() (avblocks.object_collection.ObjectCollection method)</a>
+</li>
+        <li><a href="api/audio-stream-info.html#avblocks.AudioStreamInfo.reset">reset() (avblocks.AudioStreamInfo method)</a>
+
+        <ul>
+          <li><a href="api/stream-info.html#avblocks.StreamInfo.reset">(avblocks.StreamInfo method)</a>
+</li>
+          <li><a href="api/video-stream-info.html#avblocks.VideoStreamInfo.reset">(avblocks.VideoStreamInfo method)</a>
+</li>
+        </ul></li>
+        <li><a href="api/media-buffer.html#avblocks.MediaBuffer.reset_data">reset_data() (avblocks.MediaBuffer method)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.Crop.Right">Right (avblocks.Param.Video.Crop attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-params.html#avblocks.Param.Video.Pad.Right">(avblocks.Param.Video.Pad attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/transcoder.html#avblocks.Transcoder.run">run() (avblocks.Transcoder method)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="S" class="genindex-section">
+  <h2>S</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/audio-stream-info.html#avblocks.AudioStreamInfo.sample_rate">sample_rate (avblocks.AudioStreamInfo property)</a>
+</li>
+        <li><a href="api/video-stream-info.html#avblocks.VideoStreamInfo.scan_type">scan_type (avblocks.VideoStreamInfo property)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ScanType">ScanType (class in avblocks)</a>
+</li>
+        <li><a href="api/media-buffer.html#avblocks.MediaBuffer.set_data">set_data() (avblocks.MediaBuffer method)</a>
+</li>
+        <li><a href="api/library.html#avblocks.Library.set_license">set_license() (avblocks.Library static method)</a>
+</li>
+        <li><a href="api/library.html#avblocks.Library.set_license_tls">set_license_tls() (avblocks.Library static method)</a>
+</li>
+        <li><a href="api/collections-parameter.html#avblocks.parameter_list.ParameterList.setdefault">setdefault() (avblocks.parameter_list.ParameterList method)</a>
+</li>
+        <li><a href="api/library.html#avblocks.Library.shutdown">shutdown() (avblocks.Library static method)</a>
+</li>
+        <li><a href="api/media-buffer.html#avblocks.MediaBuffer.start">start (avblocks.MediaBuffer property)</a>
+</li>
+        <li><a href="api/media-sample.html#avblocks.MediaSample.start_time">start_time (avblocks.MediaSample property)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Audio.AAC.StereoMode">StereoMode (avblocks.Param.Encoder.Audio.AAC attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-params.html#avblocks.Param.Encoder.Audio.MPEG1.StereoMode">(avblocks.Param.Encoder.Audio.MPEG1 attribute)</a>
+</li>
+          <li><a href="api/enums-audio.html#avblocks.StereoMode">(class in avblocks)</a>
+</li>
+        </ul></li>
+        <li><a href="api/media-socket.html#avblocks.MediaSocket.stream">stream (avblocks.MediaSocket property)</a>
+</li>
+        <li><a href="api/media-pin.html#avblocks.MediaPin.stream_info">stream_info (avblocks.MediaPin property)</a>
+</li>
+        <li><a href="api/media-socket.html#avblocks.MediaSocket.stream_sub_type">stream_sub_type (avblocks.MediaSocket property)</a>
+
+        <ul>
+          <li><a href="api/stream-info.html#avblocks.StreamInfo.stream_sub_type">(avblocks.StreamInfo property)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/media-socket.html#avblocks.MediaSocket.stream_type">stream_type (avblocks.MediaSocket property)</a>
+
+        <ul>
+          <li><a href="api/stream-info.html#avblocks.StreamInfo.stream_type">(avblocks.StreamInfo property)</a>
+</li>
+        </ul></li>
+        <li><a href="api/stream-info.html#avblocks.StreamInfo">StreamInfo (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.StreamOpen">StreamOpen (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.StreamRead">StreamRead (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.StreamSeek">StreamSeek (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamSubType">StreamSubType (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType">StreamType (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.StreamWrite">StreamWrite (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.MP3.Studio">Studio (avblocks.Preset.Audio.Generic.MP3 attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.Subtitle">Subtitle (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.ErrorFacility.Success">Success (avblocks.ErrorFacility attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.ErrorFacility.SystemMacMach">SystemMacMach (avblocks.ErrorFacility attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.ErrorFacility.SystemMacOSStatus">SystemMacOSStatus (avblocks.ErrorFacility attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.ErrorFacility.SystemPosix">SystemPosix (avblocks.ErrorFacility attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.ErrorFacility.SystemWindows">SystemWindows (avblocks.ErrorFacility attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="T" class="genindex-section">
+  <h2>T</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.MP3.Tape">Tape (avblocks.Preset.Audio.Generic.MP3 attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.Teletext">Teletext (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.MediaType.Text">Text (avblocks.MediaType attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.TextWriter">TextWriter (avblocks.MetaPictureType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.Theora">Theora (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.Deinterlacing.Threshold">Threshold (avblocks.Param.Video.Deinterlacing attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H265.Tier">Tier (avblocks.Param.Encoder.Video.H265 attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.TIFF">TIFF (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.Time">Time (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/media-socket.html#avblocks.MediaSocket.time_position">time_position (avblocks.MediaSocket property)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.Title">Title (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/collections-media.html#avblocks.media_pin_list.MediaPinList.to_native">to_native() (avblocks.media_pin_list.MediaPinList method)</a>
+
+        <ul>
+          <li><a href="api/collections-media.html#avblocks.media_socket_list.MediaSocketList.to_native">(avblocks.media_socket_list.MediaSocketList method)</a>
+</li>
+          <li><a href="api/collections-metadata.html#avblocks.meta_attribute_list.MetaAttributeList.to_native">(avblocks.meta_attribute_list.MetaAttributeList method)</a>
+</li>
+          <li><a href="api/collections-metadata.html#avblocks.meta_picture_list.MetaPictureList.to_native">(avblocks.meta_picture_list.MetaPictureList method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.Crop.Top">Top (avblocks.Param.Video.Crop attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-params.html#avblocks.Param.Video.Pad.Top">(avblocks.Param.Video.Pad attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-video.html#avblocks.ScanType.TopFieldFirst">TopFieldFirst (avblocks.ScanType attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.TrackNum">TrackNum (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.ErrorFacility.Transcoder">Transcoder (avblocks.ErrorFacility attribute)</a>
+
+        <ul>
+          <li><a href="api/transcoder.html#avblocks.Transcoder">(class in avblocks)</a>
+</li>
+        </ul></li>
+        <li><a href="api/transcoder.html#avblocks.TranscoderContinueEventArgs">TranscoderContinueEventArgs (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.TranscoderError">TranscoderError (class in avblocks)</a>
+</li>
+        <li><a href="api/transcoder.html#avblocks.TranscoderInputChangeEventArgs">TranscoderInputChangeEventArgs (class in avblocks)</a>
+</li>
+        <li><a href="api/transcoder.html#avblocks.TranscoderProgressEventArgs">TranscoderProgressEventArgs (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.TranscoderStatus">TranscoderStatus (class in avblocks)</a>
+</li>
+        <li><a href="api/transcoder.html#avblocks.TranscoderStatusEventArgs">TranscoderStatusEventArgs (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.Transform8x8">Transform8x8 (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.TreatBFramesAsReference">TreatBFramesAsReference (avblocks.Param.Encoder.Video.H264 attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="U" class="genindex-section">
+  <h2>U</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.UncompressedVideo">UncompressedVideo (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.TranscoderError.UndefinedSocketType">UndefinedSocketType (avblocks.TranscoderError attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.BitrateMode.Unknown">Unknown (avblocks.BitrateMode attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-video.html#avblocks.ColorFormat.Unknown">(avblocks.ColorFormat attribute)</a>
+</li>
+          <li><a href="api/enums-stream-types.html#avblocks.MediaType.Unknown">(avblocks.MediaType attribute)</a>
+</li>
+          <li><a href="api/enums-video.html#avblocks.ScanType.Unknown">(avblocks.ScanType attribute)</a>
+</li>
+          <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.Unknown">(avblocks.StreamSubType attribute)</a>
+</li>
+          <li><a href="api/enums-stream-types.html#avblocks.StreamType.Unknown">(avblocks.StreamType attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-errors.html#avblocks.AVBlocksError.UnlicensedFeature">UnlicensedFeature (avblocks.AVBlocksError attribute)</a>
+</li>
+        <li><a href="api/media-sample.html#avblocks.MediaSample.unmanaged_buffer">unmanaged_buffer (avblocks.MediaSample property)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.CodecError.Unsupported">Unsupported (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.TranscoderError.UnsupportedInterlacedConversion">UnsupportedInterlacedConversion (avblocks.TranscoderError attribute)</a>
+</li>
+        <li><a href="api/enums-errors.html#avblocks.TranscoderError.UnsupportedVideoConversion">UnsupportedVideoConversion (avblocks.TranscoderError attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.UnsyncedLyrics">UnsyncedLyrics (avblocks.Meta attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/collections-parameter.html#avblocks.parameter_list.ParameterList.update">update() (avblocks.parameter_list.ParameterList method)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.UrlArtist">UrlArtist (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.UrlAudioFile">UrlAudioFile (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.UrlAudioSource">UrlAudioSource (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.UrlCommercialInfo">UrlCommercialInfo (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.UrlCopyright">UrlCopyright (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.UrlPayment">UrlPayment (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.UrlPublisher">UrlPublisher (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.UrlRadioPage">UrlRadioPage (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.UrlUser">UrlUser (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Video.FrameRateConverter.Use">Use (avblocks.Param.Video.FrameRateConverter attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-encoding.html#avblocks.Use">(class in avblocks)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.UserText">UserText (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.UYVY">UYVY (avblocks.ColorFormat attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="V" class="genindex-section">
+  <h2>V</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-errors.html#avblocks.LicenseStatusFlags.ValidationInProgress">ValidationInProgress (avblocks.LicenseStatusFlags attribute)</a>
+</li>
+        <li><a href="api/metadata.html#avblocks.meta_attribute.MetaAttribute.value">value (avblocks.meta_attribute.MetaAttribute property)</a>
+</li>
+        <li><a href="api/collections-parameter.html#avblocks.parameter_list.ParameterList.values">values() (avblocks.parameter_list.ParameterList method)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.BitrateMode.VBR">VBR (avblocks.BitrateMode attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.WMA.Professional.VBR_Q100">VBR_Q100 (avblocks.Preset.Audio.Generic.WMA.Professional attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.OggVorbis.VBR_Q4">VBR_Q4 (avblocks.Preset.Audio.Generic.OggVorbis attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.WMA.Professional.VBR_Q75">VBR_Q75 (avblocks.Preset.Audio.Generic.WMA.Professional attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.OggVorbis.VBR_Q8">VBR_Q8 (avblocks.Preset.Audio.Generic.OggVorbis attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.WMA.Professional.VBR_Q90">VBR_Q90 (avblocks.Preset.Audio.Generic.WMA.Professional attribute)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.MPEG2.VBVBufferSize">VBVBufferSize (avblocks.Param.Encoder.Video.MPEG2 attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.VC1">VC1 (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.MediaType.Video">Video (avblocks.MediaType attribute)</a>
+</li>
+        <li><a href="api/media-sample.html#avblocks.MediaSample.video_buffer_size_in_bytes">video_buffer_size_in_bytes() (avblocks.MediaSample static method)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.VIDEO_DVD_PCM">VIDEO_DVD_PCM (avblocks.StreamType attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.VideoCapture">VideoCapture (avblocks.MetaPictureType attribute)</a>
+</li>
+        <li><a href="api/video-stream-info.html#avblocks.VideoStreamInfo">VideoStreamInfo (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.MP3.Voice">Voice (avblocks.Preset.Audio.Generic.MP3 attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.Vorbis">Vorbis (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.VP8">VP8 (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.WebM.VP8_3G_240p_350K_Vorbis_64K">VP8_3G_240p_350K_Vorbis_64K (avblocks.Preset.Video.Generic.WebM attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.WebM.VP8_4G_360p_700K_Vorbis_64K">VP8_4G_360p_700K_Vorbis_64K (avblocks.Preset.Video.Generic.WebM attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.WebM.VP8_SD_480p_1200K_Vorbis_128K">VP8_SD_480p_1200K_Vorbis_128K (avblocks.Preset.Video.Generic.WebM attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.WebM.VP8_SD_576p_1600K_Vorbis_128K">VP8_SD_576p_1600K_Vorbis_128K (avblocks.Preset.Video.Generic.WebM attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.WebM.VP8_Wide_3G_240p_350K_Vorbis_64K">VP8_Wide_3G_240p_350K_Vorbis_64K (avblocks.Preset.Video.Generic.WebM attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.WebM.VP8_Wide_4G_360p_700K_Vorbis_64K">VP8_Wide_4G_360p_700K_Vorbis_64K (avblocks.Preset.Video.Generic.WebM attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.WebM.VP8_Wide_HD_1080p_5000K_Vorbis_192K">VP8_Wide_HD_1080p_5000K_Vorbis_192K (avblocks.Preset.Video.Generic.WebM attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.WebM.VP8_Wide_HD_720p_2500K_Vorbis_192K">VP8_Wide_HD_720p_2500K_Vorbis_192K (avblocks.Preset.Video.Generic.WebM attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.WebM.VP8_Wide_SD_480p_1200K_Vorbis_128K">VP8_Wide_SD_480p_1200K_Vorbis_128K (avblocks.Preset.Video.Generic.WebM attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.WebM.VP8_Wide_SD_576p_1600K_Vorbis_128K">VP8_Wide_SD_576p_1600K_Vorbis_128K (avblocks.Preset.Video.Generic.WebM attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="W" class="genindex-section">
+  <h2>W</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Audio.AudioCD.WAV">WAV (avblocks.Preset.Audio.AudioCD attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.WAVE">WAVE (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.WebM">WebM (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AndroidTablet.WebM_VP8_720p">WebM_VP8_720p (avblocks.Preset.Video.AndroidTablet attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleLiveStreaming.WiFi_H264_1280x960_30p_4500K_AAC_128K">WiFi_H264_1280x960_30p_4500K_AAC_128K (avblocks.Preset.Video.AppleLiveStreaming attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleLiveStreaming.WiFi_H264_640x480_30p_1200K_AAC_96K">WiFi_H264_640x480_30p_1200K_AAC_96K (avblocks.Preset.Video.AppleLiveStreaming attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleLiveStreaming.WiFi_H264_640x480_30p_600K_AAC_96K">WiFi_H264_640x480_30p_600K_AAC_96K (avblocks.Preset.Video.AppleLiveStreaming attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleLiveStreaming.WiFi_H264_640x480_30p_800K_AAC_96K">WiFi_H264_640x480_30p_800K_AAC_96K (avblocks.Preset.Video.AppleLiveStreaming attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleLiveStreaming.WiFi_H264_960x720_30p_1200K_AAC_96K">WiFi_H264_960x720_30p_1200K_AAC_96K (avblocks.Preset.Video.AppleLiveStreaming attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleLiveStreaming.WiFi_H264_960x720_30p_2500K_AAC_128K">WiFi_H264_960x720_30p_2500K_AAC_128K (avblocks.Preset.Video.AppleLiveStreaming attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleLiveStreaming.WiFi_Wide_H264_1280x720_30p_2500K_AAC_128K">WiFi_Wide_H264_1280x720_30p_2500K_AAC_128K (avblocks.Preset.Video.AppleLiveStreaming attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleLiveStreaming.WiFi_Wide_H264_1280x720_30p_4500K_AAC_128K">WiFi_Wide_H264_1280x720_30p_4500K_AAC_128K (avblocks.Preset.Video.AppleLiveStreaming attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleLiveStreaming.WiFi_Wide_H264_1920x1080_30p_11000K_AAC_128K">WiFi_Wide_H264_1920x1080_30p_11000K_AAC_128K (avblocks.Preset.Video.AppleLiveStreaming attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleLiveStreaming.WiFi_Wide_H264_640x360_30p_1200K_AAC_96K">WiFi_Wide_H264_640x360_30p_1200K_AAC_96K (avblocks.Preset.Video.AppleLiveStreaming attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleLiveStreaming.WiFi_Wide_H264_640x360_30p_600K_AAC_96K">WiFi_Wide_H264_640x360_30p_600K_AAC_96K (avblocks.Preset.Video.AppleLiveStreaming attribute)</a>
+</li>
+        <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleLiveStreaming.WiFi_Wide_H264_960x540_30p_1800K_AAC_128K">WiFi_Wide_H264_960x540_30p_1800K_AAC_128K (avblocks.Preset.Video.AppleLiveStreaming attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.WMA">WMA (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.WMA_Lossless">WMA_Lossless (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.WMA_Professional">WMA_Professional (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-stream-types.html#avblocks.StreamType.WMV">WMV (avblocks.StreamType attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="Y" class="genindex-section">
+  <h2>Y</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.Y411">Y411 (avblocks.ColorFormat attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.Y41P">Y41P (avblocks.ColorFormat attribute)</a>
+</li>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.Year">Year (avblocks.Meta attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.YUV411">YUV411 (avblocks.ColorFormat attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.YUV420">YUV420 (avblocks.ColorFormat attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.YUV420A">YUV420A (avblocks.ColorFormat attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.YUV422">YUV422 (avblocks.ColorFormat attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.YUV422A">YUV422A (avblocks.ColorFormat attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.YUV444">YUV444 (avblocks.ColorFormat attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.YUV444A">YUV444A (avblocks.ColorFormat attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.YUY2">YUY2 (avblocks.ColorFormat attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.YV12">YV12 (avblocks.ColorFormat attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.ColorFormat.YVU9">YVU9 (avblocks.ColorFormat attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+
+        </article>
+      </div>
+      <footer>
+        
+<div class="related-pages">
+  
+  
+</div>
+<div class="bottom-of-page">
+  <div class="left-details">
+    <div class="copyright">
+        Copyright &#169; 2003 - 2026, Primo Software Corp.
+    </div>
+  </div>
+  <div class="right-details">
+    <div class="icons">
+      <a class="muted-link " href="https://github.com/avblocks/avblocks-py" aria-label="GitHub">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                </svg>
+            </a>
+      
+    </div>
+  </div>
+</div>
+
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="_static/documentation_options.js?v=2709fde1"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/furo.js?v=5fa4622c"></script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    </body>
+</html>

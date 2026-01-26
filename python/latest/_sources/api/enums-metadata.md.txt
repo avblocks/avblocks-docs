@@ -1,0 +1,19 @@
+# Metadata Constants
+
+Enumerations for metadata attributes and picture types.
+
+## Meta
+
+```{eval-rst}
+.. autoclass:: avblocks.Meta
+   :members:
+   :undoc-members:
+```
+
+## MetaPictureType
+
+```{eval-rst}
+.. autoclass:: avblocks.MetaPictureType
+   :members:
+   :undoc-members:
+```

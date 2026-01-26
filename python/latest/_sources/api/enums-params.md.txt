@@ -1,0 +1,11 @@
+# Parameters
+
+Parameter constants for configuring encoders, decoders, and filters.
+
+## Param
+
+```{eval-rst}
+.. autoclass:: avblocks.Param
+   :members:
+   :undoc-members:
+```

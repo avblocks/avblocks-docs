@@ -1,0 +1,14 @@
+# StreamInfo
+
+The `StreamInfo` class provides properties and operations that are common for all elementary streams.
+
+`AudioStreamInfo` and `VideoStreamInfo` inherit from this class.
+
+## Class
+
+```{eval-rst}
+.. autoclass:: avblocks.StreamInfo
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```

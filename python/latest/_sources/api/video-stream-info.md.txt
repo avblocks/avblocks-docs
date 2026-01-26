@@ -1,0 +1,14 @@
+# VideoStreamInfo
+
+The `VideoStreamInfo` class describes an elementary video stream.
+
+The media type is always `MediaType.Video` and cannot be changed.
+
+## Class
+
+```{eval-rst}
+.. autoclass:: avblocks.VideoStreamInfo
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```

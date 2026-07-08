@@ -1,0 +1,147 @@
+# Download AVBlocks Core and Demo Assets
+
+This page explains how to download the AVBlocks Core SDK and demo assets to `$HOME/avblocks`, then set the `AVBLOCKS_CORE_PATH` environment variable to point to the unpacked library directory.
+
+## AVBlocks Core
+
+The AVBlocks Core SDK contains the native shared libraries and headers. The download URL includes a version tag — change the `tag` variable in the scripts below to match the release you need. For available versions, visit the [AVBlocks Core releases page](https://github.com/avblocks/avblocks-core/releases).
+
+### macOS
+
+```bash
+tag="v3.4.0-demo.1"
+platform="darwin"
+install_dir="$HOME/avblocks"
+
+mkdir -p "$install_dir"
+
+curl \
+  --location \
+  --output /tmp/avblocks-$tag-$platform.zip \
+  https://github.com/avblocks/avblocks-core/releases/download/$tag/avblocks-$tag-$platform.zip
+
+curl \
+  --location \
+  --output /tmp/avblocks-$tag-$platform.zip.sha256 \
+  https://github.com/avblocks/avblocks-core/releases/download/$tag/avblocks-$tag-$platform.zip.sha256
+
+shasum --check /tmp/avblocks-$tag-$platform.zip.sha256
+
+unzip -o /tmp/avblocks-$tag-$platform.zip -d "$install_dir"
+
+rm /tmp/avblocks-$tag-$platform.zip /tmp/avblocks-$tag-$platform.zip.sha256
+```
+
+### Linux
+
+```bash
+tag="v3.4.0-demo.1"
+platform="linux"
+install_dir="$HOME/avblocks"
+
+mkdir -p "$install_dir"
+
+curl \
+  --location \
+  --output /tmp/avblocks-$tag-$platform.tar.gz \
+  https://github.com/avblocks/avblocks-core/releases/download/$tag/avblocks-$tag-$platform.tar.gz
+
+curl \
+  --location \
+  --output /tmp/avblocks-$tag-$platform.tar.gz.sha256 \
+  https://github.com/avblocks/avblocks-core/releases/download/$tag/avblocks-$tag-$platform.tar.gz.sha256
+
+sha256sum --check /tmp/avblocks-$tag-$platform.tar.gz.sha256
+
+tar -xzf /tmp/avblocks-$tag-$platform.tar.gz -C "$install_dir"
+
+rm /tmp/avblocks-$tag-$platform.tar.gz /tmp/avblocks-$tag-$platform.tar.gz.sha256
+```
+
+### Windows
+
+```powershell
+$tag = 'v3.4.0-demo.1'
+$platform = 'windows'
+$install_dir = "$env:USERPROFILE\avblocks"
+
+New-Item -Force -ItemType Directory -Path $install_dir | Out-Null
+
+curl.exe `
+  --location `
+  --output "$env:TEMP\avblocks-$tag-$platform.zip" `
+  https://github.com/avblocks/avblocks-core/releases/download/$tag/avblocks-$tag-$platform.zip
+
+curl.exe `
+  --location `
+  --output "$env:TEMP\avblocks-$tag-$platform.zip.sha256" `
+  https://github.com/avblocks/avblocks-core/releases/download/$tag/avblocks-$tag-$platform.zip.sha256
+
+$downloadedHash = (Get-FileHash -Algorithm SHA256 "$env:TEMP\avblocks-$tag-$platform.zip").Hash.ToLower()
+$expectedHash = (Get-Content "$env:TEMP\avblocks-$tag-$platform.zip.sha256").Split(' ')[0].ToLower()
+if ($downloadedHash -eq $expectedHash) { Write-Host "Checksum OK!" } else { Write-Host "Checksum failed!" }
+
+Expand-Archive -Force -Path "$env:TEMP\avblocks-$tag-$platform.zip" -DestinationPath $install_dir
+
+Remove-Item "$env:TEMP\avblocks-$tag-$platform.zip", "$env:TEMP\avblocks-$tag-$platform.zip.sha256"
+```
+
+## Demo Assets
+
+The demo audio and video assets are used as input for the AVBlocks samples.
+
+### macOS / Linux
+
+```bash
+mkdir -p "$HOME/avblocks/assets"
+cd "$HOME/avblocks/assets"
+
+curl \
+  --location \
+  --output avblocks_assets_v5.zip \
+  https://github.com/avblocks/avblocks-assets/releases/download/v5/avblocks_assets_v5.zip
+
+unzip -o avblocks_assets_v5.zip
+
+rm avblocks_assets_v5.zip
+```
+
+### Windows
+
+```powershell
+New-Item -Force -ItemType Directory -Path "$env:USERPROFILE\avblocks\assets" | Out-Null
+cd "$env:USERPROFILE\avblocks\assets"
+
+curl.exe `
+  --location `
+  --output avblocks_assets_v5.zip `
+  https://github.com/avblocks/avblocks-assets/releases/download/v5/avblocks_assets_v5.zip
+
+Expand-Archive -Force -Path avblocks_assets_v5.zip -DestinationPath .
+
+Remove-Item avblocks_assets_v5.zip
+```
+
+## Set the Environment Variable
+
+After unpacking, set `AVBLOCKS_CORE_PATH` to point to the platform-specific library directory inside `$HOME/avblocks`:
+
+### macOS
+
+```bash
+export AVBLOCKS_CORE_PATH="$HOME/avblocks/sdk/lib/x64"
+```
+
+### Linux
+
+```bash
+export AVBLOCKS_CORE_PATH="$HOME/avblocks/sdk/lib/x64"
+```
+
+### Windows
+
+```powershell
+$env:AVBLOCKS_CORE_PATH = "$env:USERPROFILE\avblocks\sdk\lib\x64"
+```
+
+To make this permanent, add the `export` line to your shell configuration file (e.g., `~/.bashrc` or `~/.zshrc` on macOS/Linux, or configure it in Windows System Environment Variables).

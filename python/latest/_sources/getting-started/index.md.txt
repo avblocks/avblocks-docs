@@ -1,0 +1,12 @@
+# Getting Started
+
+Welcome to the AVBlocks Python SDK. This section covers the basics of getting started with AVBlocks.
+
+```{toctree}
+:maxdepth: 2
+
+installation
+configuration
+download
+licensing
+```

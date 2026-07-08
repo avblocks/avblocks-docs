@@ -1,0 +1,45 @@
+# Configuration
+
+## AVBLOCKS_CORE_PATH
+
+The `AVBLOCKS_CORE_PATH` environment variable specifies the directory containing the native AVBlocks library.
+
+### How it works
+
+When AVBlocks is imported, it searches for the native library in the following order:
+
+1. The directory specified by `AVBLOCKS_CORE_PATH`
+2. The `sdk/lib/x64` directory relative to the package root
+3. Common system library paths:
+   - `/usr/local/lib` (macOS/Linux)
+   - `/usr/lib` (Linux)
+
+### Setting the environment variable
+
+**macOS / Linux:**
+
+```bash
+export AVBLOCKS_CORE_PATH=/path/to/avblocks/sdk/lib/x64
+```
+
+**Windows (Command Prompt):**
+
+```bat
+set AVBLOCKS_CORE_PATH=C:\path\to\avblocks\sdk\lib\x64
+```
+
+**Windows (PowerShell):**
+
+```powershell
+$env:AVBLOCKS_CORE_PATH="C:\path\to\avblocks\sdk\lib\x64"
+```
+
+### Library files
+
+The native library file name depends on the platform:
+
+| Platform | Library File |
+|----------|-------------|
+| macOS | `libAVBlocks.dylib` |
+| Linux | `libAVBlocks64.so` |
+| Windows | `AVBlocks64.dll` |

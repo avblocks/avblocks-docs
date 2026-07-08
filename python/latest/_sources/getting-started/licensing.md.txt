@@ -1,0 +1,11 @@
+# Licensing
+
+We offer discounts for:
+
+- Competitive product
+- Startup
+- Educational institution
+- Open source project
+
+Please check the available license options at [https://avblocks.com/license](https://avblocks.com/license/).
+

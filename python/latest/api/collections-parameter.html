@@ -207,6 +207,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/installation.html">Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/configuration.html">Configuration</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/download.html">Download AVBlocks Core and Demo Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting-started/samples.html">Samples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/licensing.html">Licensing</a></li>
 </ul>
 </li>
@@ -303,9 +304,8 @@ An immutable object cannot be modified and all modifying methods will raise Runt
 <dt class="sig sig-object py" id="avblocks.parameter_list.ParameterList.clear">
 <span class="sig-name descname"><span class="pre">clear</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#avblocks.parameter_list.ParameterList.clear" title="Link to this definition">¶</a></dt>
 <dd><p>Removes all items from the ParameterList.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Raises<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>RuntimeError</strong> – If the object is immutable.</p>
+<dl class="simple">
+<dt>Raises:</dt><dd><p>RuntimeError: If the object is immutable.</p>
 </dd>
 </dl>
 </dd></dl>
@@ -321,15 +321,11 @@ The copy is always mutable regardless of the source’s immutability.</p>
 <dt class="sig sig-object py" id="avblocks.parameter_list.ParameterList.get">
 <span class="sig-name descname"><span class="pre">get</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">default</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Any</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Any</span></span></span><a class="headerlink" href="#avblocks.parameter_list.ParameterList.get" title="Link to this definition">¶</a></dt>
 <dd><p>Gets the value associated with the specified key.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>key</strong> – The key whose value to get.</p></li>
-<li><p><strong>default</strong> – The default value to return if key is not found.</p></li>
-</ul>
+<dl class="simple">
+<dt>Args:</dt><dd><p>key: The key whose value to get.
+default: The default value to return if key is not found.</p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>The value associated with the specified key, or default if key is not found.</p>
+<dt>Returns:</dt><dd><p>The value associated with the specified key, or default if key is not found.</p>
 </dd>
 </dl>
 </dd></dl>
@@ -339,13 +335,15 @@ The copy is always mutable regardless of the source’s immutability.</p>
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">immutable</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></em><a class="headerlink" href="#avblocks.parameter_list.ParameterList.immutable" title="Link to this definition">¶</a></dt>
 <dd><p>Returns whether the object is immutable.
 An immutable object cannot be modified and all modifying methods fail to produce a result.</p>
-<p class="rubric">Notes</p>
-<ul class="simple">
+<dl class="simple">
+<dt>Notes:</dt><dd><ul class="simple">
 <li><p>An immutable object can be modified by the AVBlocks library.</p></li>
 <li><p>Object immutability spreads to all nested objects.</p></li>
 <li><p>Therefore it is not possible to add/set an immutable object to a mutable object.</p></li>
 <li><p>When cloned an immutable object becomes mutable.</p></li>
 </ul>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="py method">
@@ -364,21 +362,14 @@ An immutable object cannot be modified and all modifying methods fail to produce
 <dt class="sig sig-object py" id="avblocks.parameter_list.ParameterList.pop">
 <span class="sig-name descname"><span class="pre">pop</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Any</span></span></span><a class="headerlink" href="#avblocks.parameter_list.ParameterList.pop" title="Link to this definition">¶</a></dt>
 <dd><p>Removes the element with the specified key and returns its value.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>key</strong> – The key of the element to remove.</p></li>
-<li><p><strong>default</strong> – The default value to return if key is not found.</p></li>
-</ul>
+<dl class="simple">
+<dt>Args:</dt><dd><p>key: The key of the element to remove.
+default: The default value to return if key is not found.</p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>The value that was removed, or default if key was not found.</p>
+<dt>Returns:</dt><dd><p>The value that was removed, or default if key was not found.</p>
 </dd>
-<dt class="field-odd">Raises<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>RuntimeError</strong> – If the object is immutable.</p></li>
-<li><p><strong>KeyError</strong> – If key is not found and no default is provided.</p></li>
-</ul>
+<dt>Raises:</dt><dd><p>RuntimeError: If the object is immutable.
+KeyError: If key is not found and no default is provided.</p>
 </dd>
 </dl>
 </dd></dl>
@@ -387,12 +378,9 @@ An immutable object cannot be modified and all modifying methods fail to produce
 <dt class="sig sig-object py" id="avblocks.parameter_list.ParameterList.popitem">
 <span class="sig-name descname"><span class="pre">popitem</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#avblocks.parameter_list.ParameterList.popitem" title="Link to this definition">¶</a></dt>
 <dd><p>Removes and returns an arbitrary (key, value) pair from the ParameterList.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Raises<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>RuntimeError</strong> – If the object is immutable.</p></li>
-<li><p><strong>KeyError</strong> – If the ParameterList is empty.</p></li>
-</ul>
+<dl class="simple">
+<dt>Raises:</dt><dd><p>RuntimeError: If the object is immutable.
+KeyError: If the ParameterList is empty.</p>
 </dd>
 </dl>
 </dd></dl>
@@ -401,18 +389,13 @@ An immutable object cannot be modified and all modifying methods fail to produce
 <dt class="sig sig-object py" id="avblocks.parameter_list.ParameterList.setdefault">
 <span class="sig-name descname"><span class="pre">setdefault</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">default</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Any</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Any</span></span></span><a class="headerlink" href="#avblocks.parameter_list.ParameterList.setdefault" title="Link to this definition">¶</a></dt>
 <dd><p>Returns the value of key if it exists, otherwise sets and returns default.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>key</strong> – The key to look up.</p></li>
-<li><p><strong>default</strong> – The default value to set and return if key is not found.</p></li>
-</ul>
+<dl class="simple">
+<dt>Args:</dt><dd><p>key: The key to look up.
+default: The default value to set and return if key is not found.</p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>The existing value or the default value that was set.</p>
+<dt>Returns:</dt><dd><p>The existing value or the default value that was set.</p>
 </dd>
-<dt class="field-odd">Raises<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>RuntimeError</strong> – If the object is immutable and key is not found.</p>
+<dt>Raises:</dt><dd><p>RuntimeError: If the object is immutable and key is not found.</p>
 </dd>
 </dl>
 </dd></dl>
@@ -421,15 +404,11 @@ An immutable object cannot be modified and all modifying methods fail to produce
 <dt class="sig sig-object py" id="avblocks.parameter_list.ParameterList.update">
 <span class="sig-name descname"><span class="pre">update</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">other</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">()</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">/</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#avblocks.parameter_list.ParameterList.update" title="Link to this definition">¶</a></dt>
 <dd><p>Updates the ParameterList with the key-value pairs from other mappings.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>other</strong> – A mapping object or iterable of key-value pairs.</p></li>
-<li><p><strong>**kwargs</strong> – Additional keyword arguments to add.</p></li>
-</ul>
+<dl class="simple">
+<dt>Args:</dt><dd><p>other: A mapping object or iterable of key-value pairs.
+<a href="#id1"><span class="problematic" id="id2">**</span></a>kwargs: Additional keyword arguments to add.</p>
 </dd>
-<dt class="field-even">Raises<span class="colon">:</span></dt>
-<dd class="field-even"><p><strong>RuntimeError</strong> – If the object is immutable.</p>
+<dt>Raises:</dt><dd><p>RuntimeError: If the object is immutable.</p>
 </dd>
 </dl>
 </dd></dl>

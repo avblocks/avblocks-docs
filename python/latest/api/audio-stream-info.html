@@ -207,6 +207,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/installation.html">Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/configuration.html">Configuration</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/download.html">Download AVBlocks Core and Demo Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting-started/samples.html">Samples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/licensing.html">Licensing</a></li>
 </ul>
 </li>
@@ -307,11 +308,11 @@
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">bits_per_sample</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#avblocks.AudioStreamInfo.bits_per_sample" title="Link to this definition">¶</a></dt>
 <dd><p>The number of valid bits per sample (sample resolution).</p>
 <p>Common values are 8, 16, 20, 24 and 32.</p>
-<p>Normally BitsPerSample is defined only for uncompressed audio streams.
+<p>Normally BitsPerSample is defined only for uncompressed audio streams. 
 For compressed audio it is not defined and is 0.
-However it is possible for a compressed audio stream to return a positive
+However it is possible for a compressed audio stream to return a positive 
 value as an indication of audio quality.
-It can also designate the bits per sample of the LPCM stream once the
+It can also designate the bits per sample of the LPCM stream once the 
 compressed stream is decoded.</p>
 </dd></dl>
 
@@ -349,9 +350,8 @@ aligned towards the hi-order byte.</p></li>
 <dt class="sig sig-object py" id="avblocks.AudioStreamInfo.clone">
 <span class="sig-name descname"><span class="pre">clone</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#avblocks.AudioStreamInfo" title="avblocks.audio_stream_info.AudioStreamInfo"><span class="pre">AudioStreamInfo</span></a></span></span><a class="headerlink" href="#avblocks.AudioStreamInfo.clone" title="Link to this definition">¶</a></dt>
 <dd><p>Creates a deep copy of this object.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Returns<span class="colon">:</span></dt>
-<dd class="field-odd"><p>A new AudioStreamInfo object</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>A new AudioStreamInfo object</p>
 </dd>
 </dl>
 </dd></dl>

@@ -207,6 +207,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/installation.html">Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/configuration.html">Configuration</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/download.html">Download AVBlocks Core and Demo Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting-started/samples.html">Samples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/licensing.html">Licensing</a></li>
 </ul>
 </li>
@@ -316,12 +317,10 @@
 <dt class="sig sig-object py" id="avblocks.MediaInfo.end_of_stream">
 <span class="sig-name descname"><span class="pre">end_of_stream</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">input_index</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#avblocks.MediaInfo.end_of_stream" title="Link to this definition">¶</a></dt>
 <dd><p>The method is not implemented.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>input_index</strong> – Input index</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>input_index: Input index</p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>The result of the native end_of_stream call</p>
+<dt>Returns:</dt><dd><p>The result of the native end_of_stream call</p>
 </dd>
 </dl>
 </dd></dl>
@@ -336,9 +335,8 @@
 <dt class="sig sig-object py" id="avblocks.MediaInfo.flush">
 <span class="sig-name descname"><span class="pre">flush</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#avblocks.MediaInfo.flush" title="Link to this definition">¶</a></dt>
 <dd><p>The method is not implemented.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Returns<span class="colon">:</span></dt>
-<dd class="field-odd"><p>The result of the native flush call</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>The result of the native flush call</p>
 </dd>
 </dl>
 </dd></dl>
@@ -347,7 +345,7 @@
 <dt class="sig sig-object py" id="avblocks.MediaInfo.inputs">
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">inputs</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="collections-media.html#avblocks.media_socket_list.MediaSocketList" title="avblocks.media_socket_list.MediaSocketList"><span class="pre">MediaSocketList</span></a></em><a class="headerlink" href="#avblocks.MediaInfo.inputs" title="Link to this definition">¶</a></dt>
 <dd><p>A modifiable collection of MediaSocket objects which describe the input data of the MediaInfo.</p>
-<p>Each socket in the collection represents an input point -
+<p>Each socket in the collection represents an input point - 
 it can be a container with one or more streams or just an elementary stream.</p>
 <p>The default value of this property is a collection with one element.</p>
 </dd></dl>
@@ -362,19 +360,18 @@ it can be a container with one or more streams or just an elementary stream.</p>
 <dt class="sig sig-object py" id="avblocks.MediaInfo.open">
 <span class="sig-name descname"><span class="pre">open</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#avblocks.MediaInfo.open" title="Link to this definition">¶</a></dt>
 <dd><p>Analyzes the input specified by the inputs property.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Returns<span class="colon">:</span></dt>
-<dd class="field-odd"><p>True if the input has been successfully analyzed, otherwise False.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>True if the input has been successfully analyzed, otherwise False.</p>
 </dd>
 </dl>
-<p>If this method succeeds the information about the detected media streams (tracks)
+<p>If this method succeeds the information about the detected media streams (tracks) 
 can be obtained from the outputs property.</p>
 </dd></dl>
 
 <dl class="py property">
 <dt class="sig sig-object py" id="avblocks.MediaInfo.outputs">
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">outputs</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="collections-media.html#avblocks.media_socket_list.MediaSocketList" title="avblocks.media_socket_list.MediaSocketList"><span class="pre">MediaSocketList</span></a></em><a class="headerlink" href="#avblocks.MediaInfo.outputs" title="Link to this definition">¶</a></dt>
-<dd><p>An immutable collection of MediaSocket objects describing the audio and video streams (tracks)
+<dd><p>An immutable collection of MediaSocket objects describing the audio and video streams (tracks) 
 found in the input.</p>
 <p>The default value of this property is an empty collection.</p>
 </dd></dl>
@@ -383,12 +380,10 @@ found in the input.</p>
 <dt class="sig sig-object py" id="avblocks.MediaInfo.pull">
 <span class="sig-name descname"><span class="pre">pull</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">output_sample</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="media-sample.html#avblocks.MediaSample" title="avblocks.media_sample.MediaSample"><span class="pre">MediaSample</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#avblocks.MediaInfo.pull" title="Link to this definition">¶</a></dt>
 <dd><p>The method is not implemented.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>output_sample</strong> – Not used</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>output_sample: Not used</p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>A tuple of (False, output_index)</p>
+<dt>Returns:</dt><dd><p>A tuple of (False, output_index)</p>
 </dd>
 </dl>
 </dd></dl>
@@ -397,12 +392,10 @@ found in the input.</p>
 <dt class="sig sig-object py" id="avblocks.MediaInfo.pull_unmanaged">
 <span class="sig-name descname"><span class="pre">pull_unmanaged</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">output_sample</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="media-sample.html#avblocks.MediaSample" title="avblocks.media_sample.MediaSample"><span class="pre">MediaSample</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#avblocks.MediaInfo.pull_unmanaged" title="Link to this definition">¶</a></dt>
 <dd><p>The method is not implemented.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>output_sample</strong> – Not used</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>output_sample: Not used</p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>A tuple of (False, output_index)</p>
+<dt>Returns:</dt><dd><p>A tuple of (False, output_index)</p>
 </dd>
 </dl>
 </dd></dl>
@@ -411,16 +404,14 @@ found in the input.</p>
 <dt class="sig sig-object py" id="avblocks.MediaInfo.push">
 <span class="sig-name descname"><span class="pre">push</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">input_index</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">input_sample</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="media-sample.html#avblocks.MediaSample" title="avblocks.media_sample.MediaSample"><span class="pre">MediaSample</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#avblocks.MediaInfo.push" title="Link to this definition">¶</a></dt>
 <dd><p>Pushes input data to the MediaInfo.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>input_index</strong> – Specifies the index of the input socket whose data is pushed to the MediaInfo.
-Must be zero.</p></li>
-<li><p><strong>input_sample</strong> – A MediaSample object that contains the input data in the buffer property.</p></li>
-</ul>
+<dl>
+<dt>Args:</dt><dd><dl class="simple">
+<dt>input_index: Specifies the index of the input socket whose data is pushed to the MediaInfo. </dt><dd><p>Must be zero.</p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>True when the MediaInfo has successfully processed the input data, otherwise False.</p>
+</dl>
+<p>input_sample: A MediaSample object that contains the input data in the buffer property.</p>
+</dd>
+<dt>Returns:</dt><dd><p>True when the MediaInfo has successfully processed the input data, otherwise False.</p>
 </dd>
 </dl>
 <p>In order to use this method the Inputs[0].stream_type must be set.</p>
@@ -435,16 +426,14 @@ Must be zero.</p></li>
 <dt class="sig sig-object py" id="avblocks.MediaInfo.push_unmanaged">
 <span class="sig-name descname"><span class="pre">push_unmanaged</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">input_index</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">input_sample</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="media-sample.html#avblocks.MediaSample" title="avblocks.media_sample.MediaSample"><span class="pre">MediaSample</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#avblocks.MediaInfo.push_unmanaged" title="Link to this definition">¶</a></dt>
 <dd><p>Pushes input data to the MediaInfo.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>input_index</strong> – Specifies the index of the input socket whose data is pushed to the MediaInfo.
-Must be zero.</p></li>
-<li><p><strong>input_sample</strong> – A MediaSample object that contains the input data in the unmanaged_buffer property.</p></li>
-</ul>
+<dl>
+<dt>Args:</dt><dd><dl class="simple">
+<dt>input_index: Specifies the index of the input socket whose data is pushed to the MediaInfo. </dt><dd><p>Must be zero.</p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>True when the MediaInfo has successfully processed the input data, otherwise False.</p>
+</dl>
+<p>input_sample: A MediaSample object that contains the input data in the unmanaged_buffer property.</p>
+</dd>
+<dt>Returns:</dt><dd><p>True when the MediaInfo has successfully processed the input data, otherwise False.</p>
 </dd>
 </dl>
 </dd></dl>

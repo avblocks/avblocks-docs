@@ -207,6 +207,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/installation.html">Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/configuration.html">Configuration</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/download.html">Download AVBlocks Core and Demo Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting-started/samples.html">Samples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/licensing.html">Licensing</a></li>
 </ul>
 </li>
@@ -304,9 +305,8 @@
 <dt class="sig sig-object py" id="avblocks.Library.description">
 <em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">description</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#avblocks.Library.description" title="Link to this definition">¶</a></dt>
 <dd><p>Returns library build description.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Returns<span class="colon">:</span></dt>
-<dd class="field-odd"><p>String containing details about the build including full version,
+<dl class="simple">
+<dt>Returns:</dt><dd><p>String containing details about the build including full version, 
 architecture, configuration, license and platform.</p>
 </dd>
 </dl>
@@ -317,9 +317,8 @@ architecture, configuration, license and platform.</p>
 <em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">initialize</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#avblocks.Library.initialize" title="Link to this definition">¶</a></dt>
 <dd><p>Initializes the AVBlocks library. Must be called once before the library is used,
 usually when the application starts.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Returns<span class="colon">:</span></dt>
-<dd class="field-odd"><p>True if the library is successfully initialized, otherwise False.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>True if the library is successfully initialized, otherwise False.</p>
 </dd>
 </dl>
 </dd></dl>
@@ -328,40 +327,31 @@ usually when the application starts.</p>
 <dt class="sig sig-object py" id="avblocks.Library.is_licensed">
 <em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">is_licensed</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">product</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">feature</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#avblocks.Library.is_licensed" title="Link to this definition">¶</a></dt>
 <dd><p>Checks whether a product feature is licensed.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>product</strong> – The product id. If None, the AVBlocks product is implied.</p></li>
-<li><p><strong>feature</strong> – The feature id. If None, the default AVBlocks product feature is implied.</p></li>
-</ul>
+<dl>
+<dt>Args:</dt><dd><p>product: The product id. If None, the AVBlocks product is implied.
+feature: The feature id. If None, the default AVBlocks product feature is implied.</p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>True if the specified product feature is licensed.</p>
+<dt>Returns:</dt><dd><p>True if the specified product feature is licensed.</p>
+</dd>
+<dt>Note:</dt><dd><p>If a product is fully licensed then the function will always return True for 
+that product regardless of the feature parameter.</p>
+<p>If a product is licensed for a limited set of features then the function will 
+return True for that product only if the feature parameter specifies one of 
+the licensed features or is None.</p>
 </dd>
 </dl>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>If a product is fully licensed then the function will always return True for
-that product regardless of the feature parameter.</p>
-<p>If a product is licensed for a limited set of features then the function will
-return True for that product only if the feature parameter specifies one of
-the licensed features or is None.</p>
-</div>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="avblocks.Library.license_status">
 <em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">license_status</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="enums-errors.html#avblocks.LicenseStatusFlags" title="avblocks.constants.LicenseStatusFlags"><span class="pre">LicenseStatusFlags</span></a></span></span><a class="headerlink" href="#avblocks.Library.license_status" title="Link to this definition">¶</a></dt>
 <dd><p>Returns the current license status.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Returns<span class="colon">:</span></dt>
-<dd class="field-odd"><p>License status flags.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>License status flags.</p>
+</dd>
+<dt>Note:</dt><dd><p>In the Demo build the license status is always LicenseStatusFlags.DemoBuild.</p>
 </dd>
 </dl>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>In the Demo build the license status is always LicenseStatusFlags.DemoBuild.</p>
-</div>
 </dd></dl>
 
 <dl class="py method">
@@ -380,49 +370,46 @@ the licensed features or is None.</p>
 <dt class="sig sig-object py" id="avblocks.Library.patch_version">
 <em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">patch_version</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#avblocks.Library.patch_version" title="Link to this definition">¶</a></dt>
 <dd><p>Returns library patch version.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The patch version is used for bugfixes and small improvements that
+<dl class="simple">
+<dt>Note:</dt><dd><p>The patch version is used for bugfixes and small improvements that 
 do not involve API changes.</p>
-</div>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="avblocks.Library.set_license">
 <em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">set_license</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">license_string</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="enums-errors.html#avblocks.LicenseStatusFlags" title="avblocks.constants.LicenseStatusFlags"><span class="pre">LicenseStatusFlags</span></a></span></span><a class="headerlink" href="#avblocks.Library.set_license" title="Link to this definition">¶</a></dt>
 <dd><p>Sets a license string. The supplied license is appended to the library license state.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>license_string</strong> – A string with license information. If None, the library
-license state is cleared.</p>
-</dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>The status after the license is set. The returned value is a combination
-of flags from the LicenseStatusFlags enum.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><dl class="simple">
+<dt>license_string: A string with license information. If None, the library </dt><dd><p>license state is cleared.</p>
 </dd>
 </dl>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>A Demo build of the library cannot be licensed and always returns
+</dd>
+<dt>Returns:</dt><dd><p>The status after the license is set. The returned value is a combination 
+of flags from the LicenseStatusFlags enum.</p>
+</dd>
+<dt>Note:</dt><dd><p>A Demo build of the library cannot be licensed and always returns 
 LicenseStatusFlags.DemoBuild.</p>
-</div>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="avblocks.Library.set_license_tls">
 <em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">set_license_tls</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">use_tls</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#avblocks.Library.set_license_tls" title="Link to this definition">¶</a></dt>
 <dd><p>Sets whether the license validation should use TLS (HTTPS) or not.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>use_tls</strong> – If True the license validation will use TLS (HTTPS),
-otherwise it will use HTTP. The default is False.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><dl class="simple">
+<dt>use_tls: If True the license validation will use TLS (HTTPS), </dt><dd><p>otherwise it will use HTTP. The default is False.</p>
 </dd>
 </dl>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>This setting is used when the license validation is performed against a license server.
+</dd>
+<dt>Note:</dt><dd><p>This setting is used when the license validation is performed against a license server.
 Must be called before Library.set_license().</p>
-</div>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="py method">

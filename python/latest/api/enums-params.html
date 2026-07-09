@@ -207,6 +207,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/installation.html">Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/configuration.html">Configuration</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/download.html">Download AVBlocks Core and Demo Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting-started/samples.html">Samples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/licensing.html">Licensing</a></li>
 </ul>
 </li>
@@ -316,7 +317,7 @@ A parameter can apply to:
 <dt class="sig sig-object py" id="avblocks.Param.Decoder.Config">
 <span class="sig-name descname"><span class="pre">Config</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'DECODER_CONFIG'</span></em><a class="headerlink" href="#avblocks.Param.Decoder.Config" title="Link to this definition">¶</a></dt>
 <dd><p>Decoder configuration data.</p>
-<p>This parameter is a MediaBuffer object.</p>
+<p>This parameter is a <a class="reference internal" href="media-buffer.html#avblocks.MediaBuffer" title="avblocks.MediaBuffer"><code class="xref py py-class docutils literal notranslate"><span class="pre">MediaBuffer</span></code></a> object.</p>
 </dd></dl>
 
 <dl class="py class">
@@ -327,7 +328,7 @@ A parameter can apply to:
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Decoder.Video.ConcealDefects">
 <span class="sig-name descname"><span class="pre">ConcealDefects</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'DECODER_VIDEO_CONCEAL_DEFECTS'</span></em><a class="headerlink" href="#avblocks.Param.Decoder.Video.ConcealDefects" title="Link to this definition">¶</a></dt>
-<dd><p>Video - Specifies whether to conceal bitstream defects and errors.</p>
+<dd><p>Video: Specifies whether to conceal bitstream defects and errors.</p>
 <p>This parameter is a boolean value stored as one of the following:
 bool (True/False) or integral value (1/0).
 The default value is True.</p>
@@ -349,7 +350,7 @@ These parameters can aid decoding but a conformant decoder is not required to pr
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Decoder.Video.H264.VUI.MaxDecFrameBuffering">
 <span class="sig-name descname"><span class="pre">MaxDecFrameBuffering</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'DECODER_H264_MAX_DEC_FRAME_BUFFERING'</span></em><a class="headerlink" href="#avblocks.Param.Decoder.Video.H264.VUI.MaxDecFrameBuffering" title="Link to this definition">¶</a></dt>
-<dd><p>Specifies the requested size of the Decoded Picture Buffer.
+<dd><p>H264 Video: Specifies the requested size of the Decoded Picture Buffer.
 This parameter can be used to achieve low latency decoding.</p>
 <p>This parameter is an integer (0-1).</p>
 <p>A typical usage of this parameter is to set it to 1 or 0.
@@ -357,11 +358,6 @@ In this case the number of decoding threads is implicitly limited to 1.</p>
 <p>Zero latency is possible only with progressive streams with no B-frames.
 The decoder attempts to detect cases when this parameter can break decoding and may adjust it.
 However it’s still possible that certain streams may not decode properly when this setting is too low.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 </dd></dl>
@@ -393,7 +389,7 @@ The Packet ID is used to identify Program Specific Info packets, such as PAT, CA
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Demuxer.Mpeg.ProgramNumber">
 <span class="sig-name descname"><span class="pre">ProgramNumber</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'DEMUXER_MPEG_PROGRAM_NUMBER'</span></em><a class="headerlink" href="#avblocks.Param.Demuxer.Mpeg.ProgramNumber" title="Link to this definition">¶</a></dt>
-<dd><p>Specifies the Program Number for which to deliver MPEG TS packets.
+<dd><p>Specifies the Program Number for which to deliver MPEG TS packets. 
 Only packets that belong to the Program with the specified Program Number will be delivered.
 The Program Number is the field that identifies the program in the Program Association Table (PAT) of a MPEG-2 TS stream.</p>
 <p>This parameter is an integer.</p>
@@ -421,15 +417,10 @@ The Program Number is the field that identifies the program in the Program Assoc
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Audio.AAC.StereoMode">
 <span class="sig-name descname"><span class="pre">StereoMode</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_AAC_STEREOMODE'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Audio.AAC.StereoMode" title="Link to this definition">¶</a></dt>
-<dd><p>Specifies the stereo mode.</p>
+<dd><p>AAC Audio: Specifies the stereo mode.</p>
 <p>This parameter is an integer.
-The supported values are defined in StereoMode enum.
-The default value is StereoMode.LR.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>AAC Audio</p>
-</dd>
-</dl>
+The supported values are defined in the <a class="reference internal" href="enums-audio.html#avblocks.StereoMode" title="avblocks.StereoMode"><code class="xref py py-class docutils literal notranslate"><span class="pre">StereoMode</span></code></a> enum.
+The default value is <a class="reference internal" href="enums-audio.html#avblocks.StereoMode.LR" title="avblocks.StereoMode.LR"><code class="xref py py-attr docutils literal notranslate"><span class="pre">StereoMode.LR</span></code></a>.</p>
 </dd></dl>
 
 </dd></dl>
@@ -442,15 +433,10 @@ The default value is StereoMode.LR.</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Audio.G711.EnableVAD">
 <span class="sig-name descname"><span class="pre">EnableVAD</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_G711_ENABLE_VAD'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Audio.G711.EnableVAD" title="Link to this definition">¶</a></dt>
-<dd><p>Enables Voice Activity Detection (VAD).</p>
+<dd><p>G.711 Audio: Enables Voice Activity Detection (VAD).</p>
 <p>This parameter is a boolean value stored as one of the following:
 bool (True/False) or integral value (1/0).
 The default value is False.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>G.711 Audio</p>
-</dd>
-</dl>
 </dd></dl>
 
 </dd></dl>
@@ -463,29 +449,19 @@ The default value is False.</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Audio.MPEG1.ForceV1">
 <span class="sig-name descname"><span class="pre">ForceV1</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_MPEGAUDIO_FORCE_V1'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Audio.MPEG1.ForceV1" title="Link to this definition">¶</a></dt>
-<dd><p>Forces MPEG audio to version 1.</p>
+<dd><p>MPEG Audio: Forces MPEG audio to version 1.</p>
 <p>This parameter is a boolean value stored as one of the following:
 bool (True/False) or integral value (1/0).
 The default value is False.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>MPEG Audio</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Audio.MPEG1.StereoMode">
 <span class="sig-name descname"><span class="pre">StereoMode</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_MPEGAUDIO_STEREOMODE'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Audio.MPEG1.StereoMode" title="Link to this definition">¶</a></dt>
-<dd><p>Specifies the stereo mode.</p>
+<dd><p>MPEG Audio: Specifies the stereo mode.</p>
 <p>This parameter is an integer.
-The supported values are defined in StereoMode enum.
-The default value is StereoMode.LR.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>MPEG Audio</p>
-</dd>
-</dl>
+The supported values are defined in the <a class="reference internal" href="enums-audio.html#avblocks.StereoMode" title="avblocks.StereoMode"><code class="xref py py-class docutils literal notranslate"><span class="pre">StereoMode</span></code></a> enum.
+The default value is <a class="reference internal" href="enums-audio.html#avblocks.StereoMode.LR" title="avblocks.StereoMode.LR"><code class="xref py py-attr docutils literal notranslate"><span class="pre">StereoMode.LR</span></code></a>.</p>
 </dd></dl>
 
 </dd></dl>
@@ -498,15 +474,10 @@ The default value is StereoMode.LR.</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Audio.Vorbis.Quality">
 <span class="sig-name descname"><span class="pre">Quality</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_VORBIS_QUALITY'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Audio.Vorbis.Quality" title="Link to this definition">¶</a></dt>
-<dd><p>Specifies the quality of the compressed audio.</p>
+<dd><p>Vorbis Audio: Specifies the quality of the compressed audio.</p>
 <p>This parameter is a floating point value.
 Supported values: from 0.0 (worst quality) to 1.0 (best quality).
 The default value is 0.4.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Vorbis Audio</p>
-</dd>
-</dl>
 </dd></dl>
 
 </dd></dl>
@@ -519,17 +490,12 @@ The default value is 0.4.</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Audio.WMA.Quality">
 <span class="sig-name descname"><span class="pre">Quality</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_WMA_QUALITY'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Audio.WMA.Quality" title="Link to this definition">¶</a></dt>
-<dd><p>Specifies the quality of the compressed audio.</p>
+<dd><p>Windows Media Audio: Specifies the quality of the compressed audio.</p>
 <p>This parameter is an integer.
 Supported values: from 1 (worst quality) to 100 (best quality).
 The default value is 50.</p>
 <p>This parameter is used by the Transcoder only when the encoded bitrate mode is
 BitrateMode.VBR, otherwise it is ignored.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Windows Media Audio</p>
-</dd>
-</dl>
 </dd></dl>
 
 </dd></dl>
@@ -549,55 +515,40 @@ BitrateMode.VBR, otherwise it is ignored.</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.AccessUnitDelimiters">
 <span class="sig-name descname"><span class="pre">AccessUnitDelimiters</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_ACCESS_UNIT_DELIMITERS'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.AccessUnitDelimiters" title="Link to this definition">¶</a></dt>
-<dd><p>Use access unit delimiters.</p>
+<dd><p>H.264 Video: Use access unit delimiters.</p>
 <p>This parameter is a boolean value stored as one of the following:
 bool (True/False) or integral value (1/0).
 The default value is False.
 Note: Hardware encoders support: Intel QuickSync, NVIDIA NVENC.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.DeblockingFilter">
 <span class="sig-name descname"><span class="pre">DeblockingFilter</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_DEBLOCKING_FILTER_IDC'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.DeblockingFilter" title="Link to this definition">¶</a></dt>
-<dd><p>De-blocking filter mode.</p>
-<p>The supported values are defined in H264DeblockingFilter enum.
-The default value is H264DeblockingFilter.All.</p>
-<p>The in-loop deblocking filter helps prevent the blocking artifacts common to other DCT-based image compression techniques,
+<dd><p>H.264 Video: De-blocking filter mode.</p>
+<p>The supported values are defined in the <a class="reference internal" href="enums-encoding.html#avblocks.H264DeblockingFilter" title="avblocks.H264DeblockingFilter"><code class="xref py py-class docutils literal notranslate"><span class="pre">H264DeblockingFilter</span></code></a> enum.
+The default value is <a class="reference internal" href="enums-encoding.html#avblocks.H264DeblockingFilter.All" title="avblocks.H264DeblockingFilter.All"><code class="xref py py-attr docutils literal notranslate"><span class="pre">H264DeblockingFilter.All</span></code></a>.</p>
+<p>The in-loop deblocking filter helps prevent the blocking artifacts common to other DCT-based image compression techniques, 
 resulting in better visual appearance and compression efficiency
 Note: Hardware encoders support: Intel QuickSync, AMD VCE, NVIDIA NVENC.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.DeblockingFilterAlpha">
 <span class="sig-name descname"><span class="pre">DeblockingFilterAlpha</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_DEBLOCKING_FILTER_ALPHA'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.DeblockingFilterAlpha" title="Link to this definition">¶</a></dt>
-<dd><p>De-blocking filter strength.</p>
+<dd><p>H.264 Video: De-blocking filter strength.</p>
 <p>This parameter is an integer value.
 Supported values range from -6 to 6.
 Negative values give a more sharp video, but they also increases the danger of visible block artifacts.
 In contrast positive values result in a smoother video, but they will also remove more details.
 The default value is 0.
 Note: Hardware encoders support: AMD VCE.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.DeblockingFilterBeta">
 <span class="sig-name descname"><span class="pre">DeblockingFilterBeta</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_DEBLOCKING_FILTER_BETA'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.DeblockingFilterBeta" title="Link to this definition">¶</a></dt>
-<dd><p>De-blocking filter threshold.</p>
+<dd><p>H.264 Video: De-blocking filter threshold.</p>
 <p>This parameter is an integer value.</p>
 <p>The parameter controls the threshold for block detection.</p>
 <p>Supported values range from -6 to 6.
@@ -605,65 +556,45 @@ Negative values “save” more details, but more blocks might slip through (esp
 In contrast positive values will remove more details and catch more blocks.
 The default value is 0 and usually it’s enough to detect all blocks.
 Note: Hardware encoders support: AMD VCE.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.DirectPredMode">
 <span class="sig-name descname"><span class="pre">DirectPredMode</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_DIRECT_PRED_MODE'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.DirectPredMode" title="Link to this definition">¶</a></dt>
-<dd><p>Direct prediction mode.
+<dd><p>H.264 Video: Direct prediction mode.
 Sets the value of the syntax element direct_spatial_mv_pred_flag.</p>
 <p>This parameter is an integer.
-The supported values are defined in H264DirectPredMode enum.
-The default value is H264DirectPredMode.Temporal.
+The supported values are defined in the <a class="reference internal" href="enums-encoding.html#avblocks.H264DirectPredMode" title="avblocks.H264DirectPredMode"><code class="xref py py-class docutils literal notranslate"><span class="pre">H264DirectPredMode</span></code></a> enum.
+The default value is <a class="reference internal" href="enums-encoding.html#avblocks.H264DirectPredMode.Temporal" title="avblocks.H264DirectPredMode.Temporal"><code class="xref py py-attr docutils literal notranslate"><span class="pre">H264DirectPredMode.Temporal</span></code></a>.
 Note: Hardware encoders support: None.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.EntropyCodingMode">
 <span class="sig-name descname"><span class="pre">EntropyCodingMode</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_ENTROPY_CODING_MODE'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.EntropyCodingMode" title="Link to this definition">¶</a></dt>
-<dd><p>Entropy coding mode.</p>
+<dd><p>H.264 Video: Entropy coding mode.</p>
 <p>This parameter is an integer.
-The supported values are defined in H264EntropyCodingMode enum.
-The default value is H264EntropyCodingMode.CABAC.</p>
+The supported values are defined in the <a class="reference internal" href="enums-encoding.html#avblocks.H264EntropyCodingMode" title="avblocks.H264EntropyCodingMode"><code class="xref py py-class docutils literal notranslate"><span class="pre">H264EntropyCodingMode</span></code></a> enum.
+The default value is <a class="reference internal" href="enums-encoding.html#avblocks.H264EntropyCodingMode.CABAC" title="avblocks.H264EntropyCodingMode.CABAC"><code class="xref py py-attr docutils literal notranslate"><span class="pre">H264EntropyCodingMode.CABAC</span></code></a>.</p>
 <p>CABAC compresses data more efficiently (10-20% typically) than CAVLC but requires considerably more processing to decode.
 CABAC is supported at Main, High, High10, High422 and High444. CABAC is not supported at Baseline profile.
 Note: Hardware encoders support: Intel QuickSync, AMD VCE, NVIDIA NVENC.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.FixedFramerate">
 <span class="sig-name descname"><span class="pre">FixedFramerate</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_FIXED_FRAMERATE'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.FixedFramerate" title="Link to this definition">¶</a></dt>
-<dd><p>Write timing info with a fixed frame rate in the bitstream.</p>
+<dd><p>H.264 Video: Write timing info with a fixed frame rate in the bitstream.</p>
 <p>This parameter is a boolean value expressed as an integer (1|0).</p>
 <p>The default value is True (1).</p>
 <p>The timing info is written in the bitstream only when this parameter is True and a positive frame rate is specified.
 Note: Hardware encoders support: Intel QuickSync.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.KeyFrameIDRInterval">
 <span class="sig-name descname"><span class="pre">KeyFrameIDRInterval</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_KEY_FRAME_IDR_INTERVAL'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.KeyFrameIDRInterval" title="Link to this definition">¶</a></dt>
-<dd><p>Distance between two sequential IDR-pictures in terms of I pictures. IDR stands for Instantaneous Decoding Refresh.</p>
+<dd><p>H.264 Video: Distance between two sequential IDR-pictures in terms of I pictures. IDR stands for Instantaneous Decoding Refresh.</p>
 <p>This parameter is an integer value.
 It must be greater or equal to 0.</p>
 <p>For example if this parameter is 10 then every tenth I-picture is also an IDR-picture.</p>
@@ -672,32 +603,22 @@ Pictures following an IDR-picture may not refer back to pictures preceding the I
 IDR-pictures can be used to create H.264 streams which are more easily edited.
 The default value is 1.
 Note: Hardware encoders support: Intel QuickSync, AMD VCE.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.KeyFrameInterval">
 <span class="sig-name descname"><span class="pre">KeyFrameInterval</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_KEY_FRAME_INTERVAL'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.KeyFrameInterval" title="Link to this definition">¶</a></dt>
-<dd><p>Distance between two sequential I-pictures.</p>
+<dd><p>H.264 Video: Distance between two sequential I-pictures.</p>
 <p>This parameter is an integer value.
 Must be greater than or equal to 0. Both 0 and 1 mean that every picture is coded as I-picture.
 The default value is 250.
 Note: Hardware encoders support: Intel QuickSync, AMD VCE, NVIDIA NVENC.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.Level">
 <span class="sig-name descname"><span class="pre">Level</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_LEVEL_IDC'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.Level" title="Link to this definition">¶</a></dt>
-<dd><p>Computation level.
+<dd><p>H.264 Video: Computation level.
 Set the value of the level_idc syntax element.</p>
 <p>This parameter is an integer value.
 A level designated as x.y is expressed as an xy integer.
@@ -709,75 +630,50 @@ The default value is 0 (auto).</p>
 <p>Note: Similar with the Profile, Level specifies the capabilities a decoder must fulfill to decode a bitstream of a certain level.
 Most level restrictions are driven by memory restrictions and set restrictions such as resolution supported, maximum number of references, frame rate etc.
 Note: Hardware encoders support: Intel QuickSync, AMD VCE, NVIDIA NVENC.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.MEMethod">
 <span class="sig-name descname"><span class="pre">MEMethod</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_ME_METHOD'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.MEMethod" title="Link to this definition">¶</a></dt>
-<dd><p>Motion estimation method.</p>
+<dd><p>H.264 Video: Motion estimation method.</p>
 <p>This parameter is an integer.
-The supported values are defined in MEMethod enum.
-The default value is MEMethod.Log.
+The supported values are defined in the <a class="reference internal" href="enums-encoding.html#avblocks.H264MeMethod" title="avblocks.H264MeMethod"><code class="xref py py-class docutils literal notranslate"><span class="pre">H264MeMethod</span></code></a> enum.
+The default value is <a class="reference internal" href="enums-encoding.html#avblocks.H264MeMethod.Log" title="avblocks.H264MeMethod.Log"><code class="xref py py-attr docutils literal notranslate"><span class="pre">H264MeMethod.Log</span></code></a>.
 Note: Hardware encoders support: None.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.MERangeSearchX">
 <span class="sig-name descname"><span class="pre">MERangeSearchX</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_ME_RANGE_SEARCH_X'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.MERangeSearchX" title="Link to this definition">¶</a></dt>
-<dd><p>Specifies how far motion estimation should be done in a horizontal direction.</p>
+<dd><p>H.264 Video: Specifies how far motion estimation should be done in a horizontal direction.</p>
 <p>This parameter is an integer value.
 The default value is 8.
 Note: Hardware encoders support: AMD VCE.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.MERangeSearchY">
 <span class="sig-name descname"><span class="pre">MERangeSearchY</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_ME_RANGE_SEARCH_Y'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.MERangeSearchY" title="Link to this definition">¶</a></dt>
-<dd><p>Specifies how far motion estimation should be done in a vertical direction.</p>
+<dd><p>H.264 Video: Specifies how far motion estimation should be done in a vertical direction.</p>
 <p>This parameter is an integer value.
 The default value is 8.
 Note: Hardware encoders support: AMD VCE.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.MESplitMode">
 <span class="sig-name descname"><span class="pre">MESplitMode</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_ME_SPLIT_MODE'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.MESplitMode" title="Link to this definition">¶</a></dt>
-<dd><p>Specifies the block size for which motion estimation should be done.</p>
+<dd><p>H.264 Video: Specifies the block size for which motion estimation should be done.</p>
 <p>This parameter is an integer.
-The supported values are defined in MESplitMode enum.
-The default value is MESplitMode.Only16x16.
+The supported values are defined in the <a class="reference internal" href="enums-encoding.html#avblocks.H264MeSplitMode" title="avblocks.H264MeSplitMode"><code class="xref py py-class docutils literal notranslate"><span class="pre">H264MeSplitMode</span></code></a> enum.
+The default value is <a class="reference internal" href="enums-encoding.html#avblocks.H264MeSplitMode.Only16x16" title="avblocks.H264MeSplitMode.Only16x16"><code class="xref py py-attr docutils literal notranslate"><span class="pre">H264MeSplitMode.Only16x16</span></code></a>.
 Note: Hardware encoders support: None.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.NumBFrames">
 <span class="sig-name descname"><span class="pre">NumBFrames</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_NUM_B_FRAMES'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.NumBFrames" title="Link to this definition">¶</a></dt>
-<dd><p>Number of B-frames between consequent I-frames or P-frames.</p>
+<dd><p>H.264 Video: Number of B-frames between consequent I-frames or P-frames.</p>
 <p>This parameter is an integer.
 The integer value must be a number that is greater than or equal to zero.
 The default value is 0.</p>
@@ -787,163 +683,113 @@ H.264 stream with B frames (NumBFrames 2) looks like: IBBPBBPBBP…PI</p>
 <p>The main advantage of the usage of B frames is coding efficiency. In most cases, B frames will result in less bits being coded overall.
 B-frames can use both previous and forward frames for data reference to get the highest amount of data compression.
 Note: Hardware encoders support: Intel QuickSync, NVIDIA NVENC.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.NumRefFrames">
 <span class="sig-name descname"><span class="pre">NumRefFrames</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_NUM_REF_FRAMES'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.NumRefFrames" title="Link to this definition">¶</a></dt>
-<dd><p>Maximum number of reference pictures.
+<dd><p>H.264 Video: Maximum number of reference pictures.
 Sets the maximum number of references stored in the Decoded Picture Buffer (DPB) for motion estimation and compensation.
 Essentially sets the syntax element num_ref_frames in the sequence parameter sets.</p>
 <p>This parameter is an integer value.</p>
-<p>The integer value must be consistent with profile/level parameters for a given frame size,
+<p>The integer value must be consistent with profile/level parameters for a given frame size, 
 since they determine reference picture and buffer constraints for a decoder.
 If P-pictures are allowed, the number should be greater than 0.
 If B-pictures are allowed, the number should be greater than 1.
 Note: If NumRefFrames is 0 it is automatically determined by the encoder.</p>
 <p>The default value is 3. Supported values: from 0 to 16.</p>
 <p>This setting controls how many frames can be referenced by P- and B-Frames.
-Higher values will usually result in a more efficient compression,
+Higher values will usually result in a more efficient compression, 
 but will also require more time for encoding.
 Note: Hardware encoders support: Intel QuickSync, AMD VCE, NVIDIA NVENC.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.NumSlices">
 <span class="sig-name descname"><span class="pre">NumSlices</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_NUM_SLICES'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.NumSlices" title="Link to this definition">¶</a></dt>
-<dd><p>Number of slices per frame/field.</p>
+<dd><p>H.264 Video: Number of slices per frame/field.</p>
 <p>This parameter is an integer value.
 A frame/field is divided into equal parts except for the last one that can be shorter.
 The number cannot exceed the number of macro blocks per frame/field.
 The default value is 0 (auto).
 Note: Hardware encoders support: Intel QuickSync, NVIDIA NVENC.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.PictureCodingType">
 <span class="sig-name descname"><span class="pre">PictureCodingType</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_PIC_CODING_TYPE'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.PictureCodingType" title="Link to this definition">¶</a></dt>
-<dd><p>Picture coding type.</p>
+<dd><p>H.264 Video: Picture coding type.</p>
 <p>This parameter is an integer.
-The supported values are defined in PictureCodingType enum.
-The default value is PictureCodingType.Frames.
+The supported values are defined in the <a class="reference internal" href="enums-encoding.html#avblocks.H264PicCodingType" title="avblocks.H264PicCodingType"><code class="xref py py-class docutils literal notranslate"><span class="pre">H264PicCodingType</span></code></a> enum.
+The default value is <a class="reference internal" href="enums-encoding.html#avblocks.H264PicCodingType.Frames" title="avblocks.H264PicCodingType.Frames"><code class="xref py py-attr docutils literal notranslate"><span class="pre">H264PicCodingType.Frames</span></code></a>.
 Note: Hardware encoders support: None.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.Profile">
 <span class="sig-name descname"><span class="pre">Profile</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_PROFILE_IDC'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.Profile" title="Link to this definition">¶</a></dt>
-<dd><p>Encoding profile.</p>
+<dd><p>H.264 Video: Encoding profile.</p>
 <p>This parameter is an integer.
-The supported values are defined in H264Profile enum.
-The default value is H264Profile.High.</p>
+The supported values are defined in the <a class="reference internal" href="enums-encoding.html#avblocks.H264Profile" title="avblocks.H264Profile"><code class="xref py py-class docutils literal notranslate"><span class="pre">H264Profile</span></code></a> enum.
+The default value is <a class="reference internal" href="enums-encoding.html#avblocks.H264Profile.High" title="avblocks.H264Profile.High"><code class="xref py py-attr docutils literal notranslate"><span class="pre">H264Profile.High</span></code></a>.</p>
 <p>Sets the value of the profile_idc syntax element.
 Note: Hardware encoders support: Intel QuickSync, AMD VCE, NVIDIA NVENC.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.QualitySpeed">
 <span class="sig-name descname"><span class="pre">QualitySpeed</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_QUALITY_SPEED'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.QualitySpeed" title="Link to this definition">¶</a></dt>
-<dd><p>Quality/Speed trade off.</p>
+<dd><p>H.264 Video: Quality/Speed trade off.</p>
 <p>This parameter is an integer value.
 Supported values range from 0 to 6 where 0 means max speed and 6 means max quality.
 The default value is 0.
 Note: Hardware encoders support: Intel QuickSync.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.RateControlMethod">
 <span class="sig-name descname"><span class="pre">RateControlMethod</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_RATE_CONTROL_METHOD'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.RateControlMethod" title="Link to this definition">¶</a></dt>
-<dd><p>Rate control method.</p>
+<dd><p>H.264 Video: Rate control method.</p>
 <p>This parameter is an integer.
-The supported values are defined in RateControlMethod enum.
-The default value is RateControlMethod.ABR.
+The supported values are defined in the <a class="reference internal" href="enums-encoding.html#avblocks.H264RateControlMethod" title="avblocks.H264RateControlMethod"><code class="xref py py-class docutils literal notranslate"><span class="pre">H264RateControlMethod</span></code></a> enum.
+The default value is <a class="reference internal" href="enums-encoding.html#avblocks.H264RateControlMethod.ABR" title="avblocks.H264RateControlMethod.ABR"><code class="xref py py-attr docutils literal notranslate"><span class="pre">H264RateControlMethod.ABR</span></code></a>.
 Note: Hardware encoders support: Intel QuickSync, AMD VCE, NVIDIA NVENC.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.RateControlQuantB">
 <span class="sig-name descname"><span class="pre">RateControlQuantB</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_RATE_CONTROL_QUANT_B'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.RateControlQuantB" title="Link to this definition">¶</a></dt>
-<dd><p>Rate control quantizer for B slices.
+<dd><p>H.264 Video: Rate control quantizer for B slices.
 Used only when RateControlMethod is set to Constant Quantization.</p>
 <p>This parameter is an integer.
 Supported values range: from 0 to 51. The default value is 20.
 Note: Hardware encoders support: Intel QuickSync, AMD VCE, NVIDIA NVENC.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.RateControlQuantI">
 <span class="sig-name descname"><span class="pre">RateControlQuantI</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_RATE_CONTROL_QUANT_I'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.RateControlQuantI" title="Link to this definition">¶</a></dt>
-<dd><p>Rate control quantizer for I slices.
+<dd><p>H.264 Video: Rate control quantizer for I slices.
 Used only when RateControlMethod is set to Constant Quantization.</p>
 <p>This parameter is an integer.
 Supported values range: from 0 to 51. The default value is 20.
 Note: Hardware encoders support: Intel QuickSync, AMD VCE, NVIDIA NVENC.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.RateControlQuantP">
 <span class="sig-name descname"><span class="pre">RateControlQuantP</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_RATE_CONTROL_QUANT_P'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.RateControlQuantP" title="Link to this definition">¶</a></dt>
-<dd><p>Rate control quantizer for P slices.
+<dd><p>H.264 Video: Rate control quantizer for P slices.
 Used only when RateControlMethod is set to Constant Quantization.</p>
 <p>This parameter is an integer.
 Supported values range: from 0 to 51. The default value is 20.
 Note: Hardware encoders support: Intel QuickSync, AMD VCE, NVIDIA NVENC.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.Transform8x8">
 <span class="sig-name descname"><span class="pre">Transform8x8</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_TRANSFORM8X8'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.Transform8x8" title="Link to this definition">¶</a></dt>
-<dd><p>Enables 8x8 transform block size.</p>
+<dd><p>H.264 Video: Enables 8x8 transform block size.</p>
 <p>This parameter is a boolean value expressed as an integer (1|0).</p>
 <p>Supported modes are:
 0 - Disabled. Only 4x4 transforms are used.
@@ -952,26 +798,16 @@ Note: Hardware encoders support: Intel QuickSync, AMD VCE, NVIDIA NVENC.</p>
 <p>Transform 8x8 improves the visual quality at a minor speed cost.
 Transform 8x8 is supported at High, High10, High422 and High444. 8x8 transform is not supported at Main and Baseline profiles.
 Note: Hardware encoders support: NVIDIA NVENC.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H264.TreatBFramesAsReference">
 <span class="sig-name descname"><span class="pre">TreatBFramesAsReference</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H264_TREAT_B_FRAMES_AS_REFERENCE'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H264.TreatBFramesAsReference" title="Link to this definition">¶</a></dt>
-<dd><p>Allows B-pictures to be used as reference pictures.</p>
+<dd><p>H.264 Video: Allows B-pictures to be used as reference pictures.</p>
 <p>This parameter is a boolean value stored as one of the following:
 bool (True/False) or integral value (1/0).
 The default value is False.
 Note: Hardware encoders support: Intel QuickSync.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.264 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 </dd></dl>
@@ -998,7 +834,7 @@ If 0 then there will be no I-pictures in the stream after the first picture.</p>
 <dd><p>H.265 computation level.</p>
 <p>This parameter is an integer.</p>
 <p>Sets the value of the level_idc syntax element.</p>
-<p>The default value is H265Level.None (level is selected automatically).
+<p>The default value is <code class="xref py py-attr docutils literal notranslate"><span class="pre">H265Level.None</span></code> (level is selected automatically).
 Note: Similar with the Profile, Level specifies the capabilities a decoder must fulfill to decode a bitstream of a certain level.
 Most level restrictions are driven by memory restrictions and set restrictions such as resolution supported, maximum number of references, frame rate etc.</p>
 </dd></dl>
@@ -1008,8 +844,8 @@ Most level restrictions are driven by memory restrictions and set restrictions s
 <span class="sig-name descname"><span class="pre">Profile</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H265_PROFILE_IDC'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H265.Profile" title="Link to this definition">¶</a></dt>
 <dd><p>H.265 encoding profile.</p>
 <p>This parameter is an integer.</p>
-<p>The supported values are defined in the H265Profile enum.
-The default value is H265Profile.Main.</p>
+<p>The supported values are defined in the <a class="reference internal" href="enums-encoding.html#avblocks.H265Profile" title="avblocks.H265Profile"><code class="xref py py-class docutils literal notranslate"><span class="pre">H265Profile</span></code></a> enum.
+The default value is <a class="reference internal" href="enums-encoding.html#avblocks.H265Profile.Main" title="avblocks.H265Profile.Main"><code class="xref py py-attr docutils literal notranslate"><span class="pre">H265Profile.Main</span></code></a>.</p>
 <p>Supported profiles: Main, Main10
 Sets the value of the profile_idc syntax element.</p>
 </dd></dl>
@@ -1017,16 +853,11 @@ Sets the value of the profile_idc syntax element.</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.H265.Tier">
 <span class="sig-name descname"><span class="pre">Tier</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_H265_TIER'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.H265.Tier" title="Link to this definition">¶</a></dt>
-<dd><p>Bitrate tier.</p>
-<p>The supported values are defined in the H265Tier enum.
-The default value is H265Tier.Main</p>
+<dd><p>H.265 Video: Bitrate tier.</p>
+<p>The supported values are defined in the <a class="reference internal" href="enums-encoding.html#avblocks.H265Tier" title="avblocks.H265Tier"><code class="xref py py-class docutils literal notranslate"><span class="pre">H265Tier</span></code></a> enum.
+The default value is <a class="reference internal" href="enums-encoding.html#avblocks.H265Tier.Main" title="avblocks.H265Tier.Main"><code class="xref py py-attr docutils literal notranslate"><span class="pre">H265Tier.Main</span></code></a></p>
 <p>The High tier specifies higher bitrate than the Main tier.
 The High tier is not supported under level 4.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>H.265 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 </dd></dl>
@@ -1039,49 +870,34 @@ The High tier is not supported under level 4.</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.MPEG2.GOPSize">
 <span class="sig-name descname"><span class="pre">GOPSize</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_MPEG2VIDEO_GOPSIZE'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.MPEG2.GOPSize" title="Link to this definition">¶</a></dt>
-<dd><p>Size of the Group of Pictures (GOP, N).</p>
+<dd><p>MPEG-1 and MPEG-2 Video: Size of the Group of Pictures (GOP, N).</p>
 <p>This parameter is an integer.</p>
 <p>The integer value is the distance between two I-pictures (full images).
 The minimum value is 1 which means the stream will contain only I-pictures.
 The maximum value for MPEG-1 is 132.</p>
 <p>The default value is 15.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>MPEG-1 and MPEG-2 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.MPEG2.IPDistance">
 <span class="sig-name descname"><span class="pre">IPDistance</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_MPEG2VIDEO_IPDISTANCE'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.MPEG2.IPDistance" title="Link to this definition">¶</a></dt>
-<dd><p>Distance between successive reference pictures (GOP, M).</p>
+<dd><p>MPEG-1 and MPEG-2 Video: Distance between successive reference pictures (GOP, M).</p>
 <p>This parameter is an integer.</p>
-<p>The integer value is the distance between 2 successive reference pictures:
+<p>The integer value is the distance between 2 successive reference pictures: 
 I-I, I-P, P-I or P-P.
 The minimum value is 1 which means that the stream will contain I and P pictures but no B-pictures.</p>
 <p>If IPDistance is equal to GOPSize and is greater than 1
 then the stream will contain only I and B pictures, but no P-pictures.</p>
 <p>The default value is 3.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>MPEG-1 and MPEG-2 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.MPEG2.VBVBufferSize">
 <span class="sig-name descname"><span class="pre">VBVBufferSize</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_MPEG2VIDEO_VBV_BUFFER_SIZE'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.MPEG2.VBVBufferSize" title="Link to this definition">¶</a></dt>
-<dd><p>Size of the internal VBV buffer in units of 16384 bits.</p>
+<dd><p>MPEG-1 and MPEG-2 Video: Size of the internal VBV buffer in units of 16384 bits.</p>
 <p>This parameter is an integer.</p>
 <p>The default value is 20 for MPEG-1 and 112 for MPEG-2.</p>
 <p>A value of 0 means to use the encoder default setting.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>MPEG-1 and MPEG-2 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 </dd></dl>
@@ -1094,35 +910,25 @@ then the stream will contain only I and B pictures, but no P-pictures.</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.VP8.KeyFrameMaxDistance">
 <span class="sig-name descname"><span class="pre">KeyFrameMaxDistance</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_VP8_KEY_FRAME_MAX_DISTANCE'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.VP8.KeyFrameMaxDistance" title="Link to this definition">¶</a></dt>
-<dd><p>Max keyframe distance.</p>
+<dd><p>VP8 Video: Max keyframe distance.</p>
 <p>This parameter is an integer.</p>
 <p>This value, expressed as a number of frames, forces the encoder to code
 a keyframe if one has not been coded in the last KeyFrameMaxDistance frames.</p>
 <p>A value of 0 implies all frames will be keyframes. Set keyframe KeyFrameMinDistance
 equal to KeyFrameMaxDistance for a fixed interval.</p>
 <p>The default value is 100.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>VP8 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Encoder.Video.VP8.KeyFrameMinDistance">
 <span class="sig-name descname"><span class="pre">KeyFrameMinDistance</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'ENCODER_VP8_KEY_FRAME_MIN_DISTANCE'</span></em><a class="headerlink" href="#avblocks.Param.Encoder.Video.VP8.KeyFrameMinDistance" title="Link to this definition">¶</a></dt>
-<dd><p>Min keyframe distance.</p>
+<dd><p>VP8 Video: Min keyframe distance.</p>
 <p>This parameter is an integer.</p>
 <p>This value, expressed as a number of frames, prevents the encoder from
 placing a keyframe nearer than KeyFrameMinDistance to the previous keyframe.</p>
 <p>At least KeyFrameMinDistance frames non-keyframes will be coded before the next
 keyframe. Set KeyFrameMinDistance equal to KeyFrameMaxDistance for a fixed interval.</p>
 <p>The default value is 0.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>VP8 Video</p>
-</dd>
-</dl>
 </dd></dl>
 
 </dd></dl>
@@ -1136,8 +942,8 @@ keyframe. Set KeyFrameMinDistance equal to KeyFrameMaxDistance for a fixed inter
 <span class="sig-name descname"><span class="pre">HardwareEncoder</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'HARDWARE_ENCODER'</span></em><a class="headerlink" href="#avblocks.Param.HardwareEncoder" title="Link to this definition">¶</a></dt>
 <dd><p>Specifies which hardware encoder shall be used.</p>
 <p>This parameter is an integer.
-The supported values are defined in HardwareEncoder enum.
-The default value is HardwareEncoder.Off.</p>
+The supported values are defined in the <a class="reference internal" href="enums-encoding.html#avblocks.HardwareEncoder" title="avblocks.HardwareEncoder"><code class="xref py py-class docutils literal notranslate"><span class="pre">HardwareEncoder</span></code></a> enum.
+The default value is <a class="reference internal" href="enums-encoding.html#avblocks.HardwareEncoder.Off" title="avblocks.HardwareEncoder.Off"><code class="xref py py-attr docutils literal notranslate"><span class="pre">HardwareEncoder.Off</span></code></a>.</p>
 </dd></dl>
 
 <dl class="py attribute">
@@ -1145,8 +951,8 @@ The default value is HardwareEncoder.Off.</p>
 <span class="sig-name descname"><span class="pre">HardwareEncoderApi</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'HARDWARE_ENCODER_API'</span></em><a class="headerlink" href="#avblocks.Param.HardwareEncoderApi" title="Link to this definition">¶</a></dt>
 <dd><p>Specifies which hardware API shall be used.</p>
 <p>This parameter is an integer.
-The supported values are defined in HwApi enum.
-The default value is HwApi.None which lets AVBlocks select the hardware API.</p>
+The supported values are defined in the <a class="reference internal" href="enums-encoding.html#avblocks.HwApi" title="avblocks.HwApi"><code class="xref py py-class docutils literal notranslate"><span class="pre">HwApi</span></code></a> enum.
+The default value is <code class="xref py py-attr docutils literal notranslate"><span class="pre">HwApi.None</span></code> which lets AVBlocks select the hardware API.</p>
 </dd></dl>
 
 <dl class="py attribute">
@@ -1154,7 +960,7 @@ The default value is HwApi.None which lets AVBlocks select the hardware API.</p>
 <span class="sig-name descname"><span class="pre">HardwareEncoderDevice</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'HARDWARE_ENCODER_DEVICE'</span></em><a class="headerlink" href="#avblocks.Param.HardwareEncoderDevice" title="Link to this definition">¶</a></dt>
 <dd><p>Specifies the device ID that shall be used for hardware encoding.</p>
 <p>This parameter is an integer.
-The device ID includes uniquely identified devices that support the hardware encoder
+The device ID includes uniquely identified devices that support the hardware encoder 
 specified by the HardwareEncoder parameter.
 The default value is 0.</p>
 </dd></dl>
@@ -1210,11 +1016,11 @@ If False the atoms reordering will be done inplace.</p>
 <span class="sig-name descname"><span class="pre">ReEncode</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'REENCODE_STREAM'</span></em><a class="headerlink" href="#avblocks.Param.ReEncode" title="Link to this definition">¶</a></dt>
 <dd><p>Specifies whether a stream will be reencoded.</p>
 <p>This parameter is an integer.
-The supported values are defined in Use enum.
-The default value is Use.Auto.</p>
-<p>If this parameter is Use.Auto the reencoding is done only when the input and the output formats are not equivalent.
-If this parameter is Use.On the reencoding is done always even if the input and the output formats are equivalent.
-The case when this parameter is Use.Off is not implemented.</p>
+The supported values are defined in the <a class="reference internal" href="enums-encoding.html#avblocks.Use" title="avblocks.Use"><code class="xref py py-class docutils literal notranslate"><span class="pre">Use</span></code></a> enum.
+The default value is <a class="reference internal" href="enums-encoding.html#avblocks.Use.Auto" title="avblocks.Use.Auto"><code class="xref py py-attr docutils literal notranslate"><span class="pre">Use.Auto</span></code></a>.</p>
+<p>If this parameter is <a class="reference internal" href="enums-encoding.html#avblocks.Use.Auto" title="avblocks.Use.Auto"><code class="xref py py-attr docutils literal notranslate"><span class="pre">Use.Auto</span></code></a> the reencoding is done only when the input and the output formats are not equivalent.
+If this parameter is <a class="reference internal" href="enums-encoding.html#avblocks.Use.On" title="avblocks.Use.On"><code class="xref py py-attr docutils literal notranslate"><span class="pre">Use.On</span></code></a> the reencoding is done always even if the input and the output formats are equivalent.
+The case when this parameter is <a class="reference internal" href="enums-encoding.html#avblocks.Use.Off" title="avblocks.Use.Off"><code class="xref py py-attr docutils literal notranslate"><span class="pre">Use.Off</span></code></a> is not implemented.</p>
 </dd></dl>
 
 <dl class="py class">
@@ -1230,25 +1036,25 @@ The case when this parameter is Use.Off is not implemented.</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Video.Crop.Bottom">
 <span class="sig-name descname"><span class="pre">Bottom</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'CROP_BOTTOM'</span></em><a class="headerlink" href="#avblocks.Param.Video.Crop.Bottom" title="Link to this definition">¶</a></dt>
-<dd><p>Video - Specifies the area to be cropped inside the bottom edge of the input frame. (integer)</p>
+<dd><p>Video: Specifies the area to be cropped inside the bottom edge of the input frame. (integer)</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Video.Crop.Left">
 <span class="sig-name descname"><span class="pre">Left</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'CROP_LEFT'</span></em><a class="headerlink" href="#avblocks.Param.Video.Crop.Left" title="Link to this definition">¶</a></dt>
-<dd><p>Video - Specifies the area to be cropped inside the left edge of the input frame. (integer)</p>
+<dd><p>Video: Specifies the area to be cropped inside the left edge of the input frame. (integer)</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Video.Crop.Right">
 <span class="sig-name descname"><span class="pre">Right</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'CROP_RIGHT'</span></em><a class="headerlink" href="#avblocks.Param.Video.Crop.Right" title="Link to this definition">¶</a></dt>
-<dd><p>Video - Specifies the area to be cropped inside the right edge of the input frame. (integer)</p>
+<dd><p>Video: Specifies the area to be cropped inside the right edge of the input frame. (integer)</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Video.Crop.Top">
 <span class="sig-name descname"><span class="pre">Top</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'CROP_TOP'</span></em><a class="headerlink" href="#avblocks.Param.Video.Crop.Top" title="Link to this definition">¶</a></dt>
-<dd><p>Video - Specifies the area to be cropped inside the top edge of the input frame. (integer)</p>
+<dd><p>Video: Specifies the area to be cropped inside the top edge of the input frame. (integer)</p>
 </dd></dl>
 
 </dd></dl>
@@ -1261,17 +1067,17 @@ The case when this parameter is Use.Off is not implemented.</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Video.Deinterlacing.Method">
 <span class="sig-name descname"><span class="pre">Method</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'DEINTERLACING_METHOD'</span></em><a class="headerlink" href="#avblocks.Param.Video.Deinterlacing.Method" title="Link to this definition">¶</a></dt>
-<dd><p>Video - Specifies the deinterlacing method used by the deinterlacing filter.</p>
+<dd><p>Video: Specifies the deinterlacing method used by the deinterlacing filter.</p>
 <p>This parameter is an integer.
-The supported values are defined in the DeinterlacingMethod enum.
-The default value is DeinterlacingMethod.Blend</p>
+The supported values are defined in the <a class="reference internal" href="enums-video.html#avblocks.DeinterlacingMethod" title="avblocks.DeinterlacingMethod"><code class="xref py py-class docutils literal notranslate"><span class="pre">DeinterlacingMethod</span></code></a> enum.
+The default value is <a class="reference internal" href="enums-video.html#avblocks.DeinterlacingMethod.Blend" title="avblocks.DeinterlacingMethod.Blend"><code class="xref py py-attr docutils literal notranslate"><span class="pre">DeinterlacingMethod.Blend</span></code></a></p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Video.Deinterlacing.Threshold">
 <span class="sig-name descname"><span class="pre">Threshold</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'DEINTERLACING_THRESHOLD'</span></em><a class="headerlink" href="#avblocks.Param.Video.Deinterlacing.Threshold" title="Link to this definition">¶</a></dt>
-<dd><p>Video - Specifies the deinterlacing threshold that is used by some deinterlacing methods.</p>
-<p>The threshold is used by the DeinterlacingMethod.MedianThreshold and
+<dd><p>Video: Specifies the deinterlacing threshold that is used by some deinterlacing methods.</p>
+<p>The threshold is used by the DeinterlacingMethod.MedianThreshold and 
 DeinterlacingMethod.CAVT.</p>
 <p>This parameter is an integer.
 The supported values are in the range from 0 to 255.
@@ -1288,7 +1094,7 @@ Zero specifies that a default threshold should be used. Each deinterlacing metho
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Video.FrameRateConverter.RealTime">
 <span class="sig-name descname"><span class="pre">RealTime</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'VIDEO_FRAME_RATE_FILTER_REAL_TIME'</span></em><a class="headerlink" href="#avblocks.Param.Video.FrameRateConverter.RealTime" title="Link to this definition">¶</a></dt>
-<dd><p>Video - Specifies whether a video frame rate filter is allowed to drop frames
+<dd><p>Video: Specifies whether a video frame rate filter is allowed to drop frames 
 when a video encoder cannot keep up with the input in realtime.</p>
 <p>This parameter is a boolean value stored as one of the following:
 bool (True/False) or integral value (1/0).
@@ -1300,12 +1106,12 @@ If False the video frame rate filter does not drop frames when a video encoder c
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Video.FrameRateConverter.Use">
 <span class="sig-name descname"><span class="pre">Use</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'VIDEO_FRAME_RATE_FILTER'</span></em><a class="headerlink" href="#avblocks.Param.Video.FrameRateConverter.Use" title="Link to this definition">¶</a></dt>
-<dd><p>Video - Specifies whether a video frame rate filter is inserted in the processing chain.
+<dd><p>Video: Specifies whether a video frame rate filter is inserted in the processing chain.
 The filter converts the input frame rate to the output frame rate.</p>
 <p>This parameter is an integer.
-The supported values are defined in Use enum.
-The default value is Use.Auto.</p>
-<p>If this parameter is Use.Auto the frame rate conversion is done only when the
+The supported values are defined in the <a class="reference internal" href="enums-encoding.html#avblocks.Use" title="avblocks.Use"><code class="xref py py-class docutils literal notranslate"><span class="pre">Use</span></code></a> enum.
+The default value is <a class="reference internal" href="enums-encoding.html#avblocks.Use.Auto" title="avblocks.Use.Auto"><code class="xref py py-attr docutils literal notranslate"><span class="pre">Use.Auto</span></code></a>.</p>
+<p>If this parameter is <a class="reference internal" href="enums-encoding.html#avblocks.Use.Auto" title="avblocks.Use.Auto"><code class="xref py py-attr docutils literal notranslate"><span class="pre">Use.Auto</span></code></a> the frame rate conversion is done only when the
 input frame rate differs from the output frame rate.</p>
 </dd></dl>
 
@@ -1328,7 +1134,7 @@ input frame rate differs from the output frame rate.</p>
 <span class="sig-name descname"><span class="pre">ForegroundAlpha</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'OVERLAY_FOREGROUND_ALPHA'</span></em><a class="headerlink" href="#avblocks.Param.Video.Overlay.ForegroundAlpha" title="Link to this definition">¶</a></dt>
 <dd><p>Specifies the alpha value for all pixels in the foreground.</p>
 <p>This is a float parameter with range from 0.0 to 1.0.
-The default value is 1.0 which in combination with other overlay parameters
+The default value is 1.0 which in combination with other overlay parameters 
 results in showing the foreground and hiding the background.</p>
 </dd></dl>
 
@@ -1336,14 +1142,14 @@ results in showing the foreground and hiding the background.</p>
 <dt class="sig sig-object py" id="avblocks.Param.Video.Overlay.ForegroundBuffer">
 <span class="sig-name descname"><span class="pre">ForegroundBuffer</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'OVERLAY_FOREGROUND_BUFFER'</span></em><a class="headerlink" href="#avblocks.Param.Video.Overlay.ForegroundBuffer" title="Link to this definition">¶</a></dt>
 <dd><p>Specifies the foreground that should be overlaid with the background.</p>
-<p>This is a MediaBuffer parameter.</p>
+<p>This is a <a class="reference internal" href="media-buffer.html#avblocks.MediaBuffer" title="avblocks.MediaBuffer"><code class="xref py py-class docutils literal notranslate"><span class="pre">MediaBuffer</span></code></a> parameter.</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Video.Overlay.ForegroundBufferFormat">
 <span class="sig-name descname"><span class="pre">ForegroundBufferFormat</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'OVERLAY_FOREGROUND_BUFFER_FORMAT'</span></em><a class="headerlink" href="#avblocks.Param.Video.Overlay.ForegroundBufferFormat" title="Link to this definition">¶</a></dt>
 <dd><p>Specifies the format of the foreground buffer.</p>
-<p>This is a VideoStreamInfo parameter.</p>
+<p>This is a <a class="reference internal" href="video-stream-info.html#avblocks.VideoStreamInfo" title="avblocks.VideoStreamInfo"><code class="xref py py-class docutils literal notranslate"><span class="pre">VideoStreamInfo</span></code></a> parameter.</p>
 </dd></dl>
 
 <dl class="py attribute">
@@ -1368,8 +1174,8 @@ The top left point in the frame is the origin and has coordinates (0,0).</p>
 <dt class="sig sig-object py" id="avblocks.Param.Video.Overlay.Mode">
 <span class="sig-name descname"><span class="pre">Mode</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'OVERLAY_MODE'</span></em><a class="headerlink" href="#avblocks.Param.Video.Overlay.Mode" title="Link to this definition">¶</a></dt>
 <dd><p>Specifies an alpha compositing mode - the way a foreground overlay image is combined with the background video.</p>
-<p>This is an integer parameter. The acceptable values are defined in the AlphaCompositingMode enum.
-The default value is AlphaCompositingMode.Over (Foreground over Background), in effect, a normal painting operation.</p>
+<p>This is an integer parameter. The acceptable values are defined in the <a class="reference internal" href="enums-video.html#avblocks.AlphaCompositingMode" title="avblocks.AlphaCompositingMode"><code class="xref py py-class docutils literal notranslate"><span class="pre">AlphaCompositingMode</span></code></a> enum.
+The default value is <a class="reference internal" href="enums-video.html#avblocks.AlphaCompositingMode.Over" title="avblocks.AlphaCompositingMode.Over"><code class="xref py py-attr docutils literal notranslate"><span class="pre">AlphaCompositingMode.Over</span></code></a> (Foreground over Background), in effect, a normal painting operation.</p>
 </dd></dl>
 
 </dd></dl>
@@ -1382,13 +1188,13 @@ The default value is AlphaCompositingMode.Over (Foreground over Background), in 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Video.Pad.Bottom">
 <span class="sig-name descname"><span class="pre">Bottom</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'PAD_BOTTOM'</span></em><a class="headerlink" href="#avblocks.Param.Video.Pad.Bottom" title="Link to this definition">¶</a></dt>
-<dd><p>Video - Specifies the area to be padded inside the bottom edge of the output frame. (integer)</p>
+<dd><p>Video: Specifies the area to be padded inside the bottom edge of the output frame. (integer)</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Video.Pad.Color">
 <span class="sig-name descname"><span class="pre">Color</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'PAD_COLOR'</span></em><a class="headerlink" href="#avblocks.Param.Video.Pad.Color" title="Link to this definition">¶</a></dt>
-<dd><p>Video - Specifies the padding color if any padding is set.</p>
+<dd><p>Video: Specifies the padding color if any padding is set.</p>
 <p>This parameter is an integer.
 The color format is ARGB32: bits 0-7 is blue, bits 8-15 is green, bits 16-23 is red and bits 24-31 is the alpha channel.</p>
 </dd></dl>
@@ -1396,19 +1202,19 @@ The color format is ARGB32: bits 0-7 is blue, bits 8-15 is green, bits 16-23 is 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Video.Pad.Left">
 <span class="sig-name descname"><span class="pre">Left</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'PAD_LEFT'</span></em><a class="headerlink" href="#avblocks.Param.Video.Pad.Left" title="Link to this definition">¶</a></dt>
-<dd><p>Video - Specifies the area to be padded inside the left edge of the output frame. (integer)</p>
+<dd><p>Video: Specifies the area to be padded inside the left edge of the output frame. (integer)</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Video.Pad.Right">
 <span class="sig-name descname"><span class="pre">Right</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'PAD_RIGHT'</span></em><a class="headerlink" href="#avblocks.Param.Video.Pad.Right" title="Link to this definition">¶</a></dt>
-<dd><p>Video - Specifies the area to be padded inside the right edge of the output frame. (integer)</p>
+<dd><p>Video: Specifies the area to be padded inside the right edge of the output frame. (integer)</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Video.Pad.Top">
 <span class="sig-name descname"><span class="pre">Top</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'PAD_TOP'</span></em><a class="headerlink" href="#avblocks.Param.Video.Pad.Top" title="Link to this definition">¶</a></dt>
-<dd><p>Video - Specifies the area to be padded inside the top edge of the output frame. (integer)</p>
+<dd><p>Video: Specifies the area to be padded inside the top edge of the output frame. (integer)</p>
 </dd></dl>
 
 </dd></dl>
@@ -1421,10 +1227,10 @@ The color format is ARGB32: bits 0-7 is blue, bits 8-15 is green, bits 16-23 is 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.Param.Video.Resize.InterpolationMethod">
 <span class="sig-name descname"><span class="pre">InterpolationMethod</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'RESIZE_INTERPOLATION_METHOD'</span></em><a class="headerlink" href="#avblocks.Param.Video.Resize.InterpolationMethod" title="Link to this definition">¶</a></dt>
-<dd><p>Video - Specifies the interpolation method that is used for resizing video frames.</p>
+<dd><p>Video: Specifies the interpolation method that is used for resizing video frames.</p>
 <p>This parameter is an integer.
-The supported values are defined in the InterpolationMethod enum.
-The default value is InterpolationMethod.Cubic.</p>
+The supported values are defined in the <a class="reference internal" href="enums-video.html#avblocks.InterpolationMethod" title="avblocks.InterpolationMethod"><code class="xref py py-class docutils literal notranslate"><span class="pre">InterpolationMethod</span></code></a> enum.
+The default value is <a class="reference internal" href="enums-video.html#avblocks.InterpolationMethod.Cubic" title="avblocks.InterpolationMethod.Cubic"><code class="xref py py-attr docutils literal notranslate"><span class="pre">InterpolationMethod.Cubic</span></code></a>.</p>
 </dd></dl>
 
 </dd></dl>

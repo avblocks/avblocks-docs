@@ -2,6 +2,30 @@
 
 Enumerations for video format and display settings.
 
+## AlphaCompositingMode
+
+```{eval-rst}
+.. autoclass:: avblocks.AlphaCompositingMode
+   :members:
+   :undoc-members:
+```
+
+## DeinterlacingMethod
+
+```{eval-rst}
+.. autoclass:: avblocks.DeinterlacingMethod
+   :members:
+   :undoc-members:
+```
+
+## InterpolationMethod
+
+```{eval-rst}
+.. autoclass:: avblocks.InterpolationMethod
+   :members:
+   :undoc-members:
+```
+
 ## ColorFormat
 
 ```{eval-rst}

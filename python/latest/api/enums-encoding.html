@@ -207,6 +207,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/installation.html">Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/configuration.html">Configuration</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/download.html">Download AVBlocks Core and Demo Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting-started/samples.html">Samples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/licensing.html">Licensing</a></li>
 </ul>
 </li>
@@ -297,7 +298,7 @@
 <h2>BitrateMode<a class="headerlink" href="#bitratemode" title="Link to this heading">¶</a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="avblocks.BitrateMode">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">BitrateMode</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names=&lt;not</span> <span class="pre">given&gt;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">*values</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start=1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary=None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#avblocks.BitrateMode" title="Link to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">BitrateMode</span></span><a class="headerlink" href="#avblocks.BitrateMode" title="Link to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
 <p>Defines the bitrate mode of the audio/video stream.</p>
 <dl class="py attribute">
@@ -335,15 +336,15 @@ For compressed audio/video with constant bitrate the quality may be constant or 
 <h2>TranscoderStatus<a class="headerlink" href="#transcoderstatus" title="Link to this heading">¶</a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="avblocks.TranscoderStatus">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">TranscoderStatus</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names=&lt;not</span> <span class="pre">given&gt;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">*values</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start=1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary=None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#avblocks.TranscoderStatus" title="Link to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">TranscoderStatus</span></span><a class="headerlink" href="#avblocks.TranscoderStatus" title="Link to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
 <p>Defines the status of a transcoder operation.</p>
 <p>It is sent with the Transcoder.on_status event.</p>
-<div class="admonition seealso">
-<p class="admonition-title">See also</p>
-<p>Transcoder.on_status
+<dl class="simple">
+<dt>See Also:</dt><dd><p>Transcoder.on_status
 TranscoderStatusEventArgs</p>
-</div>
+</dd>
+</dl>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.TranscoderStatus.Completed">
 <span class="sig-name descname"><span class="pre">Completed</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#avblocks.TranscoderStatus.Completed" title="Link to this definition">¶</a></dt>
@@ -357,7 +358,7 @@ TranscoderStatusEventArgs</p>
 <h2>Use<a class="headerlink" href="#use" title="Link to this heading">¶</a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="avblocks.Use">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">Use</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names=&lt;not</span> <span class="pre">given&gt;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">*values</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start=1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary=None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#avblocks.Use" title="Link to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">Use</span></span><a class="headerlink" href="#avblocks.Use" title="Link to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
 <p>Specifies whether particular feature should be used.</p>
 <dl class="py attribute">
@@ -376,6 +377,514 @@ TranscoderStatusEventArgs</p>
 <dt class="sig sig-object py" id="avblocks.Use.On">
 <span class="sig-name descname"><span class="pre">On</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#avblocks.Use.On" title="Link to this definition">¶</a></dt>
 <dd><p>The feature is ON.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="hardwareencoder">
+<h2>HardwareEncoder<a class="headerlink" href="#hardwareencoder" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.HardwareEncoder">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">HardwareEncoder</span></span><a class="headerlink" href="#avblocks.HardwareEncoder" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>Defines known hardware encoders.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.HardwareEncoder.AMD">
+<span class="sig-name descname"><span class="pre">AMD</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#avblocks.HardwareEncoder.AMD" title="Link to this definition">¶</a></dt>
+<dd><p>AMD Video Coding Engine (VCE)</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.HardwareEncoder.Auto">
+<span class="sig-name descname"><span class="pre">Auto</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#avblocks.HardwareEncoder.Auto" title="Link to this definition">¶</a></dt>
+<dd><p>The encoder is selected automatically depending on the available hardware.
+The order of preference is: Intel QuickSync, Nvidia NVENC, AMD VCE.
+If none of the known encoders are available then a software encoder is used.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.HardwareEncoder.Intel">
+<span class="sig-name descname"><span class="pre">Intel</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#avblocks.HardwareEncoder.Intel" title="Link to this definition">¶</a></dt>
+<dd><p>Intel QuickSync Video</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.HardwareEncoder.Nvidia">
+<span class="sig-name descname"><span class="pre">Nvidia</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#avblocks.HardwareEncoder.Nvidia" title="Link to this definition">¶</a></dt>
+<dd><p>Nvidia NVENC</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.HardwareEncoder.Off">
+<span class="sig-name descname"><span class="pre">Off</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#avblocks.HardwareEncoder.Off" title="Link to this definition">¶</a></dt>
+<dd><p>Hardware encoders are disabled.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="hwapi">
+<h2>HwApi<a class="headerlink" href="#hwapi" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.HwApi">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">HwApi</span></span><a class="headerlink" href="#avblocks.HwApi" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>API for using hardware engines</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.HwApi.AmdMedia">
+<span class="sig-name descname"><span class="pre">AmdMedia</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#avblocks.HwApi.AmdMedia" title="Link to this definition">¶</a></dt>
+<dd><p>AMF (AMD Media Framework)</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.HwApi.AmdOpenVideo">
+<span class="sig-name descname"><span class="pre">AmdOpenVideo</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#avblocks.HwApi.AmdOpenVideo" title="Link to this definition">¶</a></dt>
+<dd><p>AMD OpenVideo</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.HwApi.IntelMedia">
+<span class="sig-name descname"><span class="pre">IntelMedia</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#avblocks.HwApi.IntelMedia" title="Link to this definition">¶</a></dt>
+<dd><p>Intel Media SDK</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.HwApi.MediaFoundation">
+<span class="sig-name descname"><span class="pre">MediaFoundation</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">5</span></em><a class="headerlink" href="#avblocks.HwApi.MediaFoundation" title="Link to this definition">¶</a></dt>
+<dd><p>Windows Media Foundation</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.HwApi.None_">
+<span class="sig-name descname"><span class="pre">None_</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#avblocks.HwApi.None_" title="Link to this definition">¶</a></dt>
+<dd><p>HwApi not specified</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.HwApi.Nvenc">
+<span class="sig-name descname"><span class="pre">Nvenc</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#avblocks.HwApi.Nvenc" title="Link to this definition">¶</a></dt>
+<dd><p>NVENC SDK</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="h264profile">
+<h2>H264Profile<a class="headerlink" href="#h264profile" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.H264Profile">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">H264Profile</span></span><a class="headerlink" href="#avblocks.H264Profile" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>Defines H.264/AVC profiles</p>
+<dl class="simple">
+<dt>Notes:</dt><dd><p>The constants follow the H.264 spec for the element “profile_idc”</p>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264Profile.Baseline">
+<span class="sig-name descname"><span class="pre">Baseline</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">66</span></em><a class="headerlink" href="#avblocks.H264Profile.Baseline" title="Link to this definition">¶</a></dt>
+<dd><p>Baseline profile</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264Profile.High">
+<span class="sig-name descname"><span class="pre">High</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">100</span></em><a class="headerlink" href="#avblocks.H264Profile.High" title="Link to this definition">¶</a></dt>
+<dd><p>High profile</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264Profile.High10">
+<span class="sig-name descname"><span class="pre">High10</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">110</span></em><a class="headerlink" href="#avblocks.H264Profile.High10" title="Link to this definition">¶</a></dt>
+<dd><p>High 10</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264Profile.High422">
+<span class="sig-name descname"><span class="pre">High422</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">122</span></em><a class="headerlink" href="#avblocks.H264Profile.High422" title="Link to this definition">¶</a></dt>
+<dd><p>High 4:2:2</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264Profile.High444">
+<span class="sig-name descname"><span class="pre">High444</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">144</span></em><a class="headerlink" href="#avblocks.H264Profile.High444" title="Link to this definition">¶</a></dt>
+<dd><p>High 4:4:4</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264Profile.Main">
+<span class="sig-name descname"><span class="pre">Main</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">77</span></em><a class="headerlink" href="#avblocks.H264Profile.Main" title="Link to this definition">¶</a></dt>
+<dd><p>Main profile</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264Profile.None_">
+<span class="sig-name descname"><span class="pre">None_</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#avblocks.H264Profile.None_" title="Link to this definition">¶</a></dt>
+<dd><p>None/Auto</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="h264entropycodingmode">
+<h2>H264EntropyCodingMode<a class="headerlink" href="#h264entropycodingmode" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.H264EntropyCodingMode">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">H264EntropyCodingMode</span></span><a class="headerlink" href="#avblocks.H264EntropyCodingMode" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>Defines H.264/AVC entropy coding modes</p>
+<dl class="simple">
+<dt>Notes:</dt><dd><p>The constants follow the H.264 spec for the element “entropy_coding_mode_flag”</p>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264EntropyCodingMode.CABAC">
+<span class="sig-name descname"><span class="pre">CABAC</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#avblocks.H264EntropyCodingMode.CABAC" title="Link to this definition">¶</a></dt>
+<dd><p>Context-Adaptive Binary Arithmetic Coding (CABAC)</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264EntropyCodingMode.CAVLC">
+<span class="sig-name descname"><span class="pre">CAVLC</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#avblocks.H264EntropyCodingMode.CAVLC" title="Link to this definition">¶</a></dt>
+<dd><p>Context-Adaptive Variable-Length Coding (CAVLC)</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="h264deblockingfilter">
+<h2>H264DeblockingFilter<a class="headerlink" href="#h264deblockingfilter" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.H264DeblockingFilter">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">H264DeblockingFilter</span></span><a class="headerlink" href="#avblocks.H264DeblockingFilter" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>Defines H.264/AVC deblocking filter mode.</p>
+<dl class="simple">
+<dt>Notes:</dt><dd><p>The constants follow the H.264 spec for the element “disable_deblocking_filter_idc”</p>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264DeblockingFilter.All">
+<span class="sig-name descname"><span class="pre">All</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#avblocks.H264DeblockingFilter.All" title="Link to this definition">¶</a></dt>
+<dd><p>Deblocking filter is applied on all luma and chroma block edges of the slice.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264DeblockingFilter.InSlice">
+<span class="sig-name descname"><span class="pre">InSlice</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#avblocks.H264DeblockingFilter.InSlice" title="Link to this definition">¶</a></dt>
+<dd><p>Deblocking filter is applied on all luma and chroma block edges of the slice 
+with exception of the block edges that coincide with slice boundaries.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264DeblockingFilter.Off">
+<span class="sig-name descname"><span class="pre">Off</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#avblocks.H264DeblockingFilter.Off" title="Link to this definition">¶</a></dt>
+<dd><p>Deblocking filter is disabled for all block edges of the slice.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="h264directpredmode">
+<h2>H264DirectPredMode<a class="headerlink" href="#h264directpredmode" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.H264DirectPredMode">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">H264DirectPredMode</span></span><a class="headerlink" href="#avblocks.H264DirectPredMode" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>Defines H.264/AVC direct prediction mode.</p>
+<dl class="simple">
+<dt>Notes:</dt><dd><p>The constants follow the H.264 spec for the element “direct_spatial_mv_pred_flag”</p>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264DirectPredMode.Spatial">
+<span class="sig-name descname"><span class="pre">Spatial</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#avblocks.H264DirectPredMode.Spatial" title="Link to this definition">¶</a></dt>
+<dd><p>Spatial direct mode prediction</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264DirectPredMode.Temporal">
+<span class="sig-name descname"><span class="pre">Temporal</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#avblocks.H264DirectPredMode.Temporal" title="Link to this definition">¶</a></dt>
+<dd><p>Temporal direct mode prediction</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="h264mesplitmode">
+<h2>H264MeSplitMode<a class="headerlink" href="#h264mesplitmode" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.H264MeSplitMode">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">H264MeSplitMode</span></span><a class="headerlink" href="#avblocks.H264MeSplitMode" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>Defines the block sizes for which motion estimation should be done.</p>
+<dl class="simple">
+<dt>Notes:</dt><dd><p>Used when encoding H.264/AVC.</p>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264MeSplitMode.DownTo4x4">
+<span class="sig-name descname"><span class="pre">DownTo4x4</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#avblocks.H264MeSplitMode.DownTo4x4" title="Link to this definition">¶</a></dt>
+<dd><p>Analyze all blocks down to 4x4 (16x16, 16x8, 8x16, 8x8, 8x4, 4x8, 4x4).
+This partitioning mode is very slow.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264MeSplitMode.DownTo8x8">
+<span class="sig-name descname"><span class="pre">DownTo8x8</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#avblocks.H264MeSplitMode.DownTo8x8" title="Link to this definition">¶</a></dt>
+<dd><p>Analyze all blocks down to 8x8 (16x16, 16x8, 8x16, 8x8)</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264MeSplitMode.Only16x16">
+<span class="sig-name descname"><span class="pre">Only16x16</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#avblocks.H264MeSplitMode.Only16x16" title="Link to this definition">¶</a></dt>
+<dd><p>Analyze only 16x16 blocks for motion estimation</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="h264memethod">
+<h2>H264MeMethod<a class="headerlink" href="#h264memethod" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.H264MeMethod">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">H264MeMethod</span></span><a class="headerlink" href="#avblocks.H264MeMethod" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>Defines the motion estimation methods used when encoding H.264/AVC</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264MeMethod.ClassicLog">
+<span class="sig-name descname"><span class="pre">ClassicLog</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#avblocks.H264MeMethod.ClassicLog" title="Link to this definition">¶</a></dt>
+<dd><p>TDL (Two Dimensional Logarithmic Search)</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264MeMethod.EPZS">
+<span class="sig-name descname"><span class="pre">EPZS</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">Enhanced</span> <span class="pre">Predictive</span> <span class="pre">Zonal</span> <span class="pre">Search</span></span></em><span class="sig-paren">)</span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#avblocks.H264MeMethod.EPZS" title="Link to this definition">¶</a></dt>
+<dd><p>EPZS (Enhanced Predictive Zonal Search)</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264MeMethod.Full">
+<span class="sig-name descname"><span class="pre">Full</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">slowest</span></span></em><span class="sig-paren">)</span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#avblocks.H264MeMethod.Full" title="Link to this definition">¶</a></dt>
+<dd><p>Full (slowest)</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264MeMethod.FullOrthogonal">
+<span class="sig-name descname"><span class="pre">FullOrthogonal</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#avblocks.H264MeMethod.FullOrthogonal" title="Link to this definition">¶</a></dt>
+<dd><p>OSA (Full orthogonal)</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264MeMethod.Log">
+<span class="sig-name descname"><span class="pre">Log</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#avblocks.H264MeMethod.Log" title="Link to this definition">¶</a></dt>
+<dd><p>Log</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264MeMethod.LogOrthogonal">
+<span class="sig-name descname"><span class="pre">LogOrthogonal</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">5</span></em><a class="headerlink" href="#avblocks.H264MeMethod.LogOrthogonal" title="Link to this definition">¶</a></dt>
+<dd><p>Log orthogonal</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264MeMethod.UMH">
+<span class="sig-name descname"><span class="pre">UMH</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">Uneven</span> <span class="pre">Multi-Hexagon</span> <span class="pre">Search</span></span></em><span class="sig-paren">)</span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8</span></em><a class="headerlink" href="#avblocks.H264MeMethod.UMH" title="Link to this definition">¶</a></dt>
+<dd><p>UMH (Uneven Multi-Hexagon Search)</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="h264piccodingtype">
+<h2>H264PicCodingType<a class="headerlink" href="#h264piccodingtype" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.H264PicCodingType">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">H264PicCodingType</span></span><a class="headerlink" href="#avblocks.H264PicCodingType" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>Defines the picture coding type when encoding H.264/AVC</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264PicCodingType.Fields">
+<span class="sig-name descname"><span class="pre">Fields</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#avblocks.H264PicCodingType.Fields" title="Link to this definition">¶</a></dt>
+<dd><p>Video pictures are coded as fields (interlaced video)</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264PicCodingType.Frames">
+<span class="sig-name descname"><span class="pre">Frames</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#avblocks.H264PicCodingType.Frames" title="Link to this definition">¶</a></dt>
+<dd><p>Video pictures are coded as frames (progressive video)</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="h264ratecontrolmethod">
+<h2>H264RateControlMethod<a class="headerlink" href="#h264ratecontrolmethod" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.H264RateControlMethod">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">H264RateControlMethod</span></span><a class="headerlink" href="#avblocks.H264RateControlMethod" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>Defines methods for bitrate control when encoding H.264/AVC</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264RateControlMethod.ABR">
+<span class="sig-name descname"><span class="pre">ABR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#avblocks.H264RateControlMethod.ABR" title="Link to this definition">¶</a></dt>
+<dd><p>Average Bitrate. 
+Ensures that the output stream achieves a predictable long-term average bitrate.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H264RateControlMethod.ConstantQuant">
+<span class="sig-name descname"><span class="pre">ConstantQuant</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#avblocks.H264RateControlMethod.ConstantQuant" title="Link to this definition">¶</a></dt>
+<dd><p>Constant Quantization.
+Encodes the video to a constant quantizer. The encoder uses the specified target quantizer, not a target bitrate.
+The quantizer is a measure for the amount of data loss: a higher quantizer means that more data will be lost,
+which results in a better compression, but also delivers worse visual quality.
+This method could be used when a certain level of quality is required and the final bitrate is not a concern.
+The bitrate is unpredictable in this mode.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="h265profile">
+<h2>H265Profile<a class="headerlink" href="#h265profile" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.H265Profile">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">H265Profile</span></span><a class="headerlink" href="#avblocks.H265Profile" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>H.265 / HEVC Profiles</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H265Profile.Main">
+<span class="sig-name descname"><span class="pre">Main</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#avblocks.H265Profile.Main" title="Link to this definition">¶</a></dt>
+<dd><p>Main profile</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H265Profile.Main10">
+<span class="sig-name descname"><span class="pre">Main10</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#avblocks.H265Profile.Main10" title="Link to this definition">¶</a></dt>
+<dd><p>Main10 profile</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H265Profile.None_">
+<span class="sig-name descname"><span class="pre">None_</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#avblocks.H265Profile.None_" title="Link to this definition">¶</a></dt>
+<dd><p>None/Auto</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="h265level">
+<h2>H265Level<a class="headerlink" href="#h265level" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.H265Level">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">H265Level</span></span><a class="headerlink" href="#avblocks.H265Level" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>H.265 / HEVC Levels</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H265Level.L1">
+<span class="sig-name descname"><span class="pre">L1</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">30</span></em><a class="headerlink" href="#avblocks.H265Level.L1" title="Link to this definition">¶</a></dt>
+<dd><p>= 30</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H265Level.L2">
+<span class="sig-name descname"><span class="pre">L2</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">60</span></em><a class="headerlink" href="#avblocks.H265Level.L2" title="Link to this definition">¶</a></dt>
+<dd><p>= 60</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H265Level.L21">
+<span class="sig-name descname"><span class="pre">L21</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">63</span></em><a class="headerlink" href="#avblocks.H265Level.L21" title="Link to this definition">¶</a></dt>
+<dd><p>= 63</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H265Level.L3">
+<span class="sig-name descname"><span class="pre">L3</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">90</span></em><a class="headerlink" href="#avblocks.H265Level.L3" title="Link to this definition">¶</a></dt>
+<dd><p>= 90</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H265Level.L31">
+<span class="sig-name descname"><span class="pre">L31</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">93</span></em><a class="headerlink" href="#avblocks.H265Level.L31" title="Link to this definition">¶</a></dt>
+<dd><p>= 93</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H265Level.L4">
+<span class="sig-name descname"><span class="pre">L4</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">120</span></em><a class="headerlink" href="#avblocks.H265Level.L4" title="Link to this definition">¶</a></dt>
+<dd><p>= 120</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H265Level.L41">
+<span class="sig-name descname"><span class="pre">L41</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">123</span></em><a class="headerlink" href="#avblocks.H265Level.L41" title="Link to this definition">¶</a></dt>
+<dd><p>= 123</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H265Level.L5">
+<span class="sig-name descname"><span class="pre">L5</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">150</span></em><a class="headerlink" href="#avblocks.H265Level.L5" title="Link to this definition">¶</a></dt>
+<dd><p>= 150</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H265Level.L51">
+<span class="sig-name descname"><span class="pre">L51</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">153</span></em><a class="headerlink" href="#avblocks.H265Level.L51" title="Link to this definition">¶</a></dt>
+<dd><p>= 153</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H265Level.L52">
+<span class="sig-name descname"><span class="pre">L52</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">156</span></em><a class="headerlink" href="#avblocks.H265Level.L52" title="Link to this definition">¶</a></dt>
+<dd><p>= 156</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H265Level.L6">
+<span class="sig-name descname"><span class="pre">L6</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">180</span></em><a class="headerlink" href="#avblocks.H265Level.L6" title="Link to this definition">¶</a></dt>
+<dd><p>= 180</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H265Level.L61">
+<span class="sig-name descname"><span class="pre">L61</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">183</span></em><a class="headerlink" href="#avblocks.H265Level.L61" title="Link to this definition">¶</a></dt>
+<dd><p>= 183</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H265Level.L62">
+<span class="sig-name descname"><span class="pre">L62</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">186</span></em><a class="headerlink" href="#avblocks.H265Level.L62" title="Link to this definition">¶</a></dt>
+<dd><p>= 186</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H265Level.None_">
+<span class="sig-name descname"><span class="pre">None_</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#avblocks.H265Level.None_" title="Link to this definition">¶</a></dt>
+<dd><p>None / Auto</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="h265tier">
+<h2>H265Tier<a class="headerlink" href="#h265tier" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.H265Tier">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">H265Tier</span></span><a class="headerlink" href="#avblocks.H265Tier" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>H.265 / HEVC Tiers</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H265Tier.High">
+<span class="sig-name descname"><span class="pre">High</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#avblocks.H265Tier.High" title="Link to this definition">¶</a></dt>
+<dd><p>= 1</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.H265Tier.Main">
+<span class="sig-name descname"><span class="pre">Main</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#avblocks.H265Tier.Main" title="Link to this definition">¶</a></dt>
+<dd><p>= 0</p>
 </dd></dl>
 
 </dd></dl>
@@ -464,6 +973,142 @@ TranscoderStatusEventArgs</p>
 <li><a class="reference internal" href="#avblocks.Use.Auto"><code class="docutils literal notranslate"><span class="pre">Use.Auto</span></code></a></li>
 <li><a class="reference internal" href="#avblocks.Use.Off"><code class="docutils literal notranslate"><span class="pre">Use.Off</span></code></a></li>
 <li><a class="reference internal" href="#avblocks.Use.On"><code class="docutils literal notranslate"><span class="pre">Use.On</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#hardwareencoder">HardwareEncoder</a><ul>
+<li><a class="reference internal" href="#avblocks.HardwareEncoder"><code class="docutils literal notranslate"><span class="pre">HardwareEncoder</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.HardwareEncoder.AMD"><code class="docutils literal notranslate"><span class="pre">HardwareEncoder.AMD</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.HardwareEncoder.Auto"><code class="docutils literal notranslate"><span class="pre">HardwareEncoder.Auto</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.HardwareEncoder.Intel"><code class="docutils literal notranslate"><span class="pre">HardwareEncoder.Intel</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.HardwareEncoder.Nvidia"><code class="docutils literal notranslate"><span class="pre">HardwareEncoder.Nvidia</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.HardwareEncoder.Off"><code class="docutils literal notranslate"><span class="pre">HardwareEncoder.Off</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#hwapi">HwApi</a><ul>
+<li><a class="reference internal" href="#avblocks.HwApi"><code class="docutils literal notranslate"><span class="pre">HwApi</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.HwApi.AmdMedia"><code class="docutils literal notranslate"><span class="pre">HwApi.AmdMedia</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.HwApi.AmdOpenVideo"><code class="docutils literal notranslate"><span class="pre">HwApi.AmdOpenVideo</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.HwApi.IntelMedia"><code class="docutils literal notranslate"><span class="pre">HwApi.IntelMedia</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.HwApi.MediaFoundation"><code class="docutils literal notranslate"><span class="pre">HwApi.MediaFoundation</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.HwApi.None_"><code class="docutils literal notranslate"><span class="pre">HwApi.None_</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.HwApi.Nvenc"><code class="docutils literal notranslate"><span class="pre">HwApi.Nvenc</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#h264profile">H264Profile</a><ul>
+<li><a class="reference internal" href="#avblocks.H264Profile"><code class="docutils literal notranslate"><span class="pre">H264Profile</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.H264Profile.Baseline"><code class="docutils literal notranslate"><span class="pre">H264Profile.Baseline</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H264Profile.High"><code class="docutils literal notranslate"><span class="pre">H264Profile.High</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H264Profile.High10"><code class="docutils literal notranslate"><span class="pre">H264Profile.High10</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H264Profile.High422"><code class="docutils literal notranslate"><span class="pre">H264Profile.High422</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H264Profile.High444"><code class="docutils literal notranslate"><span class="pre">H264Profile.High444</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H264Profile.Main"><code class="docutils literal notranslate"><span class="pre">H264Profile.Main</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H264Profile.None_"><code class="docutils literal notranslate"><span class="pre">H264Profile.None_</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#h264entropycodingmode">H264EntropyCodingMode</a><ul>
+<li><a class="reference internal" href="#avblocks.H264EntropyCodingMode"><code class="docutils literal notranslate"><span class="pre">H264EntropyCodingMode</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.H264EntropyCodingMode.CABAC"><code class="docutils literal notranslate"><span class="pre">H264EntropyCodingMode.CABAC</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H264EntropyCodingMode.CAVLC"><code class="docutils literal notranslate"><span class="pre">H264EntropyCodingMode.CAVLC</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#h264deblockingfilter">H264DeblockingFilter</a><ul>
+<li><a class="reference internal" href="#avblocks.H264DeblockingFilter"><code class="docutils literal notranslate"><span class="pre">H264DeblockingFilter</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.H264DeblockingFilter.All"><code class="docutils literal notranslate"><span class="pre">H264DeblockingFilter.All</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H264DeblockingFilter.InSlice"><code class="docutils literal notranslate"><span class="pre">H264DeblockingFilter.InSlice</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H264DeblockingFilter.Off"><code class="docutils literal notranslate"><span class="pre">H264DeblockingFilter.Off</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#h264directpredmode">H264DirectPredMode</a><ul>
+<li><a class="reference internal" href="#avblocks.H264DirectPredMode"><code class="docutils literal notranslate"><span class="pre">H264DirectPredMode</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.H264DirectPredMode.Spatial"><code class="docutils literal notranslate"><span class="pre">H264DirectPredMode.Spatial</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H264DirectPredMode.Temporal"><code class="docutils literal notranslate"><span class="pre">H264DirectPredMode.Temporal</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#h264mesplitmode">H264MeSplitMode</a><ul>
+<li><a class="reference internal" href="#avblocks.H264MeSplitMode"><code class="docutils literal notranslate"><span class="pre">H264MeSplitMode</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.H264MeSplitMode.DownTo4x4"><code class="docutils literal notranslate"><span class="pre">H264MeSplitMode.DownTo4x4</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H264MeSplitMode.DownTo8x8"><code class="docutils literal notranslate"><span class="pre">H264MeSplitMode.DownTo8x8</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H264MeSplitMode.Only16x16"><code class="docutils literal notranslate"><span class="pre">H264MeSplitMode.Only16x16</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#h264memethod">H264MeMethod</a><ul>
+<li><a class="reference internal" href="#avblocks.H264MeMethod"><code class="docutils literal notranslate"><span class="pre">H264MeMethod</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.H264MeMethod.ClassicLog"><code class="docutils literal notranslate"><span class="pre">H264MeMethod.ClassicLog</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H264MeMethod.EPZS"><code class="docutils literal notranslate"><span class="pre">H264MeMethod.EPZS</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H264MeMethod.Full"><code class="docutils literal notranslate"><span class="pre">H264MeMethod.Full</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H264MeMethod.FullOrthogonal"><code class="docutils literal notranslate"><span class="pre">H264MeMethod.FullOrthogonal</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H264MeMethod.Log"><code class="docutils literal notranslate"><span class="pre">H264MeMethod.Log</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H264MeMethod.LogOrthogonal"><code class="docutils literal notranslate"><span class="pre">H264MeMethod.LogOrthogonal</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H264MeMethod.UMH"><code class="docutils literal notranslate"><span class="pre">H264MeMethod.UMH</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#h264piccodingtype">H264PicCodingType</a><ul>
+<li><a class="reference internal" href="#avblocks.H264PicCodingType"><code class="docutils literal notranslate"><span class="pre">H264PicCodingType</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.H264PicCodingType.Fields"><code class="docutils literal notranslate"><span class="pre">H264PicCodingType.Fields</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H264PicCodingType.Frames"><code class="docutils literal notranslate"><span class="pre">H264PicCodingType.Frames</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#h264ratecontrolmethod">H264RateControlMethod</a><ul>
+<li><a class="reference internal" href="#avblocks.H264RateControlMethod"><code class="docutils literal notranslate"><span class="pre">H264RateControlMethod</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.H264RateControlMethod.ABR"><code class="docutils literal notranslate"><span class="pre">H264RateControlMethod.ABR</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H264RateControlMethod.ConstantQuant"><code class="docutils literal notranslate"><span class="pre">H264RateControlMethod.ConstantQuant</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#h265profile">H265Profile</a><ul>
+<li><a class="reference internal" href="#avblocks.H265Profile"><code class="docutils literal notranslate"><span class="pre">H265Profile</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.H265Profile.Main"><code class="docutils literal notranslate"><span class="pre">H265Profile.Main</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H265Profile.Main10"><code class="docutils literal notranslate"><span class="pre">H265Profile.Main10</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H265Profile.None_"><code class="docutils literal notranslate"><span class="pre">H265Profile.None_</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#h265level">H265Level</a><ul>
+<li><a class="reference internal" href="#avblocks.H265Level"><code class="docutils literal notranslate"><span class="pre">H265Level</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.H265Level.L1"><code class="docutils literal notranslate"><span class="pre">H265Level.L1</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H265Level.L2"><code class="docutils literal notranslate"><span class="pre">H265Level.L2</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H265Level.L21"><code class="docutils literal notranslate"><span class="pre">H265Level.L21</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H265Level.L3"><code class="docutils literal notranslate"><span class="pre">H265Level.L3</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H265Level.L31"><code class="docutils literal notranslate"><span class="pre">H265Level.L31</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H265Level.L4"><code class="docutils literal notranslate"><span class="pre">H265Level.L4</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H265Level.L41"><code class="docutils literal notranslate"><span class="pre">H265Level.L41</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H265Level.L5"><code class="docutils literal notranslate"><span class="pre">H265Level.L5</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H265Level.L51"><code class="docutils literal notranslate"><span class="pre">H265Level.L51</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H265Level.L52"><code class="docutils literal notranslate"><span class="pre">H265Level.L52</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H265Level.L6"><code class="docutils literal notranslate"><span class="pre">H265Level.L6</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H265Level.L61"><code class="docutils literal notranslate"><span class="pre">H265Level.L61</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H265Level.L62"><code class="docutils literal notranslate"><span class="pre">H265Level.L62</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H265Level.None_"><code class="docutils literal notranslate"><span class="pre">H265Level.None_</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#h265tier">H265Tier</a><ul>
+<li><a class="reference internal" href="#avblocks.H265Tier"><code class="docutils literal notranslate"><span class="pre">H265Tier</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.H265Tier.High"><code class="docutils literal notranslate"><span class="pre">H265Tier.High</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.H265Tier.Main"><code class="docutils literal notranslate"><span class="pre">H265Tier.Main</span></code></a></li>
 </ul>
 </li>
 </ul>

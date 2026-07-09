@@ -205,6 +205,7 @@
 <li class="toctree-l2"><a class="reference internal" href="getting-started/installation.html">Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="getting-started/configuration.html">Configuration</a></li>
 <li class="toctree-l2"><a class="reference internal" href="getting-started/download.html">Download AVBlocks Core and Demo Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="getting-started/samples.html">Samples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="getting-started/licensing.html">Licensing</a></li>
 </ul>
 </li>
@@ -289,7 +290,7 @@
           
 <section class="genindex-section">
   <h1 id="index">Index</h1>
-  <div class="genindex-jumpbox"><a href="#A"><strong>A</strong></a> | <a href="#B"><strong>B</strong></a> | <a href="#C"><strong>C</strong></a> | <a href="#D"><strong>D</strong></a> | <a href="#E"><strong>E</strong></a> | <a href="#F"><strong>F</strong></a> | <a href="#G"><strong>G</strong></a> | <a href="#H"><strong>H</strong></a> | <a href="#I"><strong>I</strong></a> | <a href="#J"><strong>J</strong></a> | <a href="#K"><strong>K</strong></a> | <a href="#L"><strong>L</strong></a> | <a href="#M"><strong>M</strong></a> | <a href="#N"><strong>N</strong></a> | <a href="#O"><strong>O</strong></a> | <a href="#P"><strong>P</strong></a> | <a href="#Q"><strong>Q</strong></a> | <a href="#R"><strong>R</strong></a> | <a href="#S"><strong>S</strong></a> | <a href="#T"><strong>T</strong></a> | <a href="#U"><strong>U</strong></a> | <a href="#V"><strong>V</strong></a> | <a href="#W"><strong>W</strong></a> | <a href="#Y"><strong>Y</strong></a></div>
+  <div class="genindex-jumpbox"><a href="#A"><strong>A</strong></a> | <a href="#B"><strong>B</strong></a> | <a href="#C"><strong>C</strong></a> | <a href="#D"><strong>D</strong></a> | <a href="#E"><strong>E</strong></a> | <a href="#F"><strong>F</strong></a> | <a href="#G"><strong>G</strong></a> | <a href="#H"><strong>H</strong></a> | <a href="#I"><strong>I</strong></a> | <a href="#J"><strong>J</strong></a> | <a href="#K"><strong>K</strong></a> | <a href="#L"><strong>L</strong></a> | <a href="#M"><strong>M</strong></a> | <a href="#N"><strong>N</strong></a> | <a href="#O"><strong>O</strong></a> | <a href="#P"><strong>P</strong></a> | <a href="#Q"><strong>Q</strong></a> | <a href="#R"><strong>R</strong></a> | <a href="#S"><strong>S</strong></a> | <a href="#T"><strong>T</strong></a> | <a href="#U"><strong>U</strong></a> | <a href="#V"><strong>V</strong></a> | <a href="#W"><strong>W</strong></a> | <a href="#X"><strong>X</strong></a> | <a href="#Y"><strong>Y</strong></a></div>
 </section>
 <section id="A" class="genindex-section">
   <h2>A</h2>
@@ -310,7 +311,11 @@
         <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.AAC_RAW">AAC_RAW (avblocks.StreamSubType attribute)</a>
 </li>
         <li><a href="api/enums-encoding.html#avblocks.BitrateMode.ABR">ABR (avblocks.BitrateMode attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-encoding.html#avblocks.H264RateControlMethod.ABR">(avblocks.H264RateControlMethod attribute)</a>
 </li>
+        </ul></li>
         <li><a href="api/enums-stream-types.html#avblocks.StreamType.AC3">AC3 (avblocks.StreamType attribute)</a>
 </li>
         <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.AccessUnitDelimiters">AccessUnitDelimiters (avblocks.Param.Encoder.Video.H264 attribute)</a>
@@ -323,9 +328,19 @@
 </li>
         <li><a href="api/enums-metadata.html#avblocks.Meta.AlbumArtist">AlbumArtist (avblocks.Meta attribute)</a>
 </li>
+        <li><a href="api/enums-encoding.html#avblocks.H264DeblockingFilter.All">All (avblocks.H264DeblockingFilter attribute)</a>
+</li>
         <li><a href="api/enums-errors.html#avblocks.CodecError.Alloc">Alloc (avblocks.CodecError attribute)</a>
 </li>
         <li><a href="api/transcoder.html#avblocks.Transcoder.allow_demo_mode">allow_demo_mode (avblocks.Transcoder property)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.AlphaCompositingMode">AlphaCompositingMode (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.HardwareEncoder.AMD">AMD (avblocks.HardwareEncoder attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.HwApi.AmdMedia">AmdMedia (avblocks.HwApi attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.HwApi.AmdOpenVideo">AmdOpenVideo (avblocks.HwApi attribute)</a>
 </li>
         <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.MP3.AMRadio">AMRadio (avblocks.Preset.Audio.Generic.MP3 attribute)</a>
 </li>
@@ -333,12 +348,12 @@
 </li>
         <li><a href="api/enums-stream-types.html#avblocks.StreamType.AMRWB">AMRWB (avblocks.StreamType attribute)</a>
 </li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
         <li><a href="api/collections-base.html#avblocks.object_collection.ObjectCollection.append">append() (avblocks.object_collection.ObjectCollection method)</a>
 </li>
         <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleTV.AppleTV2G_MP4_H264_720p">AppleTV2G_MP4_H264_720p (avblocks.Preset.Video.AppleTV attribute)</a>
 </li>
-    </ul></td>
-    <td style="width: 33%; vertical-align: top;"><ul>
         <li><a href="api/enums-presets.html#avblocks.Preset.Video.AppleTV.AppleTV3G_MP4_H264_1080p">AppleTV3G_MP4_H264_1080p (avblocks.Preset.Video.AppleTV attribute)</a>
 </li>
         <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.Artist">Artist (avblocks.MetaPictureType attribute)</a>
@@ -346,6 +361,8 @@
         <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.ArtistLogotype">ArtistLogotype (avblocks.MetaPictureType attribute)</a>
 </li>
         <li><a href="api/enums-stream-types.html#avblocks.StreamType.ASF">ASF (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.AlphaCompositingMode.Atop">Atop (avblocks.AlphaCompositingMode attribute)</a>
 </li>
         <li><a href="api/media-buffer.html#avblocks.MediaBuffer.attach">attach() (avblocks.MediaBuffer method)</a>
 </li>
@@ -355,8 +372,12 @@
 </li>
         <li><a href="api/audio-stream-info.html#avblocks.AudioStreamInfo">AudioStreamInfo (class in avblocks)</a>
 </li>
-        <li><a href="api/enums-encoding.html#avblocks.Use.Auto">Auto (avblocks.Use attribute)</a>
+        <li><a href="api/enums-encoding.html#avblocks.HardwareEncoder.Auto">Auto (avblocks.HardwareEncoder attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-encoding.html#avblocks.Use.Auto">(avblocks.Use attribute)</a>
 </li>
+        </ul></li>
         <li><a href="api/transcoder.html#avblocks.Transcoder.auto_connect">auto_connect (avblocks.Transcoder property)</a>
 </li>
         <li><a href="api/enums-stream-types.html#avblocks.StreamType.AV1">AV1 (avblocks.StreamType attribute)</a>
@@ -397,6 +418,8 @@
 </li>
         <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.WebM.Base_VP8_Vorbis">Base_VP8_Vorbis (avblocks.Preset.Video.Generic.WebM attribute)</a>
 </li>
+        <li><a href="api/enums-encoding.html#avblocks.H264Profile.Baseline">Baseline (avblocks.H264Profile attribute)</a>
+</li>
         <li><a href="api/enums-metadata.html#avblocks.Meta.BeatsPerMinute">BeatsPerMinute (avblocks.Meta attribute)</a>
 </li>
         <li><a href="api/enums-stream-types.html#avblocks.StreamType.BEGIN_AUDIO">BEGIN_AUDIO (avblocks.StreamType attribute)</a>
@@ -431,6 +454,8 @@
 </li>
         <li><a href="api/audio-stream-info.html#avblocks.AudioStreamInfo.bits_per_sample">bits_per_sample (avblocks.AudioStreamInfo property)</a>
 </li>
+        <li><a href="api/enums-video.html#avblocks.DeinterlacingMethod.Blend">Blend (avblocks.DeinterlacingMethod attribute)</a>
+</li>
         <li><a href="api/error-info.html#avblocks.ErrorInfo.block">block (avblocks.ErrorInfo property)</a>
 </li>
         <li><a href="api/enums-stream-types.html#avblocks.StreamType.BMP">BMP (avblocks.StreamType attribute)</a>
@@ -461,7 +486,13 @@
   <h2>C</h2>
   <table style="width: 100%" class="indextable genindextable"><tr>
     <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-encoding.html#avblocks.H264EntropyCodingMode.CABAC">CABAC (avblocks.H264EntropyCodingMode attribute)</a>
+</li>
         <li><a href="api/media-buffer.html#avblocks.MediaBuffer.capacity">capacity (avblocks.MediaBuffer property)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264EntropyCodingMode.CAVLC">CAVLC (avblocks.H264EntropyCodingMode attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.DeinterlacingMethod.CAVT">CAVT (avblocks.DeinterlacingMethod attribute)</a>
 </li>
         <li><a href="api/enums-encoding.html#avblocks.BitrateMode.CBR">CBR (avblocks.BitrateMode attribute)</a>
 </li>
@@ -498,6 +529,8 @@
         <li><a href="api/audio-stream-info.html#avblocks.AudioStreamInfo.channel_layout">channel_layout (avblocks.AudioStreamInfo property)</a>
 </li>
         <li><a href="api/audio-stream-info.html#avblocks.AudioStreamInfo.channels">channels (avblocks.AudioStreamInfo property)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264MeMethod.ClassicLog">ClassicLog (avblocks.H264MeMethod attribute)</a>
 </li>
         <li><a href="api/collections-base.html#avblocks.object_collection.ObjectCollection.clear">clear() (avblocks.object_collection.ObjectCollection method)</a>
 
@@ -573,6 +606,8 @@
 </li>
         <li><a href="api/media-pin.html#avblocks.MediaPin.connection">connection (avblocks.MediaPin property)</a>
 </li>
+        <li><a href="api/enums-encoding.html#avblocks.H264RateControlMethod.ConstantQuant">ConstantQuant (avblocks.H264RateControlMethod attribute)</a>
+</li>
         <li><a href="api/enums-metadata.html#avblocks.Meta.ContentGroup">ContentGroup (avblocks.Meta attribute)</a>
 </li>
         <li><a href="api/collections-parameter.html#avblocks.parameter_list.ParameterList.copy">copy() (avblocks.parameter_list.ParameterList method)</a>
@@ -580,6 +615,8 @@
         <li><a href="api/enums-metadata.html#avblocks.Meta.Copyright">Copyright (avblocks.Meta attribute)</a>
 </li>
         <li><a href="api/stream-info.html#avblocks.StreamInfo.create">create() (avblocks.StreamInfo static method)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.InterpolationMethod.Cubic">Cubic (avblocks.InterpolationMethod attribute)</a>
 </li>
     </ul></td>
   </tr></table>
@@ -605,16 +642,18 @@
 </li>
         <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.DeblockingFilterBeta">DeblockingFilterBeta (avblocks.Param.Encoder.Video.H264 attribute)</a>
 </li>
+        <li><a href="api/enums-video.html#avblocks.DeinterlacingMethod">DeinterlacingMethod (class in avblocks)</a>
+</li>
         <li><a href="api/enums-errors.html#avblocks.LicenseStatusFlags.DemoBuild">DemoBuild (avblocks.LicenseStatusFlags attribute)</a>
 </li>
         <li><a href="api/metadata.html#avblocks.meta_picture.MetaPicture.description">description (avblocks.meta_picture.MetaPicture property)</a>
 </li>
         <li><a href="api/library.html#avblocks.Library.description">description() (avblocks.Library static method)</a>
 </li>
-    </ul></td>
-    <td style="width: 33%; vertical-align: top;"><ul>
         <li><a href="api/media-buffer.html#avblocks.MediaBuffer.detach">detach() (avblocks.MediaBuffer method)</a>
 </li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
         <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.DirectPredMode">DirectPredMode (avblocks.Param.Encoder.Video.H264 attribute)</a>
 </li>
         <li><a href="api/enums-metadata.html#avblocks.Meta.DiscNum">DiscNum (avblocks.Meta attribute)</a>
@@ -629,7 +668,13 @@
           <li><a href="api/transcoder.html#avblocks.Transcoder.dispose">(avblocks.Transcoder method)</a>
 </li>
         </ul></li>
+        <li><a href="api/enums-encoding.html#avblocks.H264MeSplitMode.DownTo4x4">DownTo4x4 (avblocks.H264MeSplitMode attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264MeSplitMode.DownTo8x8">DownTo8x8 (avblocks.H264MeSplitMode attribute)</a>
+</li>
         <li><a href="api/enums-stream-types.html#avblocks.StreamType.DTS">DTS (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.DeinterlacingMethod.Duplicate">Duplicate (avblocks.DeinterlacingMethod attribute)</a>
 </li>
         <li><a href="api/stream-info.html#avblocks.StreamInfo.duration">duration (avblocks.StreamInfo property)</a>
 </li>
@@ -645,6 +690,8 @@
   <h2>E</h2>
   <table style="width: 100%" class="indextable genindextable"><tr>
     <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-video.html#avblocks.DeinterlacingMethod.EdgeDetect">EdgeDetect (avblocks.DeinterlacingMethod attribute)</a>
+</li>
         <li><a href="api/enums-params.html#avblocks.Param.Encoder.Audio.G711.EnableVAD">EnableVAD (avblocks.Param.Encoder.Audio.G711 attribute)</a>
 </li>
         <li><a href="api/enums-metadata.html#avblocks.Meta.EncodedBy">EncodedBy (avblocks.Meta attribute)</a>
@@ -674,6 +721,8 @@
         <li><a href="api/enums-params.html#avblocks.Param.Encoder.Video.H264.EntropyCodingMode">EntropyCodingMode (avblocks.Param.Encoder.Video.H264 attribute)</a>
 </li>
         <li><a href="api/enums-errors.html#avblocks.CodecError.EOS">EOS (avblocks.CodecError attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264MeMethod.EPZS">EPZS (avblocks.H264MeMethod attribute)</a>
 </li>
         <li><a href="api/media-info.html#avblocks.MediaInfo.error">error (avblocks.MediaInfo property)</a>
 
@@ -707,6 +756,8 @@
 </li>
         <li><a href="api/enums-params.html#avblocks.Param.Muxer.MP4.FastStartUseTempFile">FastStartUseTempFile (avblocks.Param.Muxer.MP4 attribute)</a>
 </li>
+        <li><a href="api/enums-encoding.html#avblocks.H264PicCodingType.Fields">Fields (avblocks.H264PicCodingType attribute)</a>
+</li>
         <li><a href="api/media-socket.html#avblocks.MediaSocket.file">file (avblocks.MediaSocket property)</a>
 </li>
         <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.FileIcon">FileIcon (avblocks.MetaPictureType attribute)</a>
@@ -729,10 +780,10 @@
 </li>
         <li><a href="api/enums-params.html#avblocks.Param.Encoder.Audio.MPEG1.ForceV1">ForceV1 (avblocks.Param.Encoder.Audio.MPEG1 attribute)</a>
 </li>
-    </ul></td>
-    <td style="width: 33%; vertical-align: top;"><ul>
         <li><a href="api/enums-params.html#avblocks.Param.Video.Overlay.ForegroundAlpha">ForegroundAlpha (avblocks.Param.Video.Overlay attribute)</a>
 </li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
         <li><a href="api/enums-params.html#avblocks.Param.Video.Overlay.ForegroundBuffer">ForegroundBuffer (avblocks.Param.Video.Overlay attribute)</a>
 </li>
         <li><a href="api/enums-params.html#avblocks.Param.Video.Overlay.ForegroundBufferFormat">ForegroundBufferFormat (avblocks.Param.Video.Overlay attribute)</a>
@@ -746,6 +797,8 @@
         <li><a href="api/media-sample.html#avblocks.MediaSample.frame_type">frame_type (avblocks.MediaSample property)</a>
 </li>
         <li><a href="api/video-stream-info.html#avblocks.VideoStreamInfo.frame_width">frame_width (avblocks.VideoStreamInfo property)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264PicCodingType.Frames">Frames (avblocks.H264PicCodingType attribute)</a>
 </li>
         <li><a href="api/media-socket.html#avblocks.MediaSocket.from_media_info">from_media_info() (avblocks.MediaSocket static method)</a>
 </li>
@@ -764,6 +817,10 @@
         <li><a href="api/media-socket.html#avblocks.MediaSocket.from_preset">from_preset() (avblocks.MediaSocket static method)</a>
 </li>
         <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.FrontCover">FrontCover (avblocks.MetaPictureType attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264MeMethod.Full">Full (avblocks.H264MeMethod attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264MeMethod.FullOrthogonal">FullOrthogonal (avblocks.H264MeMethod attribute)</a>
 </li>
     </ul></td>
   </tr></table>
@@ -861,8 +918,6 @@
           <li><a href="api/enums-presets.html#avblocks.Preset.Video.iPhone.H264_480p">(avblocks.Preset.Video.iPhone attribute)</a>
 </li>
         </ul></li>
-    </ul></td>
-    <td style="width: 33%; vertical-align: top;"><ul>
         <li><a href="api/enums-presets.html#avblocks.Preset.Video.iPad.H264_576p">H264_576p (avblocks.Preset.Video.iPad attribute)</a>
 </li>
         <li><a href="api/enums-presets.html#avblocks.Preset.Video.AndroidPhone.H264_720p">H264_720p (avblocks.Preset.Video.AndroidPhone attribute)</a>
@@ -881,16 +936,44 @@
           <li><a href="api/enums-presets.html#avblocks.Preset.Video.Web.MP4.H264_720p">(avblocks.Preset.Video.Web.MP4 attribute)</a>
 </li>
         </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
         <li><a href="api/enums-presets.html#avblocks.Preset.Video.Fast.MP4.H264_AAC">H264_AAC (avblocks.Preset.Video.Fast.MP4 attribute)</a>
 </li>
         <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.MP4.H264_Wide_360p">H264_Wide_360p (avblocks.Preset.Video.Generic.MP4 attribute)</a>
 </li>
         <li><a href="api/enums-presets.html#avblocks.Preset.Video.Generic.MP4.H264_Wide_480p">H264_Wide_480p (avblocks.Preset.Video.Generic.MP4 attribute)</a>
 </li>
+        <li><a href="api/enums-encoding.html#avblocks.H264DeblockingFilter">H264DeblockingFilter (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264DirectPredMode">H264DirectPredMode (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264EntropyCodingMode">H264EntropyCodingMode (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264MeMethod">H264MeMethod (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264MeSplitMode">H264MeSplitMode (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264PicCodingType">H264PicCodingType (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264Profile">H264Profile (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264RateControlMethod">H264RateControlMethod (class in avblocks)</a>
+</li>
         <li><a href="api/enums-stream-types.html#avblocks.StreamType.H265">H265 (avblocks.StreamType attribute)</a>
 </li>
-        <li><a href="api/enums-params.html#avblocks.Param.HardwareEncoder">HardwareEncoder (avblocks.Param attribute)</a>
+        <li><a href="api/enums-encoding.html#avblocks.H265Level">H265Level (class in avblocks)</a>
 </li>
+        <li><a href="api/enums-encoding.html#avblocks.H265Profile">H265Profile (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H265Tier">H265Tier (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-params.html#avblocks.Param.HardwareEncoder">HardwareEncoder (avblocks.Param attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-encoding.html#avblocks.HardwareEncoder">(class in avblocks)</a>
+</li>
+        </ul></li>
         <li><a href="api/enums-params.html#avblocks.Param.HardwareEncoderApi">HardwareEncoderApi (avblocks.Param attribute)</a>
 </li>
         <li><a href="api/enums-params.html#avblocks.Param.HardwareEncoderDevice">HardwareEncoderDevice (avblocks.Param attribute)</a>
@@ -901,6 +984,18 @@
 </li>
         <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.MP3.HiFi">HiFi (avblocks.Preset.Audio.Generic.MP3 attribute)</a>
 </li>
+        <li><a href="api/enums-encoding.html#avblocks.H264Profile.High">High (avblocks.H264Profile attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-encoding.html#avblocks.H265Tier.High">(avblocks.H265Tier attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-encoding.html#avblocks.H264Profile.High10">High10 (avblocks.H264Profile attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264Profile.High422">High422 (avblocks.H264Profile attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264Profile.High444">High444 (avblocks.H264Profile attribute)</a>
+</li>
         <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.M4A.HighQuality">HighQuality (avblocks.Preset.Audio.Generic.M4A attribute)</a>
 </li>
         <li><a href="api/error-info.html#avblocks.ErrorInfo.hint">hint (avblocks.ErrorInfo property)</a>
@@ -908,6 +1003,8 @@
         <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.HVC1">HVC1 (avblocks.StreamSubType attribute)</a>
 </li>
         <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.HVCC">HVCC (avblocks.StreamSubType attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.HwApi">HwApi (class in avblocks)</a>
 </li>
     </ul></td>
   </tr></table>
@@ -939,6 +1036,8 @@
           <li><a href="api/stream-info.html#avblocks.StreamInfo.immutable">(avblocks.StreamInfo property)</a>
 </li>
         </ul></li>
+        <li><a href="api/enums-video.html#avblocks.AlphaCompositingMode.In">In (avblocks.AlphaCompositingMode attribute)</a>
+</li>
         <li><a href="api/enums-errors.html#avblocks.CodecError.Init">Init (avblocks.CodecError attribute)</a>
 </li>
         <li><a href="api/library.html#avblocks.Library.initialize">initialize() (avblocks.Library static method)</a>
@@ -953,14 +1052,24 @@
           <li><a href="api/transcoder.html#avblocks.Transcoder.inputs">(avblocks.Transcoder property)</a>
 </li>
         </ul></li>
+        <li><a href="api/collections-base.html#avblocks.object_collection.ObjectCollection.insert">insert() (avblocks.object_collection.ObjectCollection method)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264DeblockingFilter.InSlice">InSlice (avblocks.H264DeblockingFilter attribute)</a>
+</li>
     </ul></td>
     <td style="width: 33%; vertical-align: top;"><ul>
-        <li><a href="api/collections-base.html#avblocks.object_collection.ObjectCollection.insert">insert() (avblocks.object_collection.ObjectCollection method)</a>
+        <li><a href="api/enums-encoding.html#avblocks.HardwareEncoder.Intel">Intel (avblocks.HardwareEncoder attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.HwApi.IntelMedia">IntelMedia (avblocks.HwApi attribute)</a>
 </li>
         <li><a href="api/enums-metadata.html#avblocks.Meta.InternetRadioStation">InternetRadioStation (avblocks.Meta attribute)</a>
 </li>
         <li><a href="api/enums-params.html#avblocks.Param.Video.Resize.InterpolationMethod">InterpolationMethod (avblocks.Param.Video.Resize attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-video.html#avblocks.InterpolationMethod">(class in avblocks)</a>
 </li>
+        </ul></li>
         <li><a href="api/enums-errors.html#avblocks.CodecError.InvalidOperation">InvalidOperation (avblocks.CodecError attribute)</a>
 </li>
         <li><a href="api/enums-errors.html#avblocks.CodecError.InvalidParams">InvalidParams (avblocks.CodecError attribute)</a>
@@ -1037,6 +1146,34 @@
   <h2>L</h2>
   <table style="width: 100%" class="indextable genindextable"><tr>
     <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-encoding.html#avblocks.H265Level.L1">L1 (avblocks.H265Level attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H265Level.L2">L2 (avblocks.H265Level attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H265Level.L21">L21 (avblocks.H265Level attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H265Level.L3">L3 (avblocks.H265Level attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H265Level.L31">L31 (avblocks.H265Level attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H265Level.L4">L4 (avblocks.H265Level attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H265Level.L41">L41 (avblocks.H265Level attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H265Level.L5">L5 (avblocks.H265Level attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H265Level.L51">L51 (avblocks.H265Level attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H265Level.L52">L52 (avblocks.H265Level attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H265Level.L6">L6 (avblocks.H265Level attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H265Level.L61">L61 (avblocks.H265Level attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H265Level.L62">L62 (avblocks.H265Level attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.InterpolationMethod.Lanczos">Lanczos (avblocks.InterpolationMethod attribute)</a>
+</li>
         <li><a href="api/enums-metadata.html#avblocks.Meta.Language">Language (avblocks.Meta attribute)</a>
 </li>
         <li><a href="api/enums-metadata.html#avblocks.Meta.LeadArtist">LeadArtist (avblocks.Meta attribute)</a>
@@ -1045,6 +1182,8 @@
           <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.LeadArtist">(avblocks.MetaPictureType attribute)</a>
 </li>
         </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
         <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.LeafletPage">LeafletPage (avblocks.MetaPictureType attribute)</a>
 </li>
         <li><a href="api/enums-params.html#avblocks.Param.Video.Crop.Left">Left (avblocks.Param.Video.Crop attribute)</a>
@@ -1061,17 +1200,21 @@
         </ul></li>
         <li><a href="api/library.html#avblocks.Library">Library (class in avblocks)</a>
 </li>
-    </ul></td>
-    <td style="width: 33%; vertical-align: top;"><ul>
         <li><a href="api/enums-errors.html#avblocks.AVBlocksError.LibraryNotInitialized">LibraryNotInitialized (avblocks.AVBlocksError attribute)</a>
 </li>
         <li><a href="api/library.html#avblocks.Library.license_status">license_status() (avblocks.Library static method)</a>
 </li>
         <li><a href="api/enums-errors.html#avblocks.LicenseStatusFlags">LicenseStatusFlags (class in avblocks)</a>
 </li>
+        <li><a href="api/enums-video.html#avblocks.InterpolationMethod.Linear">Linear (avblocks.InterpolationMethod attribute)</a>
+</li>
         <li><a href="api/enums-params.html#avblocks.Param.Video.Overlay.LocationX">LocationX (avblocks.Param.Video.Overlay attribute)</a>
 </li>
         <li><a href="api/enums-params.html#avblocks.Param.Video.Overlay.LocationY">LocationY (avblocks.Param.Video.Overlay attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264MeMethod.Log">Log (avblocks.H264MeMethod attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264MeMethod.LogOrthogonal">LogOrthogonal (avblocks.H264MeMethod attribute)</a>
 </li>
         <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.M4A.LowQuality">LowQuality (avblocks.Preset.Audio.Generic.M4A attribute)</a>
 </li>
@@ -1089,6 +1232,16 @@
   <h2>M</h2>
   <table style="width: 100%" class="indextable genindextable"><tr>
     <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-encoding.html#avblocks.H264Profile.Main">Main (avblocks.H264Profile attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-encoding.html#avblocks.H265Profile.Main">(avblocks.H265Profile attribute)</a>
+</li>
+          <li><a href="api/enums-encoding.html#avblocks.H265Tier.Main">(avblocks.H265Tier attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="api/enums-encoding.html#avblocks.H265Profile.Main10">Main10 (avblocks.H265Profile attribute)</a>
+</li>
         <li><a href="api/library.html#avblocks.Library.major_version">major_version() (avblocks.Library static method)</a>
 </li>
         <li><a href="api/enums-params.html#avblocks.Param.Decoder.Video.H264.VUI.MaxDecFrameBuffering">MaxDecFrameBuffering (avblocks.Param.Decoder.Video.H264.VUI attribute)</a>
@@ -1099,7 +1252,13 @@
 </li>
         <li><a href="api/media-buffer.html#avblocks.MediaBuffer">MediaBuffer (class in avblocks)</a>
 </li>
+        <li><a href="api/enums-encoding.html#avblocks.HwApi.MediaFoundation">MediaFoundation (avblocks.HwApi attribute)</a>
+</li>
         <li><a href="api/media-info.html#avblocks.MediaInfo">MediaInfo (class in avblocks)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.DeinterlacingMethod.Median">Median (avblocks.DeinterlacingMethod attribute)</a>
+</li>
+        <li><a href="api/enums-video.html#avblocks.DeinterlacingMethod.MedianThreshold">MedianThreshold (avblocks.DeinterlacingMethod attribute)</a>
 </li>
         <li><a href="api/media-pin.html#avblocks.MediaPin">MediaPin (class in avblocks)</a>
 </li>
@@ -1151,6 +1310,8 @@
 </li>
         <li><a href="api/library.html#avblocks.Library.minor_version">minor_version() (avblocks.Library static method)</a>
 </li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
         <li><a href="api/enums-errors.html#avblocks.CodecError.MissingDependency">MissingDependency (avblocks.CodecError attribute)</a>
 </li>
         <li><a href="api/enums-errors.html#avblocks.CodecError.MissingHardwareAmdVce">MissingHardwareAmdVce (avblocks.CodecError attribute)</a>
@@ -1159,8 +1320,6 @@
 </li>
         <li><a href="api/enums-errors.html#avblocks.CodecError.MissingHardwareNvidiaNVENC">MissingHardwareNvidiaNVENC (avblocks.CodecError attribute)</a>
 </li>
-    </ul></td>
-    <td style="width: 33%; vertical-align: top;"><ul>
         <li><a href="api/enums-stream-types.html#avblocks.StreamType.MJPEG">MJPEG (avblocks.StreamType attribute)</a>
 </li>
         <li><a href="api/enums-params.html#avblocks.Param.Video.Overlay.Mode">Mode (avblocks.Param.Video.Overlay attribute)</a>
@@ -1241,26 +1400,38 @@
     <td style="width: 33%; vertical-align: top;"><ul>
         <li><a href="api/metadata.html#avblocks.meta_attribute.MetaAttribute.name">name (avblocks.meta_attribute.MetaAttribute property)</a>
 </li>
+        <li><a href="api/enums-video.html#avblocks.InterpolationMethod.NearestNeighbor">NearestNeighbor (avblocks.InterpolationMethod attribute)</a>
+</li>
         <li><a href="api/enums-errors.html#avblocks.TranscoderError.NoChain">NoChain (avblocks.TranscoderError attribute)</a>
 </li>
         <li><a href="api/enums-errors.html#avblocks.TranscoderError.NoCodec">NoCodec (avblocks.TranscoderError attribute)</a>
 </li>
         <li><a href="api/enums-errors.html#avblocks.CodecError.NoConfigData">NoConfigData (avblocks.CodecError attribute)</a>
 </li>
-        <li><a href="api/enums-audio.html#avblocks.StereoMode.None_">None_ (avblocks.StereoMode attribute)</a>
+        <li><a href="api/enums-video.html#avblocks.DeinterlacingMethod.NoDeinterlacing">NoDeinterlacing (avblocks.DeinterlacingMethod attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264Profile.None_">None_ (avblocks.H264Profile attribute)</a>
 
         <ul>
+          <li><a href="api/enums-encoding.html#avblocks.H265Level.None_">(avblocks.H265Level attribute)</a>
+</li>
+          <li><a href="api/enums-encoding.html#avblocks.H265Profile.None_">(avblocks.H265Profile attribute)</a>
+</li>
+          <li><a href="api/enums-encoding.html#avblocks.HwApi.None_">(avblocks.HwApi attribute)</a>
+</li>
+          <li><a href="api/enums-audio.html#avblocks.StereoMode.None_">(avblocks.StereoMode attribute)</a>
+</li>
           <li><a href="api/enums-stream-types.html#avblocks.StreamSubType.None_">(avblocks.StreamSubType attribute)</a>
 </li>
         </ul></li>
         <li><a href="api/enums-errors.html#avblocks.CodecError.NoOutput">NoOutput (avblocks.CodecError attribute)</a>
 </li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
         <li><a href="api/enums-errors.html#avblocks.CodecError.NotImplemented">NotImplemented (avblocks.CodecError attribute)</a>
 </li>
         <li><a href="api/enums-errors.html#avblocks.CodecError.NotInitialized">NotInitialized (avblocks.CodecError attribute)</a>
 </li>
-    </ul></td>
-    <td style="width: 33%; vertical-align: top;"><ul>
         <li><a href="api/enums-presets.html#avblocks.Preset.Video.VCD.NTSC">NTSC (avblocks.Preset.Video.VCD attribute)</a>
 </li>
         <li><a href="api/enums-presets.html#avblocks.Preset.Video.DVD.NTSC_16x9_MP2">NTSC_16x9_MP2 (avblocks.Preset.Video.DVD attribute)</a>
@@ -1281,6 +1452,10 @@
 </li>
         <li><a href="api/enums-video.html#avblocks.ColorFormat.NV12">NV12 (avblocks.ColorFormat attribute)</a>
 </li>
+        <li><a href="api/enums-encoding.html#avblocks.HwApi.Nvenc">Nvenc (avblocks.HwApi attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.HardwareEncoder.Nvidia">Nvidia (avblocks.HardwareEncoder attribute)</a>
+</li>
     </ul></td>
   </tr></table>
 </section>
@@ -1291,11 +1466,19 @@
     <td style="width: 33%; vertical-align: top;"><ul>
         <li><a href="api/collections-base.html#avblocks.object_collection.ObjectCollection">ObjectCollection (class in avblocks.object_collection)</a>
 </li>
-        <li><a href="api/enums-encoding.html#avblocks.Use.Off">Off (avblocks.Use attribute)</a>
+        <li><a href="api/enums-encoding.html#avblocks.H264DeblockingFilter.Off">Off (avblocks.H264DeblockingFilter attribute)</a>
+
+        <ul>
+          <li><a href="api/enums-encoding.html#avblocks.HardwareEncoder.Off">(avblocks.HardwareEncoder attribute)</a>
 </li>
+          <li><a href="api/enums-encoding.html#avblocks.Use.Off">(avblocks.Use attribute)</a>
+</li>
+        </ul></li>
         <li><a href="api/enums-stream-types.html#avblocks.StreamType.OGG">OGG (avblocks.StreamType attribute)</a>
 </li>
         <li><a href="api/enums-encoding.html#avblocks.Use.On">On (avblocks.Use attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264MeSplitMode.Only16x16">Only16x16 (avblocks.H264MeSplitMode attribute)</a>
 </li>
         <li><a href="api/media-info.html#avblocks.MediaInfo.open">open() (avblocks.MediaInfo method)</a>
 
@@ -1305,10 +1488,10 @@
         </ul></li>
         <li><a href="api/enums-stream-types.html#avblocks.StreamType.Opus">Opus (avblocks.StreamType attribute)</a>
 </li>
-        <li><a href="api/enums-metadata.html#avblocks.Meta.OrigAlbum">OrigAlbum (avblocks.Meta attribute)</a>
-</li>
     </ul></td>
     <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.OrigAlbum">OrigAlbum (avblocks.Meta attribute)</a>
+</li>
         <li><a href="api/enums-metadata.html#avblocks.Meta.OrigArtist">OrigArtist (avblocks.Meta attribute)</a>
 </li>
         <li><a href="api/enums-metadata.html#avblocks.Meta.OrigFileName">OrigFileName (avblocks.Meta attribute)</a>
@@ -1319,6 +1502,8 @@
 </li>
         <li><a href="api/enums-metadata.html#avblocks.MetaPictureType.OtherFileIcon">OtherFileIcon (avblocks.MetaPictureType attribute)</a>
 </li>
+        <li><a href="api/enums-video.html#avblocks.AlphaCompositingMode.Out">Out (avblocks.AlphaCompositingMode attribute)</a>
+</li>
         <li><a href="api/enums-errors.html#avblocks.CodecError.OutputBufferNotEnough">OutputBufferNotEnough (avblocks.CodecError attribute)</a>
 </li>
         <li><a href="api/media-info.html#avblocks.MediaInfo.outputs">outputs (avblocks.MediaInfo property)</a>
@@ -1327,6 +1512,8 @@
           <li><a href="api/transcoder.html#avblocks.Transcoder.outputs">(avblocks.Transcoder property)</a>
 </li>
         </ul></li>
+        <li><a href="api/enums-video.html#avblocks.AlphaCompositingMode.Over">Over (avblocks.AlphaCompositingMode attribute)</a>
+</li>
     </ul></td>
   </tr></table>
 </section>
@@ -1425,6 +1612,8 @@
 </li>
         <li><a href="api/enums-metadata.html#avblocks.Meta.PlayCounter">PlayCounter (avblocks.Meta attribute)</a>
 </li>
+        <li><a href="api/enums-video.html#avblocks.AlphaCompositingMode.Plus">Plus (avblocks.AlphaCompositingMode attribute)</a>
+</li>
         <li><a href="api/enums-stream-types.html#avblocks.StreamType.PNG">PNG (avblocks.StreamType attribute)</a>
 </li>
         <li><a href="api/collections-base.html#avblocks.object_collection.ObjectCollection.pop">pop() (avblocks.object_collection.ObjectCollection method)</a>
@@ -1435,10 +1624,10 @@
         </ul></li>
         <li><a href="api/collections-parameter.html#avblocks.parameter_list.ParameterList.popitem">popitem() (avblocks.parameter_list.ParameterList method)</a>
 </li>
-        <li><a href="api/enums-metadata.html#avblocks.Meta.Popularimeter">Popularimeter (avblocks.Meta attribute)</a>
-</li>
     </ul></td>
     <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.Popularimeter">Popularimeter (avblocks.Meta attribute)</a>
+</li>
         <li><a href="api/enums-presets.html#avblocks.Preset">Preset (class in avblocks)</a>
 </li>
         <li><a href="api/enums-presets.html#avblocks.Preset.Audio">Preset.Audio (class in avblocks)</a>
@@ -1639,6 +1828,8 @@
 </li>
         <li><a href="api/library.html#avblocks.Library.shutdown">shutdown() (avblocks.Library static method)</a>
 </li>
+        <li><a href="api/enums-encoding.html#avblocks.H264DirectPredMode.Spatial">Spatial (avblocks.H264DirectPredMode attribute)</a>
+</li>
         <li><a href="api/media-buffer.html#avblocks.MediaBuffer.start">start (avblocks.MediaBuffer property)</a>
 </li>
         <li><a href="api/media-sample.html#avblocks.MediaSample.start_time">start_time (avblocks.MediaSample property)</a>
@@ -1689,6 +1880,8 @@
 </li>
         <li><a href="api/enums-errors.html#avblocks.ErrorFacility.Success">Success (avblocks.ErrorFacility attribute)</a>
 </li>
+        <li><a href="api/enums-video.html#avblocks.InterpolationMethod.Super">Super (avblocks.InterpolationMethod attribute)</a>
+</li>
         <li><a href="api/enums-errors.html#avblocks.ErrorFacility.SystemMacMach">SystemMacMach (avblocks.ErrorFacility attribute)</a>
 </li>
         <li><a href="api/enums-errors.html#avblocks.ErrorFacility.SystemMacOSStatus">SystemMacOSStatus (avblocks.ErrorFacility attribute)</a>
@@ -1708,6 +1901,8 @@
         <li><a href="api/enums-presets.html#avblocks.Preset.Audio.Generic.MP3.Tape">Tape (avblocks.Preset.Audio.Generic.MP3 attribute)</a>
 </li>
         <li><a href="api/enums-stream-types.html#avblocks.StreamType.Teletext">Teletext (avblocks.StreamType attribute)</a>
+</li>
+        <li><a href="api/enums-encoding.html#avblocks.H264DirectPredMode.Temporal">Temporal (avblocks.H264DirectPredMode attribute)</a>
 </li>
         <li><a href="api/enums-stream-types.html#avblocks.MediaType.Text">Text (avblocks.MediaType attribute)</a>
 </li>
@@ -1779,6 +1974,8 @@
   <h2>U</h2>
   <table style="width: 100%" class="indextable genindextable"><tr>
     <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-encoding.html#avblocks.H264MeMethod.UMH">UMH (avblocks.H264MeMethod attribute)</a>
+</li>
         <li><a href="api/enums-stream-types.html#avblocks.StreamType.UncompressedVideo">UncompressedVideo (avblocks.StreamType attribute)</a>
 </li>
         <li><a href="api/enums-errors.html#avblocks.TranscoderError.UndefinedSocketType">UndefinedSocketType (avblocks.TranscoderError attribute)</a>
@@ -1787,6 +1984,8 @@
 
         <ul>
           <li><a href="api/enums-video.html#avblocks.ColorFormat.Unknown">(avblocks.ColorFormat attribute)</a>
+</li>
+          <li><a href="api/enums-video.html#avblocks.InterpolationMethod.Unknown">(avblocks.InterpolationMethod attribute)</a>
 </li>
           <li><a href="api/enums-stream-types.html#avblocks.MediaType.Unknown">(avblocks.MediaType attribute)</a>
 </li>
@@ -1807,10 +2006,10 @@
 </li>
         <li><a href="api/enums-errors.html#avblocks.TranscoderError.UnsupportedVideoConversion">UnsupportedVideoConversion (avblocks.TranscoderError attribute)</a>
 </li>
-        <li><a href="api/enums-metadata.html#avblocks.Meta.UnsyncedLyrics">UnsyncedLyrics (avblocks.Meta attribute)</a>
-</li>
     </ul></td>
     <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-metadata.html#avblocks.Meta.UnsyncedLyrics">UnsyncedLyrics (avblocks.Meta attribute)</a>
+</li>
         <li><a href="api/collections-parameter.html#avblocks.parameter_list.ParameterList.update">update() (avblocks.parameter_list.ParameterList method)</a>
 </li>
         <li><a href="api/enums-metadata.html#avblocks.Meta.UrlArtist">UrlArtist (avblocks.Meta attribute)</a>
@@ -1960,6 +2159,16 @@
         <li><a href="api/enums-stream-types.html#avblocks.StreamType.WMA_Professional">WMA_Professional (avblocks.StreamType attribute)</a>
 </li>
         <li><a href="api/enums-stream-types.html#avblocks.StreamType.WMV">WMV (avblocks.StreamType attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="X" class="genindex-section">
+  <h2>X</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="api/enums-video.html#avblocks.AlphaCompositingMode.Xor">Xor (avblocks.AlphaCompositingMode attribute)</a>
 </li>
     </ul></td>
   </tr></table>

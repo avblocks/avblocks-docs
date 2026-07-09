@@ -25,3 +25,107 @@ Enumerations for encoding and transcoder settings.
    :members:
    :undoc-members:
 ```
+
+## HardwareEncoder
+
+```{eval-rst}
+.. autoclass:: avblocks.HardwareEncoder
+   :members:
+   :undoc-members:
+```
+
+## HwApi
+
+```{eval-rst}
+.. autoclass:: avblocks.HwApi
+   :members:
+   :undoc-members:
+```
+
+## H264Profile
+
+```{eval-rst}
+.. autoclass:: avblocks.H264Profile
+   :members:
+   :undoc-members:
+```
+
+## H264EntropyCodingMode
+
+```{eval-rst}
+.. autoclass:: avblocks.H264EntropyCodingMode
+   :members:
+   :undoc-members:
+```
+
+## H264DeblockingFilter
+
+```{eval-rst}
+.. autoclass:: avblocks.H264DeblockingFilter
+   :members:
+   :undoc-members:
+```
+
+## H264DirectPredMode
+
+```{eval-rst}
+.. autoclass:: avblocks.H264DirectPredMode
+   :members:
+   :undoc-members:
+```
+
+## H264MeSplitMode
+
+```{eval-rst}
+.. autoclass:: avblocks.H264MeSplitMode
+   :members:
+   :undoc-members:
+```
+
+## H264MeMethod
+
+```{eval-rst}
+.. autoclass:: avblocks.H264MeMethod
+   :members:
+   :undoc-members:
+```
+
+## H264PicCodingType
+
+```{eval-rst}
+.. autoclass:: avblocks.H264PicCodingType
+   :members:
+   :undoc-members:
+```
+
+## H264RateControlMethod
+
+```{eval-rst}
+.. autoclass:: avblocks.H264RateControlMethod
+   :members:
+   :undoc-members:
+```
+
+## H265Profile
+
+```{eval-rst}
+.. autoclass:: avblocks.H265Profile
+   :members:
+   :undoc-members:
+```
+
+## H265Level
+
+```{eval-rst}
+.. autoclass:: avblocks.H265Level
+   :members:
+   :undoc-members:
+```
+
+## H265Tier
+
+```{eval-rst}
+.. autoclass:: avblocks.H265Tier
+   :members:
+   :undoc-members:
+```

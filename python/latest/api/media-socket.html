@@ -207,6 +207,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/installation.html">Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/configuration.html">Configuration</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/download.html">Download AVBlocks Core and Demo Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting-started/samples.html">Samples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/licensing.html">Licensing</a></li>
 </ul>
 </li>
@@ -302,19 +303,18 @@ or simply an elementary stream (MP3, M2V, etc.).</p>
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">MediaSocket</span></span><a class="headerlink" href="#avblocks.MediaSocket" title="Link to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IImmutable</span></code></p>
 <p>An input or output point of the Transcoder.</p>
-<p>A MediaSocket object describes either a container (WAV, AVI, MP4, etc.) with one or more streams or
+<p>A MediaSocket object describes either a container (WAV, AVI, MP4, etc.) with one or more streams or 
 simply an elementary stream (MP3, M2V, etc.)</p>
-<p>When MediaSocket describes a container the child collection of media pins can contain one or more items
+<p>When MediaSocket describes a container the child collection of media pins can contain one or more items 
 (for each contained stream). The socket stream type designates the container type.</p>
-<p>When MediaSocket describes an elementary stream the child collection of media pins contains a single item
+<p>When MediaSocket describes an elementary stream the child collection of media pins contains a single item 
 which is the elementary stream itself. The socket stream type is the same as the pin stream type.</p>
 <dl class="py method">
 <dt class="sig sig-object py" id="avblocks.MediaSocket.clone">
 <span class="sig-name descname"><span class="pre">clone</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#avblocks.MediaSocket" title="avblocks.media_socket.MediaSocket"><span class="pre">MediaSocket</span></a></span></span><a class="headerlink" href="#avblocks.MediaSocket.clone" title="Link to this definition">¶</a></dt>
 <dd><p>Creates a deep copy of this object.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Returns<span class="colon">:</span></dt>
-<dd class="field-odd"><p>A new MediaSocket object</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>A new MediaSocket object</p>
 </dd>
 </dl>
 </dd></dl>
@@ -330,15 +330,15 @@ The default value is None.</p>
 <dt class="sig sig-object py" id="avblocks.MediaSocket.from_media_info">
 <em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">from_media_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">media_info</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="media-info.html#avblocks.MediaInfo" title="avblocks.MediaInfo"><span class="pre">MediaInfo</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#avblocks.MediaSocket" title="avblocks.MediaSocket"><span class="pre">MediaSocket</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span></span><a class="headerlink" href="#avblocks.MediaSocket.from_media_info" title="Link to this definition">¶</a></dt>
 <dd><p>Creates a media socket from a MediaInfo object.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>media_info</strong> – A MediaInfo object with audio/video information. The object may or may not be
-loaded before calling this function. This object is not needed after the method returns.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><dl class="simple">
+<dt>media_info: A MediaInfo object with audio/video information. The object may or may not be </dt><dd><p>loaded before calling this function. This object is not needed after the method returns.</p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>A new MediaSocket object or None.
+</dl>
+</dd>
+<dt>Returns:</dt><dd><p>A new MediaSocket object or None.
 The MediaSocket object contains the information supplied by the media_info parameter.
-When from_media_info fails, it returns None. In that case use the MediaInfo.error property
+When from_media_info fails, it returns None. In that case use the MediaInfo.error property 
 to get error information.</p>
 </dd>
 </dl>
@@ -353,12 +353,10 @@ The intended usage is as follows:
 <dt class="sig sig-object py" id="avblocks.MediaSocket.from_preset">
 <em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">from_preset</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">preset</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#avblocks.MediaSocket" title="avblocks.media_socket.MediaSocket"><span class="pre">MediaSocket</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span></span><a class="headerlink" href="#avblocks.MediaSocket.from_preset" title="Link to this definition">¶</a></dt>
 <dd><p>Creates a media socket from an AVBlocks Preset.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>preset</strong> – A constant from the Preset enum</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>preset: A constant from the Preset enum</p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>A new MediaSocket object which is configured for the specified preset,
+<dt>Returns:</dt><dd><p>A new MediaSocket object which is configured for the specified preset,
 or None if the preset is invalid.</p>
 </dd>
 </dl>
@@ -429,7 +427,7 @@ The default value of this property is StreamType.Unknown.</p>
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">time_position</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span></em><a class="headerlink" href="#avblocks.MediaSocket.time_position" title="Link to this definition">¶</a></dt>
 <dd><p>Specifies the position within file / stream (in seconds).</p>
 <p>The transcoder tries to seek to the time position before the transcoding operation starts.
-Seeking is not possible while transcoder is open. The Transcoder needs to be closed before
+Seeking is not possible while transcoder is open. The Transcoder needs to be closed before 
 setting a new time position with this property.</p>
 </dd></dl>
 

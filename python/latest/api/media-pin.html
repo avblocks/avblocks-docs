@@ -207,6 +207,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/installation.html">Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/configuration.html">Configuration</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/download.html">Download AVBlocks Core and Demo Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting-started/samples.html">Samples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/licensing.html">Licensing</a></li>
 </ul>
 </li>
@@ -303,16 +304,15 @@ However, AVBlocks can process only audio and video streams.
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">MediaPin</span></span><a class="headerlink" href="#avblocks.MediaPin" title="Link to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IImmutable</span></code></p>
 <p>MediaPin represents an elementary media stream.</p>
-<p>MediaPin object can exist for audio, video or any other type of stream.
+<p>MediaPin object can exist for audio, video or any other type of stream. 
 However, AVBlocks can process only the audio and video streams.
 MediaPin objects are used as inputs and outputs of Transcoder.</p>
 <dl class="py method">
 <dt class="sig sig-object py" id="avblocks.MediaPin.clone">
 <span class="sig-name descname"><span class="pre">clone</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#avblocks.MediaPin" title="avblocks.media_pin.MediaPin"><span class="pre">MediaPin</span></a></span></span><a class="headerlink" href="#avblocks.MediaPin.clone" title="Link to this definition">¶</a></dt>
 <dd><p>Creates a deep copy of this object.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Returns<span class="colon">:</span></dt>
-<dd class="field-odd"><p>A new MediaPin object</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>A new MediaPin object</p>
 </dd>
 </dl>
 </dd></dl>
@@ -351,7 +351,7 @@ When cloned an immutable object becomes mutable.</p>
 <dt class="sig sig-object py" id="avblocks.MediaPin.params">
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">params</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="collections-parameter.html#avblocks.parameter_list.ParameterList" title="avblocks.parameter_list.ParameterList"><span class="pre">ParameterList</span></a></em><a class="headerlink" href="#avblocks.MediaPin.params" title="Link to this definition">¶</a></dt>
 <dd><p>A collection of pin parameters.</p>
-<p>These parameters affect the processing of the elementary stream represented
+<p>These parameters affect the processing of the elementary stream represented 
 by this pin. The default value of this property is an empty ParameterList.</p>
 </dd></dl>
 
@@ -360,9 +360,9 @@ by this pin. The default value of this property is an empty ParameterList.</p>
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">stream_info</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="stream-info.html#avblocks.StreamInfo" title="avblocks.stream_info.StreamInfo"><span class="pre">StreamInfo</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#avblocks.MediaPin.stream_info" title="Link to this definition">¶</a></dt>
 <dd><p>Information about the elementary stream represented by this pin.</p>
 <p>The Transcoder ignores pins that are not audio or video elementary streams.
-If the value of StreamInfo.media_type is MediaType.Audio, it is safe to cast
+If the value of StreamInfo.media_type is MediaType.Audio, it is safe to cast 
 this property to AudioStreamInfo.
-If the media type is MediaType.Video, it is safe to cast this property to
+If the media type is MediaType.Video, it is safe to cast this property to 
 VideoStreamInfo.</p>
 </dd></dl>
 

@@ -207,6 +207,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/installation.html">Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/configuration.html">Configuration</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/download.html">Download AVBlocks Core and Demo Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting-started/samples.html">Samples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/licensing.html">Licensing</a></li>
 </ul>
 </li>
@@ -335,12 +336,10 @@ participate in the automatic connection.</p>
 <dt class="sig sig-object py" id="avblocks.Transcoder.end_of_stream">
 <span class="sig-name descname"><span class="pre">end_of_stream</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">input_index</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#avblocks.Transcoder.end_of_stream" title="Link to this definition">¶</a></dt>
 <dd><p>Tells the Transcoder that there’s no more data for the specified input socket.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>input_index</strong> – Specifies the index of the input socket for which there’s no more data.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>input_index: Specifies the index of the input socket for which there’s no more data.</p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>True if the operation is successful; otherwise False.</p>
+<dt>Returns:</dt><dd><p>True if the operation is successful; otherwise False.</p>
 </dd>
 </dl>
 </dd></dl>
@@ -355,9 +354,8 @@ participate in the automatic connection.</p>
 <dt class="sig sig-object py" id="avblocks.Transcoder.flush">
 <span class="sig-name descname"><span class="pre">flush</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#avblocks.Transcoder.flush" title="Link to this definition">¶</a></dt>
 <dd><p>Flushes the data buffered in the Transcoder to the output.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Returns<span class="colon">:</span></dt>
-<dd class="field-odd"><p>True if the buffered data is successfully flushed; otherwise False.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>True if the buffered data is successfully flushed; otherwise False.</p>
 </dd>
 </dl>
 </dd></dl>
@@ -366,7 +364,7 @@ participate in the automatic connection.</p>
 <dt class="sig sig-object py" id="avblocks.Transcoder.inputs">
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">inputs</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="collections-media.html#avblocks.media_socket_list.MediaSocketList" title="avblocks.media_socket_list.MediaSocketList"><span class="pre">MediaSocketList</span></a></em><a class="headerlink" href="#avblocks.Transcoder.inputs" title="Link to this definition">¶</a></dt>
 <dd><p>A modifiable collection of MediaSocket objects which describe the input data of the Transcoder.</p>
-<p>Each socket in the collection represents an input point -
+<p>Each socket in the collection represents an input point - 
 it can be a container with one or more streams or just an elementary stream.</p>
 <p>The default value of this property is an empty collection which can be modified but it cannot be replaced.</p>
 </dd></dl>
@@ -375,9 +373,8 @@ it can be a container with one or more streams or just an elementary stream.</p>
 <dt class="sig sig-object py" id="avblocks.Transcoder.open">
 <span class="sig-name descname"><span class="pre">open</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#avblocks.Transcoder.open" title="Link to this definition">¶</a></dt>
 <dd><p>Initializes the Transcoder based on the specified input and desired output.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Returns<span class="colon">:</span></dt>
-<dd class="field-odd"><p>True if the Transcoder is successfully initialized and is ready to process data; otherwise False.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>True if the Transcoder is successfully initialized and is ready to process data; otherwise False.</p>
 </dd>
 </dl>
 </dd></dl>
@@ -386,7 +383,7 @@ it can be a container with one or more streams or just an elementary stream.</p>
 <dt class="sig sig-object py" id="avblocks.Transcoder.outputs">
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">outputs</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="collections-media.html#avblocks.media_socket_list.MediaSocketList" title="avblocks.media_socket_list.MediaSocketList"><span class="pre">MediaSocketList</span></a></em><a class="headerlink" href="#avblocks.Transcoder.outputs" title="Link to this definition">¶</a></dt>
 <dd><p>A modifiable collection of MediaSocket objects which describe the output data of the Transcoder.</p>
-<p>Each socket in the collection describes an output point -
+<p>Each socket in the collection describes an output point - 
 it can be a container with one or more streams or just an elementary stream.</p>
 <p>The default value of this property is an empty collection which can be modified but it cannot be replaced.</p>
 </dd></dl>
@@ -395,19 +392,12 @@ it can be a container with one or more streams or just an elementary stream.</p>
 <dt class="sig sig-object py" id="avblocks.Transcoder.pull">
 <span class="sig-name descname"><span class="pre">pull</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">output_sample</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="media-sample.html#avblocks.MediaSample" title="avblocks.media_sample.MediaSample"><span class="pre">MediaSample</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#avblocks.Transcoder.pull" title="Link to this definition">¶</a></dt>
 <dd><p>Pulls output data from the Transcoder.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>output_sample</strong> – The MediaSample object receives the output data in the buffer property.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>output_sample: The MediaSample object receives the output data in the buffer property.</p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><ul class="simple">
-<li><p>success: True if the Transcoder has successfully generated output, otherwise False.</p></li>
-<li><p>output_index: The index of the output socket to which the data belongs.</p></li>
-</ul>
-</p>
-</dd>
-<dt class="field-odd">Return type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>A tuple of (success, output_index) where</p>
+<dt>Returns:</dt><dd><p>A tuple of (success, output_index) where:
+- success: True if the Transcoder has successfully generated output, otherwise False.
+- output_index: The index of the output socket to which the data belongs.</p>
 </dd>
 </dl>
 </dd></dl>
@@ -416,19 +406,12 @@ it can be a container with one or more streams or just an elementary stream.</p>
 <dt class="sig sig-object py" id="avblocks.Transcoder.pull_unmanaged">
 <span class="sig-name descname"><span class="pre">pull_unmanaged</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">output_sample</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="media-sample.html#avblocks.MediaSample" title="avblocks.media_sample.MediaSample"><span class="pre">MediaSample</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#avblocks.Transcoder.pull_unmanaged" title="Link to this definition">¶</a></dt>
 <dd><p>Pulls output data from the Transcoder.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>output_sample</strong> – The MediaSample object receives the output data in the unmanaged_buffer property.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>output_sample: The MediaSample object receives the output data in the unmanaged_buffer property.</p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><ul class="simple">
-<li><p>success: True if the Transcoder has successfully generated output, otherwise False.</p></li>
-<li><p>output_index: The index of the output socket to which the data belongs.</p></li>
-</ul>
-</p>
-</dd>
-<dt class="field-odd">Return type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>A tuple of (success, output_index) where</p>
+<dt>Returns:</dt><dd><p>A tuple of (success, output_index) where:
+- success: True if the Transcoder has successfully generated output, otherwise False.
+- output_index: The index of the output socket to which the data belongs.</p>
 </dd>
 </dl>
 </dd></dl>
@@ -437,15 +420,11 @@ it can be a container with one or more streams or just an elementary stream.</p>
 <dt class="sig sig-object py" id="avblocks.Transcoder.push">
 <span class="sig-name descname"><span class="pre">push</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">input_index</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">input_sample</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="media-sample.html#avblocks.MediaSample" title="avblocks.media_sample.MediaSample"><span class="pre">MediaSample</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#avblocks.Transcoder.push" title="Link to this definition">¶</a></dt>
 <dd><p>Pushes input data to the Transcoder.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>input_index</strong> – Specifies the index of the input socket whose data is pushed to the Transcoder.</p></li>
-<li><p><strong>input_sample</strong> – A MediaSample object that contains the input data in the buffer property.</p></li>
-</ul>
+<dl class="simple">
+<dt>Args:</dt><dd><p>input_index: Specifies the index of the input socket whose data is pushed to the Transcoder.
+input_sample: A MediaSample object that contains the input data in the buffer property.</p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>True when the Transcoder has successfully processed some or all of the input data, otherwise False.</p>
+<dt>Returns:</dt><dd><p>True when the Transcoder has successfully processed some or all of the input data, otherwise False.</p>
 </dd>
 </dl>
 </dd></dl>
@@ -454,15 +433,11 @@ it can be a container with one or more streams or just an elementary stream.</p>
 <dt class="sig sig-object py" id="avblocks.Transcoder.push_unmanaged">
 <span class="sig-name descname"><span class="pre">push_unmanaged</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">input_index</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">input_sample</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="media-sample.html#avblocks.MediaSample" title="avblocks.media_sample.MediaSample"><span class="pre">MediaSample</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#avblocks.Transcoder.push_unmanaged" title="Link to this definition">¶</a></dt>
 <dd><p>Pushes input data to the Transcoder.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>input_index</strong> – Specifies the index of the input socket whose data is pushed to the Transcoder.</p></li>
-<li><p><strong>input_sample</strong> – A MediaSample object that contains the input data in the unmanaged_buffer property.</p></li>
-</ul>
+<dl class="simple">
+<dt>Args:</dt><dd><p>input_index: Specifies the index of the input socket whose data is pushed to the Transcoder.
+input_sample: A MediaSample object that contains the input data in the unmanaged_buffer property.</p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>True when the Transcoder has successfully processed some or all of the input data, otherwise False.</p>
+<dt>Returns:</dt><dd><p>True when the Transcoder has successfully processed some or all of the input data, otherwise False.</p>
 </dd>
 </dl>
 </dd></dl>
@@ -471,9 +446,8 @@ it can be a container with one or more streams or just an elementary stream.</p>
 <dt class="sig sig-object py" id="avblocks.Transcoder.run">
 <span class="sig-name descname"><span class="pre">run</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#avblocks.Transcoder.run" title="Link to this definition">¶</a></dt>
 <dd><p>Runs an automatic transcoding.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Returns<span class="colon">:</span></dt>
-<dd class="field-odd"><p>True when the transcoding has succeeded.
+<dl class="simple">
+<dt>Returns:</dt><dd><p>True when the transcoding has succeeded.
 False when there’s a transcoding error or the run() method cannot be used with the specified inputs and outputs.</p>
 </dd>
 </dl>

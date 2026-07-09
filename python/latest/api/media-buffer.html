@@ -207,6 +207,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/installation.html">Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/configuration.html">Configuration</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/download.html">Download AVBlocks Core and Demo Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting-started/samples.html">Samples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/licensing.html">Licensing</a></li>
 </ul>
 </li>
@@ -303,24 +304,22 @@ start at any offset in the buffer.</p>
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">MediaBuffer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bytes</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">bytearray</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">buffer_size</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#avblocks.MediaBuffer" title="Link to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>A buffer for media data.</p>
-<p>MediaBuffer has a capacity which is the size of the buffer and data size which is
+<p>MediaBuffer has a capacity which is the size of the buffer and data size which is 
 the size of the actual data in the buffer. The buffer is a continuous block of memory.
 The valid data is also a continuous block. The data can start at any offset in the buffer.</p>
 <dl class="py method">
 <dt class="sig sig-object py" id="avblocks.MediaBuffer.attach">
 <span class="sig-name descname"><span class="pre">attach</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">buffer</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bytes</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">bytearray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">set_data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#avblocks.MediaBuffer.attach" title="Link to this definition">¶</a></dt>
 <dd><p>Attaches an external buffer storage.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>buffer</strong> – A byte array that should be used as external storage</p></li>
-<li><p><strong>set_data</strong> – Specifies whether to auto set data with a size equal to the buffer size.
-If True, the data size is set to the buffer size.
-If False, data size is 0.</p></li>
-</ul>
+<dl>
+<dt>Args:</dt><dd><p>buffer: A byte array that should be used as external storage
+set_data: Specifies whether to auto set data with a size equal to the buffer size.</p>
+<blockquote>
+<div><p>If True, the data size is set to the buffer size.
+If False, data size is 0.</p>
+</div></blockquote>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>True if the buffer is attached successfully, False otherwise</p>
+<dt>Returns:</dt><dd><p>True if the buffer is attached successfully, False otherwise</p>
 </dd>
 </dl>
 </dd></dl>
@@ -335,13 +334,10 @@ If False, data size is 0.</p></li>
 <dt class="sig sig-object py" id="avblocks.MediaBuffer.clone">
 <span class="sig-name descname"><span class="pre">clone</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#avblocks.MediaBuffer" title="avblocks.media_buffer.MediaBuffer"><span class="pre">MediaBuffer</span></a></span></span><a class="headerlink" href="#avblocks.MediaBuffer.clone" title="Link to this definition">¶</a></dt>
 <dd><p>Creates a deep copy of this object.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Returns<span class="colon">:</span></dt>
-<dd class="field-odd"><p>A new MediaBuffer object</p>
-</dd>
-</dl>
 <dl class="simple">
-<dt>Remarks:</dt><dd><p>Only the reference to the external buffer is copied when MediaBuffer does not
+<dt>Returns:</dt><dd><p>A new MediaBuffer object</p>
+</dd>
+<dt>Remarks:</dt><dd><p>Only the reference to the external buffer is copied when MediaBuffer does not 
 own its data buffer (uses external/attached data). When MediaBuffer owns its data,
 a new copy of the data is created.</p>
 </dd>
@@ -371,9 +367,8 @@ This is effectively the same as start[data_offset:data_offset+data_size]</p>
 <dt class="sig sig-object py" id="avblocks.MediaBuffer.detach">
 <span class="sig-name descname"><span class="pre">detach</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bytes</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">bytearray</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span></span><a class="headerlink" href="#avblocks.MediaBuffer.detach" title="Link to this definition">¶</a></dt>
 <dd><p>Detaches an external data buffer.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Returns<span class="colon">:</span></dt>
-<dd class="field-odd"><p>A reference to the detached buffer or None if no external buffer has been attached</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>A reference to the detached buffer or None if no external buffer has been attached</p>
 </dd>
 </dl>
 </dd></dl>
@@ -394,15 +389,11 @@ This is effectively the same as start[data_offset:data_offset+data_size]</p>
 <dt class="sig sig-object py" id="avblocks.MediaBuffer.set_data">
 <span class="sig-name descname"><span class="pre">set_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data_offset</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data_size</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#avblocks.MediaBuffer.set_data" title="Link to this definition">¶</a></dt>
 <dd><p>This is a convenience method that sets buffer data offset and size at once.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>data_offset</strong> – The offset in the buffer where valid data starts</p></li>
-<li><p><strong>data_size</strong> – The size in bytes of the valid data in the buffer</p></li>
-</ul>
+<dl class="simple">
+<dt>Args:</dt><dd><p>data_offset: The offset in the buffer where valid data starts
+data_size: The size in bytes of the valid data in the buffer</p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>True if data_offset and data_size are accepted and valid data is set,
+<dt>Returns:</dt><dd><p>True if data_offset and data_size are accepted and valid data is set,
 False otherwise</p>
 </dd>
 </dl>

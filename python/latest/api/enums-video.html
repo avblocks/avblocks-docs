@@ -207,6 +207,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/installation.html">Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/configuration.html">Configuration</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/download.html">Download AVBlocks Core and Demo Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting-started/samples.html">Samples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../getting-started/licensing.html">Licensing</a></li>
 </ul>
 </li>
@@ -293,11 +294,176 @@
           <section id="video-settings">
 <h1>Video Settings<a class="headerlink" href="#video-settings" title="Link to this heading">¶</a></h1>
 <p>Enumerations for video format and display settings.</p>
+<section id="alphacompositingmode">
+<h2>AlphaCompositingMode<a class="headerlink" href="#alphacompositingmode" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.AlphaCompositingMode">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">AlphaCompositingMode</span></span><a class="headerlink" href="#avblocks.AlphaCompositingMode" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>Defines the way a foreground image will be combined with background video.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.AlphaCompositingMode.Atop">
+<span class="sig-name descname"><span class="pre">Atop</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#avblocks.AlphaCompositingMode.Atop" title="Link to this definition">¶</a></dt>
+<dd><p>Foreground atop Background.</p>
+<p>If Fa is foreground alpha, Frgb is foreground RGB, Ba is background alpha, Brgb is background RGB, then Rrgb is the compositing result:
+Rrgb = (Fa * Frgb) * Ba + (1 - Fa) * (Ba * Brgb)</p>
+<p>Fa and Ba are alpha density value with range from 0.0 to 1.0</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.AlphaCompositingMode.In">
+<span class="sig-name descname"><span class="pre">In</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#avblocks.AlphaCompositingMode.In" title="Link to this definition">¶</a></dt>
+<dd><p>Foreground in Background - the alpha compositing equivalent of clipping / intersection.</p>
+<p>If Fa is foreground alpha, Frgb is foreground RGB, Ba is background alpha, Brgb is background RGB, then Rrgb is the compositing result:
+Rrgb = (Fa * Frgb) * Ba</p>
+<p>Fa and Ba are alpha density value with range from 0.0 to 1.0</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.AlphaCompositingMode.Out">
+<span class="sig-name descname"><span class="pre">Out</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#avblocks.AlphaCompositingMode.Out" title="Link to this definition">¶</a></dt>
+<dd><p>Foreground outside Background.</p>
+<p>If Fa is foreground alpha, Frgb is foreground RGB, Ba is background alpha, Brgb is background RGB, then Rrgb is the compositing result:
+Rrgb = (Fa * Frgb) * (1 - Ba)</p>
+<p>Fa and Ba are alpha density value with range from 0.0 to 1.0</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.AlphaCompositingMode.Over">
+<span class="sig-name descname"><span class="pre">Over</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#avblocks.AlphaCompositingMode.Over" title="Link to this definition">¶</a></dt>
+<dd><p>Foreground over Background - in effect, normal painting operation.</p>
+<p>If Fa is foreground alpha, Frgb is foreground RGB, Ba is background alpha, Brgb is background RGB, then Rrgb is the compositing result:
+Rrgb = (Fa * Frgb) + (1 - Fa) * (Ba * Brgb)</p>
+<p>Normally, alpha blending implies a background alpha of 1.0 (Ba = 1.0), so the compositing result Rrgb becomes:
+Rrgb = (Fa * Frgb) + (1 - Fa) * Brgb</p>
+<p>Fa and Ba are alpha density value with range from 0.0 to 1.0</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.AlphaCompositingMode.Plus">
+<span class="sig-name descname"><span class="pre">Plus</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">6</span></em><a class="headerlink" href="#avblocks.AlphaCompositingMode.Plus" title="Link to this definition">¶</a></dt>
+<dd><p>Foreground plus Background.</p>
+<p>If Fa is foreground alpha, Frgb is foreground RGB, Ba is background alpha, Brgb is background RGB, then Rrgb is the compositing result:
+Rrgb = (Fa * Frgb) + (Ba * Brgb)</p>
+<p>Fa and Ba are alpha density value with range from 0.0 to 1.0</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.AlphaCompositingMode.Xor">
+<span class="sig-name descname"><span class="pre">Xor</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">5</span></em><a class="headerlink" href="#avblocks.AlphaCompositingMode.Xor" title="Link to this definition">¶</a></dt>
+<dd><p>Foreground xor Background.</p>
+<p>If Fa is foreground alpha, Frgb is foreground RGB, Ba is background alpha, Brgb is background RGB, then Rrgb is the compositing result:
+Rrgb = (Fa * Frgb) * (1 - Ba) + (1 - Fa) * (Ba * Brgb)</p>
+<p>Fa and Ba are alpha density value with range from 0.0 to 1.0</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="deinterlacingmethod">
+<h2>DeinterlacingMethod<a class="headerlink" href="#deinterlacingmethod" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.DeinterlacingMethod">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">DeinterlacingMethod</span></span><a class="headerlink" href="#avblocks.DeinterlacingMethod" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>Defines video deinterlacing methods.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.DeinterlacingMethod.Blend">
+<span class="sig-name descname"><span class="pre">Blend</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#avblocks.DeinterlacingMethod.Blend" title="Link to this definition">¶</a></dt>
+<dd><p>Motion adaptive deinterlacing.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.DeinterlacingMethod.CAVT">
+<span class="sig-name descname"><span class="pre">CAVT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">6</span></em><a class="headerlink" href="#avblocks.DeinterlacingMethod.CAVT" title="Link to this definition">¶</a></dt>
+<dd><p>Content adaptive vertical temporal (CAVT) filtering.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.DeinterlacingMethod.Duplicate">
+<span class="sig-name descname"><span class="pre">Duplicate</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#avblocks.DeinterlacingMethod.Duplicate" title="Link to this definition">¶</a></dt>
+<dd><p>Line doubling.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.DeinterlacingMethod.EdgeDetect">
+<span class="sig-name descname"><span class="pre">EdgeDetect</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#avblocks.DeinterlacingMethod.EdgeDetect" title="Link to this definition">¶</a></dt>
+<dd><p>Uses an edge detection filter.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.DeinterlacingMethod.Median">
+<span class="sig-name descname"><span class="pre">Median</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#avblocks.DeinterlacingMethod.Median" title="Link to this definition">¶</a></dt>
+<dd><p>Calculates the median of consecutive fields</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.DeinterlacingMethod.MedianThreshold">
+<span class="sig-name descname"><span class="pre">MedianThreshold</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">5</span></em><a class="headerlink" href="#avblocks.DeinterlacingMethod.MedianThreshold" title="Link to this definition">¶</a></dt>
+<dd><p>Calculates the median of consecutive fields using a threshold.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.DeinterlacingMethod.NoDeinterlacing">
+<span class="sig-name descname"><span class="pre">NoDeinterlacing</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#avblocks.DeinterlacingMethod.NoDeinterlacing" title="Link to this definition">¶</a></dt>
+<dd><p>No deinterlacing is performed.
+This can be used to prevent automatic deinterlacing if it’s not desired.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="interpolationmethod">
+<h2>InterpolationMethod<a class="headerlink" href="#interpolationmethod" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="avblocks.InterpolationMethod">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">InterpolationMethod</span></span><a class="headerlink" href="#avblocks.InterpolationMethod" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>Defines methods for sample interpolation.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.InterpolationMethod.Cubic">
+<span class="sig-name descname"><span class="pre">Cubic</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#avblocks.InterpolationMethod.Cubic" title="Link to this definition">¶</a></dt>
+<dd><p>Cubic convolution interpolation</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.InterpolationMethod.Lanczos">
+<span class="sig-name descname"><span class="pre">Lanczos</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">16</span></em><a class="headerlink" href="#avblocks.InterpolationMethod.Lanczos" title="Link to this definition">¶</a></dt>
+<dd><p>Interpolation by 3-lobed Lanczos-windowed sinc function.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.InterpolationMethod.Linear">
+<span class="sig-name descname"><span class="pre">Linear</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#avblocks.InterpolationMethod.Linear" title="Link to this definition">¶</a></dt>
+<dd><p>Linear interpolation</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.InterpolationMethod.NearestNeighbor">
+<span class="sig-name descname"><span class="pre">NearestNeighbor</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#avblocks.InterpolationMethod.NearestNeighbor" title="Link to this definition">¶</a></dt>
+<dd><p>Nearest neighbor interpolation</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.InterpolationMethod.Super">
+<span class="sig-name descname"><span class="pre">Super</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8</span></em><a class="headerlink" href="#avblocks.InterpolationMethod.Super" title="Link to this definition">¶</a></dt>
+<dd><p>Supersampling interpolation</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="avblocks.InterpolationMethod.Unknown">
+<span class="sig-name descname"><span class="pre">Unknown</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#avblocks.InterpolationMethod.Unknown" title="Link to this definition">¶</a></dt>
+<dd><p>The interpolation method is unknown or not set.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
 <section id="colorformat">
 <h2>ColorFormat<a class="headerlink" href="#colorformat" title="Link to this heading">¶</a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="avblocks.ColorFormat">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">ColorFormat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names=&lt;not</span> <span class="pre">given&gt;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">*values</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start=1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary=None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#avblocks.ColorFormat" title="Link to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">ColorFormat</span></span><a class="headerlink" href="#avblocks.ColorFormat" title="Link to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
 <p>Defines constants for various color formats.</p>
 <p>A color format is combination of color space, color depth, chroma sub-sampling, component layout and packing.</p>
@@ -346,33 +512,13 @@
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.ColorFormat.NV12">
 <span class="sig-name descname"><span class="pre">NV12</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#avblocks.ColorFormat.NV12" title="Link to this definition">¶</a></dt>
-<dd><ol class="arabic simple" start="0">
-<li></li>
-</ol>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Planar Y, merged U-&gt;V (4</p>
-</dd>
-<dt class="field-even">Type<span class="colon">:</span></dt>
-<dd class="field-even"><p>2</p>
-</dd>
-</dl>
+<dd><p>Planar Y, merged U-&gt;V (<code class="docutils literal notranslate"><span class="pre">4:2:0</span></code>).</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.ColorFormat.UYVY">
 <span class="sig-name descname"><span class="pre">UYVY</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#avblocks.ColorFormat.UYVY" title="Link to this definition">¶</a></dt>
-<dd><ol class="arabic simple" start="2">
-<li></li>
-</ol>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Composite U-&gt;Y-&gt;V-&gt;Y (4</p>
-</dd>
-<dt class="field-even">Type<span class="colon">:</span></dt>
-<dd class="field-even"><p>2</p>
-</dd>
-</dl>
+<dd><p>Composite U-&gt;Y-&gt;V-&gt;Y (<code class="docutils literal notranslate"><span class="pre">4:2:2</span></code>).</p>
 </dd></dl>
 
 <dl class="py attribute">
@@ -384,65 +530,25 @@
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.ColorFormat.Y411">
 <span class="sig-name descname"><span class="pre">Y411</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">9</span></em><a class="headerlink" href="#avblocks.ColorFormat.Y411" title="Link to this definition">¶</a></dt>
-<dd><ol class="arabic simple">
-<li></li>
-</ol>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Composite Y, U, V (4</p>
-</dd>
-<dt class="field-even">Type<span class="colon">:</span></dt>
-<dd class="field-even"><p>1</p>
-</dd>
-</dl>
+<dd><p>Composite Y, U, V (<code class="docutils literal notranslate"><span class="pre">4:1:1</span></code>).</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.ColorFormat.Y41P">
 <span class="sig-name descname"><span class="pre">Y41P</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">10</span></em><a class="headerlink" href="#avblocks.ColorFormat.Y41P" title="Link to this definition">¶</a></dt>
-<dd><ol class="arabic simple">
-<li></li>
-</ol>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Composite Y, U, V (4</p>
-</dd>
-<dt class="field-even">Type<span class="colon">:</span></dt>
-<dd class="field-even"><p>1</p>
-</dd>
-</dl>
+<dd><p>Composite Y, U, V (<code class="docutils literal notranslate"><span class="pre">4:1:1</span></code>).</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.ColorFormat.YUV411">
 <span class="sig-name descname"><span class="pre">YUV411</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">5</span></em><a class="headerlink" href="#avblocks.ColorFormat.YUV411" title="Link to this definition">¶</a></dt>
-<dd><ol class="arabic simple">
-<li></li>
-</ol>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Planar Y, U, V (4</p>
-</dd>
-<dt class="field-even">Type<span class="colon">:</span></dt>
-<dd class="field-even"><p>1</p>
-</dd>
-</dl>
+<dd><p>Planar Y, U, V (<code class="docutils literal notranslate"><span class="pre">4:1:1</span></code>).</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.ColorFormat.YUV420">
 <span class="sig-name descname"><span class="pre">YUV420</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">6</span></em><a class="headerlink" href="#avblocks.ColorFormat.YUV420" title="Link to this definition">¶</a></dt>
-<dd><ol class="arabic simple" start="0">
-<li></li>
-</ol>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Planar Y, U, V (4</p>
-</dd>
-<dt class="field-even">Type<span class="colon">:</span></dt>
-<dd class="field-even"><p>2</p>
-</dd>
-</dl>
+<dd><p>Planar Y, U, V (<code class="docutils literal notranslate"><span class="pre">4:2:0</span></code>).</p>
 </dd></dl>
 
 <dl class="py attribute">
@@ -454,17 +560,7 @@
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.ColorFormat.YUV422">
 <span class="sig-name descname"><span class="pre">YUV422</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">7</span></em><a class="headerlink" href="#avblocks.ColorFormat.YUV422" title="Link to this definition">¶</a></dt>
-<dd><ol class="arabic simple" start="2">
-<li></li>
-</ol>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Planar Y, U, V (4</p>
-</dd>
-<dt class="field-even">Type<span class="colon">:</span></dt>
-<dd class="field-even"><p>2</p>
-</dd>
-</dl>
+<dd><p>Planar Y, U, V (<code class="docutils literal notranslate"><span class="pre">4:2:2</span></code>).</p>
 </dd></dl>
 
 <dl class="py attribute">
@@ -476,17 +572,7 @@
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.ColorFormat.YUV444">
 <span class="sig-name descname"><span class="pre">YUV444</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8</span></em><a class="headerlink" href="#avblocks.ColorFormat.YUV444" title="Link to this definition">¶</a></dt>
-<dd><ol class="arabic simple" start="4">
-<li></li>
-</ol>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Planar Y, U, V (4</p>
-</dd>
-<dt class="field-even">Type<span class="colon">:</span></dt>
-<dd class="field-even"><p>4</p>
-</dd>
-</dl>
+<dd><p>Planar Y, U, V (<code class="docutils literal notranslate"><span class="pre">4:4:4</span></code>).</p>
 </dd></dl>
 
 <dl class="py attribute">
@@ -498,33 +584,13 @@
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.ColorFormat.YUY2">
 <span class="sig-name descname"><span class="pre">YUY2</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#avblocks.ColorFormat.YUY2" title="Link to this definition">¶</a></dt>
-<dd><ol class="arabic simple" start="2">
-<li></li>
-</ol>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Composite Y-&gt;U-&gt;Y-&gt;V (4</p>
-</dd>
-<dt class="field-even">Type<span class="colon">:</span></dt>
-<dd class="field-even"><p>2</p>
-</dd>
-</dl>
+<dd><p>Composite Y-&gt;U-&gt;Y-&gt;V (<code class="docutils literal notranslate"><span class="pre">4:2:2</span></code>).</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="avblocks.ColorFormat.YV12">
 <span class="sig-name descname"><span class="pre">YV12</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#avblocks.ColorFormat.YV12" title="Link to this definition">¶</a></dt>
-<dd><ol class="arabic simple" start="0">
-<li><p>(note V,U order!)</p></li>
-</ol>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Planar Y, V, U (4</p>
-</dd>
-<dt class="field-even">Type<span class="colon">:</span></dt>
-<dd class="field-even"><p>2</p>
-</dd>
-</dl>
+<dd><p>Planar Y, V, U (<code class="docutils literal notranslate"><span class="pre">4:2:0</span></code>, note V,U order!).</p>
 </dd></dl>
 
 <dl class="py attribute">
@@ -542,7 +608,7 @@ Effectively this averages 9 bits per pixel (16 pixels =&gt; 16Y + 1V + 1U =&gt; 
 <h2>ScanType<a class="headerlink" href="#scantype" title="Link to this heading">¶</a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="avblocks.ScanType">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">ScanType</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names=&lt;not</span> <span class="pre">given&gt;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">*values</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qualname=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start=1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary=None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#avblocks.ScanType" title="Link to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">avblocks.</span></span><span class="sig-name descname"><span class="pre">ScanType</span></span><a class="headerlink" href="#avblocks.ScanType" title="Link to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
 <p>Defines video interlace/scan types.</p>
 <dl class="py attribute">
@@ -633,6 +699,43 @@ Effectively this averages 9 bits per pixel (16 pixels =&gt; 16Y + 1V + 1U =&gt; 
           <div class="toc-tree">
             <ul>
 <li><a class="reference internal" href="#">Video Settings</a><ul>
+<li><a class="reference internal" href="#alphacompositingmode">AlphaCompositingMode</a><ul>
+<li><a class="reference internal" href="#avblocks.AlphaCompositingMode"><code class="docutils literal notranslate"><span class="pre">AlphaCompositingMode</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.AlphaCompositingMode.Atop"><code class="docutils literal notranslate"><span class="pre">AlphaCompositingMode.Atop</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.AlphaCompositingMode.In"><code class="docutils literal notranslate"><span class="pre">AlphaCompositingMode.In</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.AlphaCompositingMode.Out"><code class="docutils literal notranslate"><span class="pre">AlphaCompositingMode.Out</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.AlphaCompositingMode.Over"><code class="docutils literal notranslate"><span class="pre">AlphaCompositingMode.Over</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.AlphaCompositingMode.Plus"><code class="docutils literal notranslate"><span class="pre">AlphaCompositingMode.Plus</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.AlphaCompositingMode.Xor"><code class="docutils literal notranslate"><span class="pre">AlphaCompositingMode.Xor</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#deinterlacingmethod">DeinterlacingMethod</a><ul>
+<li><a class="reference internal" href="#avblocks.DeinterlacingMethod"><code class="docutils literal notranslate"><span class="pre">DeinterlacingMethod</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.DeinterlacingMethod.Blend"><code class="docutils literal notranslate"><span class="pre">DeinterlacingMethod.Blend</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.DeinterlacingMethod.CAVT"><code class="docutils literal notranslate"><span class="pre">DeinterlacingMethod.CAVT</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.DeinterlacingMethod.Duplicate"><code class="docutils literal notranslate"><span class="pre">DeinterlacingMethod.Duplicate</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.DeinterlacingMethod.EdgeDetect"><code class="docutils literal notranslate"><span class="pre">DeinterlacingMethod.EdgeDetect</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.DeinterlacingMethod.Median"><code class="docutils literal notranslate"><span class="pre">DeinterlacingMethod.Median</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.DeinterlacingMethod.MedianThreshold"><code class="docutils literal notranslate"><span class="pre">DeinterlacingMethod.MedianThreshold</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.DeinterlacingMethod.NoDeinterlacing"><code class="docutils literal notranslate"><span class="pre">DeinterlacingMethod.NoDeinterlacing</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#interpolationmethod">InterpolationMethod</a><ul>
+<li><a class="reference internal" href="#avblocks.InterpolationMethod"><code class="docutils literal notranslate"><span class="pre">InterpolationMethod</span></code></a><ul>
+<li><a class="reference internal" href="#avblocks.InterpolationMethod.Cubic"><code class="docutils literal notranslate"><span class="pre">InterpolationMethod.Cubic</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.InterpolationMethod.Lanczos"><code class="docutils literal notranslate"><span class="pre">InterpolationMethod.Lanczos</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.InterpolationMethod.Linear"><code class="docutils literal notranslate"><span class="pre">InterpolationMethod.Linear</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.InterpolationMethod.NearestNeighbor"><code class="docutils literal notranslate"><span class="pre">InterpolationMethod.NearestNeighbor</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.InterpolationMethod.Super"><code class="docutils literal notranslate"><span class="pre">InterpolationMethod.Super</span></code></a></li>
+<li><a class="reference internal" href="#avblocks.InterpolationMethod.Unknown"><code class="docutils literal notranslate"><span class="pre">InterpolationMethod.Unknown</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li><a class="reference internal" href="#colorformat">ColorFormat</a><ul>
 <li><a class="reference internal" href="#avblocks.ColorFormat"><code class="docutils literal notranslate"><span class="pre">ColorFormat</span></code></a><ul>
 <li><a class="reference internal" href="#avblocks.ColorFormat.BGR24"><code class="docutils literal notranslate"><span class="pre">ColorFormat.BGR24</span></code></a></li>

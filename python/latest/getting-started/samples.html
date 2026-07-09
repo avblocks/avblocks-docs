@@ -3,10 +3,10 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="API Reference" href="../api/index.html" /><link rel="prev" title="Samples" href="samples.html" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Licensing" href="licensing.html" /><link rel="prev" title="Download AVBlocks Core and Demo Assets" href="download.html" />
 
     <link rel="shortcut icon" href="../_static/favicon.ico"/><!-- Generated with Sphinx 7.4.7 and Furo 2024.08.06 -->
-        <title>Licensing - AVBlocks Python API</title>
+        <title>Samples - AVBlocks Python API</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
@@ -179,7 +179,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -207,8 +207,8 @@
 <li class="toctree-l2"><a class="reference internal" href="installation.html">Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="configuration.html">Configuration</a></li>
 <li class="toctree-l2"><a class="reference internal" href="download.html">Download AVBlocks Core and Demo Assets</a></li>
-<li class="toctree-l2"><a class="reference internal" href="samples.html">Samples</a></li>
-<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Licensing</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Samples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="licensing.html">Licensing</a></li>
 </ul>
 </li>
 </ul>
@@ -285,22 +285,152 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section id="licensing">
-<h1>Licensing<a class="headerlink" href="#licensing" title="Link to this heading">¶</a></h1>
-<p>We offer discounts for:</p>
+          <section id="samples">
+<h1>Samples<a class="headerlink" href="#samples" title="Link to this heading">¶</a></h1>
+<p>This page lists the sample applications demonstrating the AVBlocks Python SDK capabilities.</p>
+<section id="common-options">
+<h2>Common Options<a class="headerlink" href="#common-options" title="Link to this heading">¶</a></h2>
+<p>Most samples support these options:</p>
 <ul class="simple">
-<li><p>Competitive product</p></li>
-<li><p>Startup</p></li>
-<li><p>Educational institution</p></li>
-<li><p>Open source project</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-i</span></code>, <code class="docutils literal notranslate"><span class="pre">--input</span></code> — Input file path</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-o</span></code>, <code class="docutils literal notranslate"><span class="pre">--output</span></code> — Output file path</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">--help</span></code> — Show usage help message</p></li>
 </ul>
-<p>Please check the available license options at <a class="reference external" href="https://avblocks.com/license/">https://avblocks.com/license</a>.</p>
+</section>
+<section id="processing-modes">
+<h2>Processing Modes<a class="headerlink" href="#processing-modes" title="Link to this heading">¶</a></h2>
+<section id="file-mode">
+<h3>File Mode<a class="headerlink" href="#file-mode" title="Link to this heading">¶</a></h3>
+<p>The simplest approach — specify input and output files, and the transcoder handles everything:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">dec-aac-adts-file</span></code>, <code class="docutils literal notranslate"><span class="pre">enc-mp3-file</span></code>, etc.</p></li>
+</ul>
+</section>
+<section id="pull-mode">
+<h3>Pull Mode<a class="headerlink" href="#pull-mode" title="Link to this heading">¶</a></h3>
+<p>Pull encoded/decoded samples one at a time for custom processing:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">dec-avc-pull</span></code>, <code class="docutils literal notranslate"><span class="pre">enc-aac-adts-pull</span></code>, etc.</p></li>
+<li><p>Useful for streaming, frame-by-frame analysis, or custom containers</p></li>
+</ul>
+</section>
+<section id="push-mode">
+<h3>Push Mode<a class="headerlink" href="#push-mode" title="Link to this heading">¶</a></h3>
+<p>Push data to the encoder/decoder manually:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">enc-aac-adts-push</span></code>, <code class="docutils literal notranslate"><span class="pre">enc-mp3-push</span></code></p></li>
+<li><p>Useful for real-time encoding from live sources</p></li>
+</ul>
+</section>
+</section>
+<section id="sample-categories">
+<h2>Sample Categories<a class="headerlink" href="#sample-categories" title="Link to this heading">¶</a></h2>
+<section id="audio-decoding">
+<h3>Audio Decoding<a class="headerlink" href="#audio-decoding" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/dec_aac_adts_file/">dec_aac_adts_file</a> — Decode AAC ADTS to WAV</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/dec_aac_adts_pull/">dec_aac_adts_pull</a> — Decode AAC ADTS to WAV using pull mode</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/dec_g711_alaw_file/">dec_g711_alaw_file</a> — Decode G.711 A-law to WAV</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/dec_g711_ulaw_file/">dec_g711_ulaw_file</a> — Decode G.711 μ-law to WAV</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/dec_mp3_file/">dec_mp3_file</a> — Decode MP3 to WAV</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/dec_opus_file/">dec_opus_file</a> — Decode Opus to WAV</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/dec_vorbis_file/">dec_vorbis_file</a> — Decode Vorbis to WAV</p></li>
+</ul>
+</section>
+<section id="audio-encoding">
+<h3>Audio Encoding<a class="headerlink" href="#audio-encoding" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/enc_aac_adts_file/">enc_aac_adts_file</a> — Encode WAV to AAC ADTS</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/enc_aac_adts_pull/">enc_aac_adts_pull</a> — Encode WAV to AAC ADTS using pull mode</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/enc_aac_adts_push/">enc_aac_adts_push</a> — Encode WAV to AAC ADTS using push mode</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/enc_g711_alaw_file/">enc_g711_alaw_file</a> — Encode WAV to G.711 A-law</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/enc_g711_ulaw_file/">enc_g711_ulaw_file</a> — Encode WAV to G.711 μ-law</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/enc_mp3_file/">enc_mp3_file</a> — Encode WAV to MP3</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/enc_mp3_pull/">enc_mp3_pull</a> — Encode WAV to MP3 using pull mode</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/enc_mp3_push/">enc_mp3_push</a> — Encode WAV to MP3 using push mode</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/enc_opus_file/">enc_opus_file</a> — Encode WAV to Opus (OGG)</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/enc_vorbis_file/">enc_vorbis_file</a> — Encode WAV to Vorbis (OGG)</p></li>
+</ul>
+</section>
+<section id="video-decoding">
+<h3>Video Decoding<a class="headerlink" href="#video-decoding" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/dec_avc_file/">dec_avc_file</a> — Decode H.264/AVC to raw YUV</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/dec_avc_pull/">dec_avc_pull</a> — Decode H.264/AVC to YUV using pull mode</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/dec_avc_au/">dec_avc_au</a> — Decode H.264 access units from directory</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/dec_hevc_file/">dec_hevc_file</a> — Decode H.265/HEVC to raw YUV</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/dec_hevc_au/">dec_hevc_au</a> — Decode H.265 access units from directory</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/dec_vp8_file/">dec_vp8_file</a> — Decode VP8 (IVF) to raw YUV</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/dec_vp9_file/">dec_vp9_file</a> — Decode VP9 (IVF) to raw YUV</p></li>
+</ul>
+</section>
+<section id="video-encoding">
+<h3>Video Encoding<a class="headerlink" href="#video-encoding" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/enc_avc_file/">enc_avc_file</a> — Encode raw YUV to H.264/AVC</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/enc_avc_pull/">enc_avc_pull</a> — Encode raw YUV to H.264 using pull mode</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/enc_hevc_file/">enc_hevc_file</a> — Encode raw YUV to H.265/HEVC</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/enc_hevc_pull/">enc_hevc_pull</a> — Encode raw YUV to H.265 using pull mode</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/enc_vp8_file/">enc_vp8_file</a> — Encode raw YUV to VP8 (IVF)</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/enc_vp9_file/">enc_vp9_file</a> — Encode raw YUV to VP9 (IVF)</p></li>
+</ul>
+</section>
+<section id="container-operations">
+<h3>Container Operations<a class="headerlink" href="#container-operations" title="Link to this heading">¶</a></h3>
+<section id="demuxing">
+<h4>Demuxing<a class="headerlink" href="#demuxing" title="Link to this heading">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/demux_mp4_file/">demux_mp4_file</a> — Demux MP4 into separate audio/video streams</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/demux_webm_file/">demux_webm_file</a> — Demux WebM into separate audio/video streams</p></li>
+</ul>
+</section>
+<section id="muxing">
+<h4>Muxing<a class="headerlink" href="#muxing" title="Link to this heading">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/mux_mp4_file/">mux_mp4_file</a> — Mux audio and video into MP4 container</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/mux_webm_file/">mux_webm_file</a> — Mux audio and video into WebM container</p></li>
+</ul>
+</section>
+</section>
+<section id="media-information">
+<h3>Media Information<a class="headerlink" href="#media-information" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/info_stream_file/">info_stream_file</a> — Display stream information (codecs, resolution, etc.)</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/info_metadata_file/">info_metadata_file</a> — Display metadata and extract embedded pictures</p></li>
+</ul>
+</section>
+<section id="audio-processing">
+<h3>Audio Processing<a class="headerlink" href="#audio-processing" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/audio_upsample/">audio_upsample</a> — Upsample audio from 44.1 KHz to 48 KHz</p></li>
+</ul>
+</section>
+<section id="video-processing">
+<h3>Video Processing<a class="headerlink" href="#video-processing" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/video_crop/">video_crop</a> — Crop a video by removing pixels from the edges</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/video_framerate/">video_framerate</a> — Change the frame rate of a video</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/video_pad/">video_pad</a> — Add black border padding around a video</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/video_upscale/">video_upscale</a> — Upscale a video to Full HD (1920x1080) using bicubic interpolation</p></li>
+</ul>
+</section>
+<section id="utilities">
+<h3>Utilities<a class="headerlink" href="#utilities" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/enc_preset_file/">enc_preset_file</a> — Encode using AVBlocks presets</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/re_encode/">re_encode</a> — Remux media with optional forced re-encoding</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/slideshow/">slideshow</a> — Create video slideshow from images</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/dump_avc_au/">dump_avc_au</a> — Dump H.264/AVC stream into access unit files</p></li>
+<li><p><a class="reference external" href="https://github.com/avblocks/avblocks-py/tree/main/samples/dump_hevc_au/">dump_hevc_au</a> — Dump H.265/HEVC stream into access unit files</p></li>
+</ul>
+</section>
+</section>
 </section>
 
         </article>
@@ -308,23 +438,23 @@
       <footer>
         
 <div class="related-pages">
-  <a class="next-page" href="../api/index.html">
+  <a class="next-page" href="licensing.html">
       <div class="page-info">
         <div class="context">
           <span>Next</span>
         </div>
-        <div class="title">API Reference</div>
+        <div class="title">Licensing</div>
       </div>
       <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
     </a>
-  <a class="prev-page" href="samples.html">
+  <a class="prev-page" href="download.html">
       <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
       <div class="page-info">
         <div class="context">
           <span>Previous</span>
         </div>
         
-        <div class="title">Samples</div>
+        <div class="title">Download AVBlocks Core and Demo Assets</div>
         
       </div>
     </a>
@@ -349,8 +479,49 @@
 
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Samples</a><ul>
+<li><a class="reference internal" href="#common-options">Common Options</a></li>
+<li><a class="reference internal" href="#processing-modes">Processing Modes</a><ul>
+<li><a class="reference internal" href="#file-mode">File Mode</a></li>
+<li><a class="reference internal" href="#pull-mode">Pull Mode</a></li>
+<li><a class="reference internal" href="#push-mode">Push Mode</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#sample-categories">Sample Categories</a><ul>
+<li><a class="reference internal" href="#audio-decoding">Audio Decoding</a></li>
+<li><a class="reference internal" href="#audio-encoding">Audio Encoding</a></li>
+<li><a class="reference internal" href="#video-decoding">Video Decoding</a></li>
+<li><a class="reference internal" href="#video-encoding">Video Encoding</a></li>
+<li><a class="reference internal" href="#container-operations">Container Operations</a><ul>
+<li><a class="reference internal" href="#demuxing">Demuxing</a></li>
+<li><a class="reference internal" href="#muxing">Muxing</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#media-information">Media Information</a></li>
+<li><a class="reference internal" href="#audio-processing">Audio Processing</a></li>
+<li><a class="reference internal" href="#video-processing">Video Processing</a></li>
+<li><a class="reference internal" href="#utilities">Utilities</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>

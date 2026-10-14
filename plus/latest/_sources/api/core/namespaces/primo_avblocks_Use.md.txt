@@ -1,0 +1,8 @@
+# primo::avblocks::Use
+
+Specifies whether particular feature should be used.
+
+```{eval-rst}
+.. doxygenenum:: primo::avblocks::Use::Enum
+   :project: avblocks-plus
+```

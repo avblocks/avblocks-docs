@@ -1,0 +1,10 @@
+# MediaBufferParameter
+
+`primo::avblocks::MediaBufferParameter`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::MediaBufferParameter
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

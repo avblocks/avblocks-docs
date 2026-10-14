@@ -1,0 +1,11 @@
+# primo::avblocks::Preset::Audio
+
+Describes output audio presets structured by codec and device type.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::avblocks::Preset::Audio::AudioCD](primo_avblocks_Preset_Audio_AudioCD.md) | Presets for audio compatible with AudioCD (LPCM, 44100 Hz, stereo, 16-bit). |
+| [primo::avblocks::Preset::Audio::DVD](primo_avblocks_Preset_Audio_DVD.md) | Presets for audio compatible with DVD-Video. |
+| [primo::avblocks::Preset::Audio::Generic](primo_avblocks_Preset_Audio_Generic.md) | Generic audio presets (unrelated to specific devices). |

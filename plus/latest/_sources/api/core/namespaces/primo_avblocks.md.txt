@@ -1,0 +1,40 @@
+# primo::avblocks
+
+AVBlocks Application Programming Interface.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::avblocks::AVBlocksError](primo_avblocks_AVBlocksError.md) | Defines API usage errors. |
+| [primo::avblocks::HardwareEncoder](primo_avblocks_HardwareEncoder.md) | Defines which hardware encoder should be used for hardware accelerated encoding. |
+| [primo::avblocks::Library](primo_avblocks_Library.md) | Initializes AVBlocks and manages license information. |
+| [primo::avblocks::Param](primo_avblocks_Param.md) | Defines parameters that can be passed to the transcoder and to the components that are used in the transcoding process. |
+| [primo::avblocks::ParamType](primo_avblocks_ParamType.md) | The ParamType represents the type of the data stored in a Parameter. |
+| [primo::avblocks::PinConnection](primo_avblocks_PinConnection.md) | These constants are used as special values of MediaPin.ID. |
+| [primo::avblocks::Preset](primo_avblocks_Preset.md) | Defines output presets supported by AVBlocks. |
+| [primo::avblocks::TranscoderError](primo_avblocks_TranscoderError.md) | Defines Transcoder specific errors. |
+| [primo::avblocks::TranscoderStatus](primo_avblocks_TranscoderStatus.md) | Defines the status of a transcoder operation. |
+| [primo::avblocks::Use](primo_avblocks_Use.md) | Specifies whether particular feature should be used. |
+
+## Classes
+
+| Name | Description |
+|---|---|
+| {cpp:class}`primo::avblocks::Block` | A Block is a unit that can produce, consume or transform media samples from/to multiple inputs/outputs. |
+| {cpp:class}`primo::avblocks::Config` | Global configuration. |
+| {cpp:class}`primo::avblocks::FloatParameter` | The parameter represents a 64-bit floating point number (double precision). |
+| {cpp:class}`primo::avblocks::HwConfig` | Global hardware configuration. |
+| {cpp:class}`primo::avblocks::IntParameter` | The parameter represents a 64-bit integer. |
+| {cpp:class}`primo::avblocks::MediaBufferParameter` | The parameter represents a MediaBuffer object. |
+| {cpp:class}`primo::avblocks::MediaInfo` | Analyzes a file or a stream and provides information about its type and properties. |
+| {cpp:class}`primo::avblocks::MediaPin` | MediaPin represents an elementary media stream. |
+| {cpp:class}`primo::avblocks::MediaPinList` | MediaPinList represents the elementary pins within a MediaSocket object. |
+| {cpp:class}`primo::avblocks::MediaSocket` | An input or output point of the Transcoder. |
+| {cpp:class}`primo::avblocks::MediaSocketList` | MediaSocketList represents the inputs or outputs of a Transcoder. |
+| {cpp:class}`primo::avblocks::Parameter` | Parameter is the base class for named parameters passed to various classes in AVBlocks. |
+| {cpp:class}`primo::avblocks::ParameterList` | A collection of Parameter objects. |
+| {cpp:class}`primo::avblocks::StringParameter` | The parameter represents an untyped value which is stored in a char_t string. |
+| {cpp:class}`primo::avblocks::Transcoder` | Provides functionality for audio and video encoding, decoding and transforming. |
+| {cpp:class}`primo::avblocks::TranscoderCallback` | The TranscoderCallback provides a way to receive notifications from the Transcoder and also to control its operation while it is running (Transcoder::run). |
+| {cpp:class}`primo::avblocks::VideoStreamInfoParameter` | The parameter represents a VideoStreamInfo object. |

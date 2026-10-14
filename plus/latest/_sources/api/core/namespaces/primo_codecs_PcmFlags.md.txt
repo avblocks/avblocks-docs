@@ -1,0 +1,8 @@
+# primo::codecs::PcmFlags
+
+Defines constants for various LPCM properties.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::PcmFlags::Enum
+   :project: avblocks-plus
+```

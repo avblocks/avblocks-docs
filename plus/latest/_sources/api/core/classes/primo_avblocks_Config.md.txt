@@ -1,0 +1,10 @@
+# Config
+
+`primo::avblocks::Config`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::Config
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

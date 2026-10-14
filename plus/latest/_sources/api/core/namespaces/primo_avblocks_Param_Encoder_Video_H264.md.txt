@@ -1,0 +1,133 @@
+# primo::avblocks::Param::Encoder::Video::H264
+
+Parameters specific to AVC/H.264 encoders.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::Profile
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::EntropyCodingMode
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::NumBFrames
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::TreatBFramesAsReference
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::NumRefFrames
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::NumSlices
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::Level
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::DeblockingFilter
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::DeblockingFilterAlpha
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::DeblockingFilterBeta
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::Transform8x8
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::DirectPredMode
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::QualitySpeed
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::MERangeSearchX
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::MERangeSearchY
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::MESplitMode
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::MEMethod
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::PictureCodingType
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::RateControlMethod
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::RateControlQuantI
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::RateControlQuantP
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::RateControlQuantB
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::KeyFrameInterval
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::KeyFrameIDRInterval
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::AccessUnitDelimiters
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H264::FixedFramerate
+   :project: avblocks-plus
+```

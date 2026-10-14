@@ -1,0 +1,235 @@
+# Namespaces
+
+| Namespace | Description |
+|---|---|
+| [primo](namespaces/primo.md) | Top namespace for all libraries developed by Primo Software Corp. |
+| [primo::avblocks](namespaces/primo_avblocks.md) | AVBlocks Application Programming Interface. |
+| [primo::avblocks::AVBlocksError](namespaces/primo_avblocks_AVBlocksError.md) | Defines API usage errors. |
+| [primo::avblocks::HardwareEncoder](namespaces/primo_avblocks_HardwareEncoder.md) | Defines which hardware encoder should be used for hardware accelerated encoding. |
+| [primo::avblocks::Library](namespaces/primo_avblocks_Library.md) | Initializes AVBlocks and manages license information. |
+| [primo::avblocks::Param](namespaces/primo_avblocks_Param.md) | Defines parameters that can be passed to the transcoder and to the components that are used in the transcoding process. |
+| [primo::avblocks::Param::Decoder](namespaces/primo_avblocks_Param_Decoder.md) | Parameters specific to decoders. |
+| [primo::avblocks::Param::Decoder::Video](namespaces/primo_avblocks_Param_Decoder_Video.md) | Parameters specific to video decoders. |
+| [primo::avblocks::Param::Decoder::Video::H264](namespaces/primo_avblocks_Param_Decoder_Video_H264.md) | Parameters specific to H.264 decoders. |
+| [primo::avblocks::Param::Decoder::Video::H264::VUI](namespaces/primo_avblocks_Param_Decoder_Video_H264_VUI.md) | Parameters the are part of the Video Usability Information in the H.264 stream. |
+| [primo::avblocks::Param::Demuxer](namespaces/primo_avblocks_Param_Demuxer.md) | Parameters specific to demuxers. |
+| [primo::avblocks::Param::Demuxer::Mpeg](namespaces/primo_avblocks_Param_Demuxer_Mpeg.md) | Parameters specific to the Mpeg demuxer. |
+| [primo::avblocks::Param::Encoder](namespaces/primo_avblocks_Param_Encoder.md) | Parameters specific to encoders. |
+| [primo::avblocks::Param::Encoder::Audio](namespaces/primo_avblocks_Param_Encoder_Audio.md) | Parameters specific to audio encoders. |
+| [primo::avblocks::Param::Encoder::Audio::AAC](namespaces/primo_avblocks_Param_Encoder_Audio_AAC.md) | Parameters specific to AAC audio encoders. |
+| [primo::avblocks::Param::Encoder::Audio::G711](namespaces/primo_avblocks_Param_Encoder_Audio_G711.md) | Parameters specific to G.711 audio encoder. |
+| [primo::avblocks::Param::Encoder::Audio::MPEG1](namespaces/primo_avblocks_Param_Encoder_Audio_MPEG1.md) | Parameters specific to MPEG1 audio encoders. |
+| [primo::avblocks::Param::Encoder::Audio::Opus](namespaces/primo_avblocks_Param_Encoder_Audio_Opus.md) | Parameters specific to Opus audio encoders. |
+| [primo::avblocks::Param::Encoder::Audio::Vorbis](namespaces/primo_avblocks_Param_Encoder_Audio_Vorbis.md) | Parameters specific to Vorbis audio encoders. |
+| [primo::avblocks::Param::Encoder::Audio::WMA](namespaces/primo_avblocks_Param_Encoder_Audio_WMA.md) | Parameters specific to WMA audio encoders. |
+| [primo::avblocks::Param::Encoder::Video](namespaces/primo_avblocks_Param_Encoder_Video.md) | Parameters specific to video encoders. |
+| [primo::avblocks::Param::Encoder::Video::H264](namespaces/primo_avblocks_Param_Encoder_Video_H264.md) | Parameters specific to AVC/H.264 encoders. |
+| [primo::avblocks::Param::Encoder::Video::H265](namespaces/primo_avblocks_Param_Encoder_Video_H265.md) | Parameters specific to HEVC/H.265 encoders. |
+| [primo::avblocks::Param::Encoder::Video::MPEG2](namespaces/primo_avblocks_Param_Encoder_Video_MPEG2.md) | Parameters specific to MPEG-1 and MPEG-2 video encoders. |
+| [primo::avblocks::Param::Encoder::Video::VP8](namespaces/primo_avblocks_Param_Encoder_Video_VP8.md) | Parameters specific to VP8 video encoder. |
+| [primo::avblocks::Param::Encoder::Video::VP9](namespaces/primo_avblocks_Param_Encoder_Video_VP9.md) | Parameters specific to VP9 video encoder. |
+| [primo::avblocks::Param::Muxer](namespaces/primo_avblocks_Param_Muxer.md) | Parameters specific to muxers. |
+| [primo::avblocks::Param::Muxer::MP4](namespaces/primo_avblocks_Param_Muxer_MP4.md) | Parameters specific to MP4 muxers. |
+| [primo::avblocks::Param::Video](namespaces/primo_avblocks_Param_Video.md) | Parameters specific to video filters. |
+| [primo::avblocks::Param::Video::Crop](namespaces/primo_avblocks_Param_Video_Crop.md) | Parameters specific to video cropping. |
+| [primo::avblocks::Param::Video::Deinterlacing](namespaces/primo_avblocks_Param_Video_Deinterlacing.md) | Parameters specific to video deinterlacing. |
+| [primo::avblocks::Param::Video::FrameRateConverter](namespaces/primo_avblocks_Param_Video_FrameRateConverter.md) | Parameters specific to the video frame rate converter filter. |
+| [primo::avblocks::Param::Video::Overlay](namespaces/primo_avblocks_Param_Video_Overlay.md) | Parameters specific to the video overlay filter. |
+| [primo::avblocks::Param::Video::Pad](namespaces/primo_avblocks_Param_Video_Pad.md) | Parameters specific to video padding. |
+| [primo::avblocks::Param::Video::Resize](namespaces/primo_avblocks_Param_Video_Resize.md) | Parameters specific to video resizing. |
+| [primo::avblocks::ParamType](namespaces/primo_avblocks_ParamType.md) | The ParamType represents the type of the data stored in a Parameter. |
+| [primo::avblocks::PinConnection](namespaces/primo_avblocks_PinConnection.md) | These constants are used as special values of MediaPin.ID. |
+| [primo::avblocks::Preset](namespaces/primo_avblocks_Preset.md) | Defines output presets supported by AVBlocks. |
+| [primo::avblocks::Preset::Audio](namespaces/primo_avblocks_Preset_Audio.md) | Describes output audio presets structured by codec and device type. |
+| [primo::avblocks::Preset::Audio::AudioCD](namespaces/primo_avblocks_Preset_Audio_AudioCD.md) | Presets for audio compatible with AudioCD (LPCM, 44100 Hz, stereo, 16-bit). |
+| [primo::avblocks::Preset::Audio::DVD](namespaces/primo_avblocks_Preset_Audio_DVD.md) | Presets for audio compatible with DVD-Video. |
+| [primo::avblocks::Preset::Audio::Generic](namespaces/primo_avblocks_Preset_Audio_Generic.md) | Generic audio presets (unrelated to specific devices). |
+| [primo::avblocks::Preset::Audio::Generic::M4A](namespaces/primo_avblocks_Preset_Audio_Generic_M4A.md) | M4A presets (AAC audio in MP4 container). |
+| [primo::avblocks::Preset::Audio::Generic::MP3](namespaces/primo_avblocks_Preset_Audio_Generic_MP3.md) | MP3 presets (MPEG-1 Layer 3). |
+| [primo::avblocks::Preset::Audio::Generic::OggVorbis](namespaces/primo_avblocks_Preset_Audio_Generic_OggVorbis.md) | Presets for Vorbis audio in Ogg container. |
+| [primo::avblocks::Preset::Audio::Generic::WMA](namespaces/primo_avblocks_Preset_Audio_Generic_WMA.md) | Presets for Windows Media Audio. |
+| [primo::avblocks::Preset::Audio::Generic::WMA::Lossless](namespaces/primo_avblocks_Preset_Audio_Generic_WMA_Lossless.md) | Presets for the WMA Lossless codec. |
+| [primo::avblocks::Preset::Audio::Generic::WMA::Professional](namespaces/primo_avblocks_Preset_Audio_Generic_WMA_Professional.md) | Presets for the WMA Pro codec. |
+| [primo::avblocks::Preset::Audio::Generic::WMA::Standard](namespaces/primo_avblocks_Preset_Audio_Generic_WMA_Standard.md) | Presets for the WMA standard codec. |
+| [primo::avblocks::Preset::Video](namespaces/primo_avblocks_Preset_Video.md) | Describes output video presets structured by codec and device type. |
+| [primo::avblocks::Preset::Video::AndroidPhone](namespaces/primo_avblocks_Preset_Video_AndroidPhone.md) | Presets for Android phones. |
+| [primo::avblocks::Preset::Video::AndroidTablet](namespaces/primo_avblocks_Preset_Video_AndroidTablet.md) | Presets for Android tablets. |
+| [primo::avblocks::Preset::Video::AppleLiveStreaming](namespaces/primo_avblocks_Preset_Video_AppleLiveStreaming.md) | Apple HTTP Live Streaming Presets. |
+| [primo::avblocks::Preset::Video::AppleTV](namespaces/primo_avblocks_Preset_Video_AppleTV.md) | Presets for AppleTV devices. |
+| [primo::avblocks::Preset::Video::BDAV](namespaces/primo_avblocks_Preset_Video_BDAV.md) | Presets for Blu-ray Disc Audio-Visual MPEG-2 Transport Stream. |
+| [primo::avblocks::Preset::Video::DVD](namespaces/primo_avblocks_Preset_Video_DVD.md) | Presets for DVD-Video. |
+| [primo::avblocks::Preset::Video::Fast](namespaces/primo_avblocks_Preset_Video_Fast.md) | Presets for fastest possible encoding. |
+| [primo::avblocks::Preset::Video::Fast::MP4](namespaces/primo_avblocks_Preset_Video_Fast_MP4.md) | Fast MP4 presets (audio and video streams in MP4 container). |
+| [primo::avblocks::Preset::Video::Generic](namespaces/primo_avblocks_Preset_Video_Generic.md) | Generic video presets. |
+| [primo::avblocks::Preset::Video::Generic::MP4](namespaces/primo_avblocks_Preset_Video_Generic_MP4.md) | Generic MP4 presets (audio and video streams in MP4 container). |
+| [primo::avblocks::Preset::Video::Generic::WebM](namespaces/primo_avblocks_Preset_Video_Generic_WebM.md) | WebM presets. |
+| [primo::avblocks::Preset::Video::HDV](namespaces/primo_avblocks_Preset_Video_HDV.md) | Presets for High-definition video MPEG-2 Transport Stream. |
+| [primo::avblocks::Preset::Video::Kindle](namespaces/primo_avblocks_Preset_Video_Kindle.md) | Kindle presets. |
+| [primo::avblocks::Preset::Video::VCD](namespaces/primo_avblocks_Preset_Video_VCD.md) | Presets for Video CD. |
+| [primo::avblocks::Preset::Video::Web](namespaces/primo_avblocks_Preset_Video_Web.md) | Web Video Presets. |
+| [primo::avblocks::Preset::Video::Web::MP4](namespaces/primo_avblocks_Preset_Video_Web_MP4.md) | Web MP4 Presets. |
+| [primo::avblocks::Preset::Video::iPad](namespaces/primo_avblocks_Preset_Video_iPad.md) | Presets for iPad devices. |
+| [primo::avblocks::Preset::Video::iPhone](namespaces/primo_avblocks_Preset_Video_iPhone.md) | Presets for iPhone devices. |
+| [primo::avblocks::Preset::Video::iPod](namespaces/primo_avblocks_Preset_Video_iPod.md) | Preset for iPod devices. |
+| [primo::avblocks::TranscoderError](namespaces/primo_avblocks_TranscoderError.md) | Defines Transcoder specific errors. |
+| [primo::avblocks::TranscoderStatus](namespaces/primo_avblocks_TranscoderStatus.md) | Defines the status of a transcoder operation. |
+| [primo::avblocks::Use](namespaces/primo_avblocks_Use.md) | Specifies whether particular feature should be used. |
+| [primo::codecs](namespaces/primo_codecs.md) | Common audio/video types and interfaces. |
+| [primo::codecs::AlphaCompositingMode](namespaces/primo_codecs_AlphaCompositingMode.md) | Defines the way a foreground image will be combined with background video. |
+| [primo::codecs::AudioChannelFlags](namespaces/primo_codecs_AudioChannelFlags.md) | Defines the speaker location of one or more audio channels. |
+| [primo::codecs::BitrateMode](namespaces/primo_codecs_BitrateMode.md) | Defines the bitrate mode of the audio/video stream. |
+| [primo::codecs::CodecError](namespaces/primo_codecs_CodecError.md) | Common errors for encoders, decoders, muxers, demuxers and other A/V components. |
+| [primo::codecs::ColorFormat](namespaces/primo_codecs_ColorFormat.md) | Defines constants for various color formats. |
+| [primo::codecs::DeinterlacingMethod](namespaces/primo_codecs_DeinterlacingMethod.md) | Defines video deinterlacing methods. |
+| [primo::codecs::FrameType](namespaces/primo_codecs_FrameType.md) | Defines frame types for audio codecs, particularly for G.711 encoding. |
+| [primo::codecs::H264DeblockingFilter](namespaces/primo_codecs_H264DeblockingFilter.md) | Defines H.264/AVC deblocking filter mode. |
+| [primo::codecs::H264DirectPredMode](namespaces/primo_codecs_H264DirectPredMode.md) | Defines H.264/AVC direct predition mode. |
+| [primo::codecs::H264EntropyCodingMode](namespaces/primo_codecs_H264EntropyCodingMode.md) | Defines H.264/AVC entropy coding modes. |
+| [primo::codecs::H264MeMethod](namespaces/primo_codecs_H264MeMethod.md) | Defines the motion estimation methods used when encoding H.264/AVC. |
+| [primo::codecs::H264MeSplitMode](namespaces/primo_codecs_H264MeSplitMode.md) | Defines the block sizes for which motion estimation should be done. |
+| [primo::codecs::H264PicCodingType](namespaces/primo_codecs_H264PicCodingType.md) | Defines the picture coding type when encoding H.264/AVC. |
+| [primo::codecs::H264Profile](namespaces/primo_codecs_H264Profile.md) | Defines H.264/AVC profiles. |
+| [primo::codecs::H264RateControlMethod](namespaces/primo_codecs_H264RateControlMethod.md) | Defines methods for bitrate contorl when encoding H.264/AVC. |
+| [primo::codecs::H265Level](namespaces/primo_codecs_H265Level.md) | Defines H.265/HEVC levels. |
+| [primo::codecs::H265Profile](namespaces/primo_codecs_H265Profile.md) | Defines H.265/HEVC profiles. |
+| [primo::codecs::H265Tier](namespaces/primo_codecs_H265Tier.md) | Defines H.265/HEVC tiers. |
+| [primo::codecs::HwApi](namespaces/primo_codecs_HwApi.md) | API for using hardware engines. |
+| [primo::codecs::HwCodecType](namespaces/primo_codecs_HwCodecType.md) | Hardware encoder, decoder or filter for a specific stream type. |
+| [primo::codecs::HwEngine](namespaces/primo_codecs_HwEngine.md) | Hardware engine for encoding/decoding/processing. |
+| [primo::codecs::HwVendor](namespaces/primo_codecs_HwVendor.md) | Hardware Vendor. |
+| [primo::codecs::InterpolationMethod](namespaces/primo_codecs_InterpolationMethod.md) | Defines methods for sample interpolation. |
+| [primo::codecs::MediaSampleFlags](namespaces/primo_codecs_MediaSampleFlags.md) | Defines various media sample features. |
+| [primo::codecs::MediaType](namespaces/primo_codecs_MediaType.md) | Defines media types. |
+| [primo::codecs::Meta](namespaces/primo_codecs_Meta.md) | DataStreamInfo describes a generic data stream. |
+| [primo::codecs::MetaPictureType](namespaces/primo_codecs_MetaPictureType.md) | Represents the meta picture (image) type. |
+| [primo::codecs::MimeType](namespaces/primo_codecs_MimeType.md) | Defines MIME types used by primo codecs components. |
+| [primo::codecs::OpusApplication](namespaces/primo_codecs_OpusApplication.md) | Defines Opus codec application modes. |
+| [primo::codecs::PcmFlags](namespaces/primo_codecs_PcmFlags.md) | Defines constants for various LPCM properties. |
+| [primo::codecs::PictureType](namespaces/primo_codecs_PictureType.md) | Defines video picture types (I/P/B). |
+| [primo::codecs::ScanType](namespaces/primo_codecs_ScanType.md) | Defines video interlace/scan types. |
+| [primo::codecs::StereoMode](namespaces/primo_codecs_StereoMode.md) | Defines stereo mode in MPEG Audio and AAC. |
+| [primo::codecs::StreamSubType](namespaces/primo_codecs_StreamSubType.md) | Defines audio and video stream subtypes. |
+| [primo::codecs::StreamType](namespaces/primo_codecs_StreamType.md) | Defines major audio and video stream types, and file formats (a.k.a. |
+| [primo::error](namespaces/primo_error.md) | Shared namespace for error definitions. |
+| [primo::error::ErrorFacility](namespaces/primo_error_ErrorFacility.md) | Common error facilities. |
+| [primo::license](namespaces/primo_license.md) | Defines common license constants and interfaces used in Primo Software libraries. |
+| [primo::license::LicenseStatusFlags](namespaces/primo_license_LicenseStatusFlags.md) | Defines the library license status. |
+
+```{toctree}
+---
+hidden:
+maxdepth: 1
+---
+namespaces/primo
+namespaces/primo_avblocks
+namespaces/primo_avblocks_AVBlocksError
+namespaces/primo_avblocks_HardwareEncoder
+namespaces/primo_avblocks_Library
+namespaces/primo_avblocks_Param
+namespaces/primo_avblocks_Param_Decoder
+namespaces/primo_avblocks_Param_Decoder_Video
+namespaces/primo_avblocks_Param_Decoder_Video_H264
+namespaces/primo_avblocks_Param_Decoder_Video_H264_VUI
+namespaces/primo_avblocks_Param_Demuxer
+namespaces/primo_avblocks_Param_Demuxer_Mpeg
+namespaces/primo_avblocks_Param_Encoder
+namespaces/primo_avblocks_Param_Encoder_Audio
+namespaces/primo_avblocks_Param_Encoder_Audio_AAC
+namespaces/primo_avblocks_Param_Encoder_Audio_G711
+namespaces/primo_avblocks_Param_Encoder_Audio_MPEG1
+namespaces/primo_avblocks_Param_Encoder_Audio_Opus
+namespaces/primo_avblocks_Param_Encoder_Audio_Vorbis
+namespaces/primo_avblocks_Param_Encoder_Audio_WMA
+namespaces/primo_avblocks_Param_Encoder_Video
+namespaces/primo_avblocks_Param_Encoder_Video_H264
+namespaces/primo_avblocks_Param_Encoder_Video_H265
+namespaces/primo_avblocks_Param_Encoder_Video_MPEG2
+namespaces/primo_avblocks_Param_Encoder_Video_VP8
+namespaces/primo_avblocks_Param_Encoder_Video_VP9
+namespaces/primo_avblocks_Param_Muxer
+namespaces/primo_avblocks_Param_Muxer_MP4
+namespaces/primo_avblocks_Param_Video
+namespaces/primo_avblocks_Param_Video_Crop
+namespaces/primo_avblocks_Param_Video_Deinterlacing
+namespaces/primo_avblocks_Param_Video_FrameRateConverter
+namespaces/primo_avblocks_Param_Video_Overlay
+namespaces/primo_avblocks_Param_Video_Pad
+namespaces/primo_avblocks_Param_Video_Resize
+namespaces/primo_avblocks_ParamType
+namespaces/primo_avblocks_PinConnection
+namespaces/primo_avblocks_Preset
+namespaces/primo_avblocks_Preset_Audio
+namespaces/primo_avblocks_Preset_Audio_AudioCD
+namespaces/primo_avblocks_Preset_Audio_DVD
+namespaces/primo_avblocks_Preset_Audio_Generic
+namespaces/primo_avblocks_Preset_Audio_Generic_M4A
+namespaces/primo_avblocks_Preset_Audio_Generic_MP3
+namespaces/primo_avblocks_Preset_Audio_Generic_OggVorbis
+namespaces/primo_avblocks_Preset_Audio_Generic_WMA
+namespaces/primo_avblocks_Preset_Audio_Generic_WMA_Lossless
+namespaces/primo_avblocks_Preset_Audio_Generic_WMA_Professional
+namespaces/primo_avblocks_Preset_Audio_Generic_WMA_Standard
+namespaces/primo_avblocks_Preset_Video
+namespaces/primo_avblocks_Preset_Video_AndroidPhone
+namespaces/primo_avblocks_Preset_Video_AndroidTablet
+namespaces/primo_avblocks_Preset_Video_AppleLiveStreaming
+namespaces/primo_avblocks_Preset_Video_AppleTV
+namespaces/primo_avblocks_Preset_Video_BDAV
+namespaces/primo_avblocks_Preset_Video_DVD
+namespaces/primo_avblocks_Preset_Video_Fast
+namespaces/primo_avblocks_Preset_Video_Fast_MP4
+namespaces/primo_avblocks_Preset_Video_Generic
+namespaces/primo_avblocks_Preset_Video_Generic_MP4
+namespaces/primo_avblocks_Preset_Video_Generic_WebM
+namespaces/primo_avblocks_Preset_Video_HDV
+namespaces/primo_avblocks_Preset_Video_Kindle
+namespaces/primo_avblocks_Preset_Video_VCD
+namespaces/primo_avblocks_Preset_Video_Web
+namespaces/primo_avblocks_Preset_Video_Web_MP4
+namespaces/primo_avblocks_Preset_Video_iPad
+namespaces/primo_avblocks_Preset_Video_iPhone
+namespaces/primo_avblocks_Preset_Video_iPod
+namespaces/primo_avblocks_TranscoderError
+namespaces/primo_avblocks_TranscoderStatus
+namespaces/primo_avblocks_Use
+namespaces/primo_codecs
+namespaces/primo_codecs_AlphaCompositingMode
+namespaces/primo_codecs_AudioChannelFlags
+namespaces/primo_codecs_BitrateMode
+namespaces/primo_codecs_CodecError
+namespaces/primo_codecs_ColorFormat
+namespaces/primo_codecs_DeinterlacingMethod
+namespaces/primo_codecs_FrameType
+namespaces/primo_codecs_H264DeblockingFilter
+namespaces/primo_codecs_H264DirectPredMode
+namespaces/primo_codecs_H264EntropyCodingMode
+namespaces/primo_codecs_H264MeMethod
+namespaces/primo_codecs_H264MeSplitMode
+namespaces/primo_codecs_H264PicCodingType
+namespaces/primo_codecs_H264Profile
+namespaces/primo_codecs_H264RateControlMethod
+namespaces/primo_codecs_H265Level
+namespaces/primo_codecs_H265Profile
+namespaces/primo_codecs_H265Tier
+namespaces/primo_codecs_HwApi
+namespaces/primo_codecs_HwCodecType
+namespaces/primo_codecs_HwEngine
+namespaces/primo_codecs_HwVendor
+namespaces/primo_codecs_InterpolationMethod
+namespaces/primo_codecs_MediaSampleFlags
+namespaces/primo_codecs_MediaType
+namespaces/primo_codecs_Meta
+namespaces/primo_codecs_MetaPictureType
+namespaces/primo_codecs_MimeType
+namespaces/primo_codecs_OpusApplication
+namespaces/primo_codecs_PcmFlags
+namespaces/primo_codecs_PictureType
+namespaces/primo_codecs_ScanType
+namespaces/primo_codecs_StereoMode
+namespaces/primo_codecs_StreamSubType
+namespaces/primo_codecs_StreamType
+namespaces/primo_error
+namespaces/primo_error_ErrorFacility
+namespaces/primo_license
+namespaces/primo_license_LicenseStatusFlags
+```

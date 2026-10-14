@@ -1,0 +1,8 @@
+# primo::license::LicenseStatusFlags
+
+Defines the library license status.
+
+```{eval-rst}
+.. doxygenenum:: primo::license::LicenseStatusFlags::Enum
+   :project: avblocks-plus
+```

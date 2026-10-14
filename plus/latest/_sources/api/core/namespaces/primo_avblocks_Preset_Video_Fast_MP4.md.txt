@@ -1,0 +1,8 @@
+# primo::avblocks::Preset::Video::Fast::MP4
+
+Fast MP4 presets (audio and video streams in MP4 container).
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Fast::MP4::H264_AAC
+   :project: avblocks-plus
+```

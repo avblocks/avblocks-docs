@@ -1,0 +1,14 @@
+# primo::avblocks::Param::Video
+
+Parameters specific to video filters.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::avblocks::Param::Video::Crop](primo_avblocks_Param_Video_Crop.md) | Parameters specific to video cropping. |
+| [primo::avblocks::Param::Video::Deinterlacing](primo_avblocks_Param_Video_Deinterlacing.md) | Parameters specific to video deinterlacing. |
+| [primo::avblocks::Param::Video::FrameRateConverter](primo_avblocks_Param_Video_FrameRateConverter.md) | Parameters specific to the video frame rate converter filter. |
+| [primo::avblocks::Param::Video::Overlay](primo_avblocks_Param_Video_Overlay.md) | Parameters specific to the video overlay filter. |
+| [primo::avblocks::Param::Video::Pad](primo_avblocks_Param_Video_Pad.md) | Parameters specific to video padding. |
+| [primo::avblocks::Param::Video::Resize](primo_avblocks_Param_Video_Resize.md) | Parameters specific to video resizing. |

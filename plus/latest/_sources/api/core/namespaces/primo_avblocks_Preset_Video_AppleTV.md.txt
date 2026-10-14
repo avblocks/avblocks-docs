@@ -1,0 +1,28 @@
+# primo::avblocks::Preset::Video::AppleTV
+
+Presets for AppleTV devices.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleTV::H264_480p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleTV::H264_720p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleTV::MPEG4_480p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleTV::AppleTV2G_MP4_H264_720p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleTV::AppleTV3G_MP4_H264_1080p
+   :project: avblocks-plus
+```

@@ -1,0 +1,15 @@
+# primo::license
+
+Defines common license constants and interfaces used in Primo Software libraries.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::license::LicenseStatusFlags](primo_license_LicenseStatusFlags.md) | Defines the library license status. |
+
+## Classes
+
+| Name | Description |
+|---|---|
+| {cpp:class}`primo::license::LicenseInfo` | Provides information about the current license state of the library. |

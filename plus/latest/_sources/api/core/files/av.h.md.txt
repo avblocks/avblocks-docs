@@ -1,0 +1,71 @@
+# av.h
+
+
+
+`#include <primo/codecs/av.h>`
+
+## Includes
+
+- `primo/platform/reference.h`
+- `primo/platform/error.h`
+
+## Classes
+
+| Name | Description |
+|---|---|
+| {cpp:class}`primo::codecs::AudioStreamInfo` | AudioStreamInfo describes an elementary audio stream. |
+| {cpp:class}`primo::codecs::MediaBuffer` | A buffer for media data. |
+| {cpp:class}`primo::codecs::MediaSample` | MediaSample represents one or more samples of audio or video data. |
+| {cpp:class}`primo::codecs::MetaAttribute` | MetaAttribute describes a textual meta information that is part of an audio or video file. |
+| {cpp:class}`primo::codecs::MetaAttributeList` | MetaAttributeList represents the meta attributes inside a Metadata object. |
+| {cpp:class}`primo::codecs::MetaPicture` | MetaPicture describes a meta image that is part of an audio or video file. |
+| {cpp:class}`primo::codecs::MetaPictureList` | MetaPictureList represents the meta pictures inside a Metadata object. |
+| {cpp:class}`primo::codecs::Metadata` | Metadata describes meta information that is part of an audio or video file. |
+| {cpp:class}`primo::codecs::StreamInfo` | Provides properties and operations that are common for all elementary streams. |
+| {cpp:class}`primo::codecs::StreamInfoEnum` | StreamInfoEnum is a read-only collection of StreamInfo objects. |
+| {cpp:class}`primo::codecs::VideoStreamInfo` | VideoStreamInfo describes an elementary video stream. |
+
+## Namespaces
+
+- `primo`
+- `primo::codecs`
+- `primo::codecs::AlphaCompositingMode`
+- `primo::codecs::AudioChannelFlags`
+- `primo::codecs::BitrateMode`
+- `primo::codecs::CodecError`
+- `primo::codecs::ColorFormat`
+- `primo::codecs::DeinterlacingMethod`
+- `primo::codecs::FrameType`
+- `primo::codecs::H264DeblockingFilter`
+- `primo::codecs::H264DirectPredMode`
+- `primo::codecs::H264EntropyCodingMode`
+- `primo::codecs::H264MeMethod`
+- `primo::codecs::H264MeSplitMode`
+- `primo::codecs::H264PicCodingType`
+- `primo::codecs::H264Profile`
+- `primo::codecs::H264RateControlMethod`
+- `primo::codecs::H265Level`
+- `primo::codecs::H265Profile`
+- `primo::codecs::H265Tier`
+- `primo::codecs::InterpolationMethod`
+- `primo::codecs::MediaSampleFlags`
+- `primo::codecs::MediaType`
+- `primo::codecs::Meta`
+- `primo::codecs::MetaPictureType`
+- `primo::codecs::MimeType`
+- `primo::codecs::OpusApplication`
+- `primo::codecs::PcmFlags`
+- `primo::codecs::PictureType`
+- `primo::codecs::ScanType`
+- `primo::codecs::StereoMode`
+- `primo::codecs::StreamSubType`
+- `primo::codecs::StreamType`
+- `primo::error`
+- `primo::error::ErrorFacility`
+
+## Source
+
+```{literalinclude} ../../../../../primo-avblocks/sdk/include/primo/codecs/av.h
+:language: cpp
+:linenos:
+```

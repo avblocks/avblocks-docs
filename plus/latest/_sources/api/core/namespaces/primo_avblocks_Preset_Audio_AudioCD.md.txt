@@ -1,0 +1,8 @@
+# primo::avblocks::Preset::Audio::AudioCD
+
+Presets for audio compatible with AudioCD (LPCM, 44100 Hz, stereo, 16-bit).
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Audio::AudioCD::WAV
+   :project: avblocks-plus
+```

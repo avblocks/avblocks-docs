@@ -1,0 +1,13 @@
+# AVBlocks Plus - Fluent C++ API
+
+Modern C++20 wrapper over the AVBlocks C++ API. The whole API lives in the
+single header `primo/avblocks/avb++.h`, in the namespace
+`primo::avblocks::modern`.
+
+```{toctree}
+---
+maxdepth: 1
+---
+api/fluent/index
+api/core/index
+```

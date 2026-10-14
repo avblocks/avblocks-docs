@@ -1,0 +1,28 @@
+# primo::avblocks::Preset::Audio::Generic::M4A
+
+M4A presets (AAC audio in MP4 container).
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Audio::Generic::M4A::LowQuality
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Audio::Generic::M4A::GoodQuality
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Audio::Generic::M4A::HighQuality
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Audio::Generic::M4A::CBR_128kbps
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Audio::Generic::M4A::CBR_256kbps
+   :project: avblocks-plus
+```

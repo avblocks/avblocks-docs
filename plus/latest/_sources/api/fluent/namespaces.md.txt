@@ -1,0 +1,13 @@
+# Namespaces
+
+| Namespace | Description |
+|---|---|
+| [primo::avblocks::modern](namespaces/primo_avblocks_modern.md) |  |
+
+```{toctree}
+---
+hidden:
+maxdepth: 1
+---
+namespaces/primo_avblocks_modern
+```

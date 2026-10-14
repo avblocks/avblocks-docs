@@ -1,0 +1,63 @@
+# primo::avblocks::Preset::Video::Generic::WebM
+
+WebM presets.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Generic::WebM::Base_VP8_Vorbis
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Generic::WebM::Base_VP9_Vorbis
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Generic::WebM::VP8_3G_240p_350K_Vorbis_64K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Generic::WebM::VP8_Wide_3G_240p_350K_Vorbis_64K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Generic::WebM::VP8_4G_360p_700K_Vorbis_64K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Generic::WebM::VP8_Wide_4G_360p_700K_Vorbis_64K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Generic::WebM::VP8_SD_480p_1200K_Vorbis_128K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Generic::WebM::VP8_Wide_SD_480p_1200K_Vorbis_128K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Generic::WebM::VP8_SD_576p_1600K_Vorbis_128K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Generic::WebM::VP8_Wide_SD_576p_1600K_Vorbis_128K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Generic::WebM::VP8_Wide_HD_720p_2500K_Vorbis_192K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Generic::WebM::VP8_Wide_HD_1080p_5000K_Vorbis_192K
+   :project: avblocks-plus
+```

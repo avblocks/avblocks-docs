@@ -1,0 +1,9 @@
+# primo::avblocks::Param::Demuxer
+
+Parameters specific to demuxers.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::avblocks::Param::Demuxer::Mpeg](primo_avblocks_Param_Demuxer_Mpeg.md) | Parameters specific to the Mpeg demuxer. |

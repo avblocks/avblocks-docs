@@ -1,0 +1,59 @@
+# Classes
+
+| Name | Kind | Description |
+|---|---|---|
+| {cpp:class}`primo::avblocks::modern::TAVBlocksException` | class | Exception thrown when an AVBlocks operation fails. |
+| {cpp:class}`primo::avblocks::modern::TAudioStreamInfo` | class | Fluent wrapper for primo::codecs::AudioStreamInfo, which describes an elementary audio stream. |
+| {cpp:class}`primo::avblocks::modern::TDataStreamInfo` | class | Fluent wrapper for a generic data stream. |
+| {cpp:class}`primo::avblocks::modern::TErrorInfo` | class | Copy of the error information reported by AVBlocks: facility, code, message and hint. |
+| {cpp:class}`primo::avblocks::modern::TLibrary` | class | RAII owner of the AVBlocks library and a static facade over primo::avblocks::Library. |
+| {cpp:class}`primo::avblocks::modern::TLicenseInfo` | class | Fluent wrapper for primo::license::LicenseInfo, which describes the license state of the library. |
+| {cpp:class}`primo::avblocks::modern::TMediaBuffer` | class | Fluent wrapper for primo::codecs::MediaBuffer, a buffer for media data. |
+| {cpp:class}`primo::avblocks::modern::TMediaInfoT` | class | Fluent wrapper for primo::avblocks::MediaInfo, which analyzes a file or a stream and reports its type and properties. |
+| {cpp:class}`primo::avblocks::modern::TMediaPin` | class | Fluent wrapper for primo::avblocks::MediaPin, which represents an elementary media stream. |
+| {cpp:class}`primo::avblocks::modern::TMediaPinList` | class | Non-owning view of a MediaPinList. |
+| {cpp:class}`primo::avblocks::modern::TMediaSample` | class | Fluent wrapper for primo::codecs::MediaSample, one or more samples of audio or video data. |
+| {cpp:class}`primo::avblocks::modern::TMediaSocketList` | class | Non-owning view of a MediaSocketList. |
+| {cpp:class}`primo::avblocks::modern::TMediaSocketT` | class | Fluent wrapper for primo::avblocks::MediaSocket, an input or output point of a transcoder. |
+| {cpp:class}`primo::avblocks::modern::TMetaAttribute` | class | Fluent wrapper for primo::codecs::MetaAttribute. |
+| {cpp:class}`primo::avblocks::modern::TMetaAttributeList` | class | Non-owning view of a MetaAttributeList. |
+| {cpp:class}`primo::avblocks::modern::TMetaPicture` | class | Fluent wrapper for primo::codecs::MetaPicture. |
+| {cpp:class}`primo::avblocks::modern::TMetaPictureList` | class | Non-owning view of a MetaPictureList. |
+| {cpp:class}`primo::avblocks::modern::TMetadata` | class | Fluent wrapper for primo::codecs::Metadata. |
+| {cpp:class}`primo::avblocks::modern::TParamsMixin` | class | CRTP mixin that adds the typed, fluent addParam() to a class that owns a primo::avblocks::ParameterList (TMediaPin and TMediaSocketT). |
+| {cpp:class}`primo::avblocks::modern::TStreamInfo` | class | CRTP base for TAudioStreamInfo, TVideoStreamInfo, and TDataStreamInfo. |
+| {cpp:class}`primo::avblocks::modern::TTranscoderCallback` | class | Internal adapter that bridges std::function callbacks to the raw primo::avblocks::TranscoderCallback interface. |
+| {cpp:class}`primo::avblocks::modern::TTranscoderT` | class | Fluent wrapper for primo::avblocks::Transcoder, which encodes, decodes and transforms audio and video. |
+| {cpp:class}`primo::avblocks::modern::TVideoStreamInfo` | class | Fluent wrapper for primo::codecs::VideoStreamInfo, which describes an elementary video stream. |
+| {cpp:struct}`primo::avblocks::modern::string_traits` | struct | Maps the character type of the fluent API (char or wchar_t) to the matching string type and converts to and from primo::ustring. |
+
+```{toctree}
+---
+hidden:
+maxdepth: 1
+---
+classes/primo_avblocks_modern_TAVBlocksException
+classes/primo_avblocks_modern_TAudioStreamInfo
+classes/primo_avblocks_modern_TDataStreamInfo
+classes/primo_avblocks_modern_TErrorInfo
+classes/primo_avblocks_modern_TLibrary
+classes/primo_avblocks_modern_TLicenseInfo
+classes/primo_avblocks_modern_TMediaBuffer
+classes/primo_avblocks_modern_TMediaInfoT
+classes/primo_avblocks_modern_TMediaPin
+classes/primo_avblocks_modern_TMediaPinList
+classes/primo_avblocks_modern_TMediaSample
+classes/primo_avblocks_modern_TMediaSocketList
+classes/primo_avblocks_modern_TMediaSocketT
+classes/primo_avblocks_modern_TMetaAttribute
+classes/primo_avblocks_modern_TMetaAttributeList
+classes/primo_avblocks_modern_TMetaPicture
+classes/primo_avblocks_modern_TMetaPictureList
+classes/primo_avblocks_modern_TMetadata
+classes/primo_avblocks_modern_TParamsMixin
+classes/primo_avblocks_modern_TStreamInfo
+classes/primo_avblocks_modern_TTranscoderCallback
+classes/primo_avblocks_modern_TTranscoderT
+classes/primo_avblocks_modern_TVideoStreamInfo
+classes/primo_avblocks_modern_string_traits
+```

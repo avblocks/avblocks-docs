@@ -1,0 +1,10 @@
+# HwConfig
+
+`primo::avblocks::HwConfig`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::HwConfig
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

@@ -1,0 +1,18 @@
+# primo::avblocks::Param::Video::Deinterlacing
+
+Parameters specific to video deinterlacing.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Deinterlacing::Method
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Deinterlacing::Threshold
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Deinterlacing::Use
+   :project: avblocks-plus
+```

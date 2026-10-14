@@ -1,0 +1,8 @@
+# primo::avblocks::TranscoderStatus
+
+Defines the status of a transcoder operation.
+
+```{eval-rst}
+.. doxygenenum:: primo::avblocks::TranscoderStatus::Enum
+   :project: avblocks-plus
+```

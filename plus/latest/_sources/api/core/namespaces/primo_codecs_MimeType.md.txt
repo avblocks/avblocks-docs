@@ -1,0 +1,23 @@
+# primo::codecs::MimeType
+
+Defines MIME types used by primo codecs components.
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::MimeType::Gif
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::MimeType::Jpeg
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::MimeType::Png
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::MimeType::Tiff
+   :project: avblocks-plus
+```

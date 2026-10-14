@@ -1,0 +1,9 @@
+# primo::avblocks::Preset::Video::Fast
+
+Presets for fastest possible encoding.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::avblocks::Preset::Video::Fast::MP4](primo_avblocks_Preset_Video_Fast_MP4.md) | Fast MP4 presets (audio and video streams in MP4 container). |

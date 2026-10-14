@@ -1,0 +1,10 @@
+# VideoStreamInfo
+
+`primo::codecs::VideoStreamInfo`
+
+```{eval-rst}
+.. doxygenclass:: primo::codecs::VideoStreamInfo
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

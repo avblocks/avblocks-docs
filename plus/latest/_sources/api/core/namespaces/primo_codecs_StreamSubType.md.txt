@@ -1,0 +1,8 @@
+# primo::codecs::StreamSubType
+
+Defines audio and video stream subtypes.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::StreamSubType::Enum
+   :project: avblocks-plus
+```

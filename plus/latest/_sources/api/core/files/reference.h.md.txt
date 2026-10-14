@@ -1,0 +1,27 @@
+# reference.h
+
+
+
+`#include <primo/platform/reference.h>`
+
+## Includes
+
+- `primo/platform/config.h`
+- `memory`
+
+## Classes
+
+| Name | Description |
+|---|---|
+| {cpp:class}`primo::Reference` | Base class for all objects that require reference management. |
+
+## Namespaces
+
+- `primo`
+
+## Source
+
+```{literalinclude} ../../../../../primo-avblocks/sdk/include/primo/platform/reference.h
+:language: cpp
+:linenos:
+```

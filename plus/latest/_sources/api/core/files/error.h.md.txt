@@ -1,0 +1,27 @@
+# error.h
+
+
+
+`#include <primo/platform/error.h>`
+
+## Includes
+
+- `primo/platform/reference.h`
+
+## Classes
+
+| Name | Description |
+|---|---|
+| {cpp:class}`primo::error::ErrorInfo` | Describes an error interface used for uniform error handling across all Primo Software libraries. |
+
+## Namespaces
+
+- `primo`
+- `primo::error`
+
+## Source
+
+```{literalinclude} ../../../../../primo-avblocks/sdk/include/primo/platform/error.h
+:language: cpp
+:linenos:
+```

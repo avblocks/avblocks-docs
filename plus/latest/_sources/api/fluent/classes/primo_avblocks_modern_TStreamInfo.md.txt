@@ -1,0 +1,10 @@
+# TStreamInfo
+
+`primo::avblocks::modern::TStreamInfo`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::modern::TStreamInfo
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

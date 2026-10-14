@@ -1,0 +1,18 @@
+# primo::avblocks::Param::Encoder::Video::MPEG2
+
+Parameters specific to MPEG-1 and MPEG-2 video encoders.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::MPEG2::GOPSize
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::MPEG2::IPDistance
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::MPEG2::VBVBufferSize
+   :project: avblocks-plus
+```

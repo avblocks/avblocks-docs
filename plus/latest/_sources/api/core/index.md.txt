@@ -1,0 +1,16 @@
+# Core API
+
+The underlying AVBlocks C++ API that the Fluent API wraps.
+
+```{toctree}
+---
+maxdepth: 1
+---
+pages/object-management
+classes
+namespaces
+enums
+functions
+variables
+files
+```

@@ -1,0 +1,10 @@
+# TMetadata
+
+`primo::avblocks::modern::TMetadata`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::modern::TMetadata
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

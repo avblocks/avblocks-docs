@@ -1,0 +1,14 @@
+# primo::avblocks::Param::Encoder::Audio
+
+Parameters specific to audio encoders.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::avblocks::Param::Encoder::Audio::AAC](primo_avblocks_Param_Encoder_Audio_AAC.md) | Parameters specific to AAC audio encoders. |
+| [primo::avblocks::Param::Encoder::Audio::G711](primo_avblocks_Param_Encoder_Audio_G711.md) | Parameters specific to G.711 audio encoder. |
+| [primo::avblocks::Param::Encoder::Audio::MPEG1](primo_avblocks_Param_Encoder_Audio_MPEG1.md) | Parameters specific to MPEG1 audio encoders. |
+| [primo::avblocks::Param::Encoder::Audio::Opus](primo_avblocks_Param_Encoder_Audio_Opus.md) | Parameters specific to Opus audio encoders. |
+| [primo::avblocks::Param::Encoder::Audio::Vorbis](primo_avblocks_Param_Encoder_Audio_Vorbis.md) | Parameters specific to Vorbis audio encoders. |
+| [primo::avblocks::Param::Encoder::Audio::WMA](primo_avblocks_Param_Encoder_Audio_WMA.md) | Parameters specific to WMA audio encoders. |

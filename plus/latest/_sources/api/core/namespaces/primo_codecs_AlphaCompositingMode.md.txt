@@ -1,0 +1,8 @@
+# primo::codecs::AlphaCompositingMode
+
+Defines the way a foreground image will be combined with background video.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::AlphaCompositingMode::Enum
+   :project: avblocks-plus
+```

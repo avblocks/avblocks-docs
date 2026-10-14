@@ -1,0 +1,10 @@
+# TMediaSocketList
+
+`primo::avblocks::modern::TMediaSocketList`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::modern::TMediaSocketList
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

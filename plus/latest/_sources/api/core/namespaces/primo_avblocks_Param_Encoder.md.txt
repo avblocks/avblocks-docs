@@ -1,0 +1,10 @@
+# primo::avblocks::Param::Encoder
+
+Parameters specific to encoders.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::avblocks::Param::Encoder::Audio](primo_avblocks_Param_Encoder_Audio.md) | Parameters specific to audio encoders. |
+| [primo::avblocks::Param::Encoder::Video](primo_avblocks_Param_Encoder_Video.md) | Parameters specific to video encoders. |

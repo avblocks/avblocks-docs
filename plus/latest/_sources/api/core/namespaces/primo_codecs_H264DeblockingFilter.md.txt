@@ -1,0 +1,8 @@
+# primo::codecs::H264DeblockingFilter
+
+Defines H.264/AVC deblocking filter mode.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::H264DeblockingFilter::Enum
+   :project: avblocks-plus
+```

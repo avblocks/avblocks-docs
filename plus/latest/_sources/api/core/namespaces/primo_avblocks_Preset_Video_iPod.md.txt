@@ -1,0 +1,18 @@
+# primo::avblocks::Preset::Video::iPod
+
+Preset for iPod devices.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::iPod::H264_240p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::iPod::MPEG4_240p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::iPod::iPodTouch_MP4_H264_480p
+   :project: avblocks-plus
+```

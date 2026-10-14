@@ -1,0 +1,8 @@
+# primo::codecs::BitrateMode
+
+Defines the bitrate mode of the audio/video stream.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::BitrateMode::Enum
+   :project: avblocks-plus
+```

@@ -1,0 +1,36 @@
+# pp.h
+
+
+
+`#include <primo/pp/pp.h>`
+
+## Includes
+
+- `primo/platform/config.h`
+- `primo/platform/reference.h`
+
+## Classes
+
+| Name | Description |
+|---|---|
+| {cpp:class}`primo::codecs::Hardware` | Enumerates available hardware codecs. |
+| {cpp:class}`primo::codecs::HwCodec` | Describes a hardware encoder, decoder or filter. |
+| {cpp:class}`primo::codecs::HwCodecList` | An immutable list of hardware codecs. |
+| {cpp:class}`primo::codecs::HwDevice` | Describes a device that can be used for hardware accelerated encoding, decoding or processing. |
+| {cpp:class}`primo::codecs::HwDeviceList` | An immutable list of devices. |
+
+## Namespaces
+
+- `primo`
+- `primo::codecs`
+- `primo::codecs::HwApi`
+- `primo::codecs::HwCodecType`
+- `primo::codecs::HwEngine`
+- `primo::codecs::HwVendor`
+
+## Source
+
+```{literalinclude} ../../../../../primo-avblocks/sdk/include/primo/pp/pp.h
+:language: cpp
+:linenos:
+```

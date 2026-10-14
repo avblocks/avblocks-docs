@@ -1,0 +1,10 @@
+# TParamsMixin
+
+`primo::avblocks::modern::TParamsMixin`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::modern::TParamsMixin
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

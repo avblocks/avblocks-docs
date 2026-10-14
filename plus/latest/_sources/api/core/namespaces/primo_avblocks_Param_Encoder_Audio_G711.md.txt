@@ -1,0 +1,8 @@
+# primo::avblocks::Param::Encoder::Audio::G711
+
+Parameters specific to G.711 audio encoder.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Audio::G711::EnableVAD
+   :project: avblocks-plus
+```

@@ -1,0 +1,8 @@
+# primo::codecs::H265Tier
+
+Defines H.265/HEVC tiers.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::H265Tier::Enum
+   :project: avblocks-plus
+```

@@ -1,0 +1,8 @@
+# primo::codecs::H264MeMethod
+
+Defines the motion estimation methods used when encoding H.264/AVC.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::H264MeMethod::Enum
+   :project: avblocks-plus
+```

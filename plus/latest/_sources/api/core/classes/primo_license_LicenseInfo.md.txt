@@ -1,0 +1,10 @@
+# LicenseInfo
+
+`primo::license::LicenseInfo`
+
+```{eval-rst}
+.. doxygenclass:: primo::license::LicenseInfo
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

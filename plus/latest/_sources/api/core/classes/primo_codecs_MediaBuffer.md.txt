@@ -1,0 +1,10 @@
+# MediaBuffer
+
+`primo::codecs::MediaBuffer`
+
+```{eval-rst}
+.. doxygenclass:: primo::codecs::MediaBuffer
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

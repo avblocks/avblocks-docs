@@ -1,0 +1,15 @@
+# primo::error
+
+Shared namespace for error definitions.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::error::ErrorFacility](primo_error_ErrorFacility.md) | Common error facilities. |
+
+## Classes
+
+| Name | Description |
+|---|---|
+| {cpp:class}`primo::error::ErrorInfo` | Describes an error interface used for uniform error handling across all Primo Software libraries. |

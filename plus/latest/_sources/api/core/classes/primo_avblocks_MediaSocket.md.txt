@@ -1,0 +1,10 @@
+# MediaSocket
+
+`primo::avblocks::MediaSocket`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::MediaSocket
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

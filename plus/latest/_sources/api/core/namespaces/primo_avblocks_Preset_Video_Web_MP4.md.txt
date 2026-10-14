@@ -1,0 +1,8 @@
+# primo::avblocks::Preset::Video::Web::MP4
+
+Web MP4 Presets.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Web::MP4::H264_720p
+   :project: avblocks-plus
+```

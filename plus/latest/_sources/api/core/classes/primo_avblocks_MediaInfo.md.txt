@@ -1,0 +1,10 @@
+# MediaInfo
+
+`primo::avblocks::MediaInfo`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::MediaInfo
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

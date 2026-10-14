@@ -1,0 +1,24 @@
+# string_traits
+
+`primo::avblocks::modern::string_traits`
+
+```{eval-rst}
+.. doxygenstruct:: primo::avblocks::modern::string_traits
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```
+
+```{eval-rst}
+.. doxygenstruct:: primo::avblocks::modern::string_traits< char >
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```
+
+```{eval-rst}
+.. doxygenstruct:: primo::avblocks::modern::string_traits< wchar_t >
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

@@ -1,0 +1,10 @@
+# TMetaPicture
+
+`primo::avblocks::modern::TMetaPicture`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::modern::TMetaPicture
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

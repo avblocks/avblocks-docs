@@ -1,0 +1,18 @@
+# primo::avblocks::Param::Muxer::MP4
+
+Parameters specific to MP4 muxers.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Muxer::MP4::FastStart
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Muxer::MP4::FastStartUseTempFile
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Muxer::MP4::FastStartTempFileDirectory
+   :project: avblocks-plus
+```

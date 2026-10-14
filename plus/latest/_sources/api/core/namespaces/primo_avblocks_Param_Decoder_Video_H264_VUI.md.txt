@@ -1,0 +1,8 @@
+# primo::avblocks::Param::Decoder::Video::H264::VUI
+
+Parameters the are part of the Video Usability Information in the H.264 stream.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Decoder::Video::H264::VUI::MaxDecFrameBuffering
+   :project: avblocks-plus
+```

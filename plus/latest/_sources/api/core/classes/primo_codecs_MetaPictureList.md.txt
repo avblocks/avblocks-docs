@@ -1,0 +1,10 @@
+# MetaPictureList
+
+`primo::codecs::MetaPictureList`
+
+```{eval-rst}
+.. doxygenclass:: primo::codecs::MetaPictureList
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

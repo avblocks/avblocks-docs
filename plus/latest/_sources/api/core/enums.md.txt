@@ -1,0 +1,45 @@
+# Enumerations
+
+| Name | Description |
+|---|---|
+| {cpp:enum}`primo::avblocks::AVBlocksError::Enum` | AVBlocksError::Enum. |
+| {cpp:enum}`primo::avblocks::HardwareEncoder::Enum` | HardwareEncoder::Enum. |
+| {cpp:enum}`primo::avblocks::ParamType::Enum` | ParamType::Enum. |
+| {cpp:enum}`primo::avblocks::PinConnection::Enum` | PinConnection::Enum. |
+| {cpp:enum}`primo::avblocks::TranscoderError::Enum` | TranscoderError::Enum. |
+| {cpp:enum}`primo::avblocks::TranscoderStatus::Enum` | TranscoderStatus::Enum. |
+| {cpp:enum}`primo::avblocks::Use::Enum` | Use::Enum. |
+| {cpp:enum}`primo::codecs::AlphaCompositingMode::Enum` |  |
+| {cpp:enum}`primo::codecs::AudioChannelFlags::Enum` | AudioChannelFlags::Enum. |
+| {cpp:enum}`primo::codecs::BitrateMode::Enum` | BitrateMode::Enum. |
+| {cpp:enum}`primo::codecs::CodecError::Enum` |  |
+| {cpp:enum}`primo::codecs::ColorFormat::Enum` | ColorFormat::Enum. |
+| {cpp:enum}`primo::codecs::DeinterlacingMethod::Enum` | DeinterlacingMethod::Enum. |
+| {cpp:enum}`primo::codecs::FrameType::Enum` | Enumeration of frame types used in audio encoding/decoding. |
+| {cpp:enum}`primo::codecs::H264DeblockingFilter::Enum` | H264DeblockingFilter::Enum. |
+| {cpp:enum}`primo::codecs::H264DirectPredMode::Enum` |  |
+| {cpp:enum}`primo::codecs::H264EntropyCodingMode::Enum` | H264EntropyCodingMode::Enum. |
+| {cpp:enum}`primo::codecs::H264MeMethod::Enum` | H264MeMethod::Enum. |
+| {cpp:enum}`primo::codecs::H264MeSplitMode::Enum` |  |
+| {cpp:enum}`primo::codecs::H264PicCodingType::Enum` | H264PicCodingType::Enum. |
+| {cpp:enum}`primo::codecs::H264Profile::Enum` | H264Profile::Enum. |
+| {cpp:enum}`primo::codecs::H264RateControlMethod::Enum` | H264RateControlMethod. |
+| {cpp:enum}`primo::codecs::H265Level::Enum` | H265Level::Enum. |
+| {cpp:enum}`primo::codecs::H265Profile::Enum` | H265Profile::Enum. |
+| {cpp:enum}`primo::codecs::H265Tier::Enum` | H265Tier::Enum. |
+| {cpp:enum}`primo::codecs::HwApi::Enum` | HwApi. |
+| {cpp:enum}`primo::codecs::HwCodecType::Enum` | Hardware Codec type. |
+| {cpp:enum}`primo::codecs::HwEngine::Enum` | HwEngine. |
+| {cpp:enum}`primo::codecs::HwVendor::Enum` | HwVendor. |
+| {cpp:enum}`primo::codecs::InterpolationMethod::Enum` | InterpolationMethod::Enum. |
+| {cpp:enum}`primo::codecs::MediaSampleFlags::Enum` | MediaSampleFlags::Enum. |
+| {cpp:enum}`primo::codecs::MediaType::Enum` | MediaType::Enum. |
+| {cpp:enum}`primo::codecs::MetaPictureType::Enum` | The picture type is defined as in ID3. |
+| {cpp:enum}`primo::codecs::OpusApplication::Enum` | OpusApplication::Enum. |
+| {cpp:enum}`primo::codecs::PcmFlags::Enum` | PcmFlags::Enum. |
+| {cpp:enum}`primo::codecs::PictureType::Enum` | PictureType::Enum. |
+| {cpp:enum}`primo::codecs::ScanType::Enum` | ScanType::Enum. |
+| {cpp:enum}`primo::codecs::StereoMode::Enum` | StereoMode::Enum. |
+| {cpp:enum}`primo::codecs::StreamSubType::Enum` | StreamSubType::Enum. |
+| {cpp:enum}`primo::codecs::StreamType::Enum` | StreamType::Enum. |
+| {cpp:enum}`primo::license::LicenseStatusFlags::Enum` | LicenseStatusFlags::Enum. |

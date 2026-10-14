@@ -1,0 +1,13 @@
+# primo::avblocks::Param::Encoder::Video
+
+Parameters specific to video encoders.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::avblocks::Param::Encoder::Video::H264](primo_avblocks_Param_Encoder_Video_H264.md) | Parameters specific to AVC/H.264 encoders. |
+| [primo::avblocks::Param::Encoder::Video::H265](primo_avblocks_Param_Encoder_Video_H265.md) | Parameters specific to HEVC/H.265 encoders. |
+| [primo::avblocks::Param::Encoder::Video::MPEG2](primo_avblocks_Param_Encoder_Video_MPEG2.md) | Parameters specific to MPEG-1 and MPEG-2 video encoders. |
+| [primo::avblocks::Param::Encoder::Video::VP8](primo_avblocks_Param_Encoder_Video_VP8.md) | Parameters specific to VP8 video encoder. |
+| [primo::avblocks::Param::Encoder::Video::VP9](primo_avblocks_Param_Encoder_Video_VP9.md) | Parameters specific to VP9 video encoder. |

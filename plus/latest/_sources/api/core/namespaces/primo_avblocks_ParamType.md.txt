@@ -1,0 +1,8 @@
+# primo::avblocks::ParamType
+
+The ParamType represents the type of the data stored in a Parameter.
+
+```{eval-rst}
+.. doxygenenum:: primo::avblocks::ParamType::Enum
+   :project: avblocks-plus
+```

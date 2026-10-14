@@ -1,0 +1,17 @@
+# primo::avblocks::Preset::Audio::Generic
+
+Generic audio presets (unrelated to specific devices).
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::avblocks::Preset::Audio::Generic::M4A](primo_avblocks_Preset_Audio_Generic_M4A.md) | M4A presets (AAC audio in MP4 container). |
+| [primo::avblocks::Preset::Audio::Generic::MP3](primo_avblocks_Preset_Audio_Generic_MP3.md) | MP3 presets (MPEG-1 Layer 3). |
+| [primo::avblocks::Preset::Audio::Generic::OggVorbis](primo_avblocks_Preset_Audio_Generic_OggVorbis.md) | Presets for Vorbis audio in Ogg container. |
+| [primo::avblocks::Preset::Audio::Generic::WMA](primo_avblocks_Preset_Audio_Generic_WMA.md) | Presets for Windows Media Audio. |
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Audio::Generic::AAC
+   :project: avblocks-plus
+```

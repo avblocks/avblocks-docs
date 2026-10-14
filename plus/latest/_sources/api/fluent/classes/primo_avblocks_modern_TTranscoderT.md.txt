@@ -1,0 +1,10 @@
+# TTranscoderT
+
+`primo::avblocks::modern::TTranscoderT`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::modern::TTranscoderT
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

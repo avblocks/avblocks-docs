@@ -1,0 +1,14 @@
+# primo::avblocks::Param::Decoder::Video
+
+Parameters specific to video decoders.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::avblocks::Param::Decoder::Video::H264](primo_avblocks_Param_Decoder_Video_H264.md) | Parameters specific to H.264 decoders. |
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Decoder::Video::ConcealDefects
+   :project: avblocks-plus
+```

@@ -1,0 +1,10 @@
+# TAudioStreamInfo
+
+`primo::avblocks::modern::TAudioStreamInfo`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::modern::TAudioStreamInfo
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

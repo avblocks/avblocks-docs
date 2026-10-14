@@ -1,0 +1,257 @@
+# Variables and Constants
+
+| Name | Description |
+|---|---|
+| {cpp:any}`primo::avblocks::Param::Decoder::Config` | Decoder configuration data. |
+| {cpp:any}`primo::avblocks::Param::Decoder::Video::ConcealDefects` | Video: Specifies whether to conceal bitstream defects and errors. |
+| {cpp:any}`primo::avblocks::Param::Decoder::Video::H264::VUI::MaxDecFrameBuffering` | H264 Video: Specifies the requested size of the Decoded Picture Buffer. |
+| {cpp:any}`primo::avblocks::Param::Demuxer::Mpeg::PacketId` | Specifies the Packet ID (PID) of the MPEG TS packets to be delivered. |
+| {cpp:any}`primo::avblocks::Param::Demuxer::Mpeg::ProgramNumber` | Specifies the Program Number for which to deliver MPEG TS packets. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Audio::AAC::StereoMode` | AAC Audio: Specifies the stereo mode. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Audio::G711::EnableVAD` | G.711 Audio: Enables Voice Activity Detection (VAD). |
+| {cpp:any}`primo::avblocks::Param::Encoder::Audio::MPEG1::ForceV1` | MPEG Audio: Forces MPEG audio to version 1. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Audio::MPEG1::StereoMode` | MPEG Audio: Specifies the stereo mode. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Audio::Opus::Application` | Opus Audio: Specifies the intended application of the encoded audio. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Audio::Opus::Complexity` | Opus Audio: Specifies the complexity of the encoding algorithm. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Audio::Vorbis::Quality` | Vorbis Audio: Specifies the quality of the compressed audio. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Audio::WMA::Quality` | Windows Media Audio: Specifies the quality of the compressed audio. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::AccessUnitDelimiters` | H.264 Video: Use access unit delimiters. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::DeblockingFilter` | H.264 Video: De-blocking filter mode. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::DeblockingFilterAlpha` | H.264 Video: De-blocking filter strength. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::DeblockingFilterBeta` | H.264 Video: De-blocking filter threshold. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::DirectPredMode` | H.264 Video: Direct prediction mode. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::EntropyCodingMode` | H.264 Video: Entropy coding mode. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::FixedFramerate` | H.264 Video: Write timing info with a fixed frame rate in the bitstream. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::KeyFrameIDRInterval` | H.264 Video: Distance between two sequential IDR-pictures in terms of I pictures. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::KeyFrameInterval` | H.264 Video: Distance between two sequential I-pictures. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::Level` | H.264 Video: Computation level. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::MEMethod` | H.264 Video: Motion estimation method. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::MERangeSearchX` | H.264 Video: Specifies how far motion estimation should be done in a horizontal direction. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::MERangeSearchY` | H.264 Video: Specifies how far motion estimation should be done in a vertical direction. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::MESplitMode` | H.264 Video: Specifies the block size for which motion estimation should be done. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::NumBFrames` | H.264 Video: Number of B-frames between consequent I-frames or P-frames. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::NumRefFrames` | H.264 Video: Maximum number of reference pictures. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::NumSlices` | H.264 Video: Number of slices per frame/field. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::PictureCodingType` | H.264 Video: Picture coding type. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::Profile` | H.264 Video: Encoding profile. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::QualitySpeed` | H.264 Video: Quality/Speed trade off. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::RateControlMethod` | H.264 Video: Rate control method. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::RateControlQuantB` | H.264 Video: Rate control quantizer for B slices. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::RateControlQuantI` | H.264 Video: Rate control quantizer for I slices. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::RateControlQuantP` | H.264 Video: Rate control quantizer for P slices. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::Transform8x8` | H.264 Video: Transform 8x8 mode. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H264::TreatBFramesAsReference` | H.264 Video: Allows B-pictures to be used as reference pictures. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H265::GOPLength` | H.265 Group of Pictures (GOP) size. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H265::Level` | H.265 computation level. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H265::Profile` | H.265 encoding profile. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::H265::Tier` | H.265 bitrate tier. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::MPEG2::GOPSize` | MPEG-1 and MPEG-2 Video: Size of the Group of Pictures (GOP, N). |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::MPEG2::IPDistance` | MPEG-1 and MPEG-2 Video: Distance between successive reference pictures (GOP, M). |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::MPEG2::VBVBufferSize` | MPEG-1 and MPEG-2 Video: Size of the internal VBV buffer in units of 16384 bits. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::VP8::KeyFrameMaxDistance` | VP8 Video: Max keyframe distance. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::VP8::KeyFrameMinDistance` | VP8 Video: Min keyframe distance. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::VP9::KeyFrameMaxDistance` | VP9 Video: Max keyframe distance. |
+| {cpp:any}`primo::avblocks::Param::Encoder::Video::VP9::KeyFrameMinDistance` | VP9 Video: Min keyframe distance. |
+| {cpp:any}`primo::avblocks::Param::HardwareEncoder` | Specifies which hardware encoder shall be used. |
+| {cpp:any}`primo::avblocks::Param::HardwareEncoderApi` | Specifies which hardware API shall be used. |
+| {cpp:any}`primo::avblocks::Param::HardwareEncoderDevice` | Specifies the device ID that shall be used for hardware encoding. |
+| {cpp:any}`primo::avblocks::Param::Muxer::MP4::FastStart` | Run a second pass moving the moov atom before the mdat atom. |
+| {cpp:any}`primo::avblocks::Param::Muxer::MP4::FastStartTempFileDirectory` | Specifies the temp file directory. |
+| {cpp:any}`primo::avblocks::Param::Muxer::MP4::FastStartUseTempFile` | Specifies whether a temp file should be used during the second pass. |
+| {cpp:any}`primo::avblocks::Param::ReEncode` | Specifies whether a stream will be re-encoded. |
+| {cpp:any}`primo::avblocks::Param::Video::Crop::Bottom` | Video: Specifies the area to be cropped inside the bottom edge of the input frame. |
+| {cpp:any}`primo::avblocks::Param::Video::Crop::Left` | Video: Specifies the area to be cropped inside the left edge of the input frame. |
+| {cpp:any}`primo::avblocks::Param::Video::Crop::Right` | Video: Specifies the area to be cropped inside the right edge of the input frame. |
+| {cpp:any}`primo::avblocks::Param::Video::Crop::Top` | Video: Specifies the area to be cropped inside the top edge of the input frame. |
+| {cpp:any}`primo::avblocks::Param::Video::Deinterlacing::Method` | Video: Specifies the deinterlacing method used by the deinterlacing filter. |
+| {cpp:any}`primo::avblocks::Param::Video::Deinterlacing::Threshold` | Video: Specifies the deinterlacing threshold that is used by some deinterlacing methods. |
+| {cpp:any}`primo::avblocks::Param::Video::Deinterlacing::Use` |  |
+| {cpp:any}`primo::avblocks::Param::Video::FrameRateConverter::RealTime` | Video: Specifies whether a video frame rate filter is allowed to drop frames when a video encoder cannot keep up with the input in realtime. |
+| {cpp:any}`primo::avblocks::Param::Video::FrameRateConverter::Use` | Video: Specifies whether a video frame rate filter is inserted in the processing pipeline. |
+| {cpp:any}`primo::avblocks::Param::Video::Overlay::BackgroundAlpha` | Specifies the alpha value for all pixels in the background. |
+| {cpp:any}`primo::avblocks::Param::Video::Overlay::BackgroundX` | Specifies the X coordinate of the background origin where the overlay must be applied. |
+| {cpp:any}`primo::avblocks::Param::Video::Overlay::BackgroundY` | Specifies the Y coordinate of the background origin where the overlay must be applied. |
+| {cpp:any}`primo::avblocks::Param::Video::Overlay::ForegroundAlpha` | Specifies the alpha value for all pixels in the foreground. |
+| {cpp:any}`primo::avblocks::Param::Video::Overlay::ForegroundBuffer` | Specifies the foreground that should be overlaid with the background. |
+| {cpp:any}`primo::avblocks::Param::Video::Overlay::ForegroundBufferFormat` | Specifies the format of the foreground buffer. |
+| {cpp:any}`primo::avblocks::Param::Video::Overlay::LocationX` | Specifies the X coordinate of the location where the overlay is applied on the frame. |
+| {cpp:any}`primo::avblocks::Param::Video::Overlay::LocationY` | Specifies the Y coordinate of the location where the overlay is applied on the frame. |
+| {cpp:any}`primo::avblocks::Param::Video::Overlay::Mode` | Specifies an alpha compositing mode - the way a foreground overlay image is combined with the background video. |
+| {cpp:any}`primo::avblocks::Param::Video::Pad::Bottom` | Video: Specifies the area to be padded inside the bottom edge of the output frame. |
+| {cpp:any}`primo::avblocks::Param::Video::Pad::Color` | Video: Specifies the padding color if any padding is set. |
+| {cpp:any}`primo::avblocks::Param::Video::Pad::Left` | Video: Specifies the area to be padded inside the left edge of the output frame. |
+| {cpp:any}`primo::avblocks::Param::Video::Pad::Right` | Video: Specifies the area to be padded inside the right edge of the output frame. |
+| {cpp:any}`primo::avblocks::Param::Video::Pad::Top` | Video: Specifies the area to be padded inside the top edge of the output frame. |
+| {cpp:any}`primo::avblocks::Param::Video::Resize::InterpolationMethod` | Video: Specifies the interpolation method that is used for resizing video frames. |
+| {cpp:any}`primo::avblocks::Preset::Audio::AudioCD::WAV` | Audio: WAV with parameters as in Audio CD (PCM, 44100 Hz, 16-bit, stereo) Container: WAVE |
+| {cpp:any}`primo::avblocks::Preset::Audio::DVD::MP2` | MPEG-1 Layer 2 audio, 48000 Hz (suitable for DVD) . |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::AAC` | AAC audio stream in ADTS format, stereo, 128 kbps. |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::M4A::CBR_128kbps` | AAC audio stream in MP4 container, 44100 Hz, stereo, 128 kbps, CBR Normal (standard) quality. |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::M4A::CBR_256kbps` | AAC audio stream in MP4 format, 44100 Hz, stereo, 256 kbps, CBR High quality. |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::M4A::GoodQuality` | AAC audio stream in MP4 container, 44100 Hz, stereo, 128 kbps, CBR. |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::M4A::HighQuality` | AAC audio stream in MP4 container, 44100 Hz, stereo, 160 kbps, CBR. |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::M4A::LowQuality` | AAC audio stream in MP4 container, 44100 Hz, stereo, 96 kbps, CBR. |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::MP3::AMRadio` | MPEG-1 Layer 3 audio, 44100 Hz, mono, 32 kbps, CBR. |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::MP3::CBR_128kbps` | MPEG-1 Layer 3 audio, 44100Hz, stereo, 128 kbps, CBR . |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::MP3::CBR_256kbps` | MPEG-1 Layer 3 audio, 44100Hz, stereo, 256 kbps, CBR . |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::MP3::CD` | Audio: MPEG-1 Layer 3 audio, 44100 Hz, stereo, 192 kbps, CBR Container: MP3 |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::MP3::FMRadio` | MPEG-1 Layer 3 audio, 44100 Hz, stereo, 96 kbps, CBR. |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::MP3::HiFi` | Audio: MPEG-1 Layer 3 audio, 44100 Hz, stereo, 160 kbps, CBR Container: MP3 |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::MP3::Radio` | MPEG-1 Layer 3 audio, 44100 Hz, stereo, 112 kbps, CBR. |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::MP3::Studio` | Audio: MPEG-1 Layer 3 audio, 44100 Hz, stereo, 256 kbps, CBR Container: MP3 |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::MP3::Tape` | Audio: MPEG-1 Layer 3 audio, 44100 Hz, stereo, 128 kbps, CBR Container: MP3 |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::MP3::Voice` | MPEG-1 Layer 3 audio, 44100 Hz, mono, 64 kbps, CBR. |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::OggVorbis::VBR_Q4` | Audio: Vorbis, frequency not explicitly specified, quality 0.4 (from -0.1 to 1.0), VBR Container: OGG |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::OggVorbis::VBR_Q8` | Audio: Vorbis, frequency not explicitly specified, quality 0.8 (from -0.1 to 1.0), VBR Container: OGG |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::WMA::Lossless::CD` | Audio: Windows Media Lossless, 44100 Hz, stereo Container: ASF |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::WMA::Professional::VBR_Q100` | Audio: Windows Media Professional, 44100 Hz, stereo, Quality 100 (0-100), VBR Container: ASF |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::WMA::Professional::VBR_Q75` | Audio: Windows Media Professional, 44100 Hz, stereo, Quality 75 (0-100), VBR Container: ASF |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::WMA::Professional::VBR_Q90` | Audio: Windows Media Professional, 44100 Hz, stereo, Quality 90 (0-100), VBR Container: ASF |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::WMA::Standard::CBR_128kbps` | Audio: Windows Media Standard, 44100 Hz, stereo, 128 kbps, CBR Container: ASF |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::WMA::Standard::CBR_160kbps` | Audio: Windows Media Standard, 44100 Hz, stereo, 160 kbps, CBR Container: ASF |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::WMA::Standard::CBR_64kbps` | Audio: Windows Media Standard, 44100 Hz, stereo, 64 kbps, CBR Container: ASF |
+| {cpp:any}`primo::avblocks::Preset::Audio::Generic::WMA::Standard::CBR_96kbps` | Audio: Windows Media Standard, 44100 Hz, stereo, 96 kbps, CBR Container: ASF |
+| {cpp:any}`primo::avblocks::Preset::Video::AndroidPhone::H264_360p` | Video: H.264 Baseline Profile, 30 fps, 480 x 360, 800 kbps Audio: AAC, 48000 Hz, stereo, 128 kbps Container: MP4 . |
+| {cpp:any}`primo::avblocks::Preset::Video::AndroidPhone::H264_720p` | Video: H.264 Baseline Profile, 30 fps, 1280 x 720, 2000 kbps Audio: AAC, 48000 Hz, stereo, 128 kbps Container: MP4 . |
+| {cpp:any}`primo::avblocks::Preset::Video::AndroidTablet::H264_720p` | Video: H.264 Baseline Profile, 30 fps, 1280 x 720, 4000 kbps Audio: AAC, 48000 Hz, stereo, 192 kbps Container: MP4 . |
+| {cpp:any}`primo::avblocks::Preset::Video::AndroidTablet::WebM_VP8_720p` | Video: VP8, 30 fps, 1280 x 720, 4000 kbps Audio: Vorbis, 48000 Hz, stereo, 192 kbps Container: WebM . |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleLiveStreaming::Cellular_H264_400x300_30p_400K_AAC_40K` | Apple HTTP Live Streaming: 440 Kbps Video: H264, 400x300, bitrate 400 kbps, 29.97 fps, aspect ratio 4:3, profile Baseline, Level 3.0, MaxReferenceFrame 1 Audio: AAC, 22050 Hz, stereo, bitrate 40 kbps Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleLiveStreaming::Cellular_Wide_H264_400x224_30p_400K_AAC_40K` | Apple HTTP Live Streaming: 440 Kbps Video: H264, 400x224, bitrate 400 kbps, 29.97 fps, aspect ratio 16:9, profile Baseline, Level 3.0, MaxReferenceFrame 1 Audio: AAC, 22050 Hz, stereo, bitrate 40 kbps Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleLiveStreaming::H264_480p` | Alias for. |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleLiveStreaming::H264_720p` | Alias for. |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_H264_1280x960_30p_4500K_AAC_128K` | Apple HTTP Live Streaming: 4628 Kbps Video: H.264, 1280x960, bitrate 4500 kbps, 29.97 fps, aspect ratio 4:3, profile Main, Level 3.1, MaxReferenceFrame 3 Audio: AAC, 48000 Hz, stereo, bitrate 128 kbps Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_H264_640x480_30p_1200K_AAC_96K` | Apple Live Streaming: 1296 Kbps Video: H.264, 640x480, bitrate 1200 kbps, 29.97 fps, aspect ratio 4:3, profile Main, Level 3.1, MaxReferenceFrame 3 Audio: AAC, 48000 Hz, stereo, bitrate 96 kbps Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_H264_640x480_30p_600K_AAC_96K` | Apple HTTP Live Streaming: 696 Kbps Video: H.264, 640x480, bitrate 600 kbps, 29.97 fps, aspect ratio 4:3, profile Baseline, Level 3.0, MaxReferenceFrame 1 Audio: AAC, 48000 Hz, stereo, bitrate 96 kbps Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_H264_640x480_30p_800K_AAC_96K` | Apple HTTP Live Streaming: 896 Kbps Video: H.264, 640x480, bitrate 800 kbps, 29.97 fps, aspect ratio 4:3, profile Main, Level 3.1, MaxReferenceFrame 3 Audio: AAC, 48000 Hz, stereo, bitrate 96 kbps Container: MPEG-2 Transport Stream. |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_H264_960x720_30p_1200K_AAC_96K` | Apple HTTP Live Streaming: 1296 Kbps Video: H.264, 960x720, bitrate 1200 kbps, 29.97 fps, aspect ratio 4:3, profile Main, Level 3.1, MaxReferenceFrame 3 Audio: AAC, 48000 Hz, stereo, bitrate 96 kbps Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_H264_960x720_30p_2500K_AAC_128K` | Apple HTTP Live Streaming: 2628 Kbps Video: H.264, 960x720, bitrate 2500 kbps, 29.97 fps, aspect ratio 4:3, profile Main, Level 3.1, MaxReferenceFrame 3 Audio: AAC, 48000 Hz, stereo, bitrate 128 kbps Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_Wide_H264_1280x720_30p_2500K_AAC_128K` | Apple HTTP Live Streaming: 2628 Kbps Video: H.264, 1280x720, bitrate 2500 kbps, 29.97 fps, aspect ratio 16:9, profile Main, Level 3.1, MaxReferenceFrame 3 Audio: AAC, 48000 Hz, stereo, bitrate 128 kbps Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_Wide_H264_1280x720_30p_4500K_AAC_128K` | Apple HTTP Live Streaming: 4628 Kbps Video: H.264, 1280x720, bitrate 4500 kbps, 29.97 fps, aspect ratio 16:9, profile Main, Level 3.1, MaxReferenceFrame 3 Audio: AAC, 48000 Hz, stereo, bitrate 128 kbps Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_Wide_H264_1920x1080_30p_11000K_AAC_128K` | Apple HTTP Live Streaming: 11128 Kbps Video: H.264, 1920x1080, bitrate 11000 kbps, 29.97 fps, aspect ratio 16:9, profile High, Level 4.0, MaxReferenceFrame 3 Audio: AAC, 48000 Hz, stereo, bitrate 128 kbps Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_Wide_H264_640x360_30p_1200K_AAC_96K` | Apple HTTP Live Streaming: 1296 Kbps Video: H.264, 640x360, bitrate 1200 kbps, 29.97 fps, aspect ratio 16:9, profile Main, Level 3.1, MaxReferenceFrame 3 Audio: AAC, 48000 Hz, stereo, bitrate 96 kbps Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_Wide_H264_640x360_30p_600K_AAC_96K` | Apple HTTP Live Streaming: 696 Kbps Video: H.264, 640x360, bitrate 600 kbps, 29.97 fps, aspect ratio 16:9, profile Baseline, Level 3.0, MaxReferenceFrame 1 Audio: AAC, 48000 Hz, stereo, bitrate 96 kbps Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_Wide_H264_960x540_30p_1800K_AAC_128K` | Apple HTTP Live Streaming: 1928 Kbps Video: H.264, 960x540, bitrate 1800 kbps, 29.97 fps, aspect ratio 16:9, profile Main, Level 3.1, MaxReferenceFrame 3 Audio: AAC, 48000 Hz, stereo, bitrate 128 kbps Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleTV::AppleTV2G_MP4_H264_720p` | Video: H.264, 30 fps, 1280x720, bitrate 5000 kbps, profile Main, aspect 16:9, Level 3.1 Audio: AAC, 48000 Hz, stereo, bitrate 160 kbps Container: MP4 . |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleTV::AppleTV3G_MP4_H264_1080p` | Video: H.264, 30 fps, 1920x1080, bitrate 5000 kbps, profile High, aspect 16:9, Level 4 Audio: AAC, 48000 Hz, stereo, bitrate 160 kbps Container: MP4 . |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleTV::H264_480p` | Video: H.264, 24 fps, 640 x 480, 1500 kbps Audio: AAC, 48000 Hz, stereo, 48 kbps Container: MP4 Optimized for Apple TV, 1st generation. |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleTV::H264_720p` | Video: H.264, 24 fps, 1280 x 720, 4000 kbps Audio: AAC, 48000 Hz, stereo, 48 kbps Container: MP4 Optimized for Apple TV, 2nd generation. |
+| {cpp:any}`primo::avblocks::Preset::Video::AppleTV::MPEG4_480p` | Video: MPEG-4 Visual, 24 fps, 640 x 480, 2000 kbps Audio: AAC, 48000 Hz, stereo, 48 kbps Container: MP4 Optimized for Apple TV, 1st generation. |
+| {cpp:any}`primo::avblocks::Preset::Video::BDAV::H264_1280x720_2398p_PCM` | Video: H.264, 1280 x 720, 23.976 fps progressive, aspect ratio 16:9, 15000 kbps Audio: LPCM, 48000 Hz, 16-bit Container: BDAV MPEG-2 Transport Stream (m2ts) . |
+| {cpp:any}`primo::avblocks::Preset::Video::BDAV::H264_1280x720_24p_PCM` | Video: H.264, 1280 x 720, 24 fps progressive, aspect ratio 16:9, 15000 kbps Audio: LPCM, 48000 Hz, 16-bit Container: BDAV MPEG-2 Transport Stream (m2ts) . |
+| {cpp:any}`primo::avblocks::Preset::Video::BDAV::H264_1280x720_50p_PCM` | Video: H.264, 1280 x 720, 50 fps progressive, aspect ratio 16:9, 15000 kbps Audio: LPCM, 48000 Hz, 16-bit Container: BDAV MPEG-2 Transport Stream (m2ts) . |
+| {cpp:any}`primo::avblocks::Preset::Video::BDAV::H264_1280x720_5994p_PCM` | Video: H.264, 1280 x 720, 59.94 fps progressive, aspect ratio 16:9, 15000 kbps Audio: LPCM, 48000 Hz, 16-bit Container: BDAV MPEG-2 Transport Stream (m2ts) . |
+| {cpp:any}`primo::avblocks::Preset::Video::BDAV::H264_1440x1080_2398p_PCM` | Video: H.264, 1440 x 1080, 23.976 fps progressive, aspect ratio 16:9, 25000 kbps Audio: LPCM, 48000 Hz, 16-bit Container: BDAV MPEG-2 Transport Stream (m2ts) . |
+| {cpp:any}`primo::avblocks::Preset::Video::BDAV::H264_1440x1080_24p_PCM` | Video: H.264, 1440 x 1080, 24 fps progressive, aspect ratio 16:9, 25000 kbps Audio: LPCM, 48000 Hz, 16-bit Container: BDAV MPEG-2 Transport Stream (m2ts) . |
+| {cpp:any}`primo::avblocks::Preset::Video::BDAV::H264_1440x1080_50i_PCM` | Video: H.264, 1440 x 1080, 25 fps interlaced, aspect ratio 16:9, 25000 kbps Audio: LPCM, 48000 Hz, 16-bit Container: BDAV MPEG-2 Transport Stream (m2ts) . |
+| {cpp:any}`primo::avblocks::Preset::Video::BDAV::H264_1440x1080_5994i_PCM` | Video: H.264, 1440 x 1080, 29.97 fps interlaced, aspect ratio 16:9, 25000 kbps Audio: LPCM, 48000 Hz, 16-bit Container: BDAV MPEG-2 Transport Stream (m2ts) . |
+| {cpp:any}`primo::avblocks::Preset::Video::BDAV::H264_1920x1080_2398p_PCM` | Video: H.264, 1920 x 1080, 23.976 fps progressive, aspect ratio 16:9, 25000 kbps Audio: LPCM, 48000 Hz, 16-bit Container: BDAV MPEG-2 Transport Stream (m2ts) . |
+| {cpp:any}`primo::avblocks::Preset::Video::BDAV::H264_1920x1080_24p_PCM` | Video: H.264, 1920 x 1080, 24 fps progressive, aspect ratio 16:9, 25000 kbps Audio: LPCM, 48000 Hz, 16-bit Container: BDAV MPEG-2 Transport Stream (m2ts) . |
+| {cpp:any}`primo::avblocks::Preset::Video::BDAV::H264_1920x1080_50i_PCM` | Video: H.264, 1920 x 1080, 25 fps interlaced, aspect ratio 16:9, 25000 kbps Audio: LPCM, 48000 Hz, 16-bit Container: BDAV MPEG-2 Transport Stream (m2ts) . |
+| {cpp:any}`primo::avblocks::Preset::Video::BDAV::H264_1920x1080_5994i_PCM` | Video: H.264, 1920 x 1080, 29.97 fps interlaced, aspect ratio 16:9, 25000 kbps Audio: LPCM, 48000 Hz, 16-bit Container: BDAV MPEG-2 Transport Stream (m2ts) . |
+| {cpp:any}`primo::avblocks::Preset::Video::DVD::NTSC_16x9_MP2` | Video: MPEG-2, 29.97 fps, 720 x 480, aspect 16:9 Audio: MPEG-1 Layer 2, 48000 Hz, stereo Container: PS (MPEG-2 Program Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::DVD::NTSC_16x9_PCM` | Video: MPEG-2, 29.97 fps, 720 x 480, aspect 16:9 Audio: PCM, 16-bit, 48000 Hz, stereo Container: PS (MPEG-2 Program Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::DVD::NTSC_4x3_MP2` | Video: MPEG-2, 29.97 fps, 720 x 480, aspect 4:3 Audio: MPEG-1 Layer 2, 48000 Hz, stereo Container: PS (MPEG-2 Program Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::DVD::NTSC_4x3_PCM` | Video: MPEG-2, 29.97 fps, 720 x 480, aspect 4:3 Audio: PCM, 16-bit, 48000 Hz, stereo Container: PS (MPEG-2 Program Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::DVD::PAL_16x9_MP2` | Video: MPEG-2, 25 fps, 720 x 576, aspect 16:9 Audio: MPEG-1 Layer 2, 48000 Hz, stereo <br > Container: MPEG_PS <br >. |
+| {cpp:any}`primo::avblocks::Preset::Video::DVD::PAL_4x3_MP2` | Video: MPEG-2, 25 fps, 720 x 576, aspect 4:3 Audio: MPEG-1 Layer 2, 48000 Hz, stereo Container: MPEG_PS <br >. |
+| {cpp:any}`primo::avblocks::Preset::Video::Fast::MP4::H264_AAC` | Video: H.264 Audio: AAC Container: MP4 . |
+| {cpp:any}`primo::avblocks::Preset::Video::Generic::MP4::Base_H264_AAC` | Video: H.264 Audio: AAC Container: MP4 . |
+| {cpp:any}`primo::avblocks::Preset::Video::Generic::MP4::H264_1080p` | Video: H.264, 29.97 fps, 1920x1080, bitrate 5400 kbps, profile Baseline, aspect 16:9, Level 4 Audio: AAC, 44100 Hz, stereo, bitrate 160 kbps Container: MP4 . |
+| {cpp:any}`primo::avblocks::Preset::Video::Generic::MP4::H264_240p` | Video: H264, 15 fps, 320x240, bitrate 300 kbps, profile Baseline, aspect 4:3, Level 1.3 Audio: AAC, 22050 Hz, stereo, bitrate 64 kbps Container: MP4 . |
+| {cpp:any}`primo::avblocks::Preset::Video::Generic::MP4::H264_360p` | Video: H.264, 29.97 fps, 480x360, bitrate 600 kbps, profile Baseline, aspect 4:3, Level 3 Audio: AAC, 44100 Hz, stereo, bitrate 128 kbps Container: MP4 . |
+| {cpp:any}`primo::avblocks::Preset::Video::Generic::MP4::H264_480p` | Video: H264, 29.97 fps, 640x480, bitrate 900 kbps, profile Baseline, aspect 4:3, Level 3 Audio: AAC, 44100 Hz, stereo, bitrate 128 kbps Container: MP4 . |
+| {cpp:any}`primo::avblocks::Preset::Video::Generic::MP4::H264_720p` | Video: H.264, 29.97 fps, 1280x720, bitrate 2400kbps, profile Baseline, aspect 16:9, Level 3.1 Audio: AAC, 44100 Hz, stereo, bitrate 160 kbps Container: MP4 . |
+| {cpp:any}`primo::avblocks::Preset::Video::Generic::MP4::H264_Wide_360p` | Video: H.264, 29.97 fps, 640x360, bitrate 720 kbps, profile Baseline, aspect 16:9, Level 3 Audio: AAC, 44100 Hz, stereo, bitrate 128 kbps Container: MP4 . |
+| {cpp:any}`primo::avblocks::Preset::Video::Generic::MP4::H264_Wide_480p` | Video: H.264, 29.97 fps, 854x480, bitrate 1200 kbps, profile Baseline, aspect 16:9, Level 3.1 Audio: AAC, 44100 Hz, stereo, bitrate 128 kbps Container: MP4. |
+| {cpp:any}`primo::avblocks::Preset::Video::Generic::WebM::Base_VP8_Vorbis` | Video: VP8 Audio: Vorbis Container: WebM . |
+| {cpp:any}`primo::avblocks::Preset::Video::Generic::WebM::Base_VP9_Vorbis` | Video: VP9 Audio: Vorbis Container: WebM . |
+| {cpp:any}`primo::avblocks::Preset::Video::Generic::WebM::VP8_3G_240p_350K_Vorbis_64K` | Video: VP8, 24 fps, 320x240, bitrate 350 kbps, VBR, keyframe distance 120 Audio: Vorbis, 44100 Hz, 64 kbit, 2 channels, VBR Container: WebM. |
+| {cpp:any}`primo::avblocks::Preset::Video::Generic::WebM::VP8_4G_360p_700K_Vorbis_64K` | Video: VP8, 30 fps, 480x360, bitrate 700 kbps, VBR, keyframe distance 150 Audio: Vorbis, 44100 Hz, 64 kbit, 2 channels, VBR Container: WebM. |
+| {cpp:any}`primo::avblocks::Preset::Video::Generic::WebM::VP8_SD_480p_1200K_Vorbis_128K` | Video: VP8, 30 fps, 640x480, bitrate 1200 kbps, VBR, keyframe distance 300 Audio: Vorbis, 44100 Hz, 128 kbit, 2 channels, VBR Container: WebM. |
+| {cpp:any}`primo::avblocks::Preset::Video::Generic::WebM::VP8_SD_576p_1600K_Vorbis_128K` | Video: VP8, 25 fps, 720x576, bitrate 1600 kbps, VBR, keyframe distance 250 Audio: Vorbis, 44100 Hz, 128 kbit, 2 channels, VBR Container: WebM. |
+| {cpp:any}`primo::avblocks::Preset::Video::Generic::WebM::VP8_Wide_3G_240p_350K_Vorbis_64K` | Video: VP8, 24 fps, 426x240, bitrate 350 kbps, VBR, keyframe distance 120 Audio: Vorbis, 44100 Hz, 64 kbit, 2 channels, VBR Container: WebM. |
+| {cpp:any}`primo::avblocks::Preset::Video::Generic::WebM::VP8_Wide_4G_360p_700K_Vorbis_64K` | Video: VP8, 30 fps, 640x360, bitrate 700 kbps, VBR, keyframe distance 150 Audio: Vorbis, 44100 Hz, 64 kbit, 2 channels, VBR Container: WebM. |
+| {cpp:any}`primo::avblocks::Preset::Video::Generic::WebM::VP8_Wide_HD_1080p_5000K_Vorbis_192K` | Video: VP8, 30 fps, 1920x1080, bitrate 5000 kbps, VBR, keyframe distance 300 Audio: Vorbis, 48000 Hz, 192 kbit, 2 channels, VBR Container: WebM. |
+| {cpp:any}`primo::avblocks::Preset::Video::Generic::WebM::VP8_Wide_HD_720p_2500K_Vorbis_192K` | Video: VP8, 30 fps, 1280x720, bitrate 2500 kbps, VBR, keyframe distance 300 Audio: Vorbis, 48000 Hz, 192 kbit, 2 channels, VBR Container: WebM. |
+| {cpp:any}`primo::avblocks::Preset::Video::Generic::WebM::VP8_Wide_SD_480p_1200K_Vorbis_128K` | Video: VP8, 30 fps, 854x480, bitrate 1200 kbps, VBR, keyframe distance 300 Audio: Vorbis, 44100 Hz, 128 kbit, 2 channels, VBR Container: WebM. |
+| {cpp:any}`primo::avblocks::Preset::Video::Generic::WebM::VP8_Wide_SD_576p_1600K_Vorbis_128K` | Video: VP8, 25 fps, 1024x576, bitrate 1600 kbps, VBR, keyframe distance 250 Audio: Vorbis, 44100 Hz, 128 kbit, 2 channels, VBR Container: WebM. |
+| {cpp:any}`primo::avblocks::Preset::Video::HDV::MPEG_1080i_25p` | Video: MPEG-2, 25 fps, 1440x1080, aspect ratio 16:9 Audio: MPEG-1 Layer 2, 48000 Hz, stereo, 16bits Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::HDV::MPEG_1080i_30p` | Video: MPEG-2, 29.97 fps, 1440x1080, aspect ratio 16:9 Audio: MPEG-1 Layer 2, 48000 Hz, stereo, 16bits Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::HDV::MPEG_1080p_24p` | Video: MPEG-2, 23.976 fps, 1440x1080, aspect ratio 16:9 Audio: MPEG-1 Layer 2, 48000 Hz, stereo, 16bits Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::HDV::MPEG_1080p_25p` | Video: MPEG-2, 25 fps, 1440x1080, aspect ratio 16:9 Audio: MPEG-1 Layer 2, 48000 Hz, stereo, 16bits Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::HDV::MPEG_1080p_30p` | Video: MPEG-2, 29.97 fps, 1440x1080, aspect ratio 16:9 Audio: MPEG-1 Layer 2, 48000 Hz, stereo, 16bits Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::HDV::MPEG_720p_24p` | Video: MPEG-2, 23.976 fps, 1280x720, aspect 16:9 Audio: MPEG-1 Layer 2, 48000 Hz, stereo, 16bits Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::HDV::MPEG_720p_25p` | Video: MPEG-2, 25 fps, 1280x720, aspect 16:9 Audio: MPEG-1 Layer 2, 48000 Hz, stereo, 16bits Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::HDV::MPEG_720p_30p` | Video: MPEG-2, 29.97 fps, 1280x720, aspect 16:9 Audio: MPEG-1 Layer 2, 48000 Hz, stereo, 16bits Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::HDV::MPEG_720p_50p` | Video: MPEG-2, 50 fps, 1280x720, aspect 16:9 Audio: MPEG-1 Layer 2, 48000 Hz, stereo, 16bits Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::HDV::MPEG_720p_60p` | Video: MPEG-2, 59.94 fps, 1280x720, aspect 16:9 Audio: MPEG-1 Layer 2, 48000 Hz, stereo, 16bits Container: TS (MPEG-2 Transport Stream) . |
+| {cpp:any}`primo::avblocks::Preset::Video::Kindle::KindleFireHD_8_9_MP4_H264_1080p` | Video: H264, 30 fps, 1920x1080, bitrate 5400 kbps, profile Main, aspect 16:9, Level 4 Audio: AAC, 48000 Hz, stereo, bitrate 160 kbps Container: MP4 . |
+| {cpp:any}`primo::avblocks::Preset::Video::Kindle::KindleFireHD_MP4_H264_720p` | Video: H264, 30 fps, 1280x720, bitrate 2200 kbps, profile Main, aspect 16:9, Level 4 Audio: AAC, 48000 Hz, stereo, bitrate 160 kbps Container: MP4 . |
+| {cpp:any}`primo::avblocks::Preset::Video::Kindle::KindleFire_MP4_H264_576p` | Video: H264, 30 fps, 1024x576, bitrate 1600 kbps, profile Main, aspect 16:9, Level 3.1 Audio: AAC, 48000 Hz, stereo, bitrate 160 kbps Container: MP4 . |
+| {cpp:any}`primo::avblocks::Preset::Video::VCD::NTSC` | Video: MPEG-1, 29.97 fps, 352 x 240, 1100 kbps Audio: MPEG-1 Layer 2, 44100Hz, stereo, 192 kbps Container: MPEG Program Stream Video CD (NTSC). |
+| {cpp:any}`primo::avblocks::Preset::Video::VCD::PAL` | Video: MPEG-1, 25fps, 352 x 288, 1100 kbps Audio: MPEG-1 Layer 2, 44100Hz, stereo, 192 kbps Container: MPEG Program Stream Video CD (PAL). |
+| {cpp:any}`primo::avblocks::Preset::Video::Web::MP4::H264_720p` | Video: H264, 30 fps, 1280x720, bitrate 2200 kbps, profile Main, aspect 16:9, Level 3.1 Audio: AAC, 44100 Hz, stereo, bitrate 160 kbps Container: MP4 . |
+| {cpp:any}`primo::avblocks::Preset::Video::iPad::H264_576p` | Video: H.264, 30 fps, 768 x 576, 2500 kbps Audio: AAC, 48000 Hz, stereo, 128 kbps Container: MP4 Standard Definition Video, optimized for iPad. |
+| {cpp:any}`primo::avblocks::Preset::Video::iPad::H264_720p` | Video: H.264, 30 fps, 1280 x 720, 4000 kbps Audio: AAC, 48000 Hz, stereo, 128 kbps Container: MP4 High Definition Video, optimized for iPad. |
+| {cpp:any}`primo::avblocks::Preset::Video::iPad::MPEG4_480p` | Video: MPEG-4 Visual, 30 fps, 640 x 480, 2500 kbps Audio: AAC, 48000 Hz, 128 kbps, stereo Container: MP4 Near Standard Definition Video, optimized for iPad. |
+| {cpp:any}`primo::avblocks::Preset::Video::iPhone::H264_480p` | Video: H.264, 25 fps, 640 x 480, 1000 kbps Audio: AAC, 48000 Hz, stereo, 96 kbps Container: MP4 Optimized for iPhone. |
+| {cpp:any}`primo::avblocks::Preset::Video::iPhone::MPEG4_480p` | Video: MPEG-4 Visual, 25 fps, 640 x 480, 2000 kbps Audio: AAC, 48000 Hz, stereo, 64 kbps Container: MP4 Optimized for iPhone. |
+| {cpp:any}`primo::avblocks::Preset::Video::iPhone::iPhone3GS_MP4_H264_480` | Video: H.264, 30 fps, 640x480, bitrate 600 kbps, profile Baseline, aspect 4:3, Level 3 Audio: AAC, 48000 Hz, stereo, bitrate 160 kbps Container: MP4 . |
+| {cpp:any}`primo::avblocks::Preset::Video::iPhone::iPhone4S_MP4_H264_1080p` | Video: H.264, 30 fps, 1920x1080, bitrate 5000 kbps, profile High, aspect 16:9, Level 4.1 Audio: AAC, 48000 Hz, stereo, bitrate 160 kbps Container: MP4 . |
+| {cpp:any}`primo::avblocks::Preset::Video::iPhone::iPhone4_MP4_H264_720p` | Video: H.264, 30 fps, 1280x720, bitrate 2200 kbps, profile Main, aspect 16:9, Level 3.1 Audio: AAC, 48000 Hz, stereo, bitrate 160 kbps Container: MP4 . |
+| {cpp:any}`primo::avblocks::Preset::Video::iPod::H264_240p` | Video: H.264 Baseline Profile, 25 fps, 320 x 240, 300 kbps Audio: AAC, 48000 Hz, stereo, 64 kbps Container: MP4 Optimized for iPod. |
+| {cpp:any}`primo::avblocks::Preset::Video::iPod::MPEG4_240p` | Video: MPEG-4 Visual, 25 fps, 320 x 240, 600 kbps Audio: AAC, 48000 Hz, stereo, 64 kbps Container: MP4 Optimized for iPod. |
+| {cpp:any}`primo::avblocks::Preset::Video::iPod::iPodTouch_MP4_H264_480p` | Video: H.264, 30 fps, 640x480, bitrate 1500 kbps, profile Baseline, aspect 4:3, Level 3 Audio: AAC, 48000 Hz, stereo, bitrate 160 kbps Container: MP4 . |
+| {cpp:any}`primo::codecs::Meta::Album` | Album. |
+| {cpp:any}`primo::codecs::Meta::AlbumArtist` | Album artist. |
+| {cpp:any}`primo::codecs::Meta::BeatsPerMinute` | Beats per minute. |
+| {cpp:any}`primo::codecs::Meta::Comment` | Comment. |
+| {cpp:any}`primo::codecs::Meta::Composer` | Composer. |
+| {cpp:any}`primo::codecs::Meta::Conductor` | Conductor. |
+| {cpp:any}`primo::codecs::Meta::ContentGroup` | Content group. |
+| {cpp:any}`primo::codecs::Meta::Copyright` | Copyright. |
+| {cpp:any}`primo::codecs::Meta::Date` | Date (YYYY-MM-DD). |
+| {cpp:any}`primo::codecs::Meta::DiscNum` | Disc number is 1-based. |
+| {cpp:any}`primo::codecs::Meta::EncodedBy` | Encoding software. |
+| {cpp:any}`primo::codecs::Meta::EncoderSettings` | Encoding software settings. |
+| {cpp:any}`primo::codecs::Meta::FileType` | File type. |
+| {cpp:any}`primo::codecs::Meta::Genre` | Genre. |
+| {cpp:any}`primo::codecs::Meta::InternetRadioStation` | Internet radio station name. |
+| {cpp:any}`primo::codecs::Meta::InvolvedPeople` | Involved people. |
+| {cpp:any}`primo::codecs::Meta::Language` | Language. |
+| {cpp:any}`primo::codecs::Meta::LeadArtist` | Lead artist. |
+| {cpp:any}`primo::codecs::Meta::Lyricist` | Lyricist / text writer. |
+| {cpp:any}`primo::codecs::Meta::MediaType` | Media type. |
+| {cpp:any}`primo::codecs::Meta::OrigAlbum` | Original album. |
+| {cpp:any}`primo::codecs::Meta::OrigArtist` | Original artist. |
+| {cpp:any}`primo::codecs::Meta::OrigFileName` | Original file name. |
+| {cpp:any}`primo::codecs::Meta::OrigLyricist` | Original lyricist / text writer. |
+| {cpp:any}`primo::codecs::Meta::PlayCounter` | Play counter. |
+| {cpp:any}`primo::codecs::Meta::Popularimeter` | Popularity meter / rating. |
+| {cpp:any}`primo::codecs::Meta::Private` | Private comment. |
+| {cpp:any}`primo::codecs::Meta::Publisher` | Publisher. |
+| {cpp:any}`primo::codecs::Meta::RecordingDates` | Recording dates. |
+| {cpp:any}`primo::codecs::Meta::RemixArtist` | Remix / cover artist. |
+| {cpp:any}`primo::codecs::Meta::Subtitle` | Subtitle. |
+| {cpp:any}`primo::codecs::Meta::Time` | Time. |
+| {cpp:any}`primo::codecs::Meta::Title` | Title. |
+| {cpp:any}`primo::codecs::Meta::TrackNum` | Track number is 1-based. |
+| {cpp:any}`primo::codecs::Meta::UnsyncedLyrics` | Unsynced lyrics. |
+| {cpp:any}`primo::codecs::Meta::UrlArtist` | URL pointing at the artist's official web page. |
+| {cpp:any}`primo::codecs::Meta::UrlAudioFile` | URL pointing at a file specific web page. |
+| {cpp:any}`primo::codecs::Meta::UrlAudioSource` | URL pointing at the official web page for the source of the audio file, e.g. |
+| {cpp:any}`primo::codecs::Meta::UrlCommercialInfo` | URL pointing at a web page with information such as where the album can be bought. |
+| {cpp:any}`primo::codecs::Meta::UrlCopyright` | URL pointing at a web page where the terms of use and ownership of the file is described. |
+| {cpp:any}`primo::codecs::Meta::UrlPayment` | URL pointing at a web page that will handle the process of paying for this file. |
+| {cpp:any}`primo::codecs::Meta::UrlPublisher` | URL pointing at the official web page for the publisher. |
+| {cpp:any}`primo::codecs::Meta::UrlRadioPage` | URL pointing at the homepage of the Internet radio station. |
+| {cpp:any}`primo::codecs::Meta::UrlUser` | User URL. |
+| {cpp:any}`primo::codecs::Meta::UserText` | User text. |
+| {cpp:any}`primo::codecs::Meta::Year` | Year only (YYYY). |
+| {cpp:any}`primo::codecs::MimeType::Gif` | GIF MIME type. |
+| {cpp:any}`primo::codecs::MimeType::Jpeg` | JPEG MIME type. |
+| {cpp:any}`primo::codecs::MimeType::Png` | PNG MIME type. |
+| {cpp:any}`primo::codecs::MimeType::Tiff` | TIFF MIME type. |
+| {cpp:any}`primo::error::ErrorFacility::AVBlocks` | AVBlocks Error. |
+| {cpp:any}`primo::error::ErrorFacility::Codec` | Common errors for encoders, decoders, muxers, demuxers and other A/V components. |
+| {cpp:any}`primo::error::ErrorFacility::Transcoder` | Transcoder Error. |

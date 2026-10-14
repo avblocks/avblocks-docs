@@ -1,0 +1,8 @@
+# primo::codecs::MetaPictureType
+
+Represents the meta picture (image) type.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::MetaPictureType::Enum
+   :project: avblocks-plus
+```

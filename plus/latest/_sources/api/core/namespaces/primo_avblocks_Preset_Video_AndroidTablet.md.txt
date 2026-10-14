@@ -1,0 +1,13 @@
+# primo::avblocks::Preset::Video::AndroidTablet
+
+Presets for Android tablets.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AndroidTablet::H264_720p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AndroidTablet::WebM_VP8_720p
+   :project: avblocks-plus
+```

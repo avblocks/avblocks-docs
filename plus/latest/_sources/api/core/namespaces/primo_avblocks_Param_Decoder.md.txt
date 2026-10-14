@@ -1,0 +1,14 @@
+# primo::avblocks::Param::Decoder
+
+Parameters specific to decoders.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::avblocks::Param::Decoder::Video](primo_avblocks_Param_Decoder_Video.md) | Parameters specific to video decoders. |
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Decoder::Config
+   :project: avblocks-plus
+```

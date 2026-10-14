@@ -1,0 +1,10 @@
+# TAVBlocksException
+
+`primo::avblocks::modern::TAVBlocksException`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::modern::TAVBlocksException
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

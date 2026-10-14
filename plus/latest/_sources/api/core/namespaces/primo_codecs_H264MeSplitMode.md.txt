@@ -1,0 +1,8 @@
+# primo::codecs::H264MeSplitMode
+
+Defines the block sizes for which motion estimation should be done.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::H264MeSplitMode::Enum
+   :project: avblocks-plus
+```

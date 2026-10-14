@@ -1,0 +1,10 @@
+# Hardware
+
+`primo::codecs::Hardware`
+
+```{eval-rst}
+.. doxygenclass:: primo::codecs::Hardware
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

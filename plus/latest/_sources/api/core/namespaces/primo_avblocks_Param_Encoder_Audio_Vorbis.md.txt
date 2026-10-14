@@ -1,0 +1,8 @@
+# primo::avblocks::Param::Encoder::Audio::Vorbis
+
+Parameters specific to Vorbis audio encoders.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Audio::Vorbis::Quality
+   :project: avblocks-plus
+```

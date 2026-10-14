@@ -1,0 +1,8 @@
+# primo::codecs::HwCodecType
+
+Hardware encoder, decoder or filter for a specific stream type.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::HwCodecType::Enum
+   :project: avblocks-plus
+```

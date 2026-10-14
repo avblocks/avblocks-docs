@@ -1,0 +1,10 @@
+# TMediaBuffer
+
+`primo::avblocks::modern::TMediaBuffer`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::modern::TMediaBuffer
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

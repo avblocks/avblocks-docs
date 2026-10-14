@@ -1,0 +1,13 @@
+# primo::avblocks::Param::Video::FrameRateConverter
+
+Parameters specific to the video frame rate converter filter.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::FrameRateConverter::Use
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::FrameRateConverter::RealTime
+   :project: avblocks-plus
+```

@@ -1,0 +1,63 @@
+# primo::avblocks::Preset::Video::BDAV
+
+Presets for Blu-ray Disc Audio-Visual MPEG-2 Transport Stream.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::BDAV::H264_1920x1080_5994i_PCM
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::BDAV::H264_1920x1080_50i_PCM
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::BDAV::H264_1920x1080_24p_PCM
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::BDAV::H264_1920x1080_2398p_PCM
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::BDAV::H264_1440x1080_5994i_PCM
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::BDAV::H264_1440x1080_50i_PCM
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::BDAV::H264_1440x1080_24p_PCM
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::BDAV::H264_1440x1080_2398p_PCM
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::BDAV::H264_1280x720_5994p_PCM
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::BDAV::H264_1280x720_50p_PCM
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::BDAV::H264_1280x720_24p_PCM
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::BDAV::H264_1280x720_2398p_PCM
+   :project: avblocks-plus
+```

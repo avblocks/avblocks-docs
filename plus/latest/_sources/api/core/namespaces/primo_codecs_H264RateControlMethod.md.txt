@@ -1,0 +1,8 @@
+# primo::codecs::H264RateControlMethod
+
+Defines methods for bitrate contorl when encoding H.264/AVC.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::H264RateControlMethod::Enum
+   :project: avblocks-plus
+```

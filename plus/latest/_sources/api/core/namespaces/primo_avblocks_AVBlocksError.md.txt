@@ -1,0 +1,8 @@
+# primo::avblocks::AVBlocksError
+
+Defines API usage errors.
+
+```{eval-rst}
+.. doxygenenum:: primo::avblocks::AVBlocksError::Enum
+   :project: avblocks-plus
+```

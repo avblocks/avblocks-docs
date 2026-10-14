@@ -1,0 +1,28 @@
+# license.h
+
+
+
+`#include <primo/license/license.h>`
+
+## Includes
+
+- `primo/platform/reference.h`
+
+## Classes
+
+| Name | Description |
+|---|---|
+| {cpp:class}`primo::license::LicenseInfo` | Provides information about the current license state of the library. |
+
+## Namespaces
+
+- `primo`
+- `primo::license`
+- `primo::license::LicenseStatusFlags`
+
+## Source
+
+```{literalinclude} ../../../../../primo-avblocks/sdk/include/primo/license/license.h
+:language: cpp
+:linenos:
+```

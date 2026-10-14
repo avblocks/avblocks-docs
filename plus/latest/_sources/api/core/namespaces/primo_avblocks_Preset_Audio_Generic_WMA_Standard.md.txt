@@ -1,0 +1,23 @@
+# primo::avblocks::Preset::Audio::Generic::WMA::Standard
+
+Presets for the WMA standard codec.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Audio::Generic::WMA::Standard::CBR_64kbps
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Audio::Generic::WMA::Standard::CBR_96kbps
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Audio::Generic::WMA::Standard::CBR_128kbps
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Audio::Generic::WMA::Standard::CBR_160kbps
+   :project: avblocks-plus
+```

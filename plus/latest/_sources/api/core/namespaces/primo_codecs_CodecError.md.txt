@@ -1,0 +1,8 @@
+# primo::codecs::CodecError
+
+Common errors for encoders, decoders, muxers, demuxers and other A/V components.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::CodecError::Enum
+   :project: avblocks-plus
+```

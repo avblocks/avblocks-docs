@@ -1,0 +1,8 @@
+# primo::codecs::AudioChannelFlags
+
+Defines the speaker location of one or more audio channels.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::AudioChannelFlags::Enum
+   :project: avblocks-plus
+```

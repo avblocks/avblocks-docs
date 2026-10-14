@@ -1,0 +1,5 @@
+/* Overloads that share one doc comment are doxygen member groups ("@{ ... @}").
+   Breathe titles them "Unnamed Group"; hide that heading. */
+[id^="breathe-section-title-unnamed-group"] {
+  display: none;
+}

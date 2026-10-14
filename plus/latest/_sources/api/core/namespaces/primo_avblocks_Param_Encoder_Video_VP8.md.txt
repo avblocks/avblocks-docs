@@ -1,0 +1,13 @@
+# primo::avblocks::Param::Encoder::Video::VP8
+
+Parameters specific to VP8 video encoder.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::VP8::KeyFrameMaxDistance
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::VP8::KeyFrameMinDistance
+   :project: avblocks-plus
+```

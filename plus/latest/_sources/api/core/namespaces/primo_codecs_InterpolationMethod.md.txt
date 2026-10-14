@@ -1,0 +1,8 @@
+# primo::codecs::InterpolationMethod
+
+Defines methods for sample interpolation.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::InterpolationMethod::Enum
+   :project: avblocks-plus
+```

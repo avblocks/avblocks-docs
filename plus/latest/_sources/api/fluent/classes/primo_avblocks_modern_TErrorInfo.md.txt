@@ -1,0 +1,10 @@
+# TErrorInfo
+
+`primo::avblocks::modern::TErrorInfo`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::modern::TErrorInfo
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

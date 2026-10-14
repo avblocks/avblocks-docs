@@ -1,0 +1,920 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../../">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../../genindex.html"><link rel="search" title="Search" href="../../../search.html"><link rel="next" title="TranscoderCallback" href="primo_avblocks_TranscoderCallback.html"><link rel="prev" title="StringParameter" href="primo_avblocks_StringParameter.html">
+
+    <!-- Generated with Sphinx 9.1.0 and Furo 2025.12.19 -->
+        <title>Transcoder - AVBlocks Plus - Fluent C++ API 3.4 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo.css?v=7bdb33bb" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo-extensions.css?v=8dab3a3b" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/custom.css?v=175de5fe" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-986RSEQQMJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-986RSEQQMJ');
+</script>
+</head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../../index.html"><div class="brand">AVBlocks Plus - Fluent C++ API 3.4 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../../index.html">
+  
+  <span class="sidebar-brand-text">AVBlocks Plus - Fluent C++ API 3.4 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul class="current">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../fluent/index.html">Fluent API</a><input aria-label="Toggle navigation of Fluent API" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../fluent/classes.html">Classes</a><input aria-label="Toggle navigation of Classes" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TAVBlocksException.html">TAVBlocksException</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TAudioStreamInfo.html">TAudioStreamInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TDataStreamInfo.html">TDataStreamInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TErrorInfo.html">TErrorInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TLibrary.html">TLibrary</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TLicenseInfo.html">TLicenseInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TMediaBuffer.html">TMediaBuffer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TMediaInfoT.html">TMediaInfoT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TMediaPin.html">TMediaPin</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TMediaPinList.html">TMediaPinList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TMediaSample.html">TMediaSample</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TMediaSocketList.html">TMediaSocketList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TMediaSocketT.html">TMediaSocketT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TMetaAttribute.html">TMetaAttribute</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TMetaAttributeList.html">TMetaAttributeList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TMetaPicture.html">TMetaPicture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TMetaPictureList.html">TMetaPictureList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TMetadata.html">TMetadata</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TParamsMixin.html">TParamsMixin</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TStreamInfo.html">TStreamInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TTranscoderCallback.html">TTranscoderCallback</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TTranscoderT.html">TTranscoderT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_TVideoStreamInfo.html">TVideoStreamInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/classes/primo_avblocks_modern_string_traits.html">string_traits</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../fluent/namespaces.html">Namespaces</a><input aria-label="Toggle navigation of Namespaces" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/namespaces/primo_avblocks_modern.html">primo::avblocks::modern</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../fluent/typedefs.html">Typedefs</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../fluent/files.html">Files</a><input aria-label="Toggle navigation of Files" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../fluent/files/avb%2B%2B.h.html">avb++.h</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../index.html">Core API</a><input aria-label="Toggle navigation of Core API" checked="" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../pages/object-management.html">Object Management</a></li>
+<li class="toctree-l2 current has-children"><a class="reference internal" href="../classes.html">Classes</a><input aria-label="Toggle navigation of Classes" checked="" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="primo_Reference.html">Reference</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_Stream.html">Stream</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_Block.html">Block</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_Config.html">Config</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_FloatParameter.html">FloatParameter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_HwConfig.html">HwConfig</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_IntParameter.html">IntParameter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_MediaBufferParameter.html">MediaBufferParameter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_MediaInfo.html">MediaInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_MediaPin.html">MediaPin</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_MediaPinList.html">MediaPinList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_MediaSocket.html">MediaSocket</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_MediaSocketList.html">MediaSocketList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_Parameter.html">Parameter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_ParameterList.html">ParameterList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_StringParameter.html">StringParameter</a></li>
+<li class="toctree-l3 current current-page"><a class="current reference internal" href="#">Transcoder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_TranscoderCallback.html">TranscoderCallback</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_VideoStreamInfoParameter.html">VideoStreamInfoParameter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_codecs_AudioStreamInfo.html">AudioStreamInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_codecs_Hardware.html">Hardware</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_codecs_HwCodec.html">HwCodec</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_codecs_HwCodecList.html">HwCodecList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_codecs_HwDevice.html">HwDevice</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_codecs_HwDeviceList.html">HwDeviceList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_codecs_MediaBuffer.html">MediaBuffer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_codecs_MediaSample.html">MediaSample</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_codecs_MetaAttribute.html">MetaAttribute</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_codecs_MetaAttributeList.html">MetaAttributeList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_codecs_MetaPicture.html">MetaPicture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_codecs_MetaPictureList.html">MetaPictureList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_codecs_Metadata.html">Metadata</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_codecs_StreamInfo.html">StreamInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_codecs_StreamInfoEnum.html">StreamInfoEnum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_codecs_VideoStreamInfo.html">VideoStreamInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_error_ErrorInfo.html">ErrorInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_license_LicenseInfo.html">LicenseInfo</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../namespaces.html">Namespaces</a><input aria-label="Toggle navigation of Namespaces" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo.html">primo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks.html">primo::avblocks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_AVBlocksError.html">primo::avblocks::AVBlocksError</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_HardwareEncoder.html">primo::avblocks::HardwareEncoder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Library.html">primo::avblocks::Library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param.html">primo::avblocks::Param</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Decoder.html">primo::avblocks::Param::Decoder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Decoder_Video.html">primo::avblocks::Param::Decoder::Video</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Decoder_Video_H264.html">primo::avblocks::Param::Decoder::Video::H264</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Decoder_Video_H264_VUI.html">primo::avblocks::Param::Decoder::Video::H264::VUI</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Demuxer.html">primo::avblocks::Param::Demuxer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Demuxer_Mpeg.html">primo::avblocks::Param::Demuxer::Mpeg</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Encoder.html">primo::avblocks::Param::Encoder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Encoder_Audio.html">primo::avblocks::Param::Encoder::Audio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Encoder_Audio_AAC.html">primo::avblocks::Param::Encoder::Audio::AAC</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Encoder_Audio_G711.html">primo::avblocks::Param::Encoder::Audio::G711</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Encoder_Audio_MPEG1.html">primo::avblocks::Param::Encoder::Audio::MPEG1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Encoder_Audio_Opus.html">primo::avblocks::Param::Encoder::Audio::Opus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Encoder_Audio_Vorbis.html">primo::avblocks::Param::Encoder::Audio::Vorbis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Encoder_Audio_WMA.html">primo::avblocks::Param::Encoder::Audio::WMA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Encoder_Video.html">primo::avblocks::Param::Encoder::Video</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Encoder_Video_H264.html">primo::avblocks::Param::Encoder::Video::H264</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Encoder_Video_H265.html">primo::avblocks::Param::Encoder::Video::H265</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Encoder_Video_MPEG2.html">primo::avblocks::Param::Encoder::Video::MPEG2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Encoder_Video_VP8.html">primo::avblocks::Param::Encoder::Video::VP8</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Encoder_Video_VP9.html">primo::avblocks::Param::Encoder::Video::VP9</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Muxer.html">primo::avblocks::Param::Muxer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Muxer_MP4.html">primo::avblocks::Param::Muxer::MP4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Video.html">primo::avblocks::Param::Video</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Video_Crop.html">primo::avblocks::Param::Video::Crop</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Video_Deinterlacing.html">primo::avblocks::Param::Video::Deinterlacing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Video_FrameRateConverter.html">primo::avblocks::Param::Video::FrameRateConverter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Video_Overlay.html">primo::avblocks::Param::Video::Overlay</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Video_Pad.html">primo::avblocks::Param::Video::Pad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Param_Video_Resize.html">primo::avblocks::Param::Video::Resize</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_ParamType.html">primo::avblocks::ParamType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_PinConnection.html">primo::avblocks::PinConnection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset.html">primo::avblocks::Preset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Audio.html">primo::avblocks::Preset::Audio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Audio_AudioCD.html">primo::avblocks::Preset::Audio::AudioCD</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Audio_DVD.html">primo::avblocks::Preset::Audio::DVD</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Audio_Generic.html">primo::avblocks::Preset::Audio::Generic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Audio_Generic_M4A.html">primo::avblocks::Preset::Audio::Generic::M4A</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Audio_Generic_MP3.html">primo::avblocks::Preset::Audio::Generic::MP3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Audio_Generic_OggVorbis.html">primo::avblocks::Preset::Audio::Generic::OggVorbis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Audio_Generic_WMA.html">primo::avblocks::Preset::Audio::Generic::WMA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Audio_Generic_WMA_Lossless.html">primo::avblocks::Preset::Audio::Generic::WMA::Lossless</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Audio_Generic_WMA_Professional.html">primo::avblocks::Preset::Audio::Generic::WMA::Professional</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Audio_Generic_WMA_Standard.html">primo::avblocks::Preset::Audio::Generic::WMA::Standard</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Video.html">primo::avblocks::Preset::Video</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Video_AndroidPhone.html">primo::avblocks::Preset::Video::AndroidPhone</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Video_AndroidTablet.html">primo::avblocks::Preset::Video::AndroidTablet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Video_AppleLiveStreaming.html">primo::avblocks::Preset::Video::AppleLiveStreaming</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Video_AppleTV.html">primo::avblocks::Preset::Video::AppleTV</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Video_BDAV.html">primo::avblocks::Preset::Video::BDAV</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Video_DVD.html">primo::avblocks::Preset::Video::DVD</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Video_Fast.html">primo::avblocks::Preset::Video::Fast</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Video_Fast_MP4.html">primo::avblocks::Preset::Video::Fast::MP4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Video_Generic.html">primo::avblocks::Preset::Video::Generic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Video_Generic_MP4.html">primo::avblocks::Preset::Video::Generic::MP4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Video_Generic_WebM.html">primo::avblocks::Preset::Video::Generic::WebM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Video_HDV.html">primo::avblocks::Preset::Video::HDV</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Video_Kindle.html">primo::avblocks::Preset::Video::Kindle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Video_VCD.html">primo::avblocks::Preset::Video::VCD</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Video_Web.html">primo::avblocks::Preset::Video::Web</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Video_Web_MP4.html">primo::avblocks::Preset::Video::Web::MP4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Video_iPad.html">primo::avblocks::Preset::Video::iPad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Video_iPhone.html">primo::avblocks::Preset::Video::iPhone</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Preset_Video_iPod.html">primo::avblocks::Preset::Video::iPod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_TranscoderError.html">primo::avblocks::TranscoderError</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_TranscoderStatus.html">primo::avblocks::TranscoderStatus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_Use.html">primo::avblocks::Use</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs.html">primo::codecs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_AlphaCompositingMode.html">primo::codecs::AlphaCompositingMode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_AudioChannelFlags.html">primo::codecs::AudioChannelFlags</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_BitrateMode.html">primo::codecs::BitrateMode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_CodecError.html">primo::codecs::CodecError</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_ColorFormat.html">primo::codecs::ColorFormat</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_DeinterlacingMethod.html">primo::codecs::DeinterlacingMethod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_FrameType.html">primo::codecs::FrameType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_H264DeblockingFilter.html">primo::codecs::H264DeblockingFilter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_H264DirectPredMode.html">primo::codecs::H264DirectPredMode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_H264EntropyCodingMode.html">primo::codecs::H264EntropyCodingMode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_H264MeMethod.html">primo::codecs::H264MeMethod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_H264MeSplitMode.html">primo::codecs::H264MeSplitMode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_H264PicCodingType.html">primo::codecs::H264PicCodingType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_H264Profile.html">primo::codecs::H264Profile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_H264RateControlMethod.html">primo::codecs::H264RateControlMethod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_H265Level.html">primo::codecs::H265Level</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_H265Profile.html">primo::codecs::H265Profile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_H265Tier.html">primo::codecs::H265Tier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_HwApi.html">primo::codecs::HwApi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_HwCodecType.html">primo::codecs::HwCodecType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_HwEngine.html">primo::codecs::HwEngine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_HwVendor.html">primo::codecs::HwVendor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_InterpolationMethod.html">primo::codecs::InterpolationMethod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_MediaSampleFlags.html">primo::codecs::MediaSampleFlags</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_MediaType.html">primo::codecs::MediaType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_Meta.html">primo::codecs::Meta</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_MetaPictureType.html">primo::codecs::MetaPictureType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_MimeType.html">primo::codecs::MimeType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_OpusApplication.html">primo::codecs::OpusApplication</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_PcmFlags.html">primo::codecs::PcmFlags</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_PictureType.html">primo::codecs::PictureType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_ScanType.html">primo::codecs::ScanType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_StereoMode.html">primo::codecs::StereoMode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_StreamSubType.html">primo::codecs::StreamSubType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html">primo::codecs::StreamType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_error.html">primo::error</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_error_ErrorFacility.html">primo::error::ErrorFacility</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_license.html">primo::license</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_license_LicenseStatusFlags.html">primo::license::LicenseStatusFlags</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../enums.html">Enumerations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../functions.html">Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../variables.html">Variables and Constants</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../files.html">Files</a><input aria-label="Toggle navigation of Files" class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../files/av.h.html">av.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../files/avb.h.html">avb.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../files/error.h.html">error.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../files/license.h.html">license.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../files/pp.h.html">pp.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../files/reference.h.html">reference.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../files/stream.h.html">stream.h</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="transcoder">
+<h1>Transcoder<a class="headerlink" href="#transcoder" title="Link to this heading">¶</a></h1>
+<p><code class="docutils literal notranslate"><span class="pre">primo::avblocks::Transcoder</span></code></p>
+<dl class="cpp class">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks10TranscoderE">
+<span id="_CPPv3N5primo8avblocks10TranscoderE"></span><span id="_CPPv2N5primo8avblocks10TranscoderE"></span><span id="primo::avblocks::Transcoder"></span><span class="target" id="classprimo_1_1avblocks_1_1_transcoder"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Transcoder</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="k"><span class="pre">public</span></span><span class="w"> </span><span class="n"><span class="pre">primo</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">avblocks</span></span><span class="p"><span class="pre">::</span></span><a class="reference internal" href="primo_avblocks_Block.html#_CPPv4N5primo8avblocks5BlockE" title="primo::avblocks::Block"><span class="n"><span class="pre">Block</span></span></a><a class="headerlink" href="#_CPPv4N5primo8avblocks10TranscoderE" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Provides functionality for audio and video encoding, decoding and transforming. </p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK5primo8avblocks10Transcoder6inputsEv">
+<span id="_CPPv3NK5primo8avblocks10Transcoder6inputsEv"></span><span id="_CPPv2NK5primo8avblocks10Transcoder6inputsEv"></span><span id="primo::avblocks::Transcoder::inputsC"></span><span class="target" id="classprimo_1_1avblocks_1_1_transcoder_1af8e2d9fff389f97c948689f7bd2cef1e"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><a class="reference internal" href="primo_avblocks_MediaSocketList.html#_CPPv4N5primo8avblocks15MediaSocketListE" title="primo::avblocks::MediaSocketList"><span class="n"><span class="pre">MediaSocketList</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">inputs</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4NK5primo8avblocks10Transcoder6inputsEv" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Returns a modifiable collection of <a class="reference internal" href="primo_avblocks_MediaSocket.html#_CPPv4N5primo8avblocks11MediaSocketE" title="primo::avblocks::MediaSocket"><span>MediaSocket</span></a> objects which describe the input data of the transcoder. </p>
+<p>Each socket in the collection represents an input point - it can be a container with one or more streams or just an elementary stream.</p>
+<p>
+The returned collection exists only in the context of the transcoder. The caller cannot influence the lifetime of the returned object. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>A pointer to a collection of input sockets. Cannot be <strong>NULL</strong>.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK5primo8avblocks10Transcoder7outputsEv">
+<span id="_CPPv3NK5primo8avblocks10Transcoder7outputsEv"></span><span id="_CPPv2NK5primo8avblocks10Transcoder7outputsEv"></span><span id="primo::avblocks::Transcoder::outputsC"></span><span class="target" id="classprimo_1_1avblocks_1_1_transcoder_1a5896051de1e533b7513bc565bacf4ef7"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><a class="reference internal" href="primo_avblocks_MediaSocketList.html#_CPPv4N5primo8avblocks15MediaSocketListE" title="primo::avblocks::MediaSocketList"><span class="n"><span class="pre">MediaSocketList</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">outputs</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4NK5primo8avblocks10Transcoder7outputsEv" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Returns a modifiable collection of <a class="reference internal" href="primo_avblocks_MediaSocket.html#_CPPv4N5primo8avblocks11MediaSocketE" title="primo::avblocks::MediaSocket"><span>MediaSocket</span></a> objects which describe the output data of the transcoder. </p>
+<p>Each socket in the collection describes an output point - it can be a container with one or more streams or just an elementary stream.</p>
+<p>
+The returned collection exists only in the context of transcoder. The caller cannot influence the lifetime of the returned object. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>A pointer to a collection of output sockets. Cannot be <strong>NULL</strong>.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks10Transcoder4openEv">
+<span id="_CPPv3N5primo8avblocks10Transcoder4openEv"></span><span id="_CPPv2N5primo8avblocks10Transcoder4openEv"></span><span id="primo::avblocks::Transcoder::open"></span><span class="target" id="classprimo_1_1avblocks_1_1_transcoder_1ac3accfd741070c52fc10f058f3479991"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><span class="n"><span class="pre">bool_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">open</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4N5primo8avblocks10Transcoder4openEv" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Initializes the transcoder based on the specified inputs and outputs. </p>
+<p>If this method succeeds the transcoder is ready to process data. The data flow may be driven by the following methods: <ul class="simple">
+<li><p><a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder4pushE7int32_tPN5primo6codecs11MediaSampleE" title="primo::avblocks::Transcoder::push"><span>push()</span></a> - The caller pushes input data to the transcoder. The transcoder writes the output data to a file or user stream.  </p></li>
+<li><p><a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder4pullER7int32_tPN5primo6codecs11MediaSampleE" title="primo::avblocks::Transcoder::pull"><span>pull()</span></a> - The caller pulls output data from the transcoder. The transcoder reads the input data from a file or user stream.  </p></li>
+<li><p><a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder4pushE7int32_tPN5primo6codecs11MediaSampleE" title="primo::avblocks::Transcoder::push"><span>push()</span></a> and <a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder4pullER7int32_tPN5primo6codecs11MediaSampleE" title="primo::avblocks::Transcoder::pull"><span>pull()</span></a> - The caller pushes input data to the transcoder. It also pulls the output data from the transcoder.  </p></li>
+<li><p><a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder3runEv" title="primo::avblocks::Transcoder::run"><span>run()</span></a> - The caller waits for the transcoding to finish. The transcoder automatically reads the input data from a file or user stream and writes the output to a file or user stream. The process runs until the input data is depleted or there’s a processing error.  </p></li>
+</ul>
+
+However not all stream types can be used in push or pull mode. See transcoder_io for more info.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p><div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p>TRUE</p></td>
+<td><p>The block is successfully initialized and is ready to process data.</p></td>
+</tr>
+<tr class="row-even"><td><p>FALSE</p></td>
+<td><p>The block cannot process the specified input and output data.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks10Transcoder5closeEv">
+<span id="_CPPv3N5primo8avblocks10Transcoder5closeEv"></span><span id="_CPPv2N5primo8avblocks10Transcoder5closeEv"></span><span id="primo::avblocks::Transcoder::close"></span><span class="target" id="classprimo_1_1avblocks_1_1_transcoder_1ac58d2066ec20b0a7a126b664ef6af59c"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">close</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4N5primo8avblocks10Transcoder5closeEv" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Closes the transcoder. </p>
+<p>When closed it can neither accept, nor deliver data. Inputs and outputs are not modified. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks10Transcoder5flushEv">
+<span id="_CPPv3N5primo8avblocks10Transcoder5flushEv"></span><span id="_CPPv2N5primo8avblocks10Transcoder5flushEv"></span><span id="primo::avblocks::Transcoder::flush"></span><span class="target" id="classprimo_1_1avblocks_1_1_transcoder_1ac6553511b74d9b41a6e4375be472d620"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><span class="n"><span class="pre">bool_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">flush</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4N5primo8avblocks10Transcoder5flushEv" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Flushes the data buffered in the transcoder to the output. </p>
+<p>This method can be used only in push mode.</p>
+<p><div class="remark admonition">
+<p class="admonition-title">Remark</p>
+<p>This method also marks the end-of-stream for all inputs. No data should be pushed to the transcoder after it is flushed. </p>
+</div>
+</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>TRUE if the buffered data is successfully flushed, otherwise FALSE.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks10Transcoder11endOfStreamE7int32_t">
+<span id="_CPPv3N5primo8avblocks10Transcoder11endOfStreamE7int32_t"></span><span id="_CPPv2N5primo8avblocks10Transcoder11endOfStreamE7int32_t"></span><span id="primo::avblocks::Transcoder::endOfStream__int32_t"></span><span class="target" id="classprimo_1_1avblocks_1_1_transcoder_1a8daf0ca6eb1b80882a6761794914587b"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><span class="n"><span class="pre">bool_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">endOfStream</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">int32_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">inputIndex</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4N5primo8avblocks10Transcoder11endOfStreamE7int32_t" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Tells the transcoder that there’s no more data for the specified input socket. </p>
+<p>If the last input socket is stopped the transcoder flushes its internal buffers to the output. This method can be used only in push mode.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>inputIndex</strong> – [in] specifies the index of the input socket for which there’s no more data.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>TRUE if the operation is successful, otherwise FALSE. </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks10Transcoder14setAutoConnectE6bool_t">
+<span id="_CPPv3N5primo8avblocks10Transcoder14setAutoConnectE6bool_t"></span><span id="_CPPv2N5primo8avblocks10Transcoder14setAutoConnectE6bool_t"></span><span id="primo::avblocks::Transcoder::setAutoConnect__bool_t"></span><span class="target" id="classprimo_1_1avblocks_1_1_transcoder_1a4cd0faee5b86bc5aa32b70613ebb7596"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">setAutoConnect</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">bool_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">autoConnect</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4N5primo8avblocks10Transcoder14setAutoConnectE6bool_t" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Sets the autoConnect property of the transcoder. </p>
+<p>If autoConnect is TRUE the transcoder automatically maps input to output pins when opened.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>autoConnect</strong> – [in] specifies to auto connect input and output pins. </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK5primo8avblocks10Transcoder11autoConnectEv">
+<span id="_CPPv3NK5primo8avblocks10Transcoder11autoConnectEv"></span><span id="_CPPv2NK5primo8avblocks10Transcoder11autoConnectEv"></span><span id="primo::avblocks::Transcoder::autoConnectC"></span><span class="target" id="classprimo_1_1avblocks_1_1_transcoder_1aa37c7fec3ca44dce582c6cfd4e143da2"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><span class="n"><span class="pre">bool_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">autoConnect</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4NK5primo8avblocks10Transcoder11autoConnectEv" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Returns the autoConnect property of the transcoder. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>TRUE the transcoder automatically maps input to output pins when opened. </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks10Transcoder3runEv">
+<span id="_CPPv3N5primo8avblocks10Transcoder3runEv"></span><span id="_CPPv2N5primo8avblocks10Transcoder3runEv"></span><span id="primo::avblocks::Transcoder::run"></span><span class="target" id="classprimo_1_1avblocks_1_1_transcoder_1abae278893932c7b1c8bf497a99857d36"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><span class="n"><span class="pre">bool_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">run</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4N5primo8avblocks10Transcoder3runEv" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Runs an automatic transcoding. </p>
+<p>
+In order to use the run mode all input and output sockets must be associated with files or user streams. The method returns when the transcoding is finished because there’s no more input data to process or when there’s an error.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The input socket can specify an image file in which case the output video contains a single frame. A single frame video (MPEG-2) can be used as a background in DVD-Video authoring. For generating a custom video from many images see <a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder4pushE7int32_tPN5primo6codecs11MediaSampleE" title="primo::avblocks::Transcoder::push"><span>Transcoder::push</span></a>. </p>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>TRUE The transcoding has succeeded. FALSE There’s a transcoding error or the <a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder3runEv" title="primo::avblocks::Transcoder::run"><span>run()</span></a> method cannot be used with the specified inputs and outputs.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks10Transcoder4pushE7int32_tPN5primo6codecs11MediaSampleE">
+<span id="_CPPv3N5primo8avblocks10Transcoder4pushE7int32_tPN5primo6codecs11MediaSampleE"></span><span id="_CPPv2N5primo8avblocks10Transcoder4pushE7int32_tPN5primo6codecs11MediaSampleE"></span><span id="primo::avblocks::Transcoder::push__int32_t.primo::codecs::MediaSampleP"></span><span class="target" id="classprimo_1_1avblocks_1_1_transcoder_1ac5113ae13601bf8e69824c6b4f3a0f78"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><span class="n"><span class="pre">bool_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">push</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">int32_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">inputIndex</span></span>, <span class="n"><span class="pre">primo</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">codecs</span></span><span class="p"><span class="pre">::</span></span><a class="reference internal" href="primo_codecs_MediaSample.html#_CPPv4N5primo6codecs11MediaSampleE" title="primo::codecs::MediaSample"><span class="n"><span class="pre">MediaSample</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">inputSample</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4N5primo8avblocks10Transcoder4pushE7int32_tPN5primo6codecs11MediaSampleE" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Pushes input data to the <a class="reference internal" href="#_CPPv4N5primo8avblocks10TranscoderE" title="primo::avblocks::Transcoder"><span>Transcoder</span></a>. </p>
+<p><div class="remark admonition">
+<p class="admonition-title">Remark</p>
+<p>In order to use this method the input socket must not have an associated file or user stream. If the transcoder operates in the hybrid push/pull mode it will return <a class="reference internal" href="../namespaces/primo_avblocks_TranscoderError.html#_CPPv4N5primo8avblocks15TranscoderError4Enum9InputFullE" title="primo::avblocks::TranscoderError::InputFull"><span>TranscoderError::InputFull</span></a> when it cannot accept the input. In this case <a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder4pullER7int32_tPN5primo6codecs11MediaSampleE" title="primo::avblocks::Transcoder::pull"><span>Transcoder::pull()</span></a> must be called to retrieve the available output.</p>
+</div>
+</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The input sample can contain an image like bmp, png or jpeg. This makes it possible to create a video from one or more images with any duration. The start time of each input sample must be set explicitly and must increase for each successive sample.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This method is not thread-safe (as all other functions in AVBlocks). It cannot be called simultaneously from multiple threads. You must implement your own synchronization if the method will be called from multiple threads. <div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Supported Stream Types  </p></th>
+<th class="head"><p>MediaSample format  </p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum4LPCME" title="primo::codecs::StreamType::LPCM"><span>StreamType::LPCM</span></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum8ALAW_PCME" title="primo::codecs::StreamType::ALAW_PCM"><span>StreamType::ALAW_PCM</span></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum9MULAW_PCME" title="primo::codecs::StreamType::MULAW_PCM"><span>StreamType::MULAW_PCM</span></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum10G726_ADPCME" title="primo::codecs::StreamType::G726_ADPCM"><span>StreamType::G726_ADPCM</span></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum17UncompressedVideoE" title="primo::codecs::StreamType::UncompressedVideo"><span>StreamType::UncompressedVideo</span></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum11MPEG1_VideoE" title="primo::codecs::StreamType::MPEG1_Video"><span>StreamType::MPEG1_Video</span></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum11MPEG2_VideoE" title="primo::codecs::StreamType::MPEG2_Video"><span>StreamType::MPEG2_Video</span></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum11MPEG4_VideoE" title="primo::codecs::StreamType::MPEG4_Video"><span>StreamType::MPEG4_Video</span></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum4H264E" title="primo::codecs::StreamType::H264"><span>StreamType::H264</span></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum5MJPEGE" title="primo::codecs::StreamType::MJPEG"><span>StreamType::MJPEG</span></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum7MPEG_TSE" title="primo::codecs::StreamType::MPEG_TS"><span>StreamType::MPEG_TS</span></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum3BMPE" title="primo::codecs::StreamType::BMP"><span>StreamType::BMP</span></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum3PNGE" title="primo::codecs::StreamType::PNG"><span>StreamType::PNG</span></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum4JPEGE" title="primo::codecs::StreamType::JPEG"><span>StreamType::JPEG</span></a></p></td>
+<td><p>See Pushing JPEG  </p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum4TIFFE" title="primo::codecs::StreamType::TIFF"><span>StreamType::TIFF</span></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum3GIFE" title="primo::codecs::StreamType::GIF"><span>StreamType::GIF</span></a></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</p>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>inputIndex</strong> – [in] Specifies the index of the input socket whose data is pushed to the <a class="reference internal" href="#_CPPv4N5primo8avblocks10TranscoderE" title="primo::avblocks::Transcoder"><span>Transcoder</span></a>.</p></li>
+<li><p><strong>inputSample</strong> – [in] A pointer to a MediaSample object that contains the input data. The MediaSample provided is used only within this method and the object is not retained by the <a class="reference internal" href="#_CPPv4N5primo8avblocks10TranscoderE" title="primo::avblocks::Transcoder"><span>Transcoder</span></a>. It is not guaranteed that the whole input will be consumed (read) by the <a class="reference internal" href="#_CPPv4N5primo8avblocks10TranscoderE" title="primo::avblocks::Transcoder"><span>Transcoder</span></a> after this method has returned. It’s possible that the <a class="reference internal" href="#_CPPv4N5primo8avblocks10TranscoderE" title="primo::avblocks::Transcoder"><span>Transcoder</span></a> may consume only part of the provided input data. When this method returns successfully the <a class="reference internal" href="primo_codecs_MediaBuffer.html#_CPPv4NK5primo6codecs11MediaBuffer8dataSizeEv" title="primo::codecs::MediaBuffer::dataSize"><span>MediaBuffer::dataSize</span></a> and the <a class="reference internal" href="primo_codecs_MediaBuffer.html#_CPPv4NK5primo6codecs11MediaBuffer10dataOffsetEv" title="primo::codecs::MediaBuffer::dataOffset"><span>MediaBuffer::dataOffset</span></a> are updated to reflect how much data is left and where it starts in the buffer. This must be taken into consideration if more data should be appended for subsequent pushing.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>TRUE The <a class="reference internal" href="#_CPPv4N5primo8avblocks10TranscoderE" title="primo::avblocks::Transcoder"><span>Transcoder</span></a> has successfully processed some or all of the input data, otherwise FALSE.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks10Transcoder4pullER7int32_tPN5primo6codecs11MediaSampleE">
+<span id="_CPPv3N5primo8avblocks10Transcoder4pullER7int32_tPN5primo6codecs11MediaSampleE"></span><span id="_CPPv2N5primo8avblocks10Transcoder4pullER7int32_tPN5primo6codecs11MediaSampleE"></span><span id="primo::avblocks::Transcoder::pull__int32_tR.primo::codecs::MediaSampleP"></span><span class="target" id="classprimo_1_1avblocks_1_1_transcoder_1a2ed1cb90f58cd2a08131a8c0b8e32ef5"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><span class="n"><span class="pre">bool_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">pull</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">int32_t</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">outputIndex</span></span>, <span class="n"><span class="pre">primo</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">codecs</span></span><span class="p"><span class="pre">::</span></span><a class="reference internal" href="primo_codecs_MediaSample.html#_CPPv4N5primo6codecs11MediaSampleE" title="primo::codecs::MediaSample"><span class="n"><span class="pre">MediaSample</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">outputData</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4N5primo8avblocks10Transcoder4pullER7int32_tPN5primo6codecs11MediaSampleE" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Pulls output data from the transcoder. </p>
+<p>
+Each time output data is generated a new MediaBuffer instance is created and attached to <em>outputData</em>. The new MediaBuffer instance belongs to the caller and must be released when it is not needed anymore.</p>
+<p><div class="remark admonition">
+<p class="admonition-title">Remark</p>
+<p>In order to use the pull mode the output sockets must not have an associated file or user stream. If the transcoder operates in the hybrid push/pull mode it will return <a class="reference internal" href="../namespaces/primo_avblocks_TranscoderError.html#_CPPv4N5primo8avblocks15TranscoderError4Enum11InputNeededE" title="primo::avblocks::TranscoderError::InputNeeded"><span>TranscoderError::InputNeeded</span></a> when needs more input data. In this case <a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder4pushE7int32_tPN5primo6codecs11MediaSampleE" title="primo::avblocks::Transcoder::push"><span>Transcoder::push()</span></a> must be called to supply input data to the transcoder.</p>
+</div>
+</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This method is not thread-safe (as all other functions in AVBlocks). It cannot be called simultaneously from multiple threads. You must implement your own synchronization if the method will be called from multiple threads. <div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Supported <a class="reference internal" href="primo_Stream.html#_CPPv4N5primo6StreamE" title="primo::Stream"><span>Stream</span></a> Types  </p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum4LPCME" title="primo::codecs::StreamType::LPCM"><span>StreamType::LPCM</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum8ALAW_PCME" title="primo::codecs::StreamType::ALAW_PCM"><span>StreamType::ALAW_PCM</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum9MULAW_PCME" title="primo::codecs::StreamType::MULAW_PCM"><span>StreamType::MULAW_PCM</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum10G726_ADPCME" title="primo::codecs::StreamType::G726_ADPCM"><span>StreamType::G726_ADPCM</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum17UncompressedVideoE" title="primo::codecs::StreamType::UncompressedVideo"><span>StreamType::UncompressedVideo</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum11MPEG1_VideoE" title="primo::codecs::StreamType::MPEG1_Video"><span>StreamType::MPEG1_Video</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum11MPEG2_VideoE" title="primo::codecs::StreamType::MPEG2_Video"><span>StreamType::MPEG2_Video</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum11MPEG4_VideoE" title="primo::codecs::StreamType::MPEG4_Video"><span>StreamType::MPEG4_Video</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum4H264E" title="primo::codecs::StreamType::H264"><span>StreamType::H264</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum7MPEG_TSE" title="primo::codecs::StreamType::MPEG_TS"><span>StreamType::MPEG_TS</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum16MPEG_PSI_PACKETSE" title="primo::codecs::StreamType::MPEG_PSI_PACKETS"><span>StreamType::MPEG_PSI_PACKETS</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum15MPEG_TS_PACKETSE" title="primo::codecs::StreamType::MPEG_TS_PACKETS"><span>StreamType::MPEG_TS_PACKETS</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../namespaces/primo_codecs_StreamType.html#_CPPv4N5primo6codecs10StreamType4Enum4WAVEE" title="primo::codecs::StreamType::WAVE"><span>StreamType::WAVE</span></a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</p>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>outputIndex</strong> – [out] contains the index of the output socket to which the data belongs.</p></li>
+<li><p><strong>outputData</strong> – [out] A pointer to a MediaSample object that receives the output data. When the method returns successfully the <em>outputData</em> contains the output sample.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>TRUE The transcoder has successfully generated output, otherwise FALSE.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks10Transcoder11setCallbackEPN5primo8avblocks18TranscoderCallbackE">
+<span id="_CPPv3N5primo8avblocks10Transcoder11setCallbackEPN5primo8avblocks18TranscoderCallbackE"></span><span id="_CPPv2N5primo8avblocks10Transcoder11setCallbackEPN5primo8avblocks18TranscoderCallbackE"></span><span id="primo::avblocks::Transcoder::setCallback__primo::avblocks::TranscoderCallbackP"></span><span class="target" id="classprimo_1_1avblocks_1_1_transcoder_1acb814b02aa770048abe0b97b3d2cbe6b"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">setCallback</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">primo</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">avblocks</span></span><span class="p"><span class="pre">::</span></span><a class="reference internal" href="primo_avblocks_TranscoderCallback.html#_CPPv4N5primo8avblocks18TranscoderCallbackE" title="primo::avblocks::TranscoderCallback"><span class="n"><span class="pre">TranscoderCallback</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">callback</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4N5primo8avblocks10Transcoder11setCallbackEPN5primo8avblocks18TranscoderCallbackE" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Sets a <a class="reference internal" href="primo_avblocks_TranscoderCallback.html#_CPPv4N5primo8avblocks18TranscoderCallbackE" title="primo::avblocks::TranscoderCallback"><span>TranscoderCallback</span></a> instance which is used to receive notifications from the transcoder. </p>
+<p>The <a class="reference internal" href="primo_avblocks_TranscoderCallback.html#_CPPv4N5primo8avblocks18TranscoderCallbackE" title="primo::avblocks::TranscoderCallback"><span>TranscoderCallback</span></a> is used only when the transcoding is performed via <a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder3runEv" title="primo::avblocks::Transcoder::run"><span>Transcoder::run</span></a>.</p>
+<p>
+Internally the <a class="reference internal" href="primo_avblocks_TranscoderCallback.html#_CPPv4N5primo8avblocks18TranscoderCallbackE" title="primo::avblocks::TranscoderCallback"><span>TranscoderCallback</span></a> specified by <em>setCallback</em> is retained (if not <strong>NULL</strong>). The previous <a class="reference internal" href="primo_avblocks_TranscoderCallback.html#_CPPv4N5primo8avblocks18TranscoderCallbackE" title="primo::avblocks::TranscoderCallback"><span>TranscoderCallback</span></a> is released (if not <strong>NULL</strong>). The <a class="reference internal" href="primo_avblocks_TranscoderCallback.html#_CPPv4N5primo8avblocks18TranscoderCallbackE" title="primo::avblocks::TranscoderCallback"><span>TranscoderCallback</span></a> instance is released when the <a class="reference internal" href="#_CPPv4N5primo8avblocks10TranscoderE" title="primo::avblocks::Transcoder"><span>Transcoder</span></a> itself is being destroyed.</p>
+<p><div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference internal" href="primo_avblocks_TranscoderCallback.html#_CPPv4N5primo8avblocks18TranscoderCallbackE" title="primo::avblocks::TranscoderCallback"><span>TranscoderCallback</span></a></p>
+</div>
+</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If the user code inherits from <a class="reference internal" href="primo_avblocks_TranscoderCallback.html#_CPPv4N5primo8avblocks18TranscoderCallbackE" title="primo::avblocks::TranscoderCallback"><span>TranscoderCallback</span></a> but does not override <a class="reference internal" href="primo_Reference.html#_CPPv4NK5primo9Reference7releaseEv" title="primo::Reference::release"><span>primo::Reference::release()</span></a> and <a class="reference internal" href="primo_Reference.html#_CPPv4NK5primo9Reference6retainEv" title="primo::Reference::retain"><span>primo::Reference::retain()</span></a> it must ensure that the callback instance is valid until it is used by the transcoder. This is so because the default implementation of <a class="reference internal" href="primo_Reference.html#_CPPv4N5primo9ReferenceE" title="primo::Reference"><span>primo::Reference</span></a> in <a class="reference internal" href="primo_avblocks_TranscoderCallback.html#_CPPv4N5primo8avblocks18TranscoderCallbackE" title="primo::avblocks::TranscoderCallback"><span>TranscoderCallback</span></a> keeps a constant reference count of 1.</p>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>callback</strong> – [in] A pointer to <a class="reference internal" href="primo_avblocks_TranscoderCallback.html#_CPPv4N5primo8avblocks18TranscoderCallbackE" title="primo::avblocks::TranscoderCallback"><span>TranscoderCallback</span></a> object that will be invoked by the transcoder while running. It is allowed to set a <strong>NULL</strong> object.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks10Transcoder8callbackEv">
+<span id="_CPPv3N5primo8avblocks10Transcoder8callbackEv"></span><span id="_CPPv2N5primo8avblocks10Transcoder8callbackEv"></span><span id="primo::avblocks::Transcoder::callback"></span><span class="target" id="classprimo_1_1avblocks_1_1_transcoder_1a87d9b30d7138530ab9d2723b82a046cf"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><span class="n"><span class="pre">primo</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">avblocks</span></span><span class="p"><span class="pre">::</span></span><a class="reference internal" href="primo_avblocks_TranscoderCallback.html#_CPPv4N5primo8avblocks18TranscoderCallbackE" title="primo::avblocks::TranscoderCallback"><span class="n"><span class="pre">TranscoderCallback</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">callback</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4N5primo8avblocks10Transcoder8callbackEv" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Returns the <a class="reference internal" href="primo_avblocks_TranscoderCallback.html#_CPPv4N5primo8avblocks18TranscoderCallbackE" title="primo::avblocks::TranscoderCallback"><span>TranscoderCallback</span></a> object that is used by the <a class="reference internal" href="#_CPPv4N5primo8avblocks10TranscoderE" title="primo::avblocks::Transcoder"><span>Transcoder</span></a> to send notifications and events while running. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>A pointer to <a class="reference internal" href="primo_avblocks_TranscoderCallback.html#_CPPv4N5primo8avblocks18TranscoderCallbackE" title="primo::avblocks::TranscoderCallback"><span>TranscoderCallback</span></a> object or <strong>NULL</strong> if the callback is not set. </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK5primo8avblocks10Transcoder5errorEv">
+<span id="_CPPv3NK5primo8avblocks10Transcoder5errorEv"></span><span id="_CPPv2NK5primo8avblocks10Transcoder5errorEv"></span><span id="primo::avblocks::Transcoder::errorC"></span><span class="target" id="classprimo_1_1avblocks_1_1_transcoder_1a408a72becc3db1b00accae1d179bcd23"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">primo</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">error</span></span><span class="p"><span class="pre">::</span></span><a class="reference internal" href="primo_error_ErrorInfo.html#_CPPv4N5primo5error9ErrorInfoE" title="primo::error::ErrorInfo"><span class="n"><span class="pre">ErrorInfo</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">error</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4NK5primo8avblocks10Transcoder5errorEv" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Returns the error information for the last operation. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>A pointer to an ErrorInfo object. </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks10Transcoder16setAllowDemoModeE6bool_t">
+<span id="_CPPv3N5primo8avblocks10Transcoder16setAllowDemoModeE6bool_t"></span><span id="_CPPv2N5primo8avblocks10Transcoder16setAllowDemoModeE6bool_t"></span><span id="primo::avblocks::Transcoder::setAllowDemoMode__bool_t"></span><span class="target" id="classprimo_1_1avblocks_1_1_transcoder_1ad7b42515bdc31d88ebe5b8c7213023ea"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">setAllowDemoMode</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">bool_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">allowDemoMode</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4N5primo8avblocks10Transcoder16setAllowDemoModeE6bool_t" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Sets whether demo mode (unlicensed transcoding) should be allowed by the <a class="reference internal" href="#_CPPv4N5primo8avblocks10TranscoderE" title="primo::avblocks::Transcoder"><span>Transcoder</span></a>. </p>
+<p><div class="remark admonition">
+<p class="admonition-title">Remark</p>
+<p>The demo mode is enabled by default in the Demo release but not in the OEM release of AVBlocks. Therefore in order to test transcoding with the OEM release without a valid license the transcoder demo mode must be enabled explicitly. </p>
+</div>
+</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>allowDemoMode</strong> – [in] specifies whether unlicensed transcoding is allowed.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK5primo8avblocks10Transcoder13allowDemoModeEv">
+<span id="_CPPv3NK5primo8avblocks10Transcoder13allowDemoModeEv"></span><span id="_CPPv2NK5primo8avblocks10Transcoder13allowDemoModeEv"></span><span id="primo::avblocks::Transcoder::allowDemoModeC"></span><span class="target" id="classprimo_1_1avblocks_1_1_transcoder_1acd1320e95e8b33358b417a31b36ad908"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><span class="n"><span class="pre">bool_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">allowDemoMode</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4NK5primo8avblocks10Transcoder13allowDemoModeEv" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Returns whether the <a class="reference internal" href="#_CPPv4N5primo8avblocks10TranscoderE" title="primo::avblocks::Transcoder"><span>Transcoder</span></a> allows demo mode (unlicensed transcoding). </p>
+<p><div class="remark admonition">
+<p class="admonition-title">Remark</p>
+<p>The default value is TRUE in the Demo release and FALSE in the OEM release. </p>
+</div>
+</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>If TRUE a demo overlay (watermark) is applied when a required codec is not licensed. If FALSE the <a class="reference internal" href="#_CPPv4N5primo8avblocks10TranscoderE" title="primo::avblocks::Transcoder"><span>Transcoder</span></a> returns an error (<a class="reference internal" href="../namespaces/primo_avblocks_AVBlocksError.html#_CPPv4N5primo8avblocks13AVBlocksError4Enum17UnlicensedFeatureE" title="primo::avblocks::AVBlocksError::UnlicensedFeature"><span>AVBlocksError::UnlicensedFeature</span></a>) instead of applying the demo overlay when a required codec is not licensed.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+</dd></dl>
+
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+<div class="related-pages">
+  <a class="next-page" href="primo_avblocks_TranscoderCallback.html">
+      <div class="page-info">
+        <div class="context">
+          <span>Next</span>
+        </div>
+        <div class="title">TranscoderCallback</div>
+      </div>
+      <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+    </a>
+  <a class="prev-page" href="primo_avblocks_StringParameter.html">
+      <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+      <div class="page-info">
+        <div class="context">
+          <span>Previous</span>
+        </div>
+        
+        <div class="title">StringParameter</div>
+        
+      </div>
+    </a>
+</div>
+<div class="bottom-of-page">
+  <div class="left-details">
+    <div class="copyright">
+        Copyright &#169; 2003 - 2026, Primo Software Corp.
+    </div>
+  </div>
+  <div class="right-details">
+    
+  </div>
+</div>
+
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Transcoder</a><ul>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks10TranscoderE"><code class="docutils literal notranslate"><span class="pre">primo::avblocks::Transcoder</span></code></a><ul>
+<li><a class="reference internal" href="#_CPPv4NK5primo8avblocks10Transcoder6inputsEv"><code class="docutils literal notranslate"><span class="pre">inputs()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4NK5primo8avblocks10Transcoder7outputsEv"><code class="docutils literal notranslate"><span class="pre">outputs()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder4openEv"><code class="docutils literal notranslate"><span class="pre">open()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder5closeEv"><code class="docutils literal notranslate"><span class="pre">close()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder5flushEv"><code class="docutils literal notranslate"><span class="pre">flush()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder11endOfStreamE7int32_t"><code class="docutils literal notranslate"><span class="pre">endOfStream()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder14setAutoConnectE6bool_t"><code class="docutils literal notranslate"><span class="pre">setAutoConnect()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4NK5primo8avblocks10Transcoder11autoConnectEv"><code class="docutils literal notranslate"><span class="pre">autoConnect()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder3runEv"><code class="docutils literal notranslate"><span class="pre">run()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder4pushE7int32_tPN5primo6codecs11MediaSampleE"><code class="docutils literal notranslate"><span class="pre">push()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder4pullER7int32_tPN5primo6codecs11MediaSampleE"><code class="docutils literal notranslate"><span class="pre">pull()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder11setCallbackEPN5primo8avblocks18TranscoderCallbackE"><code class="docutils literal notranslate"><span class="pre">setCallback()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder8callbackEv"><code class="docutils literal notranslate"><span class="pre">callback()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4NK5primo8avblocks10Transcoder5errorEv"><code class="docutils literal notranslate"><span class="pre">error()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks10Transcoder16setAllowDemoModeE6bool_t"><code class="docutils literal notranslate"><span class="pre">setAllowDemoMode()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4NK5primo8avblocks10Transcoder13allowDemoModeEv"><code class="docutils literal notranslate"><span class="pre">allowDemoMode()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../../../_static/documentation_options.js?v=ed7fbdb4"></script>
+    <script src="../../../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
+</html>

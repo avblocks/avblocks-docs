@@ -1,0 +1,8 @@
+# primo::codecs::ColorFormat
+
+Defines constants for various color formats.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::ColorFormat::Enum
+   :project: avblocks-plus
+```

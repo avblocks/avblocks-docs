@@ -1,0 +1,13 @@
+# primo::avblocks::Preset::Video::AndroidPhone
+
+Presets for Android phones.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AndroidPhone::H264_360p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AndroidPhone::H264_720p
+   :project: avblocks-plus
+```

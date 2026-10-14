@@ -1,0 +1,8 @@
+# primo::codecs::StereoMode
+
+Defines stereo mode in MPEG Audio and AAC.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::StereoMode::Enum
+   :project: avblocks-plus
+```

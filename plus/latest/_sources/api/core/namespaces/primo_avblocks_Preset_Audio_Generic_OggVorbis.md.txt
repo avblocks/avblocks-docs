@@ -1,0 +1,13 @@
+# primo::avblocks::Preset::Audio::Generic::OggVorbis
+
+Presets for Vorbis audio in Ogg container.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Audio::Generic::OggVorbis::VBR_Q4
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Audio::Generic::OggVorbis::VBR_Q8
+   :project: avblocks-plus
+```

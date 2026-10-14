@@ -1,0 +1,18 @@
+# primo::avblocks::Preset::Audio::Generic::WMA::Professional
+
+Presets for the WMA Pro codec.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Audio::Generic::WMA::Professional::VBR_Q75
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Audio::Generic::WMA::Professional::VBR_Q90
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Audio::Generic::WMA::Professional::VBR_Q100
+   :project: avblocks-plus
+```

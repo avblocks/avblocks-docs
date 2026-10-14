@@ -1,0 +1,10 @@
+# primo::avblocks::Preset::Video::Generic
+
+Generic video presets.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::avblocks::Preset::Video::Generic::MP4](primo_avblocks_Preset_Video_Generic_MP4.md) | Generic MP4 presets (audio and video streams in MP4 container). |
+| [primo::avblocks::Preset::Video::Generic::WebM](primo_avblocks_Preset_Video_Generic_WebM.md) | WebM presets. |

@@ -1,0 +1,23 @@
+# primo::avblocks::Preset::Video
+
+Describes output video presets structured by codec and device type.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::avblocks::Preset::Video::AndroidPhone](primo_avblocks_Preset_Video_AndroidPhone.md) | Presets for Android phones. |
+| [primo::avblocks::Preset::Video::AndroidTablet](primo_avblocks_Preset_Video_AndroidTablet.md) | Presets for Android tablets. |
+| [primo::avblocks::Preset::Video::AppleLiveStreaming](primo_avblocks_Preset_Video_AppleLiveStreaming.md) | Apple HTTP Live Streaming Presets. |
+| [primo::avblocks::Preset::Video::AppleTV](primo_avblocks_Preset_Video_AppleTV.md) | Presets for AppleTV devices. |
+| [primo::avblocks::Preset::Video::BDAV](primo_avblocks_Preset_Video_BDAV.md) | Presets for Blu-ray Disc Audio-Visual MPEG-2 Transport Stream. |
+| [primo::avblocks::Preset::Video::DVD](primo_avblocks_Preset_Video_DVD.md) | Presets for DVD-Video. |
+| [primo::avblocks::Preset::Video::Fast](primo_avblocks_Preset_Video_Fast.md) | Presets for fastest possible encoding. |
+| [primo::avblocks::Preset::Video::Generic](primo_avblocks_Preset_Video_Generic.md) | Generic video presets. |
+| [primo::avblocks::Preset::Video::HDV](primo_avblocks_Preset_Video_HDV.md) | Presets for High-definition video MPEG-2 Transport Stream. |
+| [primo::avblocks::Preset::Video::Kindle](primo_avblocks_Preset_Video_Kindle.md) | Kindle presets. |
+| [primo::avblocks::Preset::Video::VCD](primo_avblocks_Preset_Video_VCD.md) | Presets for Video CD. |
+| [primo::avblocks::Preset::Video::Web](primo_avblocks_Preset_Video_Web.md) | Web Video Presets. |
+| [primo::avblocks::Preset::Video::iPad](primo_avblocks_Preset_Video_iPad.md) | Presets for iPad devices. |
+| [primo::avblocks::Preset::Video::iPhone](primo_avblocks_Preset_Video_iPhone.md) | Presets for iPhone devices. |
+| [primo::avblocks::Preset::Video::iPod](primo_avblocks_Preset_Video_iPod.md) | Preset for iPod devices. |

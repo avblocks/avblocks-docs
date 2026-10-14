@@ -1,0 +1,8 @@
+# primo::codecs::H264EntropyCodingMode
+
+Defines H.264/AVC entropy coding modes.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::H264EntropyCodingMode::Enum
+   :project: avblocks-plus
+```

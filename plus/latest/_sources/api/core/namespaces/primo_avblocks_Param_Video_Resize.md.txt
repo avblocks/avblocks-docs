@@ -1,0 +1,8 @@
+# primo::avblocks::Param::Video::Resize
+
+Parameters specific to video resizing.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Resize::InterpolationMethod
+   :project: avblocks-plus
+```

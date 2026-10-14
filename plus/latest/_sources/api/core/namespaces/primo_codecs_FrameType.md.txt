@@ -1,0 +1,8 @@
+# primo::codecs::FrameType
+
+Defines frame types for audio codecs, particularly for G.711 encoding.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::FrameType::Enum
+   :project: avblocks-plus
+```

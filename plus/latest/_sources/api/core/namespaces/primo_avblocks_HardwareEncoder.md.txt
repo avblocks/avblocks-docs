@@ -1,0 +1,8 @@
+# primo::avblocks::HardwareEncoder
+
+Defines which hardware encoder should be used for hardware accelerated encoding.
+
+```{eval-rst}
+.. doxygenenum:: primo::avblocks::HardwareEncoder::Enum
+   :project: avblocks-plus
+```

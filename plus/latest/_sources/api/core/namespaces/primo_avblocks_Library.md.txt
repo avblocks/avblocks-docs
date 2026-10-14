@@ -1,0 +1,163 @@
+# primo::avblocks::Library
+
+Initializes AVBlocks and manages license information.
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::initialize()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::shutdown()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::description()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::majorVersion()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::minorVersion()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::patchVersion()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::setLicenseTls(bool_t)
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::setLicense(const char *)
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createLicenseInfo()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createTranscoder()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createErrorInfo()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createAudioStreamInfo()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createVideoStreamInfo()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createDataStreamInfo()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createMediaSample()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createMediaBuffer(int32_t)
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createMediaPin()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createMediaSocket()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createMediaSocket(const char *)
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createMediaSocket(MediaInfo *)
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createMediaInfo()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createMediaBufferParameter()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createStringParameter()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createVideoStreamInfoParameter()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createIntParameter()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createFloatParameter()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createParameterList()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createMetadata()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createMetaAttribute()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createMetaPicture()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::createHardware()
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenfunction:: primo::avblocks::Library::config()
+   :project: avblocks-plus
+```

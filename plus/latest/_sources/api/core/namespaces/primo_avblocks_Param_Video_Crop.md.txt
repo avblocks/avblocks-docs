@@ -1,0 +1,23 @@
+# primo::avblocks::Param::Video::Crop
+
+Parameters specific to video cropping.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Crop::Left
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Crop::Right
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Crop::Top
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Crop::Bottom
+   :project: avblocks-plus
+```

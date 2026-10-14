@@ -1,0 +1,10 @@
+# TLibrary
+
+`primo::avblocks::modern::TLibrary`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::modern::TLibrary
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

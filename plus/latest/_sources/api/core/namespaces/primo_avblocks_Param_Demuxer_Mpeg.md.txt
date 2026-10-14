@@ -1,0 +1,13 @@
+# primo::avblocks::Param::Demuxer::Mpeg
+
+Parameters specific to the Mpeg demuxer.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Demuxer::Mpeg::ProgramNumber
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Demuxer::Mpeg::PacketId
+   :project: avblocks-plus
+```

@@ -1,0 +1,8 @@
+# primo::avblocks::PinConnection
+
+These constants are used as special values of MediaPin.ID.
+
+```{eval-rst}
+.. doxygenenum:: primo::avblocks::PinConnection::Enum
+   :project: avblocks-plus
+```

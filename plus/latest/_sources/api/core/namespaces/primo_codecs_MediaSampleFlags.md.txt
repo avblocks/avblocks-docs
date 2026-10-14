@@ -1,0 +1,8 @@
+# primo::codecs::MediaSampleFlags
+
+Defines various media sample features.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::MediaSampleFlags::Enum
+   :project: avblocks-plus
+```

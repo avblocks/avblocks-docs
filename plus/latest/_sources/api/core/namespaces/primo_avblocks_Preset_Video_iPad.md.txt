@@ -1,0 +1,18 @@
+# primo::avblocks::Preset::Video::iPad
+
+Presets for iPad devices.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::iPad::H264_576p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::iPad::H264_720p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::iPad::MPEG4_480p
+   :project: avblocks-plus
+```

@@ -1,0 +1,8 @@
+# primo::avblocks::Param::Encoder::Audio::WMA
+
+Parameters specific to WMA audio encoders.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Audio::WMA::Quality
+   :project: avblocks-plus
+```

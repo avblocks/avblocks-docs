@@ -1,0 +1,639 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../../">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../../genindex.html"><link rel="search" title="Search" href="../../../search.html"><link rel="next" title="TMetaAttributeList" href="primo_avblocks_modern_TMetaAttributeList.html"><link rel="prev" title="TMediaSocketT" href="primo_avblocks_modern_TMediaSocketT.html">
+
+    <!-- Generated with Sphinx 9.1.0 and Furo 2025.12.19 -->
+        <title>TMetaAttribute - AVBlocks Plus - Fluent C++ API 3.4 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo.css?v=7bdb33bb" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo-extensions.css?v=8dab3a3b" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/custom.css?v=175de5fe" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-986RSEQQMJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-986RSEQQMJ');
+</script>
+</head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../../index.html"><div class="brand">AVBlocks Plus - Fluent C++ API 3.4 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../../index.html">
+  
+  <span class="sidebar-brand-text">AVBlocks Plus - Fluent C++ API 3.4 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul class="current">
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../index.html">Fluent API</a><input aria-label="Toggle navigation of Fluent API" checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
+<li class="toctree-l2 current has-children"><a class="reference internal" href="../classes.html">Classes</a><input aria-label="Toggle navigation of Classes" checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TAVBlocksException.html">TAVBlocksException</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TAudioStreamInfo.html">TAudioStreamInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TDataStreamInfo.html">TDataStreamInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TErrorInfo.html">TErrorInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TLibrary.html">TLibrary</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TLicenseInfo.html">TLicenseInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TMediaBuffer.html">TMediaBuffer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TMediaInfoT.html">TMediaInfoT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TMediaPin.html">TMediaPin</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TMediaPinList.html">TMediaPinList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TMediaSample.html">TMediaSample</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TMediaSocketList.html">TMediaSocketList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TMediaSocketT.html">TMediaSocketT</a></li>
+<li class="toctree-l3 current current-page"><a class="current reference internal" href="#">TMetaAttribute</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TMetaAttributeList.html">TMetaAttributeList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TMetaPicture.html">TMetaPicture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TMetaPictureList.html">TMetaPictureList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TMetadata.html">TMetadata</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TParamsMixin.html">TParamsMixin</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TStreamInfo.html">TStreamInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TTranscoderCallback.html">TTranscoderCallback</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TTranscoderT.html">TTranscoderT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_TVideoStreamInfo.html">TVideoStreamInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primo_avblocks_modern_string_traits.html">string_traits</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../namespaces.html">Namespaces</a><input aria-label="Toggle navigation of Namespaces" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../namespaces/primo_avblocks_modern.html">primo::avblocks::modern</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../typedefs.html">Typedefs</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../files.html">Files</a><input aria-label="Toggle navigation of Files" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../files/avb%2B%2B.h.html">avb++.h</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../core/index.html">Core API</a><input aria-label="Toggle navigation of Core API" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../core/pages/object-management.html">Object Management</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../core/classes.html">Classes</a><input aria-label="Toggle navigation of Classes" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_Reference.html">Reference</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_Stream.html">Stream</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_avblocks_Block.html">Block</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_avblocks_Config.html">Config</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_avblocks_FloatParameter.html">FloatParameter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_avblocks_HwConfig.html">HwConfig</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_avblocks_IntParameter.html">IntParameter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_avblocks_MediaBufferParameter.html">MediaBufferParameter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_avblocks_MediaInfo.html">MediaInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_avblocks_MediaPin.html">MediaPin</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_avblocks_MediaPinList.html">MediaPinList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_avblocks_MediaSocket.html">MediaSocket</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_avblocks_MediaSocketList.html">MediaSocketList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_avblocks_Parameter.html">Parameter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_avblocks_ParameterList.html">ParameterList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_avblocks_StringParameter.html">StringParameter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_avblocks_Transcoder.html">Transcoder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_avblocks_TranscoderCallback.html">TranscoderCallback</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_avblocks_VideoStreamInfoParameter.html">VideoStreamInfoParameter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_codecs_AudioStreamInfo.html">AudioStreamInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_codecs_Hardware.html">Hardware</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_codecs_HwCodec.html">HwCodec</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_codecs_HwCodecList.html">HwCodecList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_codecs_HwDevice.html">HwDevice</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_codecs_HwDeviceList.html">HwDeviceList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_codecs_MediaBuffer.html">MediaBuffer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_codecs_MediaSample.html">MediaSample</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_codecs_MetaAttribute.html">MetaAttribute</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_codecs_MetaAttributeList.html">MetaAttributeList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_codecs_MetaPicture.html">MetaPicture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_codecs_MetaPictureList.html">MetaPictureList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_codecs_Metadata.html">Metadata</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_codecs_StreamInfo.html">StreamInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_codecs_StreamInfoEnum.html">StreamInfoEnum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_codecs_VideoStreamInfo.html">VideoStreamInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_error_ErrorInfo.html">ErrorInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/classes/primo_license_LicenseInfo.html">LicenseInfo</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../core/namespaces.html">Namespaces</a><input aria-label="Toggle navigation of Namespaces" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo.html">primo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks.html">primo::avblocks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_AVBlocksError.html">primo::avblocks::AVBlocksError</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_HardwareEncoder.html">primo::avblocks::HardwareEncoder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Library.html">primo::avblocks::Library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param.html">primo::avblocks::Param</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Decoder.html">primo::avblocks::Param::Decoder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Decoder_Video.html">primo::avblocks::Param::Decoder::Video</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Decoder_Video_H264.html">primo::avblocks::Param::Decoder::Video::H264</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Decoder_Video_H264_VUI.html">primo::avblocks::Param::Decoder::Video::H264::VUI</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Demuxer.html">primo::avblocks::Param::Demuxer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Demuxer_Mpeg.html">primo::avblocks::Param::Demuxer::Mpeg</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Encoder.html">primo::avblocks::Param::Encoder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Encoder_Audio.html">primo::avblocks::Param::Encoder::Audio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Encoder_Audio_AAC.html">primo::avblocks::Param::Encoder::Audio::AAC</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Encoder_Audio_G711.html">primo::avblocks::Param::Encoder::Audio::G711</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Encoder_Audio_MPEG1.html">primo::avblocks::Param::Encoder::Audio::MPEG1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Encoder_Audio_Opus.html">primo::avblocks::Param::Encoder::Audio::Opus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Encoder_Audio_Vorbis.html">primo::avblocks::Param::Encoder::Audio::Vorbis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Encoder_Audio_WMA.html">primo::avblocks::Param::Encoder::Audio::WMA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Encoder_Video.html">primo::avblocks::Param::Encoder::Video</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Encoder_Video_H264.html">primo::avblocks::Param::Encoder::Video::H264</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Encoder_Video_H265.html">primo::avblocks::Param::Encoder::Video::H265</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Encoder_Video_MPEG2.html">primo::avblocks::Param::Encoder::Video::MPEG2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Encoder_Video_VP8.html">primo::avblocks::Param::Encoder::Video::VP8</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Encoder_Video_VP9.html">primo::avblocks::Param::Encoder::Video::VP9</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Muxer.html">primo::avblocks::Param::Muxer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Muxer_MP4.html">primo::avblocks::Param::Muxer::MP4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Video.html">primo::avblocks::Param::Video</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Video_Crop.html">primo::avblocks::Param::Video::Crop</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Video_Deinterlacing.html">primo::avblocks::Param::Video::Deinterlacing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Video_FrameRateConverter.html">primo::avblocks::Param::Video::FrameRateConverter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Video_Overlay.html">primo::avblocks::Param::Video::Overlay</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Video_Pad.html">primo::avblocks::Param::Video::Pad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Param_Video_Resize.html">primo::avblocks::Param::Video::Resize</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_ParamType.html">primo::avblocks::ParamType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_PinConnection.html">primo::avblocks::PinConnection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset.html">primo::avblocks::Preset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Audio.html">primo::avblocks::Preset::Audio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Audio_AudioCD.html">primo::avblocks::Preset::Audio::AudioCD</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Audio_DVD.html">primo::avblocks::Preset::Audio::DVD</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Audio_Generic.html">primo::avblocks::Preset::Audio::Generic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Audio_Generic_M4A.html">primo::avblocks::Preset::Audio::Generic::M4A</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Audio_Generic_MP3.html">primo::avblocks::Preset::Audio::Generic::MP3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Audio_Generic_OggVorbis.html">primo::avblocks::Preset::Audio::Generic::OggVorbis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Audio_Generic_WMA.html">primo::avblocks::Preset::Audio::Generic::WMA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Audio_Generic_WMA_Lossless.html">primo::avblocks::Preset::Audio::Generic::WMA::Lossless</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Audio_Generic_WMA_Professional.html">primo::avblocks::Preset::Audio::Generic::WMA::Professional</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Audio_Generic_WMA_Standard.html">primo::avblocks::Preset::Audio::Generic::WMA::Standard</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Video.html">primo::avblocks::Preset::Video</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Video_AndroidPhone.html">primo::avblocks::Preset::Video::AndroidPhone</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Video_AndroidTablet.html">primo::avblocks::Preset::Video::AndroidTablet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Video_AppleLiveStreaming.html">primo::avblocks::Preset::Video::AppleLiveStreaming</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Video_AppleTV.html">primo::avblocks::Preset::Video::AppleTV</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Video_BDAV.html">primo::avblocks::Preset::Video::BDAV</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Video_DVD.html">primo::avblocks::Preset::Video::DVD</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Video_Fast.html">primo::avblocks::Preset::Video::Fast</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Video_Fast_MP4.html">primo::avblocks::Preset::Video::Fast::MP4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Video_Generic.html">primo::avblocks::Preset::Video::Generic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Video_Generic_MP4.html">primo::avblocks::Preset::Video::Generic::MP4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Video_Generic_WebM.html">primo::avblocks::Preset::Video::Generic::WebM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Video_HDV.html">primo::avblocks::Preset::Video::HDV</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Video_Kindle.html">primo::avblocks::Preset::Video::Kindle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Video_VCD.html">primo::avblocks::Preset::Video::VCD</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Video_Web.html">primo::avblocks::Preset::Video::Web</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Video_Web_MP4.html">primo::avblocks::Preset::Video::Web::MP4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Video_iPad.html">primo::avblocks::Preset::Video::iPad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Video_iPhone.html">primo::avblocks::Preset::Video::iPhone</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Preset_Video_iPod.html">primo::avblocks::Preset::Video::iPod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_TranscoderError.html">primo::avblocks::TranscoderError</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_TranscoderStatus.html">primo::avblocks::TranscoderStatus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_avblocks_Use.html">primo::avblocks::Use</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs.html">primo::codecs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_AlphaCompositingMode.html">primo::codecs::AlphaCompositingMode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_AudioChannelFlags.html">primo::codecs::AudioChannelFlags</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_BitrateMode.html">primo::codecs::BitrateMode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_CodecError.html">primo::codecs::CodecError</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_ColorFormat.html">primo::codecs::ColorFormat</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_DeinterlacingMethod.html">primo::codecs::DeinterlacingMethod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_FrameType.html">primo::codecs::FrameType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_H264DeblockingFilter.html">primo::codecs::H264DeblockingFilter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_H264DirectPredMode.html">primo::codecs::H264DirectPredMode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_H264EntropyCodingMode.html">primo::codecs::H264EntropyCodingMode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_H264MeMethod.html">primo::codecs::H264MeMethod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_H264MeSplitMode.html">primo::codecs::H264MeSplitMode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_H264PicCodingType.html">primo::codecs::H264PicCodingType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_H264Profile.html">primo::codecs::H264Profile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_H264RateControlMethod.html">primo::codecs::H264RateControlMethod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_H265Level.html">primo::codecs::H265Level</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_H265Profile.html">primo::codecs::H265Profile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_H265Tier.html">primo::codecs::H265Tier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_HwApi.html">primo::codecs::HwApi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_HwCodecType.html">primo::codecs::HwCodecType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_HwEngine.html">primo::codecs::HwEngine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_HwVendor.html">primo::codecs::HwVendor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_InterpolationMethod.html">primo::codecs::InterpolationMethod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_MediaSampleFlags.html">primo::codecs::MediaSampleFlags</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_MediaType.html">primo::codecs::MediaType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_Meta.html">primo::codecs::Meta</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_MetaPictureType.html">primo::codecs::MetaPictureType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_MimeType.html">primo::codecs::MimeType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_OpusApplication.html">primo::codecs::OpusApplication</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_PcmFlags.html">primo::codecs::PcmFlags</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_PictureType.html">primo::codecs::PictureType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_ScanType.html">primo::codecs::ScanType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_StereoMode.html">primo::codecs::StereoMode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_StreamSubType.html">primo::codecs::StreamSubType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_codecs_StreamType.html">primo::codecs::StreamType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_error.html">primo::error</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_error_ErrorFacility.html">primo::error::ErrorFacility</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_license.html">primo::license</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/namespaces/primo_license_LicenseStatusFlags.html">primo::license::LicenseStatusFlags</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../core/enums.html">Enumerations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../core/functions.html">Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../core/variables.html">Variables and Constants</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../core/files.html">Files</a><input aria-label="Toggle navigation of Files" class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../core/files/av.h.html">av.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/files/avb.h.html">avb.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/files/error.h.html">error.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/files/license.h.html">license.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/files/pp.h.html">pp.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/files/reference.h.html">reference.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../core/files/stream.h.html">stream.h</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="tmetaattribute">
+<h1>TMetaAttribute<a class="headerlink" href="#tmetaattribute" title="Link to this heading">¶</a></h1>
+<p><code class="docutils literal notranslate"><span class="pre">primo::avblocks::modern::TMetaAttribute</span></code></p>
+<dl class="cpp class">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks6modern14TMetaAttributeE">
+<span id="_CPPv3N5primo8avblocks6modern14TMetaAttributeE"></span><span id="_CPPv2N5primo8avblocks6modern14TMetaAttributeE"></span><span id="primo::avblocks::modern::TMetaAttribute"></span><span class="target" id="classprimo_1_1avblocks_1_1modern_1_1_t_meta_attribute"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">TMetaAttribute</span></span></span><a class="headerlink" href="#_CPPv4N5primo8avblocks6modern14TMetaAttributeE" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Fluent wrapper for <code class="docutils literal notranslate"><a class="reference internal" href="../../core/classes/primo_codecs_MetaAttribute.html#_CPPv4N5primo6codecs13MetaAttributeE" title="primo::codecs::MetaAttribute"><span><span class="pre">primo::codecs::MetaAttribute</span></span></a></code>. </p>
+<p>Owns the raw object through a <code class="docutils literal notranslate"><span class="pre">primo::ref&lt;MetaAttribute&gt;</span></code>. Non-copyable, movable. Constructed from a factory-owned object (via <code class="docutils literal notranslate"><span class="pre">primo::ref</span></code>) or from a non-owned pointer (via raw-pointer ctor, which retains it). </p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-unnamed-group">Unnamed Group</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeERR14TMetaAttribute">
+<span id="_CPPv3N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeERR14TMetaAttribute"></span><span id="_CPPv2N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeERR14TMetaAttribute"></span><span id="primo::avblocks::modern::TMetaAttribute::TMetaAttribute__TMetaAttributeRR"></span><span class="target" id="classprimo_1_1avblocks_1_1modern_1_1_t_meta_attribute_1a0d8684db8f0a2590ee314666bac12728"></span><span class="sig-name descname"><span class="n"><span class="pre">TMetaAttribute</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeERR14TMetaAttribute" title="primo::avblocks::modern::TMetaAttribute::TMetaAttribute"><span class="n"><span class="pre">TMetaAttribute</span></span></a><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">default</span></span><a class="headerlink" href="#_CPPv4N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeERR14TMetaAttribute" title="Link to this definition">¶</a><br /></dt>
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks6modern14TMetaAttributeaSERR14TMetaAttribute">
+<span id="_CPPv3N5primo8avblocks6modern14TMetaAttributeaSERR14TMetaAttribute"></span><span id="_CPPv2N5primo8avblocks6modern14TMetaAttributeaSERR14TMetaAttribute"></span><span id="primo::avblocks::modern::TMetaAttribute::assign-operator__TMetaAttributeRR"></span><span class="target" id="classprimo_1_1avblocks_1_1modern_1_1_t_meta_attribute_1aed3b313521154af7443cd2f151ee18c0"></span><a class="reference internal" href="#_CPPv4N5primo8avblocks6modern14TMetaAttributeE" title="primo::avblocks::modern::TMetaAttribute"><span class="n"><span class="pre">TMetaAttribute</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">=</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N5primo8avblocks6modern14TMetaAttributeE" title="primo::avblocks::modern::TMetaAttribute"><span class="n"><span class="pre">TMetaAttribute</span></span></a><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">default</span></span><a class="headerlink" href="#_CPPv4N5primo8avblocks6modern14TMetaAttributeaSERR14TMetaAttribute" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Move construction/assignment transfers ownership of the underlying object. The moved-from object no longer wraps anything. </p>
+</dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeEv">
+<span id="_CPPv3N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeEv"></span><span id="_CPPv2N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeEv"></span><span id="primo::avblocks::modern::TMetaAttribute::TMetaAttribute"></span><span class="target" id="classprimo_1_1avblocks_1_1modern_1_1_t_meta_attribute_1a9389a43b4103c1d6316ad5341c1f6172"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">TMetaAttribute</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeEv" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Creates an empty meta attribute. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeEN5primo3refIN5primo6codecs13MetaAttributeEEE">
+<span id="_CPPv3N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeEN5primo3refIN5primo6codecs13MetaAttributeEEE"></span><span id="_CPPv2N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeEN5primo3refIN5primo6codecs13MetaAttributeEEE"></span><span id="primo::avblocks::modern::TMetaAttribute::TMetaAttribute__primo::ref:primo::codecs::MetaAttribute:"></span><span class="target" id="classprimo_1_1avblocks_1_1modern_1_1_t_meta_attribute_1a940b77e409bb6846de0d7e09681275cb"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">TMetaAttribute</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">primo</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">ref</span></span><span class="p"><span class="pre">&lt;</span></span><span class="n"><span class="pre">primo</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">codecs</span></span><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../../core/classes/primo_codecs_MetaAttribute.html#_CPPv4N5primo6codecs13MetaAttributeE" title="primo::codecs::MetaAttribute"><span class="n"><span class="pre">MetaAttribute</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">attr</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeEN5primo3refIN5primo6codecs13MetaAttributeEEE" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Takes ownership of an existing <code class="docutils literal notranslate"><span class="pre">MetaAttribute</span></code> reference. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeEPN5primo6codecs13MetaAttributeE">
+<span id="_CPPv3N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeEPN5primo6codecs13MetaAttributeE"></span><span id="_CPPv2N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeEPN5primo6codecs13MetaAttributeE"></span><span id="primo::avblocks::modern::TMetaAttribute::TMetaAttribute__primo::codecs::MetaAttributeP"></span><span class="target" id="classprimo_1_1avblocks_1_1modern_1_1_t_meta_attribute_1a805b31299bb3b988f7ded729504bde06"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">TMetaAttribute</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">primo</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">codecs</span></span><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../../core/classes/primo_codecs_MetaAttribute.html#_CPPv4N5primo6codecs13MetaAttributeE" title="primo::codecs::MetaAttribute"><span class="n"><span class="pre">MetaAttribute</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">attr</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeEPN5primo6codecs13MetaAttributeE" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Wraps a non-owned <code class="docutils literal notranslate"><span class="pre">MetaAttribute</span></code> pointer, retaining it. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeERK14TMetaAttribute">
+<span id="_CPPv3N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeERK14TMetaAttribute"></span><span id="_CPPv2N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeERK14TMetaAttribute"></span><span id="primo::avblocks::modern::TMetaAttribute::TMetaAttribute__TMetaAttributeCR"></span><span class="target" id="classprimo_1_1avblocks_1_1modern_1_1_t_meta_attribute_1a4b328c43cfe4c5cdc045e63b01edc8d0"></span><span class="sig-name descname"><span class="n"><span class="pre">TMetaAttribute</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeERK14TMetaAttribute" title="primo::avblocks::modern::TMetaAttribute::TMetaAttribute"><span class="n"><span class="pre">TMetaAttribute</span></span></a><span class="p"><span class="pre">&amp;</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">delete</span></span><a class="headerlink" href="#_CPPv4N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeERK14TMetaAttribute" title="Link to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks6modern14TMetaAttributeaSERK14TMetaAttribute">
+<span id="_CPPv3N5primo8avblocks6modern14TMetaAttributeaSERK14TMetaAttribute"></span><span id="_CPPv2N5primo8avblocks6modern14TMetaAttributeaSERK14TMetaAttribute"></span><span id="primo::avblocks::modern::TMetaAttribute::assign-operator__TMetaAttributeCR"></span><span class="target" id="classprimo_1_1avblocks_1_1modern_1_1_t_meta_attribute_1a7dfb5e608162e01eff040275bc90d86a"></span><a class="reference internal" href="#_CPPv4N5primo8avblocks6modern14TMetaAttributeE" title="primo::avblocks::modern::TMetaAttribute"><span class="n"><span class="pre">TMetaAttribute</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">=</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N5primo8avblocks6modern14TMetaAttributeE" title="primo::avblocks::modern::TMetaAttribute"><span class="n"><span class="pre">TMetaAttribute</span></span></a><span class="p"><span class="pre">&amp;</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">delete</span></span><a class="headerlink" href="#_CPPv4N5primo8avblocks6modern14TMetaAttributeaSERK14TMetaAttribute" title="Link to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK5primo8avblocks6modern14TMetaAttribute4nameEv">
+<span id="_CPPv3NK5primo8avblocks6modern14TMetaAttribute4nameEv"></span><span id="_CPPv2NK5primo8avblocks6modern14TMetaAttribute4nameEv"></span><span id="primo::avblocks::modern::TMetaAttribute::nameC"></span><span class="target" id="classprimo_1_1avblocks_1_1modern_1_1_t_meta_attribute_1ad9d74f707a5a594a273e720a17eb648f"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">name</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK5primo8avblocks6modern14TMetaAttribute4nameEv" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Returns the attribute name as an ANSI string (see <code class="docutils literal notranslate"><span class="pre">primo::codecs::Meta</span></code> constants). </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK5primo8avblocks6modern14TMetaAttribute5valueEv">
+<span id="_CPPv3NK5primo8avblocks6modern14TMetaAttribute5valueEv"></span><span id="_CPPv2NK5primo8avblocks6modern14TMetaAttribute5valueEv"></span><span id="primo::avblocks::modern::TMetaAttribute::valueC"></span><span class="target" id="classprimo_1_1avblocks_1_1modern_1_1_t_meta_attribute_1a01d4db0f0c28f80319167382317338ad"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="n"><span class="pre">std</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK5primo8avblocks6modern14TMetaAttribute5valueEv" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Returns the attribute value as a UTF-8 <code class="docutils literal notranslate"><span class="pre">std::string</span></code>. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK5primo8avblocks6modern14TMetaAttribute9immutableEv">
+<span id="_CPPv3NK5primo8avblocks6modern14TMetaAttribute9immutableEv"></span><span id="_CPPv2NK5primo8avblocks6modern14TMetaAttribute9immutableEv"></span><span id="primo::avblocks::modern::TMetaAttribute::immutableC"></span><span class="target" id="classprimo_1_1avblocks_1_1modern_1_1_t_meta_attribute_1a524c20f71be806b79835c2ca5c87431c"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">immutable</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK5primo8avblocks6modern14TMetaAttribute9immutableEv" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Returns <code class="docutils literal notranslate"><span class="pre">true</span></code> if the attribute is immutable. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks6modern14TMetaAttribute4nameEPKc">
+<span id="_CPPv3N5primo8avblocks6modern14TMetaAttribute4nameEPKc"></span><span id="_CPPv2N5primo8avblocks6modern14TMetaAttribute4nameEPKc"></span><span id="primo::avblocks::modern::TMetaAttribute::name__cCP"></span><span class="target" id="classprimo_1_1avblocks_1_1modern_1_1_t_meta_attribute_1a05a223863ac33e77efc71c9a6e28d4ca"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N5primo8avblocks6modern14TMetaAttributeE" title="primo::avblocks::modern::TMetaAttribute"><span class="n"><span class="pre">TMetaAttribute</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">name</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">n</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5primo8avblocks6modern14TMetaAttribute4nameEPKc" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Sets the attribute name (<code class="docutils literal notranslate"><span class="pre">name</span></code> is an ANSI string). </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5primo8avblocks6modern14TMetaAttribute5valueEPKc">
+<span id="_CPPv3N5primo8avblocks6modern14TMetaAttribute5valueEPKc"></span><span id="_CPPv2N5primo8avblocks6modern14TMetaAttribute5valueEPKc"></span><span id="primo::avblocks::modern::TMetaAttribute::value__cCP"></span><span class="target" id="classprimo_1_1avblocks_1_1modern_1_1_t_meta_attribute_1a0a03a593848e9c7bee063490f8783597"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N5primo8avblocks6modern14TMetaAttributeE" title="primo::avblocks::modern::TMetaAttribute"><span class="n"><span class="pre">TMetaAttribute</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">value</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">val</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5primo8avblocks6modern14TMetaAttribute5valueEPKc" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Sets the attribute value (<code class="docutils literal notranslate"><span class="pre">val</span></code> is a UTF-8 C-string). </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK5primo8avblocks6modern14TMetaAttribute5cloneEv">
+<span id="_CPPv3NK5primo8avblocks6modern14TMetaAttribute5cloneEv"></span><span id="_CPPv2NK5primo8avblocks6modern14TMetaAttribute5cloneEv"></span><span id="primo::avblocks::modern::TMetaAttribute::cloneC"></span><span class="target" id="classprimo_1_1avblocks_1_1modern_1_1_t_meta_attribute_1a7b2ca13fc8694319ba375718988b5438"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N5primo8avblocks6modern14TMetaAttributeE" title="primo::avblocks::modern::TMetaAttribute"><span class="n"><span class="pre">TMetaAttribute</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">clone</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK5primo8avblocks6modern14TMetaAttribute5cloneEv" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Creates a full independent clone. The returned object is always mutable. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK5primo8avblocks6modern14TMetaAttribute5validEv">
+<span id="_CPPv3NK5primo8avblocks6modern14TMetaAttribute5validEv"></span><span id="_CPPv2NK5primo8avblocks6modern14TMetaAttribute5validEv"></span><span id="primo::avblocks::modern::TMetaAttribute::validC"></span><span class="target" id="classprimo_1_1avblocks_1_1modern_1_1_t_meta_attribute_1ab1ddb10841fe8670967c86e652e69f1e"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">valid</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK5primo8avblocks6modern14TMetaAttribute5validEv" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Returns <code class="docutils literal notranslate"><span class="pre">true</span></code> when this handle wraps a non-null underlying object. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK5primo8avblocks6modern14TMetaAttribute3getEv">
+<span id="_CPPv3NK5primo8avblocks6modern14TMetaAttribute3getEv"></span><span id="_CPPv2NK5primo8avblocks6modern14TMetaAttribute3getEv"></span><span id="primo::avblocks::modern::TMetaAttribute::getC"></span><span class="target" id="classprimo_1_1avblocks_1_1modern_1_1_t_meta_attribute_1a37e7c24fa63d91945219792752fed67a"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="n"><span class="pre">primo</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">codecs</span></span><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../../core/classes/primo_codecs_MetaAttribute.html#_CPPv4N5primo6codecs13MetaAttributeE" title="primo::codecs::MetaAttribute"><span class="n"><span class="pre">MetaAttribute</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">get</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK5primo8avblocks6modern14TMetaAttribute3getEv" title="Link to this definition">¶</a><br /></dt>
+<dd><p>Returns the raw underlying pointer. For interop with the core API only. </p>
+</dd></dl>
+
+</div>
+</dd></dl>
+
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+<div class="related-pages">
+  <a class="next-page" href="primo_avblocks_modern_TMetaAttributeList.html">
+      <div class="page-info">
+        <div class="context">
+          <span>Next</span>
+        </div>
+        <div class="title">TMetaAttributeList</div>
+      </div>
+      <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+    </a>
+  <a class="prev-page" href="primo_avblocks_modern_TMediaSocketT.html">
+      <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+      <div class="page-info">
+        <div class="context">
+          <span>Previous</span>
+        </div>
+        
+        <div class="title">TMediaSocketT</div>
+        
+      </div>
+    </a>
+</div>
+<div class="bottom-of-page">
+  <div class="left-details">
+    <div class="copyright">
+        Copyright &#169; 2003 - 2026, Primo Software Corp.
+    </div>
+  </div>
+  <div class="right-details">
+    
+  </div>
+</div>
+
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">TMetaAttribute</a><ul>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks6modern14TMetaAttributeE"><code class="docutils literal notranslate"><span class="pre">primo::avblocks::modern::TMetaAttribute</span></code></a><ul>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeERR14TMetaAttribute"><code class="docutils literal notranslate"><span class="pre">TMetaAttribute()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks6modern14TMetaAttributeaSERR14TMetaAttribute"><code class="docutils literal notranslate"><span class="pre">operator=()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeEv"><code class="docutils literal notranslate"><span class="pre">TMetaAttribute()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeEN5primo3refIN5primo6codecs13MetaAttributeEEE"><code class="docutils literal notranslate"><span class="pre">TMetaAttribute()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeEPN5primo6codecs13MetaAttributeE"><code class="docutils literal notranslate"><span class="pre">TMetaAttribute()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks6modern14TMetaAttribute14TMetaAttributeERK14TMetaAttribute"><code class="docutils literal notranslate"><span class="pre">TMetaAttribute()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks6modern14TMetaAttributeaSERK14TMetaAttribute"><code class="docutils literal notranslate"><span class="pre">operator=()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4NK5primo8avblocks6modern14TMetaAttribute4nameEv"><code class="docutils literal notranslate"><span class="pre">name()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4NK5primo8avblocks6modern14TMetaAttribute5valueEv"><code class="docutils literal notranslate"><span class="pre">value()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4NK5primo8avblocks6modern14TMetaAttribute9immutableEv"><code class="docutils literal notranslate"><span class="pre">immutable()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks6modern14TMetaAttribute4nameEPKc"><code class="docutils literal notranslate"><span class="pre">name()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5primo8avblocks6modern14TMetaAttribute5valueEPKc"><code class="docutils literal notranslate"><span class="pre">value()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4NK5primo8avblocks6modern14TMetaAttribute5cloneEv"><code class="docutils literal notranslate"><span class="pre">clone()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4NK5primo8avblocks6modern14TMetaAttribute5validEv"><code class="docutils literal notranslate"><span class="pre">valid()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4NK5primo8avblocks6modern14TMetaAttribute3getEv"><code class="docutils literal notranslate"><span class="pre">get()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../../../_static/documentation_options.js?v=ed7fbdb4"></script>
+    <script src="../../../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
+</html>

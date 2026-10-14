@@ -1,0 +1,85 @@
+# Classes
+
+| Name | Kind | Description |
+|---|---|---|
+| {cpp:class}`primo::Reference` | class | Base class for all objects that require reference management. |
+| {cpp:class}`primo::Stream` | class | The Stream interface can be used to implement a data source or sink. |
+| {cpp:class}`primo::avblocks::Block` | class | A Block is a unit that can produce, consume or transform media samples from/to multiple inputs/outputs. |
+| {cpp:class}`primo::avblocks::Config` | class | Global configuration. |
+| {cpp:class}`primo::avblocks::FloatParameter` | class | The parameter represents a 64-bit floating point number (double precision). |
+| {cpp:class}`primo::avblocks::HwConfig` | class | Global hardware configuration. |
+| {cpp:class}`primo::avblocks::IntParameter` | class | The parameter represents a 64-bit integer. |
+| {cpp:class}`primo::avblocks::MediaBufferParameter` | class | The parameter represents a MediaBuffer object. |
+| {cpp:class}`primo::avblocks::MediaInfo` | class | Analyzes a file or a stream and provides information about its type and properties. |
+| {cpp:class}`primo::avblocks::MediaPin` | class | MediaPin represents an elementary media stream. |
+| {cpp:class}`primo::avblocks::MediaPinList` | class | MediaPinList represents the elementary pins within a MediaSocket object. |
+| {cpp:class}`primo::avblocks::MediaSocket` | class | An input or output point of the Transcoder. |
+| {cpp:class}`primo::avblocks::MediaSocketList` | class | MediaSocketList represents the inputs or outputs of a Transcoder. |
+| {cpp:class}`primo::avblocks::Parameter` | class | Parameter is the base class for named parameters passed to various classes in AVBlocks. |
+| {cpp:class}`primo::avblocks::ParameterList` | class | A collection of Parameter objects. |
+| {cpp:class}`primo::avblocks::StringParameter` | class | The parameter represents an untyped value which is stored in a char_t string. |
+| {cpp:class}`primo::avblocks::Transcoder` | class | Provides functionality for audio and video encoding, decoding and transforming. |
+| {cpp:class}`primo::avblocks::TranscoderCallback` | class | The TranscoderCallback provides a way to receive notifications from the Transcoder and also to control its operation while it is running (Transcoder::run). |
+| {cpp:class}`primo::avblocks::VideoStreamInfoParameter` | class | The parameter represents a VideoStreamInfo object. |
+| {cpp:class}`primo::codecs::AudioStreamInfo` | class | AudioStreamInfo describes an elementary audio stream. |
+| {cpp:class}`primo::codecs::Hardware` | class | Enumerates available hardware codecs. |
+| {cpp:class}`primo::codecs::HwCodec` | class | Describes a hardware encoder, decoder or filter. |
+| {cpp:class}`primo::codecs::HwCodecList` | class | An immutable list of hardware codecs. |
+| {cpp:class}`primo::codecs::HwDevice` | class | Describes a device that can be used for hardware accelerated encoding, decoding or processing. |
+| {cpp:class}`primo::codecs::HwDeviceList` | class | An immutable list of devices. |
+| {cpp:class}`primo::codecs::MediaBuffer` | class | A buffer for media data. |
+| {cpp:class}`primo::codecs::MediaSample` | class | MediaSample represents one or more samples of audio or video data. |
+| {cpp:class}`primo::codecs::MetaAttribute` | class | MetaAttribute describes a textual meta information that is part of an audio or video file. |
+| {cpp:class}`primo::codecs::MetaAttributeList` | class | MetaAttributeList represents the meta attributes inside a Metadata object. |
+| {cpp:class}`primo::codecs::MetaPicture` | class | MetaPicture describes a meta image that is part of an audio or video file. |
+| {cpp:class}`primo::codecs::MetaPictureList` | class | MetaPictureList represents the meta pictures inside a Metadata object. |
+| {cpp:class}`primo::codecs::Metadata` | class | Metadata describes meta information that is part of an audio or video file. |
+| {cpp:class}`primo::codecs::StreamInfo` | class | Provides properties and operations that are common for all elementary streams. |
+| {cpp:class}`primo::codecs::StreamInfoEnum` | class | StreamInfoEnum is a read-only collection of StreamInfo objects. |
+| {cpp:class}`primo::codecs::VideoStreamInfo` | class | VideoStreamInfo describes an elementary video stream. |
+| {cpp:class}`primo::error::ErrorInfo` | class | Describes an error interface used for uniform error handling across all Primo Software libraries. |
+| {cpp:class}`primo::license::LicenseInfo` | class | Provides information about the current license state of the library. |
+
+```{toctree}
+---
+hidden:
+maxdepth: 1
+---
+classes/primo_Reference
+classes/primo_Stream
+classes/primo_avblocks_Block
+classes/primo_avblocks_Config
+classes/primo_avblocks_FloatParameter
+classes/primo_avblocks_HwConfig
+classes/primo_avblocks_IntParameter
+classes/primo_avblocks_MediaBufferParameter
+classes/primo_avblocks_MediaInfo
+classes/primo_avblocks_MediaPin
+classes/primo_avblocks_MediaPinList
+classes/primo_avblocks_MediaSocket
+classes/primo_avblocks_MediaSocketList
+classes/primo_avblocks_Parameter
+classes/primo_avblocks_ParameterList
+classes/primo_avblocks_StringParameter
+classes/primo_avblocks_Transcoder
+classes/primo_avblocks_TranscoderCallback
+classes/primo_avblocks_VideoStreamInfoParameter
+classes/primo_codecs_AudioStreamInfo
+classes/primo_codecs_Hardware
+classes/primo_codecs_HwCodec
+classes/primo_codecs_HwCodecList
+classes/primo_codecs_HwDevice
+classes/primo_codecs_HwDeviceList
+classes/primo_codecs_MediaBuffer
+classes/primo_codecs_MediaSample
+classes/primo_codecs_MetaAttribute
+classes/primo_codecs_MetaAttributeList
+classes/primo_codecs_MetaPicture
+classes/primo_codecs_MetaPictureList
+classes/primo_codecs_Metadata
+classes/primo_codecs_StreamInfo
+classes/primo_codecs_StreamInfoEnum
+classes/primo_codecs_VideoStreamInfo
+classes/primo_error_ErrorInfo
+classes/primo_license_LicenseInfo
+```

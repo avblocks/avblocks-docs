@@ -1,0 +1,9 @@
+# primo::avblocks::Preset::Video::Web
+
+Web Video Presets.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::avblocks::Preset::Video::Web::MP4](primo_avblocks_Preset_Video_Web_MP4.md) | Web MP4 Presets. |

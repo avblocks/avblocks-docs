@@ -1,0 +1,8 @@
+# primo::avblocks::Preset::Audio::DVD
+
+Presets for audio compatible with DVD-Video.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Audio::DVD::MP2
+   :project: avblocks-plus
+```

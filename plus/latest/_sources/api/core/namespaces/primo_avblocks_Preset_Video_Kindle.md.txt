@@ -1,0 +1,18 @@
+# primo::avblocks::Preset::Video::Kindle
+
+Kindle presets.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Kindle::KindleFireHD_8_9_MP4_H264_1080p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Kindle::KindleFireHD_MP4_H264_720p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Kindle::KindleFire_MP4_H264_576p
+   :project: avblocks-plus
+```

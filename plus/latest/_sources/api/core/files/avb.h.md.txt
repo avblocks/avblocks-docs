@@ -1,0 +1,128 @@
+# avb.h
+
+
+
+`#include <primo/avblocks/avb.h>`
+
+## Includes
+
+- `primo/platform/config.h`
+- `primo/platform/reference.h`
+- `primo/platform/stream.h`
+- `primo/codecs/av.h`
+- `primo/pp/pp.h`
+- `primo/license/license.h`
+
+## Classes
+
+| Name | Description |
+|---|---|
+| {cpp:class}`primo::avblocks::Block` | A Block is a unit that can produce, consume or transform media samples from/to multiple inputs/outputs. |
+| {cpp:class}`primo::avblocks::Config` | Global configuration. |
+| {cpp:class}`primo::avblocks::FloatParameter` | The parameter represents a 64-bit floating point number (double precision). |
+| {cpp:class}`primo::avblocks::HwConfig` | Global hardware configuration. |
+| {cpp:class}`primo::avblocks::IntParameter` | The parameter represents a 64-bit integer. |
+| {cpp:class}`primo::avblocks::MediaBufferParameter` | The parameter represents a MediaBuffer object. |
+| {cpp:class}`primo::avblocks::MediaInfo` | Analyzes a file or a stream and provides information about its type and properties. |
+| {cpp:class}`primo::avblocks::MediaPin` | MediaPin represents an elementary media stream. |
+| {cpp:class}`primo::avblocks::MediaPinList` | MediaPinList represents the elementary pins within a MediaSocket object. |
+| {cpp:class}`primo::avblocks::MediaSocket` | An input or output point of the Transcoder. |
+| {cpp:class}`primo::avblocks::MediaSocketList` | MediaSocketList represents the inputs or outputs of a Transcoder. |
+| {cpp:class}`primo::avblocks::Parameter` | Parameter is the base class for named parameters passed to various classes in AVBlocks. |
+| {cpp:class}`primo::avblocks::ParameterList` | A collection of Parameter objects. |
+| {cpp:class}`primo::avblocks::StringParameter` | The parameter represents an untyped value which is stored in a char_t string. |
+| {cpp:class}`primo::avblocks::Transcoder` | Provides functionality for audio and video encoding, decoding and transforming. |
+| {cpp:class}`primo::avblocks::TranscoderCallback` | The TranscoderCallback provides a way to receive notifications from the Transcoder and also to control its operation while it is running (Transcoder::run). |
+| {cpp:class}`primo::avblocks::VideoStreamInfoParameter` | The parameter represents a VideoStreamInfo object. |
+
+## Namespaces
+
+- `primo`
+- `primo::avblocks`
+- `primo::avblocks::AVBlocksError`
+- `primo::avblocks::HardwareEncoder`
+- `primo::avblocks::Library`
+- `primo::avblocks::Param`
+- `primo::avblocks::Param::Decoder`
+- `primo::avblocks::Param::Decoder::Video`
+- `primo::avblocks::Param::Decoder::Video::H264`
+- `primo::avblocks::Param::Decoder::Video::H264::VUI`
+- `primo::avblocks::Param::Demuxer`
+- `primo::avblocks::Param::Demuxer::Mpeg`
+- `primo::avblocks::Param::Encoder`
+- `primo::avblocks::Param::Encoder::Audio`
+- `primo::avblocks::Param::Encoder::Audio::AAC`
+- `primo::avblocks::Param::Encoder::Audio::G711`
+- `primo::avblocks::Param::Encoder::Audio::MPEG1`
+- `primo::avblocks::Param::Encoder::Audio::Opus`
+- `primo::avblocks::Param::Encoder::Audio::Vorbis`
+- `primo::avblocks::Param::Encoder::Audio::WMA`
+- `primo::avblocks::Param::Encoder::Video`
+- `primo::avblocks::Param::Encoder::Video::H264`
+- `primo::avblocks::Param::Encoder::Video::H265`
+- `primo::avblocks::Param::Encoder::Video::MPEG2`
+- `primo::avblocks::Param::Encoder::Video::VP8`
+- `primo::avblocks::Param::Encoder::Video::VP9`
+- `primo::avblocks::Param::Muxer`
+- `primo::avblocks::Param::Muxer::MP4`
+- `primo::avblocks::Param::Video`
+- `primo::avblocks::Param::Video::Crop`
+- `primo::avblocks::Param::Video::Deinterlacing`
+- `primo::avblocks::Param::Video::FrameRateConverter`
+- `primo::avblocks::Param::Video::Overlay`
+- `primo::avblocks::Param::Video::Pad`
+- `primo::avblocks::Param::Video::Resize`
+- `primo::avblocks::ParamType`
+- `primo::avblocks::PinConnection`
+- `primo::avblocks::Preset`
+- `primo::avblocks::Preset::Audio`
+- `primo::avblocks::Preset::Audio::AudioCD`
+- `primo::avblocks::Preset::Audio::DVD`
+- `primo::avblocks::Preset::Audio::Generic`
+- `primo::avblocks::Preset::Audio::Generic::M4A`
+- `primo::avblocks::Preset::Audio::Generic::MP3`
+- `primo::avblocks::Preset::Audio::Generic::OggVorbis`
+- `primo::avblocks::Preset::Audio::Generic::WMA`
+- `primo::avblocks::Preset::Audio::Generic::WMA::Lossless`
+- `primo::avblocks::Preset::Audio::Generic::WMA::Professional`
+- `primo::avblocks::Preset::Audio::Generic::WMA::Standard`
+- `primo::avblocks::Preset::Video`
+- `primo::avblocks::Preset::Video::AndroidPhone`
+- `primo::avblocks::Preset::Video::AndroidTablet`
+- `primo::avblocks::Preset::Video::AppleLiveStreaming`
+- `primo::avblocks::Preset::Video::AppleTV`
+- `primo::avblocks::Preset::Video::BDAV`
+- `primo::avblocks::Preset::Video::DVD`
+- `primo::avblocks::Preset::Video::Fast`
+- `primo::avblocks::Preset::Video::Fast::MP4`
+- `primo::avblocks::Preset::Video::Generic`
+- `primo::avblocks::Preset::Video::Generic::MP4`
+- `primo::avblocks::Preset::Video::Generic::WebM`
+- `primo::avblocks::Preset::Video::HDV`
+- `primo::avblocks::Preset::Video::Kindle`
+- `primo::avblocks::Preset::Video::VCD`
+- `primo::avblocks::Preset::Video::Web`
+- `primo::avblocks::Preset::Video::Web::MP4`
+- `primo::avblocks::Preset::Video::iPad`
+- `primo::avblocks::Preset::Video::iPhone`
+- `primo::avblocks::Preset::Video::iPod`
+- `primo::avblocks::TranscoderError`
+- `primo::avblocks::TranscoderStatus`
+- `primo::avblocks::Use`
+- `primo::error`
+- `primo::error::ErrorFacility`
+
+## Macros and Functions
+
+```{eval-rst}
+.. doxygenfile:: avb.h
+   :project: avblocks-plus
+   :sections: define func:
+```
+
+## Source
+
+```{literalinclude} ../../../../../primo-avblocks/sdk/include/primo/avblocks/avb.h
+:language: cpp
+:linenos:
+```

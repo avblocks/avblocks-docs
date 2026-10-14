@@ -1,0 +1,13 @@
+# primo::avblocks::Param::Encoder::Audio::MPEG1
+
+Parameters specific to MPEG1 audio encoders.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Audio::MPEG1::ForceV1
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Audio::MPEG1::StereoMode
+   :project: avblocks-plus
+```

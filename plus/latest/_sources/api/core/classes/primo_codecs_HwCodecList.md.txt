@@ -1,0 +1,10 @@
+# HwCodecList
+
+`primo::codecs::HwCodecList`
+
+```{eval-rst}
+.. doxygenclass:: primo::codecs::HwCodecList
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

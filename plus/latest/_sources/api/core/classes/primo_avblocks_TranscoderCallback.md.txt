@@ -1,0 +1,10 @@
+# TranscoderCallback
+
+`primo::avblocks::TranscoderCallback`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::TranscoderCallback
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

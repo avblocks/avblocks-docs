@@ -1,0 +1,13 @@
+# Fluent API
+
+Modern C++20 wrapper (`primo/avblocks/avb++.h`), namespace `primo::avblocks::modern`.
+
+```{toctree}
+---
+maxdepth: 1
+---
+classes
+namespaces
+typedefs
+files
+```

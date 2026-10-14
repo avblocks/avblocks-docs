@@ -1,0 +1,10 @@
+# MediaSample
+
+`primo::codecs::MediaSample`
+
+```{eval-rst}
+.. doxygenclass:: primo::codecs::MediaSample
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

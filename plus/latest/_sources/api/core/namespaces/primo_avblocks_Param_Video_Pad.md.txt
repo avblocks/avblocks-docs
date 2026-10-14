@@ -1,0 +1,28 @@
+# primo::avblocks::Param::Video::Pad
+
+Parameters specific to video padding.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Pad::Left
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Pad::Right
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Pad::Top
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Pad::Bottom
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Pad::Color
+   :project: avblocks-plus
+```

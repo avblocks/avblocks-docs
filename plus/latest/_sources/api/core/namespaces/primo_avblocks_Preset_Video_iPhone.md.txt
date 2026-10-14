@@ -1,0 +1,28 @@
+# primo::avblocks::Preset::Video::iPhone
+
+Presets for iPhone devices.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::iPhone::H264_480p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::iPhone::MPEG4_480p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::iPhone::iPhone4_MP4_H264_720p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::iPhone::iPhone4S_MP4_H264_1080p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::iPhone::iPhone3GS_MP4_H264_480
+   :project: avblocks-plus
+```

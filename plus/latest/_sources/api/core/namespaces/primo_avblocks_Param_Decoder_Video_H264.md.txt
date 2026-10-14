@@ -1,0 +1,9 @@
+# primo::avblocks::Param::Decoder::Video::H264
+
+Parameters specific to H.264 decoders.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::avblocks::Param::Decoder::Video::H264::VUI](primo_avblocks_Param_Decoder_Video_H264_VUI.md) | Parameters the are part of the Video Usability Information in the H.264 stream. |

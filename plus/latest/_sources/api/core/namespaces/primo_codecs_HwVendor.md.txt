@@ -1,0 +1,8 @@
+# primo::codecs::HwVendor
+
+Hardware Vendor.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::HwVendor::Enum
+   :project: avblocks-plus
+```

@@ -1,0 +1,8 @@
+# primo::codecs::StreamType
+
+Defines major audio and video stream types, and file formats (a.k.a.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::StreamType::Enum
+   :project: avblocks-plus
+```

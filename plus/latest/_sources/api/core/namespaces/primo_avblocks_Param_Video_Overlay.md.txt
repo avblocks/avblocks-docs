@@ -1,0 +1,48 @@
+# primo::avblocks::Param::Video::Overlay
+
+Parameters specific to the video overlay filter.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Overlay::Mode
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Overlay::LocationX
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Overlay::LocationY
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Overlay::BackgroundX
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Overlay::BackgroundY
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Overlay::BackgroundAlpha
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Overlay::ForegroundBuffer
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Overlay::ForegroundBufferFormat
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Video::Overlay::ForegroundAlpha
+   :project: avblocks-plus
+```

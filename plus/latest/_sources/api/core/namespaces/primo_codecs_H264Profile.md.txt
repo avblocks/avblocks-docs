@@ -1,0 +1,8 @@
+# primo::codecs::H264Profile
+
+Defines H.264/AVC profiles.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::H264Profile::Enum
+   :project: avblocks-plus
+```

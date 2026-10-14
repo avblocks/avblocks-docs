@@ -1,0 +1,8 @@
+# primo::avblocks::Param::Encoder::Audio::AAC
+
+Parameters specific to AAC audio encoders.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Audio::AAC::StereoMode
+   :project: avblocks-plus
+```

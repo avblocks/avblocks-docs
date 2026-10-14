@@ -1,0 +1,10 @@
+# AudioStreamInfo
+
+`primo::codecs::AudioStreamInfo`
+
+```{eval-rst}
+.. doxygenclass:: primo::codecs::AudioStreamInfo
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

@@ -1,0 +1,8 @@
+# primo::avblocks::TranscoderError
+
+Defines Transcoder specific errors.
+
+```{eval-rst}
+.. doxygenenum:: primo::avblocks::TranscoderError::Enum
+   :project: avblocks-plus
+```

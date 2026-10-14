@@ -1,0 +1,8 @@
+# primo::codecs::H264PicCodingType
+
+Defines the picture coding type when encoding H.264/AVC.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::H264PicCodingType::Enum
+   :project: avblocks-plus
+```

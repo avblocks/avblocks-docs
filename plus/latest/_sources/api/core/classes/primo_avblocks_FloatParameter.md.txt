@@ -1,0 +1,10 @@
+# FloatParameter
+
+`primo::avblocks::FloatParameter`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::FloatParameter
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

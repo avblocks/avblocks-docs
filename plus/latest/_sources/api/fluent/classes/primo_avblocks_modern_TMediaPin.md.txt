@@ -1,0 +1,10 @@
+# TMediaPin
+
+`primo::avblocks::modern::TMediaPin`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::modern::TMediaPin
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

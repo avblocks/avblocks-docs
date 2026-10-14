@@ -1,0 +1,8 @@
+# primo::codecs::PictureType
+
+Defines video picture types (I/P/B).
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::PictureType::Enum
+   :project: avblocks-plus
+```

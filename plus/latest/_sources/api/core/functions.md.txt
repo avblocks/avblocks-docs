@@ -1,0 +1,36 @@
+# Functions
+
+| Name | Description |
+|---|---|
+| {cpp:any}`primo::avblocks::Library::config` | Returns the library configuration object. |
+| {cpp:any}`primo::avblocks::Library::createAudioStreamInfo` | Creates an empty audio stream info. |
+| {cpp:any}`primo::avblocks::Library::createDataStreamInfo` | Creates a stream info for generic data. |
+| {cpp:any}`primo::avblocks::Library::createErrorInfo` | Creates a new ErrorInfo instance. |
+| {cpp:any}`primo::avblocks::Library::createFloatParameter` | Creates a float parameter. |
+| {cpp:any}`primo::avblocks::Library::createHardware` | Creates a Hardware enumeration object. |
+| {cpp:any}`primo::avblocks::Library::createIntParameter` | Creates an integer parameter. |
+| {cpp:any}`primo::avblocks::Library::createLicenseInfo` | Creates a new LicenseInfo instance. |
+| {cpp:any}`primo::avblocks::Library::createMediaBuffer` | Creates a media buffer with the specified capacity. |
+| {cpp:any}`primo::avblocks::Library::createMediaBufferParameter` | Creates a parameter that holds a MediaBuffer object. |
+| {cpp:any}`primo::avblocks::Library::createMediaInfo` | Creates a media information object. |
+| {cpp:any}`primo::avblocks::Library::createMediaPin` | Creates a media pin. |
+| {cpp:any}`primo::avblocks::Library::createMediaSample` | Creates an empty media sample. |
+| {cpp:any}`primo::avblocks::Library::createMediaSocket` | Creates a media socket from a MediaInfo object. |
+| {cpp:any}`primo::avblocks::Library::createMediaSocket` | Creates a media socket from an AVBlocks Preset. |
+| {cpp:any}`primo::avblocks::Library::createMediaSocket` | Creates a media socket. |
+| {cpp:any}`primo::avblocks::Library::createMetaAttribute` | Creates an empty MetaAttribute object. |
+| {cpp:any}`primo::avblocks::Library::createMetaPicture` | Creates an empty MetaPicture object. |
+| {cpp:any}`primo::avblocks::Library::createMetadata` | Creates an empty Metadata object. |
+| {cpp:any}`primo::avblocks::Library::createParameterList` | Creates an empty collection of filter parameters. |
+| {cpp:any}`primo::avblocks::Library::createStringParameter` | Creates a parameter that holds a char_t* string. |
+| {cpp:any}`primo::avblocks::Library::createTranscoder` | Creates a Transcoder. |
+| {cpp:any}`primo::avblocks::Library::createVideoStreamInfo` | Creates an empty video stream info. |
+| {cpp:any}`primo::avblocks::Library::createVideoStreamInfoParameter` | Creates a parameter that holds a VideoStreamInfoParameter object. |
+| {cpp:any}`primo::avblocks::Library::description` | Gets library build description. |
+| {cpp:any}`primo::avblocks::Library::initialize` | Initializes the AVBlocks library. |
+| {cpp:any}`primo::avblocks::Library::majorVersion` | Gets library major version. |
+| {cpp:any}`primo::avblocks::Library::minorVersion` | Gets library minor version. |
+| {cpp:any}`primo::avblocks::Library::patchVersion` | Gets library patch version. |
+| {cpp:any}`primo::avblocks::Library::setLicense` | Sets a license string. |
+| {cpp:any}`primo::avblocks::Library::setLicenseTls` | Sets whether TLS (Transport Layer Security) should be used for license validation. |
+| {cpp:any}`primo::avblocks::Library::shutdown` | Closes the AVBlocks library and frees the resources that are used (if any). |

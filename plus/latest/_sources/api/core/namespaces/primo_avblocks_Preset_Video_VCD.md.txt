@@ -1,0 +1,13 @@
+# primo::avblocks::Preset::Video::VCD
+
+Presets for Video CD.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::VCD::PAL
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::VCD::NTSC
+   :project: avblocks-plus
+```

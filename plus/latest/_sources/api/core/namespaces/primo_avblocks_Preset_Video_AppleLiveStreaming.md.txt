@@ -1,0 +1,83 @@
+# primo::avblocks::Preset::Video::AppleLiveStreaming
+
+Apple HTTP Live Streaming Presets.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_Wide_H264_1920x1080_30p_11000K_AAC_128K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_Wide_H264_1280x720_30p_4500K_AAC_128K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_Wide_H264_1280x720_30p_2500K_AAC_128K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_Wide_H264_960x540_30p_1800K_AAC_128K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_Wide_H264_640x360_30p_1200K_AAC_96K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_Wide_H264_640x360_30p_600K_AAC_96K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_H264_1280x960_30p_4500K_AAC_128K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_H264_960x720_30p_2500K_AAC_128K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_H264_960x720_30p_1200K_AAC_96K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_H264_640x480_30p_1200K_AAC_96K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_H264_640x480_30p_800K_AAC_96K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleLiveStreaming::WiFi_H264_640x480_30p_600K_AAC_96K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleLiveStreaming::Cellular_Wide_H264_400x224_30p_400K_AAC_40K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleLiveStreaming::Cellular_H264_400x300_30p_400K_AAC_40K
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleLiveStreaming::H264_480p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::AppleLiveStreaming::H264_720p
+   :project: avblocks-plus
+```

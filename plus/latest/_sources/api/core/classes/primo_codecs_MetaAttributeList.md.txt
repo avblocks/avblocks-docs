@@ -1,0 +1,10 @@
+# MetaAttributeList
+
+`primo::codecs::MetaAttributeList`
+
+```{eval-rst}
+.. doxygenclass:: primo::codecs::MetaAttributeList
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

@@ -1,0 +1,33 @@
+# primo::avblocks::Param
+
+Defines parameters that can be passed to the transcoder and to the components that are used in the transcoding process.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::avblocks::Param::Decoder](primo_avblocks_Param_Decoder.md) | Parameters specific to decoders. |
+| [primo::avblocks::Param::Demuxer](primo_avblocks_Param_Demuxer.md) | Parameters specific to demuxers. |
+| [primo::avblocks::Param::Encoder](primo_avblocks_Param_Encoder.md) | Parameters specific to encoders. |
+| [primo::avblocks::Param::Muxer](primo_avblocks_Param_Muxer.md) | Parameters specific to muxers. |
+| [primo::avblocks::Param::Video](primo_avblocks_Param_Video.md) | Parameters specific to video filters. |
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::ReEncode
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::HardwareEncoder
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::HardwareEncoderDevice
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::HardwareEncoderApi
+   :project: avblocks-plus
+```

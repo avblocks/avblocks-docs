@@ -1,0 +1,8 @@
+# primo::codecs::MediaType
+
+Defines media types.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::MediaType::Enum
+   :project: avblocks-plus
+```

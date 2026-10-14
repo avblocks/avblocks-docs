@@ -1,0 +1,13 @@
+# primo::avblocks::Param::Encoder::Audio::Opus
+
+Parameters specific to Opus audio encoders.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Audio::Opus::Complexity
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Audio::Opus::Application
+   :project: avblocks-plus
+```

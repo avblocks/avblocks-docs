@@ -1,0 +1,10 @@
+# TMediaSample
+
+`primo::avblocks::modern::TMediaSample`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::modern::TMediaSample
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

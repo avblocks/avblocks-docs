@@ -1,0 +1,10 @@
+# TMetaAttributeList
+
+`primo::avblocks::modern::TMetaAttributeList`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::modern::TMetaAttributeList
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

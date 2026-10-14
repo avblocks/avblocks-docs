@@ -1,0 +1,8 @@
+# primo::codecs::H264DirectPredMode
+
+Defines H.264/AVC direct predition mode.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::H264DirectPredMode::Enum
+   :project: avblocks-plus
+```

@@ -1,0 +1,233 @@
+# primo::codecs::Meta
+
+DataStreamInfo describes a generic data stream.
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::Comment
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::InvolvedPeople
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::PlayCounter
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::Popularimeter
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::Album
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::Composer
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::Genre
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::Copyright
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::Date
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::EncodedBy
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::Lyricist
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::FileType
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::Time
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::ContentGroup
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::Title
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::Subtitle
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::Language
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::MediaType
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::OrigAlbum
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::OrigFileName
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::OrigLyricist
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::OrigArtist
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::LeadArtist
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::AlbumArtist
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::Conductor
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::RemixArtist
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::DiscNum
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::Publisher
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::TrackNum
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::RecordingDates
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::InternetRadioStation
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::EncoderSettings
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::Year
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::UserText
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::UnsyncedLyrics
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::UrlCommercialInfo
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::UrlCopyright
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::UrlAudioFile
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::UrlArtist
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::UrlAudioSource
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::UrlRadioPage
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::UrlPayment
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::UrlPublisher
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::UrlUser
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::Private
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::codecs::Meta::BeatsPerMinute
+   :project: avblocks-plus
+```

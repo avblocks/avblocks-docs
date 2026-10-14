@@ -1,0 +1,10 @@
+# Stream
+
+`primo::Stream`
+
+```{eval-rst}
+.. doxygenclass:: primo::Stream
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

@@ -1,0 +1,11 @@
+# primo::avblocks::Preset::Audio::Generic::WMA
+
+Presets for Windows Media Audio.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::avblocks::Preset::Audio::Generic::WMA::Lossless](primo_avblocks_Preset_Audio_Generic_WMA_Lossless.md) | Presets for the WMA Lossless codec. |
+| [primo::avblocks::Preset::Audio::Generic::WMA::Professional](primo_avblocks_Preset_Audio_Generic_WMA_Professional.md) | Presets for the WMA Pro codec. |
+| [primo::avblocks::Preset::Audio::Generic::WMA::Standard](primo_avblocks_Preset_Audio_Generic_WMA_Standard.md) | Presets for the WMA standard codec. |

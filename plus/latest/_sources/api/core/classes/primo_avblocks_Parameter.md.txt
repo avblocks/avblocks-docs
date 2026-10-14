@@ -1,0 +1,10 @@
+# Parameter
+
+`primo::avblocks::Parameter`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::Parameter
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

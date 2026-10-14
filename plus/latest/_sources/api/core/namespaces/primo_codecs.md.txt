@@ -1,0 +1,64 @@
+# primo::codecs
+
+Common audio/video types and interfaces.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::codecs::AlphaCompositingMode](primo_codecs_AlphaCompositingMode.md) | Defines the way a foreground image will be combined with background video. |
+| [primo::codecs::AudioChannelFlags](primo_codecs_AudioChannelFlags.md) | Defines the speaker location of one or more audio channels. |
+| [primo::codecs::BitrateMode](primo_codecs_BitrateMode.md) | Defines the bitrate mode of the audio/video stream. |
+| [primo::codecs::CodecError](primo_codecs_CodecError.md) | Common errors for encoders, decoders, muxers, demuxers and other A/V components. |
+| [primo::codecs::ColorFormat](primo_codecs_ColorFormat.md) | Defines constants for various color formats. |
+| [primo::codecs::DeinterlacingMethod](primo_codecs_DeinterlacingMethod.md) | Defines video deinterlacing methods. |
+| [primo::codecs::FrameType](primo_codecs_FrameType.md) | Defines frame types for audio codecs, particularly for G.711 encoding. |
+| [primo::codecs::H264DeblockingFilter](primo_codecs_H264DeblockingFilter.md) | Defines H.264/AVC deblocking filter mode. |
+| [primo::codecs::H264DirectPredMode](primo_codecs_H264DirectPredMode.md) | Defines H.264/AVC direct predition mode. |
+| [primo::codecs::H264EntropyCodingMode](primo_codecs_H264EntropyCodingMode.md) | Defines H.264/AVC entropy coding modes. |
+| [primo::codecs::H264MeMethod](primo_codecs_H264MeMethod.md) | Defines the motion estimation methods used when encoding H.264/AVC. |
+| [primo::codecs::H264MeSplitMode](primo_codecs_H264MeSplitMode.md) | Defines the block sizes for which motion estimation should be done. |
+| [primo::codecs::H264PicCodingType](primo_codecs_H264PicCodingType.md) | Defines the picture coding type when encoding H.264/AVC. |
+| [primo::codecs::H264Profile](primo_codecs_H264Profile.md) | Defines H.264/AVC profiles. |
+| [primo::codecs::H264RateControlMethod](primo_codecs_H264RateControlMethod.md) | Defines methods for bitrate contorl when encoding H.264/AVC. |
+| [primo::codecs::H265Level](primo_codecs_H265Level.md) | Defines H.265/HEVC levels. |
+| [primo::codecs::H265Profile](primo_codecs_H265Profile.md) | Defines H.265/HEVC profiles. |
+| [primo::codecs::H265Tier](primo_codecs_H265Tier.md) | Defines H.265/HEVC tiers. |
+| [primo::codecs::HwApi](primo_codecs_HwApi.md) | API for using hardware engines. |
+| [primo::codecs::HwCodecType](primo_codecs_HwCodecType.md) | Hardware encoder, decoder or filter for a specific stream type. |
+| [primo::codecs::HwEngine](primo_codecs_HwEngine.md) | Hardware engine for encoding/decoding/processing. |
+| [primo::codecs::HwVendor](primo_codecs_HwVendor.md) | Hardware Vendor. |
+| [primo::codecs::InterpolationMethod](primo_codecs_InterpolationMethod.md) | Defines methods for sample interpolation. |
+| [primo::codecs::MediaSampleFlags](primo_codecs_MediaSampleFlags.md) | Defines various media sample features. |
+| [primo::codecs::MediaType](primo_codecs_MediaType.md) | Defines media types. |
+| [primo::codecs::Meta](primo_codecs_Meta.md) | DataStreamInfo describes a generic data stream. |
+| [primo::codecs::MetaPictureType](primo_codecs_MetaPictureType.md) | Represents the meta picture (image) type. |
+| [primo::codecs::MimeType](primo_codecs_MimeType.md) | Defines MIME types used by primo codecs components. |
+| [primo::codecs::OpusApplication](primo_codecs_OpusApplication.md) | Defines Opus codec application modes. |
+| [primo::codecs::PcmFlags](primo_codecs_PcmFlags.md) | Defines constants for various LPCM properties. |
+| [primo::codecs::PictureType](primo_codecs_PictureType.md) | Defines video picture types (I/P/B). |
+| [primo::codecs::ScanType](primo_codecs_ScanType.md) | Defines video interlace/scan types. |
+| [primo::codecs::StereoMode](primo_codecs_StereoMode.md) | Defines stereo mode in MPEG Audio and AAC. |
+| [primo::codecs::StreamSubType](primo_codecs_StreamSubType.md) | Defines audio and video stream subtypes. |
+| [primo::codecs::StreamType](primo_codecs_StreamType.md) | Defines major audio and video stream types, and file formats (a.k.a. |
+
+## Classes
+
+| Name | Description |
+|---|---|
+| {cpp:class}`primo::codecs::AudioStreamInfo` | AudioStreamInfo describes an elementary audio stream. |
+| {cpp:class}`primo::codecs::Hardware` | Enumerates available hardware codecs. |
+| {cpp:class}`primo::codecs::HwCodec` | Describes a hardware encoder, decoder or filter. |
+| {cpp:class}`primo::codecs::HwCodecList` | An immutable list of hardware codecs. |
+| {cpp:class}`primo::codecs::HwDevice` | Describes a device that can be used for hardware accelerated encoding, decoding or processing. |
+| {cpp:class}`primo::codecs::HwDeviceList` | An immutable list of devices. |
+| {cpp:class}`primo::codecs::MediaBuffer` | A buffer for media data. |
+| {cpp:class}`primo::codecs::MediaSample` | MediaSample represents one or more samples of audio or video data. |
+| {cpp:class}`primo::codecs::MetaAttribute` | MetaAttribute describes a textual meta information that is part of an audio or video file. |
+| {cpp:class}`primo::codecs::MetaAttributeList` | MetaAttributeList represents the meta attributes inside a Metadata object. |
+| {cpp:class}`primo::codecs::MetaPicture` | MetaPicture describes a meta image that is part of an audio or video file. |
+| {cpp:class}`primo::codecs::MetaPictureList` | MetaPictureList represents the meta pictures inside a Metadata object. |
+| {cpp:class}`primo::codecs::Metadata` | Metadata describes meta information that is part of an audio or video file. |
+| {cpp:class}`primo::codecs::StreamInfo` | Provides properties and operations that are common for all elementary streams. |
+| {cpp:class}`primo::codecs::StreamInfoEnum` | StreamInfoEnum is a read-only collection of StreamInfo objects. |
+| {cpp:class}`primo::codecs::VideoStreamInfo` | VideoStreamInfo describes an elementary video stream. |

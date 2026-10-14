@@ -1,0 +1,18 @@
+# primo::error::ErrorFacility
+
+Common error facilities.
+
+```{eval-rst}
+.. doxygenvariable:: primo::error::ErrorFacility::Codec
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::error::ErrorFacility::AVBlocks
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::error::ErrorFacility::Transcoder
+   :project: avblocks-plus
+```

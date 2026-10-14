@@ -1,0 +1,10 @@
+# ErrorInfo
+
+`primo::error::ErrorInfo`
+
+```{eval-rst}
+.. doxygenclass:: primo::error::ErrorInfo
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

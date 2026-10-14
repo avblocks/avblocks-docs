@@ -1,0 +1,53 @@
+# primo::avblocks::Preset::Video::HDV
+
+Presets for High-definition video MPEG-2 Transport Stream.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::HDV::MPEG_1080i_30p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::HDV::MPEG_1080i_25p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::HDV::MPEG_1080p_30p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::HDV::MPEG_1080p_25p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::HDV::MPEG_1080p_24p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::HDV::MPEG_720p_60p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::HDV::MPEG_720p_50p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::HDV::MPEG_720p_30p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::HDV::MPEG_720p_25p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::HDV::MPEG_720p_24p
+   :project: avblocks-plus
+```

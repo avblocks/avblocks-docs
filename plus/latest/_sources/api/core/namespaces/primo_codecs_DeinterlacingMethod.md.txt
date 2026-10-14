@@ -1,0 +1,8 @@
+# primo::codecs::DeinterlacingMethod
+
+Defines video deinterlacing methods.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::DeinterlacingMethod::Enum
+   :project: avblocks-plus
+```

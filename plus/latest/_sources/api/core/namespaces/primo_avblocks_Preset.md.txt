@@ -1,0 +1,10 @@
+# primo::avblocks::Preset
+
+Defines output presets supported by AVBlocks.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::avblocks::Preset::Audio](primo_avblocks_Preset_Audio.md) | Describes output audio presets structured by codec and device type. |
+| [primo::avblocks::Preset::Video](primo_avblocks_Preset_Video.md) | Describes output video presets structured by codec and device type. |

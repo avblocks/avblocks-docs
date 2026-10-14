@@ -1,0 +1,10 @@
+# StreamInfo
+
+`primo::codecs::StreamInfo`
+
+```{eval-rst}
+.. doxygenclass:: primo::codecs::StreamInfo
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

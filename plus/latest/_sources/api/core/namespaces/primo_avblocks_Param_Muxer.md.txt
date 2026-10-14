@@ -1,0 +1,9 @@
+# primo::avblocks::Param::Muxer
+
+Parameters specific to muxers.
+
+## Namespaces
+
+| Name | Description |
+|---|---|
+| [primo::avblocks::Param::Muxer::MP4](primo_avblocks_Param_Muxer_MP4.md) | Parameters specific to MP4 muxers. |

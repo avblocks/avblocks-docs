@@ -1,0 +1,43 @@
+# primo::avblocks::Preset::Video::Generic::MP4
+
+Generic MP4 presets (audio and video streams in MP4 container).
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Generic::MP4::H264_1080p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Generic::MP4::H264_720p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Generic::MP4::H264_Wide_480p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Generic::MP4::H264_480p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Generic::MP4::H264_Wide_360p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Generic::MP4::H264_360p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Generic::MP4::H264_240p
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Preset::Video::Generic::MP4::Base_H264_AAC
+   :project: avblocks-plus
+```

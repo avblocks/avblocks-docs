@@ -1,0 +1,10 @@
+# Metadata
+
+`primo::codecs::Metadata`
+
+```{eval-rst}
+.. doxygenclass:: primo::codecs::Metadata
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

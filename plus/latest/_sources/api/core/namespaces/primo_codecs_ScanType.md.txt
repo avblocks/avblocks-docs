@@ -1,0 +1,8 @@
+# primo::codecs::ScanType
+
+Defines video interlace/scan types.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::ScanType::Enum
+   :project: avblocks-plus
+```

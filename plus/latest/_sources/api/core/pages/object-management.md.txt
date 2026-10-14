@@ -1,0 +1,7 @@
+# Object Management
+
+```{eval-rst}
+.. doxygenpage:: md__2_users_2valentin_2_work_2_git_2_primo_2primo-avblocks-root_2primo-avblocks-docs_2core_2_object_management_8page
+   :project: avblocks-plus
+   :content-only:
+```

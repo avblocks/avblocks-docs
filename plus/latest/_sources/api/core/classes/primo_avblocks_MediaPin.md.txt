@@ -1,0 +1,10 @@
+# MediaPin
+
+`primo::avblocks::MediaPin`
+
+```{eval-rst}
+.. doxygenclass:: primo::avblocks::MediaPin
+   :project: avblocks-plus
+   :members:
+   :undoc-members:
+```

@@ -1,0 +1,8 @@
+# primo::codecs::OpusApplication
+
+Defines Opus codec application modes.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::OpusApplication::Enum
+   :project: avblocks-plus
+```

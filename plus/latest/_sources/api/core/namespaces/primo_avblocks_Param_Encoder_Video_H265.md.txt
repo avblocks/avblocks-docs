@@ -1,0 +1,23 @@
+# primo::avblocks::Param::Encoder::Video::H265
+
+Parameters specific to HEVC/H.265 encoders.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H265::Profile
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H265::Level
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H265::Tier
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::H265::GOPLength
+   :project: avblocks-plus
+```

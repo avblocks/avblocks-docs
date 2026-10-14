@@ -1,0 +1,8 @@
+# primo::codecs::HwApi
+
+API for using hardware engines.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::HwApi::Enum
+   :project: avblocks-plus
+```

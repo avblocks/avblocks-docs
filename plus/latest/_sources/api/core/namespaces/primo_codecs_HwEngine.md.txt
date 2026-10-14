@@ -1,0 +1,8 @@
+# primo::codecs::HwEngine
+
+Hardware engine for encoding/decoding/processing.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::HwEngine::Enum
+   :project: avblocks-plus
+```

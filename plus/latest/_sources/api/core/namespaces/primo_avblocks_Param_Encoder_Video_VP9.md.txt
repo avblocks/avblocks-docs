@@ -1,0 +1,13 @@
+# primo::avblocks::Param::Encoder::Video::VP9
+
+Parameters specific to VP9 video encoder.
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::VP9::KeyFrameMaxDistance
+   :project: avblocks-plus
+```
+
+```{eval-rst}
+.. doxygenvariable:: primo::avblocks::Param::Encoder::Video::VP9::KeyFrameMinDistance
+   :project: avblocks-plus
+```

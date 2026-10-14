@@ -1,0 +1,8 @@
+# primo::codecs::H265Profile
+
+Defines H.265/HEVC profiles.
+
+```{eval-rst}
+.. doxygenenum:: primo::codecs::H265Profile::Enum
+   :project: avblocks-plus
+```

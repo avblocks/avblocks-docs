@@ -7,6 +7,6 @@ User-agent: Googlebot-Image
 Disallow: /*
 Allow:
 
-Sitemap: http://doc.avblocks.com/web_sitemap_9e000b1d.xml
-
-#
+Sitemap: https://doc.avblocks.com/core/latest/sitemap.xml
+Sitemap: https://doc.avblocks.com/net/latest/sitemap.xml
+Sitemap: https://docs.avblocks.com/python/latest/sitemap.xml

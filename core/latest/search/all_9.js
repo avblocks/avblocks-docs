@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['joint_0',['Joint',['../namespaceprimo_1_1codecs_1_1_stereo_mode.html#a8150b7776c2a1749101acf22e868d091af6b6928accba69be63dda670f39f068b',1,'primo::codecs::StereoMode']]],
-  ['jpeg_1',['Jpeg',['../namespaceprimo_1_1codecs_1_1_mime_type.html#accbe0d77c6113fcf2a781b2d99feb2f3',1,'primo::codecs::MimeType']]],
-  ['jpeg_2',['JPEG',['../namespaceprimo_1_1codecs_1_1_stream_type.html#a8150b7776c2a1749101acf22e868d091a96f4d8a8c2070cf7bdd2236a48eae07a',1,'primo::codecs::StreamType']]]
+  ['9_200_2023_20mar_202014_0',['1.9.0 (23 Mar 2014)',['../_release_notes.html#autotoc_md511',1,'']]]
 ];

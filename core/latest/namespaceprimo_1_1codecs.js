@@ -53,7 +53,6 @@ var namespaceprimo_1_1codecs =
     ] ],
     [ "CodecError", "namespaceprimo_1_1codecs_1_1_codec_error.html", [
       [ "Enum", "namespaceprimo_1_1codecs_1_1_codec_error.html#a8150b7776c2a1749101acf22e868d091", [
-        [ "Success", "namespaceprimo_1_1codecs_1_1_codec_error.html#a8150b7776c2a1749101acf22e868d091afdfbdf3247bd36a1f17270d5cec74c9c", null ],
         [ "Init", "namespaceprimo_1_1codecs_1_1_codec_error.html#a8150b7776c2a1749101acf22e868d091a1ff76aa808bb8209a13fcdbaf330587e", null ],
         [ "NoConfigData", "namespaceprimo_1_1codecs_1_1_codec_error.html#a8150b7776c2a1749101acf22e868d091aaa287a41c34b665509e793249d338833", null ],
         [ "NoOutput", "namespaceprimo_1_1codecs_1_1_codec_error.html#a8150b7776c2a1749101acf22e868d091a1328a3e6d2ed89b0df4ff0b91eeb61cd", null ],
@@ -176,10 +175,7 @@ var namespaceprimo_1_1codecs =
         [ "None", "namespaceprimo_1_1codecs_1_1_h264_profile.html#a8150b7776c2a1749101acf22e868d091ac9d3e887722f2bc482bcca9d41c512af", null ],
         [ "Baseline", "namespaceprimo_1_1codecs_1_1_h264_profile.html#a8150b7776c2a1749101acf22e868d091ae08581b135c17bec6eec85391a8db4fc", null ],
         [ "Main", "namespaceprimo_1_1codecs_1_1_h264_profile.html#a8150b7776c2a1749101acf22e868d091ae90de66d8215b01f94324ae4cd562e60", null ],
-        [ "High", "namespaceprimo_1_1codecs_1_1_h264_profile.html#a8150b7776c2a1749101acf22e868d091a24c57acd029e3f96fede49402ea01e6f", null ],
-        [ "High10", "namespaceprimo_1_1codecs_1_1_h264_profile.html#a8150b7776c2a1749101acf22e868d091a716dea019319b3f92f37f53164875077", null ],
-        [ "High422", "namespaceprimo_1_1codecs_1_1_h264_profile.html#a8150b7776c2a1749101acf22e868d091a82246ed0c09edbd453be442efb4969c3", null ],
-        [ "High444", "namespaceprimo_1_1codecs_1_1_h264_profile.html#a8150b7776c2a1749101acf22e868d091a7b049f30ca8063ed1b4714258644175c", null ]
+        [ "High", "namespaceprimo_1_1codecs_1_1_h264_profile.html#a8150b7776c2a1749101acf22e868d091a24c57acd029e3f96fede49402ea01e6f", null ]
       ] ]
     ] ],
     [ "H264RateControlMethod", "namespaceprimo_1_1codecs_1_1_h264_rate_control_method.html", [
@@ -265,9 +261,7 @@ var namespaceprimo_1_1codecs =
     [ "MediaSampleFlags", "namespaceprimo_1_1codecs_1_1_media_sample_flags.html", [
       [ "Enum", "namespaceprimo_1_1codecs_1_1_media_sample_flags.html#a8150b7776c2a1749101acf22e868d091", [
         [ "None", "namespaceprimo_1_1codecs_1_1_media_sample_flags.html#a8150b7776c2a1749101acf22e868d091ac9d3e887722f2bc482bcca9d41c512af", null ],
-        [ "KeyFrame", "namespaceprimo_1_1codecs_1_1_media_sample_flags.html#a8150b7776c2a1749101acf22e868d091ab5174f43b6ef5d09a0b45e76bd06940c", null ],
-        [ "Bos", "namespaceprimo_1_1codecs_1_1_media_sample_flags.html#a8150b7776c2a1749101acf22e868d091a421800be99260cc59a1015e21dd55610", null ],
-        [ "Eos", "namespaceprimo_1_1codecs_1_1_media_sample_flags.html#a8150b7776c2a1749101acf22e868d091ab5317d32cf33a0fdfb55f22068a4f80c", null ]
+        [ "KeyFrame", "namespaceprimo_1_1codecs_1_1_media_sample_flags.html#a8150b7776c2a1749101acf22e868d091ab5174f43b6ef5d09a0b45e76bd06940c", null ]
       ] ]
     ] ],
     [ "MediaType", "namespaceprimo_1_1codecs_1_1_media_type.html", [
@@ -329,7 +323,6 @@ var namespaceprimo_1_1codecs =
     ] ],
     [ "MetaPictureType", "namespaceprimo_1_1codecs_1_1_meta_picture_type.html", [
       [ "Enum", "namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091", [
-        [ "Other", "namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091ab41fe07a134a62397420ef854d35c7b1", null ],
         [ "FileIcon", "namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091ac68c3ae79843f2654b11e9c918f8971c", null ],
         [ "OtherFileIcon", "namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091a060ba2641741c72a4a351134655f7fd6", null ],
         [ "FrontCover", "namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091a74da60b114fd74eb120ffed1bb3511c7", null ],
@@ -347,9 +340,7 @@ var namespaceprimo_1_1codecs =
         [ "DuringPerformance", "namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091a1015987510ee06a2abd10b074dd94493", null ],
         [ "VideoCapture", "namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091ad35e7ff2ce06d1139a1df6755f00a31b", null ],
         [ "BrightColoredFish", "namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091a6cb681b2418886164f043e91ffcee129", null ],
-        [ "Illustration", "namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091accb87481e671d8cd77c18e22ca932574", null ],
-        [ "ArtistLogotype", "namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091a9916a3e3aef205c6ed0a5f72a54e8864", null ],
-        [ "PublisherLogotype", "namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091a9c9aa5c07f2adb992e8c981f9f53a50d", null ]
+        [ "Illustration", "namespaceprimo_1_1codecs_1_1_meta_picture_type.html#a8150b7776c2a1749101acf22e868d091accb87481e671d8cd77c18e22ca932574", null ]
       ] ]
     ] ],
     [ "MimeType", "namespaceprimo_1_1codecs_1_1_mime_type.html", [
@@ -421,7 +412,10 @@ var namespaceprimo_1_1codecs =
         [ "MPEG1_System", "namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091a5fad3fd2c49aaafda0dc7f61e0dbbd43", null ],
         [ "MPEG2_System", "namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091a029b2ec03284a4d14868b9ad8fd269ff", null ],
         [ "AVC_Annex_B", "namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091a5c3f40081103d738be7e8237021c171f", null ],
-        [ "AAC_RAW", "namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091a936be0dd62b2deffb836d397ac0b7bc2", null ]
+        [ "AAC_RAW", "namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091a936be0dd62b2deffb836d397ac0b7bc2", null ],
+        [ "HEVC_Annex_B", "namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091ada4a52ff65411762ff23a9ca360ab419", null ],
+        [ "HVCC", "namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091a09d9a65a29816dba3356f48dbe885ae4", null ],
+        [ "HVC1", "namespaceprimo_1_1codecs_1_1_stream_sub_type.html#a8150b7776c2a1749101acf22e868d091a28a76e61650caf78ccf84a51cc714831", null ]
       ] ]
     ] ],
     [ "StreamType", "namespaceprimo_1_1codecs_1_1_stream_type.html", [

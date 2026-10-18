@@ -1,6 +1,7 @@
 var classprimo_1_1codecs_1_1_media_buffer =
 [
     [ "~MediaBuffer", "classprimo_1_1codecs_1_1_media_buffer.html#aca6d9c22bce1ca0a0afe3dd9e4360782", null ],
+    [ "alignedAlloc", "classprimo_1_1codecs_1_1_media_buffer.html#afdbdd103c0073db00a91243571a99856", null ],
     [ "alloc", "classprimo_1_1codecs_1_1_media_buffer.html#a4ff51510ff76f8a5fc7c59988ad014ee", null ],
     [ "append", "classprimo_1_1codecs_1_1_media_buffer.html#ae18720178edabc41b14f8dd044e1cc25", null ],
     [ "attach", "classprimo_1_1codecs_1_1_media_buffer.html#acf2bfd1aa2eff1d6aed1eab0cf116917", null ],

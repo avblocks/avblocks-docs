@@ -9,4 +9,5 @@ Allow:
 
 Sitemap: https://doc.avblocks.com/core/latest/sitemap.xml
 Sitemap: https://doc.avblocks.com/net/latest/sitemap.xml
+Sitemap: https://doc.avblocks.com/plus/latest/sitemap.xml
 Sitemap: https://docs.avblocks.com/python/latest/sitemap.xml

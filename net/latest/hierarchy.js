@@ -10,7 +10,12 @@ var hierarchy =
     [ "Preset.Audio.AudioCD", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_audio_c_d.html", null ],
     [ "Preset.Video.BDAV", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_video_1_1_b_d_a_v.html", null ],
     [ "Collection", null, [
-      [ "ObjectCollection< T >", "class_primo_software_1_1_a_v_blocks_1_1_object_collection.html", null ]
+      [ "ObjectCollection< T >", "class_primo_software_1_1_a_v_blocks_1_1_object_collection-1-g.html", [
+        [ "MediaPinList", "class_primo_software_1_1_a_v_blocks_1_1_media_pin_list.html", null ],
+        [ "MediaSocketList", "class_primo_software_1_1_a_v_blocks_1_1_media_socket_list.html", null ],
+        [ "MetaAttributeList", "class_primo_software_1_1_a_v_blocks_1_1_meta_attribute_list.html", null ],
+        [ "MetaPictureList", "class_primo_software_1_1_a_v_blocks_1_1_meta_picture_list.html", null ]
+      ] ]
     ] ],
     [ "Library.Config", "class_primo_software_1_1_a_v_blocks_1_1_library_1_1_config.html", null ],
     [ "Param.Video.Crop", "class_primo_software_1_1_a_v_blocks_1_1_param_1_1_video_1_1_crop.html", null ],
@@ -80,18 +85,6 @@ var hierarchy =
     [ "Param.Encoder.Audio.MPEG1", "class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_audio_1_1_m_p_e_g1.html", null ],
     [ "Param.Encoder.Video.MPEG2", "class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_video_1_1_m_p_e_g2.html", null ],
     [ "Param.Muxer", "class_primo_software_1_1_a_v_blocks_1_1_param_1_1_muxer.html", null ],
-    [ "ObjectCollection< MediaPin >", "class_primo_software_1_1_a_v_blocks_1_1_object_collection.html", [
-      [ "MediaPinList", "class_primo_software_1_1_a_v_blocks_1_1_media_pin_list.html", null ]
-    ] ],
-    [ "ObjectCollection< MediaSocket >", "class_primo_software_1_1_a_v_blocks_1_1_object_collection.html", [
-      [ "MediaSocketList", "class_primo_software_1_1_a_v_blocks_1_1_media_socket_list.html", null ]
-    ] ],
-    [ "ObjectCollection< MetaAttribute >", "class_primo_software_1_1_a_v_blocks_1_1_object_collection.html", [
-      [ "MetaAttributeList", "class_primo_software_1_1_a_v_blocks_1_1_meta_attribute_list.html", null ]
-    ] ],
-    [ "ObjectCollection< MetaPicture >", "class_primo_software_1_1_a_v_blocks_1_1_object_collection.html", [
-      [ "MetaPictureList", "class_primo_software_1_1_a_v_blocks_1_1_meta_picture_list.html", null ]
-    ] ],
     [ "Preset.Audio.Generic.OggVorbis", "class_primo_software_1_1_a_v_blocks_1_1_preset_1_1_audio_1_1_generic_1_1_ogg_vorbis.html", null ],
     [ "Param.Encoder.Audio.Opus", "class_primo_software_1_1_a_v_blocks_1_1_param_1_1_encoder_1_1_audio_1_1_opus.html", null ],
     [ "Param.Video.Overlay", "class_primo_software_1_1_a_v_blocks_1_1_param_1_1_video_1_1_overlay.html", null ],

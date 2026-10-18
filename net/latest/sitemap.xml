@@ -5,19 +5,19 @@
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://doc.avblocks.com/net/latest/md__runtime_requirements_8page.html</loc>
+    <loc>https://doc.avblocks.com/net/latest/_runtime_requirements.html</loc>
   </url>
   <url>
-    <loc>https://doc.avblocks.com/net/latest/md__transcoder_i_o_8page.html</loc>
+    <loc>https://doc.avblocks.com/net/latest/transcoder_io.html</loc>
   </url>
   <url>
-    <loc>https://doc.avblocks.com/net/latest/md__transcoder_push_8page.html</loc>
+    <loc>https://doc.avblocks.com/net/latest/using_transcoder_push.html</loc>
   </url>
   <url>
-    <loc>https://doc.avblocks.com/net/latest/md__known_limitations_8page.html</loc>
+    <loc>https://doc.avblocks.com/net/latest/_known_limitations.html</loc>
   </url>
   <url>
-    <loc>https://doc.avblocks.com/net/latest/md__release_notes_8page.html</loc>
+    <loc>https://doc.avblocks.com/net/latest/_release_notes.html</loc>
   </url>
   <url>
     <loc>https://doc.avblocks.com/net/latest/deprecated.html</loc>
@@ -170,10 +170,10 @@
     <loc>https://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_mime_type-members.html</loc>
   </url>
   <url>
-    <loc>https://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_object_collection.html</loc>
+    <loc>https://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_object_collection-1-g.html</loc>
   </url>
   <url>
-    <loc>https://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_object_collection-members.html</loc>
+    <loc>https://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_object_collection-1-g-members.html</loc>
   </url>
   <url>
     <loc>https://doc.avblocks.com/net/latest/class_primo_software_1_1_a_v_blocks_1_1_param.html</loc>
@@ -567,6 +567,9 @@
   </url>
   <url>
     <loc>https://doc.avblocks.com/net/latest/index.html</loc>
+  </url>
+  <url>
+    <loc>https://doc.avblocks.com/net/latest/doxygen_crawl.html</loc>
   </url>
   <url>
     <loc>https://doc.avblocks.com/net/latest/pages.html</loc>

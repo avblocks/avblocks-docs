@@ -1,6 +1,7 @@
 var class_primo_software_1_1_a_v_blocks_1_1_unmanaged_media_buffer =
 [
     [ "UnmanagedMediaBuffer", "class_primo_software_1_1_a_v_blocks_1_1_unmanaged_media_buffer.html#acba0c73d87fa484c0a8b1b9e93a163ce", null ],
+    [ "AlignedAlloc", "class_primo_software_1_1_a_v_blocks_1_1_unmanaged_media_buffer.html#a1c9150fc83bab80a3550340bc778f990", null ],
     [ "Alloc", "class_primo_software_1_1_a_v_blocks_1_1_unmanaged_media_buffer.html#af61c1f426b341fd3d8177f214b319c10", null ],
     [ "Append", "class_primo_software_1_1_a_v_blocks_1_1_unmanaged_media_buffer.html#a5c359de4f5d42be7984a007b57443ef6", null ],
     [ "Attach", "class_primo_software_1_1_a_v_blocks_1_1_unmanaged_media_buffer.html#aa4f2a25677c394c91df82082337177ef", null ],

@@ -1,6 +1,7 @@
 var class_primo_software_1_1_a_v_blocks_1_1_audio_stream_info =
 [
     [ "AudioStreamInfo", "class_primo_software_1_1_a_v_blocks_1_1_audio_stream_info.html#a3888f5255e8f6ab1322db9748acdc00b", null ],
+    [ "Clone", "class_primo_software_1_1_a_v_blocks_1_1_audio_stream_info.html#a4a13c9bf719c97bbebcdb15ca7f34728", null ],
     [ "Reset", "class_primo_software_1_1_a_v_blocks_1_1_audio_stream_info.html#a298cb68f7f3fb7f40595f4302af4ae25", null ],
     [ "BitsPerSample", "class_primo_software_1_1_a_v_blocks_1_1_audio_stream_info.html#aec8db6f3c48d99981bd956e3179b09ea", null ],
     [ "BytesPerFrame", "class_primo_software_1_1_a_v_blocks_1_1_audio_stream_info.html#a162de58ca646deef371e52e4972a3ea2", null ],

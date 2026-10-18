@@ -1,6 +1,7 @@
 var class_primo_software_1_1_a_v_blocks_1_1_video_stream_info =
 [
     [ "VideoStreamInfo", "class_primo_software_1_1_a_v_blocks_1_1_video_stream_info.html#a522ae592c2667a7802d959ad6e56edf0", null ],
+    [ "Clone", "class_primo_software_1_1_a_v_blocks_1_1_video_stream_info.html#a4a13c9bf719c97bbebcdb15ca7f34728", null ],
     [ "Reset", "class_primo_software_1_1_a_v_blocks_1_1_video_stream_info.html#a298cb68f7f3fb7f40595f4302af4ae25", null ],
     [ "ColorFormat", "class_primo_software_1_1_a_v_blocks_1_1_video_stream_info.html#a226007e2208c59fdcccaf795169d0305", null ],
     [ "DisplayRatioHeight", "class_primo_software_1_1_a_v_blocks_1_1_video_stream_info.html#a8ecea34af1e092fb5ee26e05f6874c80", null ],

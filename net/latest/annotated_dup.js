@@ -24,7 +24,7 @@ var annotated_dup =
         [ "MetaPicture", "class_primo_software_1_1_a_v_blocks_1_1_meta_picture.html", "class_primo_software_1_1_a_v_blocks_1_1_meta_picture" ],
         [ "MetaPictureList", "class_primo_software_1_1_a_v_blocks_1_1_meta_picture_list.html", null ],
         [ "MimeType", "class_primo_software_1_1_a_v_blocks_1_1_mime_type.html", "class_primo_software_1_1_a_v_blocks_1_1_mime_type" ],
-        [ "ObjectCollection", "class_primo_software_1_1_a_v_blocks_1_1_object_collection.html", "class_primo_software_1_1_a_v_blocks_1_1_object_collection" ],
+        [ "ObjectCollection&lt; T &gt;", "class_primo_software_1_1_a_v_blocks_1_1_object_collection-1-g.html", "class_primo_software_1_1_a_v_blocks_1_1_object_collection-1-g" ],
         [ "Param", "class_primo_software_1_1_a_v_blocks_1_1_param.html", "class_primo_software_1_1_a_v_blocks_1_1_param" ],
         [ "PinConnection", "class_primo_software_1_1_a_v_blocks_1_1_pin_connection.html", "class_primo_software_1_1_a_v_blocks_1_1_pin_connection" ],
         [ "Preset", "class_primo_software_1_1_a_v_blocks_1_1_preset.html", "class_primo_software_1_1_a_v_blocks_1_1_preset" ],

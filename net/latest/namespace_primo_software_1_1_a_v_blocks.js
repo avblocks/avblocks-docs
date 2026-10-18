@@ -22,7 +22,7 @@ var namespace_primo_software_1_1_a_v_blocks =
     [ "MetaPicture", "class_primo_software_1_1_a_v_blocks_1_1_meta_picture.html", "class_primo_software_1_1_a_v_blocks_1_1_meta_picture" ],
     [ "MetaPictureList", "class_primo_software_1_1_a_v_blocks_1_1_meta_picture_list.html", null ],
     [ "MimeType", "class_primo_software_1_1_a_v_blocks_1_1_mime_type.html", "class_primo_software_1_1_a_v_blocks_1_1_mime_type" ],
-    [ "ObjectCollection", "class_primo_software_1_1_a_v_blocks_1_1_object_collection.html", "class_primo_software_1_1_a_v_blocks_1_1_object_collection" ],
+    [ "ObjectCollection&lt; T &gt;", "class_primo_software_1_1_a_v_blocks_1_1_object_collection-1-g.html", "class_primo_software_1_1_a_v_blocks_1_1_object_collection-1-g" ],
     [ "Param", "class_primo_software_1_1_a_v_blocks_1_1_param.html", "class_primo_software_1_1_a_v_blocks_1_1_param" ],
     [ "PinConnection", "class_primo_software_1_1_a_v_blocks_1_1_pin_connection.html", "class_primo_software_1_1_a_v_blocks_1_1_pin_connection" ],
     [ "Preset", "class_primo_software_1_1_a_v_blocks_1_1_preset.html", "class_primo_software_1_1_a_v_blocks_1_1_preset" ],
@@ -359,7 +359,10 @@ var namespace_primo_software_1_1_a_v_blocks =
       [ "Mpeg1System", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa62e9783fc59222e55180528ea6157117", null ],
       [ "Mpeg2System", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa7707159993fc5349c7e1926752575f3d", null ],
       [ "AvcAnnexB", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa99e60ce701958449584368a46046e999", null ],
-      [ "AacRaw", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa7ff9b6b64017ca1146bb7f1e59cde75e", null ]
+      [ "AacRaw", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa7ff9b6b64017ca1146bb7f1e59cde75e", null ],
+      [ "HevcAnnexB", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aa5cec2f089a52c2be39a3904624470f5d", null ],
+      [ "HvcC", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aad4d91ad16ef1f67aa93ebd019a152aed", null ],
+      [ "Hvc1", "namespace_primo_software_1_1_a_v_blocks.html#a3fc2581ee42d565cdf995a8210f7df0aaceacc24967b82409490356fae663232e", null ]
     ] ],
     [ "StreamType", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1d", [
       [ "Unknown", "namespace_primo_software_1_1_a_v_blocks.html#a8a65141d9ea4bf9d2e2377ed6b888a1da88183b946cc5f0e8c96b2e66e1c74a7e", null ],

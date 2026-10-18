@@ -6,7 +6,7 @@
 <link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Samples" href="samples.html" /><link rel="prev" title="Configuration" href="configuration.html" />
 
     <link rel="shortcut icon" href="../_static/favicon.ico"/><!-- Generated with Sphinx 7.4.7 and Furo 2024.08.06 -->
-        <title>Download AVBlocks Core and Demo Assets - AVBlocks Python API</title>
+        <title>Download AVBlocks Core and Demo Assets - AVBlocks™ Python API Docs</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
@@ -176,7 +176,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../index.html"><div class="brand">AVBlocks Python API</div></a>
+      <a href="../index.html"><div class="brand">AVBlocks&trade; Python API Docs</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -203,7 +203,7 @@
     <img class="sidebar-logo" src="../_static/logo_blue_128.svg" alt="Logo"/>
   </div>
   
-  <span class="sidebar-brand-text">AVBlocks Python API</span>
+  <span class="sidebar-brand-text">AVBlocks&trade; Python API Docs</span>
   
 </a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
@@ -302,12 +302,16 @@
         <article role="main" id="furo-main-content">
           <section id="download-avblocks-core-and-demo-assets">
 <h1>Download AVBlocks Core and Demo Assets<a class="headerlink" href="#download-avblocks-core-and-demo-assets" title="Link to this heading">¶</a></h1>
-<p>This page explains how to download the AVBlocks Core SDK and demo assets to <code class="docutils literal notranslate"><span class="pre">$HOME/avblocks</span></code>, then set the <code class="docutils literal notranslate"><span class="pre">AVBLOCKS_CORE_PATH</span></code> environment variable to point to the unpacked library directory.</p>
+<p>This page explains how to download the AVBlocks Core SDK and demo assets to <code class="docutils literal notranslate"><span class="pre">$HOME/avblocks</span></code>, then set the <code class="docutils literal notranslate"><span class="pre">AVBLOCKS_CORE_PATH</span></code> environment variable to point to the unpacked library directory. Builds are available for both x64 and ARM64.</p>
+<p>The AVBlocks Core build must match the architecture of the Python you run, not just the machine. Run <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">-c</span> <span class="pre">&quot;import</span> <span class="pre">platform;</span> <span class="pre">print(platform.machine())&quot;</span></code> to check. For example, an x64 Python running under Rosetta on Apple Silicon needs the x64 build.</p>
 <section id="avblocks-core">
 <h2>AVBlocks Core<a class="headerlink" href="#avblocks-core" title="Link to this heading">¶</a></h2>
-<p>The AVBlocks Core SDK contains the native shared libraries and headers. The download URL includes a version tag — change the <code class="docutils literal notranslate"><span class="pre">tag</span></code> variable in the scripts below to match the release you need. For available versions, visit the <a class="reference external" href="https://github.com/avblocks/avblocks-core/releases">AVBlocks Core releases page</a>.</p>
+<p>The AVBlocks Core SDK contains the native shared libraries and headers. The download URL includes a version tag — change the <code class="docutils literal notranslate"><span class="pre">tag</span></code> variable in the scripts below to match the release you need. For available versions, visit the <a class="reference external" href="https://github.com/avblocks/avblocks-core/releases">AVBlocks Core releases page</a>. The native library is in <code class="docutils literal notranslate"><span class="pre">sdk/lib/x64</span></code> for x64 builds and in <code class="docutils literal notranslate"><span class="pre">sdk/lib/arm64</span></code> for ARM64 builds.</p>
 <section id="macos">
 <h3>macOS<a class="headerlink" href="#macos" title="Link to this heading">¶</a></h3>
+<section id="intel-x86-64">
+<h4>Intel (x86_64)<a class="headerlink" href="#intel-x86-64" title="Link to this heading">¶</a></h4>
+<p>Use this build on Intel Macs (<code class="docutils literal notranslate"><span class="pre">uname</span> <span class="pre">-m</span></code> prints <code class="docutils literal notranslate"><span class="pre">x86_64</span></code>).</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">tag</span><span class="o">=</span><span class="s2">&quot;v3.4.0-demo.1&quot;</span>
 <span class="nv">platform</span><span class="o">=</span><span class="s2">&quot;darwin&quot;</span>
 <span class="nv">install_dir</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/avblocks&quot;</span>
@@ -332,8 +336,39 @@ rm<span class="w"> </span>/tmp/avblocks-<span class="nv">$tag</span>-<span class
 </pre></div>
 </div>
 </section>
+<section id="apple-silicon-arm64">
+<h4>Apple Silicon (arm64)<a class="headerlink" href="#apple-silicon-arm64" title="Link to this heading">¶</a></h4>
+<p>Use this build on Apple Silicon Macs (M1 and later; <code class="docutils literal notranslate"><span class="pre">uname</span> <span class="pre">-m</span></code> prints <code class="docutils literal notranslate"><span class="pre">arm64</span></code>).</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">tag</span><span class="o">=</span><span class="s2">&quot;v3.4.0-demo.1&quot;</span>
+<span class="nv">platform</span><span class="o">=</span><span class="s2">&quot;darwin-arm64&quot;</span>
+<span class="nv">install_dir</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/avblocks&quot;</span>
+
+mkdir<span class="w"> </span>-p<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$install_dir</span><span class="s2">&quot;</span>
+
+curl<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--location<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--output<span class="w"> </span>/tmp/avblocks-<span class="nv">$tag</span>-<span class="nv">$platform</span>.zip<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>https://github.com/avblocks/avblocks-core/releases/download/<span class="nv">$tag</span>/avblocks-<span class="nv">$tag</span>-<span class="nv">$platform</span>.zip
+
+curl<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--location<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--output<span class="w"> </span>/tmp/avblocks-<span class="nv">$tag</span>-<span class="nv">$platform</span>.zip.sha256<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>https://github.com/avblocks/avblocks-core/releases/download/<span class="nv">$tag</span>/avblocks-<span class="nv">$tag</span>-<span class="nv">$platform</span>.zip.sha256
+
+shasum<span class="w"> </span>--check<span class="w"> </span>/tmp/avblocks-<span class="nv">$tag</span>-<span class="nv">$platform</span>.zip.sha256
+
+unzip<span class="w"> </span>-o<span class="w"> </span>/tmp/avblocks-<span class="nv">$tag</span>-<span class="nv">$platform</span>.zip<span class="w"> </span>-d<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$install_dir</span><span class="s2">&quot;</span>
+
+rm<span class="w"> </span>/tmp/avblocks-<span class="nv">$tag</span>-<span class="nv">$platform</span>.zip<span class="w"> </span>/tmp/avblocks-<span class="nv">$tag</span>-<span class="nv">$platform</span>.zip.sha256
+</pre></div>
+</div>
+</section>
+</section>
 <section id="linux">
 <h3>Linux<a class="headerlink" href="#linux" title="Link to this heading">¶</a></h3>
+<section id="x64-x86-64">
+<h4>x64 (x86_64)<a class="headerlink" href="#x64-x86-64" title="Link to this heading">¶</a></h4>
+<p>Use this build on x86_64 machines (<code class="docutils literal notranslate"><span class="pre">uname</span> <span class="pre">-m</span></code> prints <code class="docutils literal notranslate"><span class="pre">x86_64</span></code>).</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">tag</span><span class="o">=</span><span class="s2">&quot;v3.4.0-demo.1&quot;</span>
 <span class="nv">platform</span><span class="o">=</span><span class="s2">&quot;linux&quot;</span>
 <span class="nv">install_dir</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/avblocks&quot;</span>
@@ -358,8 +393,39 @@ rm<span class="w"> </span>/tmp/avblocks-<span class="nv">$tag</span>-<span class
 </pre></div>
 </div>
 </section>
+<section id="arm64-aarch64">
+<h4>ARM64 (aarch64)<a class="headerlink" href="#arm64-aarch64" title="Link to this heading">¶</a></h4>
+<p>Use this build on ARM64 machines (<code class="docutils literal notranslate"><span class="pre">uname</span> <span class="pre">-m</span></code> prints <code class="docutils literal notranslate"><span class="pre">aarch64</span></code>).</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">tag</span><span class="o">=</span><span class="s2">&quot;v3.4.0-demo.1&quot;</span>
+<span class="nv">platform</span><span class="o">=</span><span class="s2">&quot;linux-arm64&quot;</span>
+<span class="nv">install_dir</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/avblocks&quot;</span>
+
+mkdir<span class="w"> </span>-p<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$install_dir</span><span class="s2">&quot;</span>
+
+curl<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--location<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--output<span class="w"> </span>/tmp/avblocks-<span class="nv">$tag</span>-<span class="nv">$platform</span>.tar.gz<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>https://github.com/avblocks/avblocks-core/releases/download/<span class="nv">$tag</span>/avblocks-<span class="nv">$tag</span>-<span class="nv">$platform</span>.tar.gz
+
+curl<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--location<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--output<span class="w"> </span>/tmp/avblocks-<span class="nv">$tag</span>-<span class="nv">$platform</span>.tar.gz.sha256<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>https://github.com/avblocks/avblocks-core/releases/download/<span class="nv">$tag</span>/avblocks-<span class="nv">$tag</span>-<span class="nv">$platform</span>.tar.gz.sha256
+
+sha256sum<span class="w"> </span>--check<span class="w"> </span>/tmp/avblocks-<span class="nv">$tag</span>-<span class="nv">$platform</span>.tar.gz.sha256
+
+tar<span class="w"> </span>-xzf<span class="w"> </span>/tmp/avblocks-<span class="nv">$tag</span>-<span class="nv">$platform</span>.tar.gz<span class="w"> </span>-C<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$install_dir</span><span class="s2">&quot;</span>
+
+rm<span class="w"> </span>/tmp/avblocks-<span class="nv">$tag</span>-<span class="nv">$platform</span>.tar.gz<span class="w"> </span>/tmp/avblocks-<span class="nv">$tag</span>-<span class="nv">$platform</span>.tar.gz.sha256
+</pre></div>
+</div>
+</section>
+</section>
 <section id="windows">
 <h3>Windows<a class="headerlink" href="#windows" title="Link to this heading">¶</a></h3>
+<section id="x64-amd64">
+<h4>x64 (AMD64)<a class="headerlink" href="#x64-amd64" title="Link to this heading">¶</a></h4>
+<p>Use this build when <code class="docutils literal notranslate"><span class="pre">$env:PROCESSOR_ARCHITECTURE</span></code> is <code class="docutils literal notranslate"><span class="pre">AMD64</span></code>.</p>
 <div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="nv">$tag</span> <span class="p">=</span> <span class="s1">&#39;v3.4.0-demo.1&#39;</span>
 <span class="nv">$platform</span> <span class="p">=</span> <span class="s1">&#39;windows&#39;</span>
 <span class="nv">$install_dir</span> <span class="p">=</span> <span class="s2">&quot;$env:USERPROFILE\avblocks&quot;</span>
@@ -385,6 +451,36 @@ rm<span class="w"> </span>/tmp/avblocks-<span class="nv">$tag</span>-<span class
 <span class="nb">Remove-Item</span> <span class="s2">&quot;$env:TEMP\avblocks-$tag-$platform.zip&quot;</span><span class="p">,</span> <span class="s2">&quot;$env:TEMP\avblocks-$tag-$platform.zip.sha256&quot;</span>
 </pre></div>
 </div>
+</section>
+<section id="arm64">
+<h4>ARM64<a class="headerlink" href="#arm64" title="Link to this heading">¶</a></h4>
+<p>Use this build on Windows on ARM, when <code class="docutils literal notranslate"><span class="pre">$env:PROCESSOR_ARCHITECTURE</span></code> is <code class="docutils literal notranslate"><span class="pre">ARM64</span></code>.</p>
+<div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="nv">$tag</span> <span class="p">=</span> <span class="s1">&#39;v3.4.0-demo.1&#39;</span>
+<span class="nv">$platform</span> <span class="p">=</span> <span class="s1">&#39;windows-arm64&#39;</span>
+<span class="nv">$install_dir</span> <span class="p">=</span> <span class="s2">&quot;$env:USERPROFILE\avblocks&quot;</span>
+
+<span class="nb">New-Item</span> <span class="n">-Force</span> <span class="n">-ItemType</span> <span class="n">Directory</span> <span class="n">-Path</span> <span class="nv">$install_dir</span> <span class="p">|</span> <span class="nb">Out-Null</span>
+
+<span class="n">curl</span><span class="p">.</span><span class="n">exe</span> <span class="p">`</span>
+  <span class="p">-</span><span class="n">-location</span> <span class="p">`</span>
+  <span class="p">-</span><span class="n">-output</span> <span class="s2">&quot;$env:TEMP\avblocks-$tag-$platform.zip&quot;</span> <span class="p">`</span>
+  <span class="n">https</span><span class="p">://</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="p">/</span><span class="n">avblocks</span><span class="p">/</span><span class="n">avblocks-core</span><span class="p">/</span><span class="n">releases</span><span class="p">/</span><span class="n">download</span><span class="p">/</span><span class="nv">$tag</span><span class="p">/</span><span class="n">avblocks</span><span class="p">-</span><span class="nv">$tag</span><span class="p">-</span><span class="nv">$platform</span><span class="p">.</span><span class="n">zip</span>
+
+<span class="n">curl</span><span class="p">.</span><span class="n">exe</span> <span class="p">`</span>
+  <span class="p">-</span><span class="n">-location</span> <span class="p">`</span>
+  <span class="p">-</span><span class="n">-output</span> <span class="s2">&quot;$env:TEMP\avblocks-$tag-$platform.zip.sha256&quot;</span> <span class="p">`</span>
+  <span class="n">https</span><span class="p">://</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="p">/</span><span class="n">avblocks</span><span class="p">/</span><span class="n">avblocks-core</span><span class="p">/</span><span class="n">releases</span><span class="p">/</span><span class="n">download</span><span class="p">/</span><span class="nv">$tag</span><span class="p">/</span><span class="n">avblocks</span><span class="p">-</span><span class="nv">$tag</span><span class="p">-</span><span class="nv">$platform</span><span class="p">.</span><span class="n">zip</span><span class="p">.</span><span class="n">sha256</span>
+
+<span class="nv">$downloadedHash</span> <span class="p">=</span> <span class="p">(</span><span class="nb">Get-FileHash</span> <span class="n">-Algorithm</span> <span class="n">SHA256</span> <span class="s2">&quot;$env:TEMP\avblocks-$tag-$platform.zip&quot;</span><span class="p">).</span><span class="n">Hash</span><span class="p">.</span><span class="n">ToLower</span><span class="p">()</span>
+<span class="nv">$expectedHash</span> <span class="p">=</span> <span class="p">(</span><span class="nb">Get-Content</span> <span class="s2">&quot;$env:TEMP\avblocks-$tag-$platform.zip.sha256&quot;</span><span class="p">).</span><span class="n">Split</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">)[</span><span class="n">0</span><span class="p">].</span><span class="n">ToLower</span><span class="p">()</span>
+<span class="k">if</span> <span class="p">(</span><span class="nv">$downloadedHash</span> <span class="o">-eq</span> <span class="nv">$expectedHash</span><span class="p">)</span> <span class="p">{</span> <span class="nb">Write-Host</span> <span class="s2">&quot;Checksum OK!&quot;</span> <span class="p">}</span> <span class="k">else</span> <span class="p">{</span> <span class="nb">Write-Host</span> <span class="s2">&quot;Checksum failed!&quot;</span> <span class="p">}</span>
+
+<span class="nb">Expand-Archive</span> <span class="n">-Force</span> <span class="n">-Path</span> <span class="s2">&quot;$env:TEMP\avblocks-$tag-$platform.zip&quot;</span> <span class="n">-DestinationPath</span> <span class="nv">$install_dir</span>
+
+<span class="nb">Remove-Item</span> <span class="s2">&quot;$env:TEMP\avblocks-$tag-$platform.zip&quot;</span><span class="p">,</span> <span class="s2">&quot;$env:TEMP\avblocks-$tag-$platform.zip.sha256&quot;</span>
+</pre></div>
+</div>
+</section>
 </section>
 </section>
 <section id="demo-assets">
@@ -425,25 +521,52 @@ rm<span class="w"> </span>avblocks_assets_v5.zip
 </section>
 <section id="set-the-environment-variable">
 <h2>Set the Environment Variable<a class="headerlink" href="#set-the-environment-variable" title="Link to this heading">¶</a></h2>
-<p>After unpacking, set <code class="docutils literal notranslate"><span class="pre">AVBLOCKS_CORE_PATH</span></code> to point to the platform-specific library directory inside <code class="docutils literal notranslate"><span class="pre">$HOME/avblocks</span></code>:</p>
+<p>After unpacking, set <code class="docutils literal notranslate"><span class="pre">AVBLOCKS_CORE_PATH</span></code> to the library directory inside <code class="docutils literal notranslate"><span class="pre">$HOME/avblocks</span></code> that matches your installation.</p>
 <section id="id2">
 <h3>macOS<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h3>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span><span class="w"> </span><span class="nv">AVBLOCKS_CORE_PATH</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/avblocks/sdk/lib/x64&quot;</span>
-</pre></div>
-</div>
-</section>
 <section id="id3">
-<h3>Linux<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h3>
+<h4>Intel (x86_64)<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h4>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span><span class="w"> </span><span class="nv">AVBLOCKS_CORE_PATH</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/avblocks/sdk/lib/x64&quot;</span>
 </pre></div>
 </div>
 </section>
 <section id="id4">
-<h3>Windows<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h3>
+<h4>Apple Silicon (arm64)<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h4>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span><span class="w"> </span><span class="nv">AVBLOCKS_CORE_PATH</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/avblocks/sdk/lib/arm64&quot;</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="id5">
+<h3>Linux<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h3>
+<section id="id6">
+<h4>x64 (x86_64)<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h4>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span><span class="w"> </span><span class="nv">AVBLOCKS_CORE_PATH</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/avblocks/sdk/lib/x64&quot;</span>
+</pre></div>
+</div>
+</section>
+<section id="id7">
+<h4>ARM64 (aarch64)<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h4>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span><span class="w"> </span><span class="nv">AVBLOCKS_CORE_PATH</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/avblocks/sdk/lib/arm64&quot;</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="id8">
+<h3>Windows<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h3>
+<section id="id9">
+<h4>x64 (AMD64)<a class="headerlink" href="#id9" title="Link to this heading">¶</a></h4>
 <div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="nv">$env:AVBLOCKS_CORE_PATH</span> <span class="p">=</span> <span class="s2">&quot;$env:USERPROFILE\avblocks\sdk\lib\x64&quot;</span>
 </pre></div>
 </div>
+</section>
+<section id="id10">
+<h4>ARM64<a class="headerlink" href="#id10" title="Link to this heading">¶</a></h4>
+<div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="nv">$env:AVBLOCKS_CORE_PATH</span> <span class="p">=</span> <span class="s2">&quot;$env:USERPROFILE\avblocks\sdk\lib\arm64&quot;</span>
+</pre></div>
+</div>
 <p>To make this permanent, add the <code class="docutils literal notranslate"><span class="pre">export</span></code> line to your shell configuration file (e.g., <code class="docutils literal notranslate"><span class="pre">~/.bashrc</span></code> or <code class="docutils literal notranslate"><span class="pre">~/.zshrc</span></code> on macOS/Linux, or configure it in Windows System Environment Variables).</p>
+</section>
 </section>
 </section>
 </section>
@@ -508,9 +631,21 @@ rm<span class="w"> </span>avblocks_assets_v5.zip
             <ul>
 <li><a class="reference internal" href="#">Download AVBlocks Core and Demo Assets</a><ul>
 <li><a class="reference internal" href="#avblocks-core">AVBlocks Core</a><ul>
-<li><a class="reference internal" href="#macos">macOS</a></li>
-<li><a class="reference internal" href="#linux">Linux</a></li>
-<li><a class="reference internal" href="#windows">Windows</a></li>
+<li><a class="reference internal" href="#macos">macOS</a><ul>
+<li><a class="reference internal" href="#intel-x86-64">Intel (x86_64)</a></li>
+<li><a class="reference internal" href="#apple-silicon-arm64">Apple Silicon (arm64)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#linux">Linux</a><ul>
+<li><a class="reference internal" href="#x64-x86-64">x64 (x86_64)</a></li>
+<li><a class="reference internal" href="#arm64-aarch64">ARM64 (aarch64)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#windows">Windows</a><ul>
+<li><a class="reference internal" href="#x64-amd64">x64 (AMD64)</a></li>
+<li><a class="reference internal" href="#arm64">ARM64</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a class="reference internal" href="#demo-assets">Demo Assets</a><ul>
@@ -519,9 +654,21 @@ rm<span class="w"> </span>avblocks_assets_v5.zip
 </ul>
 </li>
 <li><a class="reference internal" href="#set-the-environment-variable">Set the Environment Variable</a><ul>
-<li><a class="reference internal" href="#id2">macOS</a></li>
-<li><a class="reference internal" href="#id3">Linux</a></li>
-<li><a class="reference internal" href="#id4">Windows</a></li>
+<li><a class="reference internal" href="#id2">macOS</a><ul>
+<li><a class="reference internal" href="#id3">Intel (x86_64)</a></li>
+<li><a class="reference internal" href="#id4">Apple Silicon (arm64)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id5">Linux</a><ul>
+<li><a class="reference internal" href="#id6">x64 (x86_64)</a></li>
+<li><a class="reference internal" href="#id7">ARM64 (aarch64)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id8">Windows</a><ul>
+<li><a class="reference internal" href="#id9">x64 (AMD64)</a></li>
+<li><a class="reference internal" href="#id10">ARM64</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>

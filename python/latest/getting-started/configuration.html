@@ -6,7 +6,7 @@
 <link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Download AVBlocks Core and Demo Assets" href="download.html" /><link rel="prev" title="Installation" href="installation.html" />
 
     <link rel="shortcut icon" href="../_static/favicon.ico"/><!-- Generated with Sphinx 7.4.7 and Furo 2024.08.06 -->
-        <title>Configuration - AVBlocks Python API</title>
+        <title>Configuration - AVBlocks™ Python API Docs</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
@@ -176,7 +176,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../index.html"><div class="brand">AVBlocks Python API</div></a>
+      <a href="../index.html"><div class="brand">AVBlocks&trade; Python API Docs</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -203,7 +203,7 @@
     <img class="sidebar-logo" src="../_static/logo_blue_128.svg" alt="Logo"/>
   </div>
   
-  <span class="sidebar-brand-text">AVBlocks Python API</span>
+  <span class="sidebar-brand-text">AVBlocks&trade; Python API Docs</span>
   
 </a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
@@ -310,7 +310,7 @@
 <p>When AVBlocks is imported, it searches for the native library in the following order:</p>
 <ol class="arabic simple">
 <li><p>The directory specified by <code class="docutils literal notranslate"><span class="pre">AVBLOCKS_CORE_PATH</span></code></p></li>
-<li><p>The <code class="docutils literal notranslate"><span class="pre">sdk/lib/x64</span></code> directory relative to the package root</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">sdk/lib/x64</span></code> or <code class="docutils literal notranslate"><span class="pre">sdk/lib/arm64</span></code> directory, depending on your installation, relative to the package root</p></li>
 <li><p>Common system library paths:</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">/usr/local/lib</span></code> (macOS/Linux)</p></li>
@@ -321,16 +321,36 @@
 </section>
 <section id="setting-the-environment-variable">
 <h3>Setting the environment variable<a class="headerlink" href="#setting-the-environment-variable" title="Link to this heading">¶</a></h3>
-<p><strong>macOS / Linux:</strong></p>
+<p><strong>macOS Intel (x86_64):</strong></p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span><span class="w"> </span><span class="nv">AVBLOCKS_CORE_PATH</span><span class="o">=</span>/path/to/avblocks/sdk/lib/x64
 </pre></div>
 </div>
-<p><strong>Windows (Command Prompt):</strong></p>
+<p><strong>macOS Apple Silicon (arm64):</strong></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span><span class="w"> </span><span class="nv">AVBLOCKS_CORE_PATH</span><span class="o">=</span>/path/to/avblocks/sdk/lib/arm64
+</pre></div>
+</div>
+<p><strong>Linux x64 (x86_64):</strong></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span><span class="w"> </span><span class="nv">AVBLOCKS_CORE_PATH</span><span class="o">=</span>/path/to/avblocks/sdk/lib/x64
+</pre></div>
+</div>
+<p><strong>Linux ARM64 (aarch64):</strong></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span><span class="w"> </span><span class="nv">AVBLOCKS_CORE_PATH</span><span class="o">=</span>/path/to/avblocks/sdk/lib/arm64
+</pre></div>
+</div>
+<p><strong>Windows x64, Command Prompt:</strong></p>
 <div class="highlight-bat notranslate"><div class="highlight"><pre><span></span><span class="k">set</span> <span class="nv">AVBLOCKS_CORE_PATH</span><span class="p">=</span>C:\path\to\avblocks\sdk\lib\x64
 </pre></div>
 </div>
-<p><strong>Windows (PowerShell):</strong></p>
+<p><strong>Windows x64, PowerShell:</strong></p>
 <div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="nv">$env:AVBLOCKS_CORE_PATH</span><span class="p">=</span><span class="s2">&quot;C:\path\to\avblocks\sdk\lib\x64&quot;</span>
+</pre></div>
+</div>
+<p><strong>Windows ARM64, Command Prompt:</strong></p>
+<div class="highlight-bat notranslate"><div class="highlight"><pre><span></span><span class="k">set</span> <span class="nv">AVBLOCKS_CORE_PATH</span><span class="p">=</span>C:\path\to\avblocks\sdk\lib\arm64
+</pre></div>
+</div>
+<p><strong>Windows ARM64, PowerShell:</strong></p>
+<div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="nv">$env:AVBLOCKS_CORE_PATH</span><span class="p">=</span><span class="s2">&quot;C:\path\to\avblocks\sdk\lib\arm64&quot;</span>
 </pre></div>
 </div>
 </section>

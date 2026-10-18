@@ -4,7 +4,7 @@ AVBlocks Python SDK is not distributed via PyPI. Install it directly from the Gi
 
 ## Prerequisites
 
-- Python 3.9 or higher
+- Python 3.12 or higher, matching the architecture (x64 or arm64) of the [AVBlocks Core](download.md) build you download
 - pip or uv package manager
 
 ## Install with pip

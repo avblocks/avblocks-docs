@@ -1,4 +1,4 @@
-# AVBlocks Python API
+# AVBlocks&trade; Python API Docs
 
 Welcome to the AVBlocks Python API documentation.
 
